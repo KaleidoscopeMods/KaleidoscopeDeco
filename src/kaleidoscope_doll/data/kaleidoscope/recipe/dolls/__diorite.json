@@ -1,0 +1,30 @@
+{
+    "type": "stonecutting",
+    "ingredient": "diorite",
+    "result": {
+        "id": "fox_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "kaleidoscope:doll/s/__diorite",
+            "minecraft:item_name": {"translate": "item.kaleidoscope.doll"},
+            "lore": [
+                "§7Diorite?"
+            ],
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "doll_s___diorite"
+                }
+            },
+            "equippable": {
+                "slot": "head",
+                "equip_sound": {
+                    "sound_id": "kaleidoscope:toy"
+                }
+            }
+        }
+    }
+}

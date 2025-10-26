@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_frame:tutorial"
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope.tutorial.root.title"},
+        "description": {"translate": "advancements.kaleidoscope.tutorial.root.description"},
+        "background": "kaleidoscope_frame:textures/gui/adbase.png",
+        "frame": "goal"
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    }
+}

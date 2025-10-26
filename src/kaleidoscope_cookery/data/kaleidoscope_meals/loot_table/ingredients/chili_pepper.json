@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "firework_star",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": "辣椒",
+                                "item_model": "kaleidoscope_cookery:ingredients/chili_pepper",
+                                "consumable": {
+                                    "animation": "eat",
+                                    "consume_seconds": 1.6
+                                },
+                                "food": {
+                                    "saturation": 1,
+                                    "nutrition": 1
+                                },
+                                "custom_data": "{k_ingreient:\"chili_pepper\"}"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

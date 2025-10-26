@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "cow_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_cookery_plus:chili",
+                                "minecraft:item_name": {"translate": "item.kaleidoscope.chili_strings"},
+                                "lore":[
+                                    
+                                ],
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "dc_place"
+                                    ],
+                                    "data": {
+                                        "index": "chili_strings_0"
+                                    }
+                                },
+                                "custom_data": "{id:\"kaleidoscope:chili_strings\"}"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

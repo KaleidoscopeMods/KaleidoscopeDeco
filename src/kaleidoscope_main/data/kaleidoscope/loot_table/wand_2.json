@@ -1,0 +1,45 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "wooden_sword",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_frame:move",
+                                "minecraft:item_name": {"translate": "item.kaleidoscope.wand_2","color": "gold","italic": false},
+                                "lore": [
+                                    {"translate": "lore.kaleidoscope.wand_2.1","color": "gray","italic": false},
+                                    {"translate": "lore.kaleidoscope.wand_2.2","color": "gray","italic": false},
+                                    {"translate": "lore.kaleidoscope.wand_2.3","color": "gray","italic": false}
+                                ],
+                                "minecraft:custom_data": {
+                                    "kaleidoscope": "move"
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:entity_interaction_range",
+                                        "id": "wand",
+                                        "amount": 1.5,
+                                        "operation": "add_multiplied_total",
+                                        "slot": "mainhand"
+                                    }
+                                ],
+                                "unbreakable": {},
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "unbreakable"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

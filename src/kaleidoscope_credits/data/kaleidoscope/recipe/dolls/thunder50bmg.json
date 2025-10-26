@@ -1,0 +1,30 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#wool",
+    "result": {
+        "id": "fox_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "kaleidoscope:doll/s/thunder50bmg",
+            "minecraft:item_name": "玩偶",
+            "lore": [
+                "§7赞助者：Thunder50BMG"
+            ],
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "doll_s_thunder50bmg"
+                }
+            },
+            "equippable": {
+                "slot": "head",
+                "equip_sound": {
+                    "sound_id": "kaleidoscope:toy"
+                }
+            }
+        }
+    }
+}

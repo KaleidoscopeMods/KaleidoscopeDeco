@@ -1,0 +1,2 @@
+execute if data entity @s data.recipe run item replace block ~ ~ ~ container.21 with minecraft:firework_star[item_model="kaleidoscope_cookery:stove/button/discard",item_name={"text":"丢弃锅内物品"},custom_data={kaleidoscope_stove_bg:1b,kaleidoscope_stove_discard:1b}]
+execute unless data entity @s data.recipe run item replace block ~ ~ ~ container.21 with minecraft:firework_star[item_model="kaleidoscope_cookery:stove/button/discard_disable",item_name={"text":"丢弃锅内物品"},custom_data={kaleidoscope_stove_bg:1b}]

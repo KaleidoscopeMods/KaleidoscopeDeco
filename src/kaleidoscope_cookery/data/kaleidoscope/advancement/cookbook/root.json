@@ -1,0 +1,21 @@
+{
+    "parent": "kaleidoscope:cookery/novice_chef",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:icons/cookbook"
+            }
+        },
+        "title": "森罗美食图鉴",
+        "description": "史蒂夫公主精致下午茶\n§6炒制对应的菜肴解锁图鉴！",
+        "background": "kaleidoscope_frame:gui/adbase",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    }
+}

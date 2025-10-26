@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "1":{
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": "{k_meal:\"slime_ball_meal\"}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function":"kaleidoscope:cookery/meal/triggers/slime_ball_meal"
+    }
+}

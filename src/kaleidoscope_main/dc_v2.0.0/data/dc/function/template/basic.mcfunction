@@ -1,0 +1,1 @@
+data modify storage dc:template basic set value {modsize:[1f,1f,1f],interactsize:{height:1f,width:1f},events:{left_click:{fallback:{event:"destruct"},criteria:[]},right_click:{fallback:{event:"__nothing__"},criteria:[]},construct:[]}}

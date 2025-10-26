@@ -1,0 +1,19 @@
+{
+    "values": [
+        {"required": false,"id": "kaleidoscope:doll/index/dolls"},
+        {"required": false,"id": "kaleidoscope:doll/index/misc"},
+        {"required": false,"id": "kaleidoscope:doll/index/credits"},
+        {
+            "id": "kaleidoscope:doll/index/sponsors",
+            "required": false
+        },
+        {
+            "id": "#kaleidoscope_plus:dolls",
+            "required": false
+        },
+        {
+            "id": "#kaleidoscope:cookery_plus_index",
+            "required": false
+        }
+    ]
+}

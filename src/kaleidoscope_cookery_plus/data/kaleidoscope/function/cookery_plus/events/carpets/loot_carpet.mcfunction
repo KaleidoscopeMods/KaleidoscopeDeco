@@ -1,0 +1,1 @@
+$loot spawn ~ ~ ~ loot {pools:[{rolls:1,entries:[{type:"item",name:"$(carpet)_carpet"}]}]}

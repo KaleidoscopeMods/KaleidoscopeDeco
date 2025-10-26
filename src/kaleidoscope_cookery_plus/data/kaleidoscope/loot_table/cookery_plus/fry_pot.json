@@ -1,0 +1,69 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "cow_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_cookery_plus:fry_pot",
+                                "minecraft:item_name": {"translate": "item.kaleidoscope.fry_pot"},
+                                "lore":[
+                                    
+                                ],
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "dc_place"
+                                    ],
+                                    "data": {
+                                        "index": "fry_pot"
+                                    }
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "id": "base_attack_damage",
+                                        "type": "attack_damage",
+                                        "amount": 4.5,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    },
+                                    {
+                                        "id": "base_attack_speed",
+                                        "type": "attack_speed",
+                                        "amount": -3,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    },
+                                    {
+                                        "id": "kaleidoscope:fry_pot",
+                                        "type": "attack_knockback",
+                                        "amount": 1,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    },
+                                    {
+                                        "id": "kaleidoscope:fry_pot",
+                                        "type": "armor",
+                                        "amount": 2,
+                                        "operation": "add_value",
+                                        "slot": "head"
+                                    }
+                                ],
+                                "custom_data": "{kaleidoscope:\"fry_pot\"}",
+                                "equippable": {
+                                    "slot": "head",
+                                    "equip_sound": "block.vault.hit"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

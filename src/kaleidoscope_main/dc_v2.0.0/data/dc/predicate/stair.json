@@ -1,0 +1,19 @@
+[
+    {
+        "condition": "location_check",
+        "predicate": {
+            "block": {
+                "blocks": "#stairs"
+            }
+        }
+    },
+    {
+        "condition": "location_check",
+        "offsetY": 1,
+        "predicate": {
+            "block": {
+                "blocks": ["air","void_air","cave_air","water"]
+            }
+        }
+    }
+]

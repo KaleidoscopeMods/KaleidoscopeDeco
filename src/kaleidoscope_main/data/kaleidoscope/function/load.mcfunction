@@ -1,0 +1,1 @@
+scoreboard objectives add k_wand_use dummy

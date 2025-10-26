@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_frame:tutorial"
+            }
+        },
+        "title": "森罗说明书",
+        "description": "关于森罗物语的一切",
+        "background": "kaleidoscope_frame:gui/adbase",
+        "frame": "goal"
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    }
+}

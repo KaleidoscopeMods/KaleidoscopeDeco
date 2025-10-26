@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "**",
+        "**"
+    ],
+    "key": {
+        "*": "flower_pot"
+    },
+    "result": {
+        "id": "cow_spawn_egg",
+        "count": 4,
+        "components": {
+            "minecraft:item_model": "kaleidoscope_cookery_plus:teacup",
+            "minecraft:item_name": {"translate": "item.kaleidoscope.teacup"},
+            "lore": [],
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "teacup_1"
+                }
+            },
+            "custom_data": "{kaleidoscope:\"teacup\"}"
+        }
+    }
+}

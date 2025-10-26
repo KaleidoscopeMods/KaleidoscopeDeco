@@ -1,0 +1,1 @@
+function dc:api/install

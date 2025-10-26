@@ -1,0 +1,20 @@
+{
+    "parent":"kaleidoscope:_tutorial/doll/doll",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope:doll/s/cr_019"
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope_doll.totem.title"},
+        "description": {"translate": "advancements.kaleidoscope_doll.totem.description"},
+        "show_toast": false,
+        "announce_to_chat":false
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    }
+}

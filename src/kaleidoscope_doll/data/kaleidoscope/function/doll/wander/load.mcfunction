@@ -1,0 +1,1 @@
+scoreboard objectives add K_wan_roll dummy

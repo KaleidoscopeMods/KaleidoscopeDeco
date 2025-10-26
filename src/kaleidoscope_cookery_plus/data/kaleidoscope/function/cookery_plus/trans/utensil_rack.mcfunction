@@ -1,0 +1,1 @@
+playsound item.armor.equip_iron block @a

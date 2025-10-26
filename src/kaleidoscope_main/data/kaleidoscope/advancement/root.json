@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_frame:root"
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope.root.title"},
+        "description": {"translate": "advancements.kaleidoscope.root.description"},
+        "background": "kaleidoscope_frame:textures/gui/adbase.png",
+        "frame": "goal"
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "dc:api/install"
+    }
+}

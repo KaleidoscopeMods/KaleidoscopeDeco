@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "cow_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_cookery_plus:stock_pot",
+                                "custom_model_data": {
+                                    "flags": [false,true]
+                                },
+                                "minecraft:item_name": {"translate": "item.kaleidoscope.stock_pot"},
+                                "lore":[
+                                    
+                                ],
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "dc_place"
+                                    ],
+                                    "data": {
+                                        "index": "stock_pot"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

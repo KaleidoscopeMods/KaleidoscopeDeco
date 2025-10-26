@@ -1,0 +1,1 @@
+$loot spawn ~ ~ ~ loot kaleidoscope:cookery_plus/chair/$(wood)

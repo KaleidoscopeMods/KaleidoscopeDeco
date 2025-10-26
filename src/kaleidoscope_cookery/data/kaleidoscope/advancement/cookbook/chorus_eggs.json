@@ -1,0 +1,46 @@
+{
+    "parent": "kaleidoscope:cookbook/fried_egg",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/chorus_eggs"
+            }
+        },
+        "title": "荷包紫颂烧",
+        "description": [
+            {
+                "text": "3\u0002 3\u0001\n",
+                "font": "kaleidoscope_cookery:cookbook"
+            },
+            {
+                "text": "使用紫颂果和煎蛋制成的炒菜。特地做成了紫颂树的形状，总是让人想起惊心动魄的末地探险。",
+                "italic": false
+            },
+            {
+                "text": "\n\n放置食用❃",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"chorus_eggs"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#oak_logs",
+    "result": {
+        "id": "item_frame",
+        "count": 1,
+        "components": {
+            "entity_data": {
+                "id": "item_frame",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "cook_stool",
+                    "inheritance": {
+                        "item": {
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_cookery_plus:cook_stool",
+                                "minecraft:custom_model_data": {
+                                    "strings": [
+                                        "oak",
+                                        "empty"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "item_model": "kaleidoscope_cookery_plus:cook_stool",
+            "custom_model_data": {
+                "strings": [
+                    "oak"
+                ]
+            },
+            "item_name": {
+                "translate": "item.kaleidoscope.cook_stool.oak"
+            }
+        }
+    }
+}

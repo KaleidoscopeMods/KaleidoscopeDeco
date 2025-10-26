@@ -1,0 +1,1 @@
+execute unless data storage dc:temp event.args.index run scoreboard players set #check dc_temp 1

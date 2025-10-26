@@ -1,0 +1,42 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#birch_logs",
+    "result": {
+        "id": "item_frame",
+        "count": 1,
+        "components": {
+            "entity_data": {
+                "id": "item_frame",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "table_single",
+                    "inheritance": {
+                        "item": {
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_cookery_plus:table/single",
+                                "minecraft:custom_model_data": {
+                                    "strings": [
+                                        "birch",
+                                        "empty"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "item_model": "kaleidoscope_cookery_plus:table/single",
+            "custom_model_data": {
+                "strings": [
+                    "birch",
+                    "empty"
+                ]
+            },
+            "item_name": {
+                "translate": "item.kaleidoscope.table.birch"
+            }
+        }
+    }
+}

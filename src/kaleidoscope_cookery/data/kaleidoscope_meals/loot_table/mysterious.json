@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "item_frame",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_cookery:meals/mysterious",
+                                "minecraft:item_name": "迷之炒菜",
+                                "lore":[
+                                    {"text": "不吃为妙！","color":"red","italic": false}
+                                ],
+                                "entity_data": {
+                                    "id": "item_frame",
+                                    "Tags": [
+                                        "k_cookery_meal"
+                                    ],
+                                    "data": {
+                                        "index": "mysterious"
+                                    },
+                                    "Invisible": true,
+                                    "Silent": true
+                                },
+                                "custom_data": "{k_meal:\"mysterious\"}"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

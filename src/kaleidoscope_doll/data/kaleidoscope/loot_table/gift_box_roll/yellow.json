@@ -1,0 +1,61 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_23"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_24"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_25"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_26"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_27"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_28"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_29"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_30"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_31"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_32"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_33"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_34"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_35"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+#【kaleidoscope_table】桌子模板
+data modify storage dc:template kaleidoscope_table set value {\
+    template:"kaleidoscope_fixed",\
+    events:{\
+        construct:[{event:"sound",args:{sound:"block.wood.place"}}],\
+        left_click:{\
+            fallback:{\
+                event:"group",\
+                args:{\
+                    events:[\
+                        {event:"custom",args:{func:"kaleidoscope:cookery_plus/events/destruct/table"}},\
+                        {event:"destruct",args:{particle:"block{block_state:\"oak_planks\"}",sound:"block.wood.break"}}\
+                    ]\
+                }\
+            }\
+        },\
+        right_click:{\
+            criteria:[\
+                {event:"custom",args:{func:"kaleidoscope:cookery_plus/events/carpets"},item:{id:"#wool_carpets"}},\
+                {event:"custom",args:{func:"kaleidoscope:cookery_plus/events/shear"},item:{id:"shears"}}\
+            ]\
+        }\
+    }\
+}
+
+
+#【kaleidoscope_fixed】通用固定方块模板
+data modify storage dc:template kaleidoscope_fixed set value {\
+    type:"fixed",\
+    events:{\
+        left_click:{\
+            criteria:[\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"rotate",args:{type:"H",angle:90f}},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"rotate"}}}\
+                },\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"rotate",args:{type:"V",angle:90f}},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"move"}}},\
+                },\
+            ],\
+            fallback:{event:"destruct"}\
+        },\
+        right_click:{\
+            criteria:[\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"rotate",args:{type:"H",angle:-90f}},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"rotate"}}},\
+                },\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"rotate",args:{type:"V",angle:-90f}},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"move"}}},\
+                },\
+            ],\
+            fallback:{event:"__nothing__"}\
+        }\
+    }\
+}
+
+#【kaleidoscope_basket】果篮
+data modify storage dc:template kaleidoscope_basket set value {\
+    modsize:[1f,1f,1f],\
+    interactsize:{height:0.8f,width:0.9f},\
+    loot_table:"kaleidoscope:cookery_plus/basket",\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_cookery_plus:basket"}\
+    },\
+    template:"kaleidoscope",\
+    events:{\
+        "construct":[\
+            {event:"sound",args:{sound:"minecraft:block.scaffolding.hit"}},\
+            {event:"custom",args:{func:"kaleidoscope:cookery_plus/events/construct/basket"}}\
+        ],\
+    }\
+}
+

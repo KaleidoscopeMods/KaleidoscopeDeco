@@ -1,0 +1,30 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "# #",
+        "#%#",
+        "###"
+    ],
+    "key": {
+        "#": "iron_ingot",
+        "%": "composter"
+    },
+    "result": {
+        "id": "cow_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "kaleidoscope_cookery_plus:rubbish_bin",
+            "minecraft:item_name": {"translate": "item.kaleidoscope.rubbish_bin"},
+            "lore": [],
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "rubbish_bin"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,4 @@
+#item模式
+execute if data storage dc events.temp.target.args.item.item.id run data modify entity @e[type=item,distance=..5,sort=nearest,limit=1,tag=dc_item_temp] Item.id set from storage dc events.temp.target.args.item.item.id
+execute if data storage dc events.temp.target.args.item.item.count run data modify entity @e[type=item,distance=..5,sort=nearest,limit=1,tag=dc_item_temp] Item.count set from storage dc events.temp.target.args.item.item.count
+execute if data storage dc events.temp.target.args.item.item.components run data modify entity @e[type=item,distance=..5,sort=nearest,limit=1,tag=dc_item_temp] Item.components merge from storage dc events.temp.target.args.item.item.components

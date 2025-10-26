@@ -1,0 +1,10 @@
+{
+  "pack_name": "森罗物语：数据包版",
+  "author": "CR_019，药水棒冰",
+  "description": "森罗物语：数据包版",
+  "version": "1.0.0",
+  "base_path": "./src",
+  "sets_path": "./sets",
+  "icon": "./icon.png",
+  "main_module": "kaleidoscope_main"
+}

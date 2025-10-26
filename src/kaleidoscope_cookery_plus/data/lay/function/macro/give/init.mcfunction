@@ -1,0 +1,1 @@
+data modify storage lay Item set value {type:"item",id:"minecraft:air",Count:1b,components:""}

@@ -1,0 +1,46 @@
+{
+    "parent": "kaleidoscope:cookbook/root",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/yakitori"
+            }
+        },
+        "title": "烧鸟串",
+        "description": [
+            {
+                "text": "4\u0002 3\u0001\n",
+                "font": "kaleidoscope_cookery:cookbook"
+            },
+            {
+                "text": "鸡肉制成的烤串。烤制完成后，浇上酱汁插入盘中。至于为什么不能直接拿起来吃，其实是因为我们没做单串的模型。",
+                "italic": false
+            },
+            {
+                "text": "\n\n放置食用❃",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"yakitori"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

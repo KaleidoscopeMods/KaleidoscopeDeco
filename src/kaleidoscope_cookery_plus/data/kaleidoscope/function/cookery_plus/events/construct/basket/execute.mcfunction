@@ -1,0 +1,1 @@
+data modify entity @s data.basket set value {type:"empty",count:0}

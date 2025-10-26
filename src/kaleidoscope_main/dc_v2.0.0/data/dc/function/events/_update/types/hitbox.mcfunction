@@ -1,0 +1,2 @@
+execute as @n[type=block_display,tag=dc_edit_hitbox] run tp @s @n[type=marker,tag=dc_edit_pivot]
+execute as @n[type=block_display,tag=dc_edit_hitbox] at @s run function dc:construct/summon/hitbox_prop with storage dc events.update.extra_data

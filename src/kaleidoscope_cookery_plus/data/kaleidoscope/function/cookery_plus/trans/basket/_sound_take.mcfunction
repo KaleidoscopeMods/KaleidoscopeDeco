@@ -1,0 +1,1 @@
+playsound entity.item.pickup block @a

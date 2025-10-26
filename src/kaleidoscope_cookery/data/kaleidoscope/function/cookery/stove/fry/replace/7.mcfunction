@@ -1,0 +1,3 @@
+execute if score @s k_stove_pot_vision matches 0 run item replace block ~ ~ ~ container.7 with minecraft:firework_star[item_model="kaleidoscope_cookery:stove/button/pot_disable",item_name={"text":"炒锅模型已隐藏",color:"gray"},lore=[{text:"点击切换显示状态",color:"gray",italic:false}],custom_data={kaleidoscope_stove_bg:1b,kaleidoscope_stove_vision:1b}]
+
+execute if score @s k_stove_pot_vision matches 1 run item replace block ~ ~ ~ container.7 with minecraft:firework_star[item_model="kaleidoscope_cookery:stove/button/pot_enable",item_name={"text":"炒锅模型正在显示",color:"gray"},lore=[{text:"点击切换显示状态",color:"gray",italic:false}],custom_data={kaleidoscope_stove_bg:1b,kaleidoscope_stove_vision:1b}]

@@ -1,0 +1,2 @@
+execute if data storage dc {events:{execute:{type:"left_click"}}} run function dc:events/_detect/event_lc
+execute if data storage dc {events:{execute:{type:"right_click"}}} run function dc:events/_detect/event_rc

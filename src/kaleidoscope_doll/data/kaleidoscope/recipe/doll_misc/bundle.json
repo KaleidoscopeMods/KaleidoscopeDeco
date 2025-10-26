@@ -1,0 +1,11 @@
+{
+    "type": "crafting_transmute",
+    "input": "fox_spawn_egg",
+    "material": "#bundles",
+    "result": {
+        "id":"bundle",
+        "components":{
+            "minecraft:item_name": {"translate": "item.kaleidoscope.doll_bundle"}
+        }
+    }
+}

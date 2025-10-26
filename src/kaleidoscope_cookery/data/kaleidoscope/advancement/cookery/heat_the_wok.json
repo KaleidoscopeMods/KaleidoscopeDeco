@@ -1,0 +1,34 @@
+{
+    "parent": "kaleidoscope:cookery/root",
+    "display": {
+        "title": "起锅烧油",
+        "description": [{"font": "default","text": "成为大厨的第一步\n\n\n\n\n\n"},{"font": "kaleidoscope:recipes","text": "\u0014","color": "white"}],
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:stove/block"
+            }
+        }
+    },
+    "criteria": {
+        "1":{
+            "trigger": "placed_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "match_tool",
+                        "predicate": {
+                            "components": {
+                                "entity_data": {
+                                    "id": "item_frame",
+                                    "Tags": ["k_stove_pos"],
+                                    "Invisible":true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

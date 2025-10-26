@@ -1,0 +1,7 @@
+{
+    "values":[
+        "dc:main",
+        {"required": false,"id": "kaleidoscope:doll/tick"},
+        {"required": false,"id": "kaleidoscope:cookery_plus/tick"}
+    ]
+}

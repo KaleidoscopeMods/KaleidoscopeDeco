@@ -1,0 +1,1 @@
+$particle vibration{destination:{type:"block",pos:[$(x),$(y),$(z)]},arrival_in_ticks:5} ~ ~ ~ 0 0 0 0 0

@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "item_frame",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_model_data":{
+                                    "flags": [false]
+                                },
+                                "minecraft:item_name": "灶台",
+                                "item_model": "kaleidoscope_cookery:stove/block",
+                                "entity_data": {
+                                    "id": "item_frame",
+                                    "Tags": ["k_stove_pos"],
+                                    "Invisible":true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

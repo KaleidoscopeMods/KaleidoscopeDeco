@@ -1,0 +1,45 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "item_frame",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "entity_data": {
+                                    "id": "item_frame",
+                                    "Tags": ["dc_place"],
+                                    "Invisible": true,
+                                    "data": {
+                                        "index":"chair",
+                                        "inheritance":{
+                                            "item":{
+                                                "components":{
+                                                    "minecraft:item_model":"kaleidoscope_cookery_plus:chair",
+                                                    "minecraft:custom_model_data":{"strings":["jungle","empty"]}
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "item_model": "kaleidoscope_cookery_plus:chair",
+                                "custom_model_data": {
+                                    "strings": ["jungle","empty"]
+                                },
+                                "item_name": {"translate":"item.kaleidoscope.chair.jungle"},
+                                "equippable": {
+                                    "slot": "head",
+                                    "equip_sound": "block.wood.place"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

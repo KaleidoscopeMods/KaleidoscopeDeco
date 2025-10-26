@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "item_frame",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_cookery:meals/frogspawn_jelly",
+                                "minecraft:item_name": "蛙籽冻",
+                                "lore":[
+                                    {"text": "放置食用","color":"dark_green","italic": false}
+                                ],
+                                "entity_data": {
+                                    "id": "item_frame",
+                                    "Tags": [
+                                        "k_cookery_meal"
+                                    ],
+                                    "data": {
+                                        "index": "frogspawn_jelly"
+                                    },
+                                    "Invisible": true,
+                                    "Silent": true
+                                },
+                                "max_stack_size": 1,
+                                "custom_data": "{k_meal:\"frogspawn_jelly\"}"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

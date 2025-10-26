@@ -1,0 +1,1 @@
+$function dc:events/$(event)/check

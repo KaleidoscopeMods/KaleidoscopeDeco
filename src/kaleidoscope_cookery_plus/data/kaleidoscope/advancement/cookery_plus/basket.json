@@ -1,0 +1,19 @@
+{
+    "parent":"kaleidoscope:cookery_plus/root",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery_plus:basket",
+                "custom_model_data":{"strings": ["egg"],"floats": [3]}
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope_cookery.basket.title"},
+        "description": {"translate": "advancements.kaleidoscope_cookery.basket.description"}
+    },
+    "criteria": {
+        "1":{
+            "trigger": "impossible"
+        }
+    }
+}

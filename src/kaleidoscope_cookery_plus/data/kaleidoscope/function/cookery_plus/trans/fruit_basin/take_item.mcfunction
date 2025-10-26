@@ -1,0 +1,1 @@
+playsound block.composter.empty block @a

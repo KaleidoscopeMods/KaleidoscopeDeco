@@ -1,0 +1,1 @@
+playsound block.lantern.place block @a

@@ -1,0 +1,1 @@
+execute positioned ~ ~-1 ~ if entity @e[distance=..0.5,tag=k_stove] at @s run function kaleidoscope:cookery/events/fry_pot_fix/fix

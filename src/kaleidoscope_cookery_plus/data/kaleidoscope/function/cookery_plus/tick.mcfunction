@@ -1,0 +1,1 @@
+execute as @e[tag=kplusc_tick] at @s if entity @a[distance=..20] run function kaleidoscope:cookery_plus/entity_tick

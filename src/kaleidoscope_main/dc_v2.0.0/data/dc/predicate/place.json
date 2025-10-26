@@ -1,0 +1,25 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "dc:place/main"
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "reference",
+                        "name": "dc:place/main"
+                    }
+                },
+                {
+                    "condition": "reference",
+                    "name": "dc:place/off"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "parent": "kaleidoscope:cookbook/spicy_chicken",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/dongpo_pork"
+            }
+        },
+        "title": "东坡肉",
+        "description": [
+            {
+                "text": "3\u0002 4\u0001\n",
+                "font": "kaleidoscope_cookery:cookbook"
+            },
+            {
+                "text": "以竹子装饰的红烧肉菜肴。配方来自一段文雅的典故，后人常用“宁可居无肉，不可食无竹”来表达清高之意。……等等，是不是背反了？",
+                "italic": false
+            },
+            {
+                "text": "\n\n放置食用",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"dongpo_pork"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

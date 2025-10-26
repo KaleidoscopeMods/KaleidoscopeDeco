@@ -1,0 +1,42 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#oak_logs",
+    "result": {
+        "id": "item_frame",
+        "count": 1,
+        "components": {
+            "entity_data": {
+                "id": "item_frame",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "chair",
+                    "inheritance": {
+                        "item": {
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_cookery_plus:chair",
+                                "minecraft:custom_model_data": {
+                                    "strings": [
+                                        "oak",
+                                        "empty"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "item_model": "kaleidoscope_cookery_plus:chair",
+            "custom_model_data": {
+                "strings": [
+                    "oak",
+                    "empty"
+                ]
+            },
+            "item_name": {
+                "translate": "item.kaleidoscope.chair.oak"
+            }
+        }
+    }
+}

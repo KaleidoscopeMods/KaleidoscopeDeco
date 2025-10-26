@@ -1,0 +1,1 @@
+execute as @e[type=wandering_trader,tag=!K_wander_tri] at @s run function kaleidoscope:doll/wander/trade

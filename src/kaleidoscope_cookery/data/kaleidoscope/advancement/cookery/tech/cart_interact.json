@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "1":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "donkey",
+                    "nbt": "{Tags:[\"k_cart_chest\"]}"
+                },
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "kaleidoscope:shift"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "kaleidoscope:cookery/cart/open_chest"
+    }
+}

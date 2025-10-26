@@ -1,0 +1,1 @@
+execute if score $silent_exception dc_options matches 1 run tellraw @n[type=player,tag=dc_click_temp] {text:"错误：模型类型为\"Fixed\"，无法执行移动事件",color:"red",italic:false}

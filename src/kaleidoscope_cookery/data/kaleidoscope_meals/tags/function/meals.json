@@ -1,0 +1,26 @@
+{
+    "values": [
+        "kaleidoscope_meals:index/slime_ball_meal",
+        "kaleidoscope_meals:index/fondant_pie",
+        "kaleidoscope_meals:index/braised_fish",
+        "kaleidoscope_meals:index/stargazy_pie",
+        "kaleidoscope_meals:index/spicy_chicken",
+        "kaleidoscope_meals:index/pearl_meal",
+
+        "kaleidoscope_meals:index/chorus_eggs",
+        "kaleidoscope_meals:index/dongpo_pork",
+        "kaleidoscope_meals:index/fondant_eyes",
+        "kaleidoscope_meals:index/frogspawn_jelly",
+        "kaleidoscope_meals:index/golden_salad",
+        "kaleidoscope_meals:index/knight_steak",
+        "kaleidoscope_meals:index/mutton_amethyst",
+        "kaleidoscope_meals:index/mutton_flame",
+        "kaleidoscope_meals:index/mutton_ice",
+        "kaleidoscope_meals:index/sashimi_desert",
+        "kaleidoscope_meals:index/sashimi_end",
+        "kaleidoscope_meals:index/sashimi_nether",
+        "kaleidoscope_meals:index/sashimi_snow",
+        "kaleidoscope_meals:index/sashimi_tundra",
+        "kaleidoscope_meals:index/yakitori"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "type": "stonecutting",
+    "ingredient": "barrel",
+    "result": {
+        "id": "cow_spawn_egg",
+        "count": 2,
+        "components": {
+            "minecraft:item_model": "kaleidoscope_cookery_plus:fruit_basin",
+            "minecraft:item_name": {"translate": "item.kaleidoscope.fruit_basin"},
+            "lore": [],
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "fruit_basin"
+                }
+            }
+        }
+    }
+}

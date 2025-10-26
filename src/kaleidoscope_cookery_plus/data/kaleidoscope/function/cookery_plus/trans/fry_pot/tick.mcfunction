@@ -1,0 +1,1 @@
+execute rotated as @n[tag=dc_display] if predicate {"condition":"random_chance",chance:0.05} run particle smoke ~ ~0.3 ~ 0.05 0.05 0.05 0 2

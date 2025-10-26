@@ -1,0 +1,39 @@
+{
+    "parent":"kaleidoscope:root",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_frame:move"
+            }
+        },
+        "title": {
+            "translate": "advancements.kaleidoscope.wand_1.title"
+        },
+        "description": {
+            "translate": "advancements.kaleidoscope.wand_1.description"
+        },
+        "background": "kaleidoscope_frame:textures/gui/adbase.png",
+        "frame": "task"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "value_check",
+                        "range": {
+                            "min": 50
+                        },
+                        "value": {
+                            "type": "score",
+                            "target": "this",
+                            "score": "k_wand_use"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

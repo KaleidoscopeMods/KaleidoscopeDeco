@@ -1,0 +1,1 @@
+$loot give @a[tag=dc_click_temp] loot $(loot)

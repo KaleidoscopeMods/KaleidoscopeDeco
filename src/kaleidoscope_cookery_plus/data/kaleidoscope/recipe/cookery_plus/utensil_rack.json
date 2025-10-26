@@ -1,0 +1,30 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "***",
+        "#%#"
+    ],
+    "key": {
+        "*": "stick",
+        "#": "iron_ingot",
+        "%": "iron_nugget"
+    },
+    "result": {
+        "id": "cow_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "kaleidoscope_cookery_plus:utensil_rack",
+            "minecraft:item_name": {"translate": "item.kaleidoscope.utensil_rack"},
+            "lore": [],
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "utensil_rack_0"
+                }
+            }
+        }
+    }
+}

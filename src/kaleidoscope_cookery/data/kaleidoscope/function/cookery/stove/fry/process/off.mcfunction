@@ -1,0 +1,2 @@
+execute unless score @s k_stove_fry_timer matches ..0 unless score @s k_stove_fry_timer = @s k_stove_fry_time_set unless score @s k_stove_fry_timer = @s k_stove_fry_overburnt_set run scoreboard players remove @s k_stove_fry_timer 1
+execute unless score @s k_stove_fry_timer matches ..0 unless score @s k_stove_fry_timer = @s k_stove_fry_time_set unless score @s k_stove_fry_timer = @s k_stove_fry_overburnt_set run scoreboard players remove @s k_stove_fry_timer 1

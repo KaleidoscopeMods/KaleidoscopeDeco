@@ -1,0 +1,1 @@
+$particle note ~$(posx) ~1 ~$(posz) 1 0 0 $(color) 0 normal

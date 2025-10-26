@@ -1,0 +1,1 @@
+item replace block ~ ~ ~ container.19 with minecraft:firework_star[item_model="kaleidoscope_cookery:stove/recipe_book",item_name={"text":"菜谱书"},lore=[{"text":"点击翻页","color":"gray","italic":false},{"text":"按住shift点击向前翻页","color":"gray","italic":false}],custom_data={kaleidoscope_stove_bg:1b,kaleidoscope_stove_recipe:1b}]

@@ -1,0 +1,43 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "item_frame",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_cookery:meals/semi",
+                                "minecraft:item_name": "未熟的炒菜",
+                                "lore":[
+                                    {"text": "由于在错误的时刻被盛出，","color": "gray","italic": false},
+                                    {"text": "食材尚未成型，甚至有泥土","color": "gray","italic": false},
+                                    {"text": "的香气；","color": "gray","italic": false},
+                                    {"text": "大厨只是闻了一下，就将其","color": "gray","italic": false},
+                                    {"text": "倒进了垃圾桶。","color": "gray","italic": false},
+                                    {"text": ""},
+                                    {"text": "不可食用","color":"red","italic": false}
+                                ],
+                                "entity_data": {
+                                    "id": "item_frame",
+                                    "Tags": [
+                                        "k_cookery_meal"
+                                    ],
+                                    "data": {
+                                        "index": "semi_meal"
+                                    },
+                                    "Invisible": true,
+                                    "Silent": true
+                                },
+                                "max_stack_size": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

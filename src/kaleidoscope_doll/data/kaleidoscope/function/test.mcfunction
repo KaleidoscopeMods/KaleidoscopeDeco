@@ -1,0 +1,1 @@
+give CR_019 minecraft:fox_spawn_egg[minecraft:item_model="kaleidoscope:doll/doll_0",minecraft:item_name={"translate": "item.kaleidoscope.doll"},minecraft:entity_data={"id":"minecraft:marker","Tags":["dc_place"],"data":{"index":"doll_0"}}]

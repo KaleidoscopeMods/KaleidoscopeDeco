@@ -1,0 +1,1 @@
+$summon area_effect_cloud ~ ~ ~ {Duration:20,DurationOnUse:0,Radius:2,RadiusOnUse:0,RadiusPerTick:-0.05,ReapplicationDelay:0,WaitTime:0,Particle:{type:entity_effect,color:$(color)}}

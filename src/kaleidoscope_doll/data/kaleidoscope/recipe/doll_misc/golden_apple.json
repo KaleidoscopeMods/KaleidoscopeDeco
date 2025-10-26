@@ -1,0 +1,11 @@
+{
+    "type": "crafting_transmute",
+    "input": "fox_spawn_egg",
+    "material": "golden_apple",
+    "result": {
+        "id":"golden_apple",
+        "components":{
+            "minecraft:item_name": {"translate": "item.kaleidoscope.doll_golden_apple"}
+        }
+    }
+}

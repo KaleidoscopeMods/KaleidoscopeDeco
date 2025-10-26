@@ -1,0 +1,1 @@
+stopsound @a player entity.player.attack.knockback

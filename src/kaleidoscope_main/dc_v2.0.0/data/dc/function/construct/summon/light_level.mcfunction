@@ -1,0 +1,1 @@
+$setblock ~ ~ ~ light[level=$(level)]

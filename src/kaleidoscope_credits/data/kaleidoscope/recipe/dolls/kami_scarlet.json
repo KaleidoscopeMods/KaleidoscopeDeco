@@ -1,0 +1,30 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#wool",
+    "result": {
+        "id": "fox_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "kaleidoscope:doll/s/kami_scarlet",
+            "minecraft:item_name": "玩偶",
+            "lore": [
+                "§7赞助者：kami_Scarlet"
+            ],
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "doll_s_kami_scarlet"
+                }
+            },
+            "equippable": {
+                "slot": "head",
+                "equip_sound": {
+                    "sound_id": "kaleidoscope:toy"
+                }
+            }
+        }
+    }
+}

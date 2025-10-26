@@ -1,0 +1,1 @@
+execute as @e[tag=dc_interaction_clear] run kill @s

@@ -1,0 +1,30 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#wool",
+    "result": {
+        "id": "fox_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "kaleidoscope:doll/s/ysbb",
+            "minecraft:item_name": {"translate": "item.kaleidoscope.doll"},
+            "lore":[
+                {"translate": "lore.kaleidoscope.doll.author","with": [{"text":"药水棒冰"}]}
+            ],
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "ysbb"
+                }
+            },
+            "equippable": {
+                "slot": "head",
+                "equip_sound": {
+                    "sound_id": "kaleidoscope:toy"
+                }
+            }
+        }
+    }
+}

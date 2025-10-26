@@ -1,0 +1,1 @@
+$execute if score $silent_exception dc_options matches 1 run tellraw @n[type=player,tag=dc_click_temp] {text:"错误：要转换的模型\"$(index)\"的类型(\"$(type1)\")与当前模型类型(\"$(type0)\")不匹配",color:"red",italic:false}

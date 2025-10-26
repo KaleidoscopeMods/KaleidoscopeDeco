@@ -1,0 +1,46 @@
+{
+    "parent": "kaleidoscope:cookbook/root",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/mysterious"
+            }
+        },
+        "title": "迷之炒菜",
+        "description": [
+            {
+                "text": "1\u0002 1\u0001\n",
+                "font": "kaleidoscope_cookery:cookbook"
+            },
+            {
+                "text": "因为错误的配方，在烹饪中扭曲而成的产物，浑身散发着不祥的气息",
+                "italic": false
+            },
+            {
+                "text": "\n\n不吃为妙！",
+                "color": "red",
+                "italic": false
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal": "mysterious"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

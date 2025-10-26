@@ -1,0 +1,40 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "fox_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope:doll/doll_24",
+                                "minecraft:item_name": {"translate": "item.kaleidoscope.doll"},
+                                "lore": [
+                                    {"translate":"entity.minecraft.villager","color": "gray","italic": false}
+                                ],
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "dc_place"
+                                    ],
+                                    "data": {
+                                        "index": "doll_24"
+                                    }
+                                },
+                                "equippable": {
+                                    "slot": "head",
+                                    "equip_sound": {
+                                        "sound_id": "kaleidoscope:toy"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

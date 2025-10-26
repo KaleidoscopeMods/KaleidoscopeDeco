@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:gift_box_roll/green",
+                    "weight": 4
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:gift_box_roll/yellow",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:gift_box_roll/purple",
+                    "weight": 4
+                }
+            ]
+        }
+    ]
+}

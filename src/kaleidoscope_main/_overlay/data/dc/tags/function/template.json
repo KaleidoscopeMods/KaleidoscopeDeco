@@ -1,0 +1,7 @@
+{
+    "values": [
+        {"required": false,"id":  "kaleidoscope:doll/template"},
+        {"required": false,"id":  "kaleidoscope:cookery_plus/template"}
+        
+    ]
+}

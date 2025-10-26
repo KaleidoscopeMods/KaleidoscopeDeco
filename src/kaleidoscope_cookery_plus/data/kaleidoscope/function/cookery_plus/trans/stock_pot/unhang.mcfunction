@@ -1,0 +1,1 @@
+playsound block.chain.break block @a

@@ -1,0 +1,3 @@
+data modify entity @n[tag=dc_trans_display,type=item_display] item.components."minecraft:custom_model_data" set value {strings:["empty"],floats:[0]}
+data modify entity @n[tag=dc_trans_display,type=item_display] item.components."minecraft:custom_model_data".strings[0] set from entity @s data.basket.type
+data modify entity @n[tag=dc_trans_display,type=item_display] item.components."minecraft:custom_model_data".floats[0] set from entity @s data.basket.count

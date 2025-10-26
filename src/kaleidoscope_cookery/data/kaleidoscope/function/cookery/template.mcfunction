@@ -1,0 +1,65 @@
+#【kaleidoscope】通用编辑模板
+data modify storage dc:template kaleidoscope set value {\
+    events:{\
+        left_click:{\
+            criteria:[\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"pre/move_r_1px"},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"move"}}},\
+                    predicate:"!kaleidoscope:shift"\
+                },\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"pre/move_y_1px"},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"move"}}},\
+                    predicate:"kaleidoscope:shift"\
+                },\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"pre/rotate_h_225"},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"rotate"}}},\
+                    predicate:"!kaleidoscope:shift"\
+                },\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"pre/rotate_v_225"},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"rotate"}}},\
+                    predicate:"kaleidoscope:shift"\
+                },\
+            ],\
+            fallback:{event:"destruct"}\
+        },\
+        right_click:{\
+            criteria:[\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"pre/move_r_-1px"},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"move"}}},\
+                    predicate:"!kaleidoscope:shift"\
+                },\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"pre/move_y_-1px"},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"move"}}},\
+                    predicate:"kaleidoscope:shift"\
+                },\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"pre/rotate_h_-225"},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"rotate"}}},\
+                    predicate:"!kaleidoscope:shift"\
+                },\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"pre/rotate_v_-225"},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"rotate"}}},\
+                    predicate:"kaleidoscope:shift"\
+                },\
+            ],\
+            fallback:{event:"__nothing__"}\
+        }\
+    }\
+}
+
+

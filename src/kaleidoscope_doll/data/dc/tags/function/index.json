@@ -1,0 +1,15 @@
+{
+    "values": [
+        "kaleidoscope:doll/index/dolls",
+        "kaleidoscope:doll/index/misc",
+        "kaleidoscope:doll/index/credits",
+        {
+            "id": "kaleidoscope:doll/index/sponsors",
+            "required": false
+        },
+        {
+            "id": "#kaleidoscope_plus:dolls",
+            "required": false
+        }
+    ]
+}

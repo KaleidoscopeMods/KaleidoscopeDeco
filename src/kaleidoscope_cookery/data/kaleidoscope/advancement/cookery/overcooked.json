@@ -1,0 +1,44 @@
+{
+    "parent": "kaleidoscope:cookery/heat_the_wok",
+    "display": {
+        "title": "胡闹厨房",
+        "description": "黑暗料理大师",
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/mysterious"
+            }
+        }
+    },
+    "criteria": {
+        "1":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"overburnt"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "2":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"mysterious"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["1","2"]]
+}

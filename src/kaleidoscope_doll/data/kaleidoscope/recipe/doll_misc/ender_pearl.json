@@ -1,0 +1,11 @@
+{
+    "type": "crafting_transmute",
+    "input": "fox_spawn_egg",
+    "material": "ender_pearl",
+    "result": {
+        "id":"ender_pearl",
+        "components":{
+            "minecraft:item_name": {"translate": "item.kaleidoscope.doll_ender_pearl"}
+        }
+    }
+}

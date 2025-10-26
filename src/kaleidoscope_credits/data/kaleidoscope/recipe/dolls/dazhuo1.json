@@ -1,0 +1,30 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#wool",
+    "result": {
+        "id": "fox_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "kaleidoscope:doll/s/dazhuo1",
+            "minecraft:item_name": "玩偶",
+            "lore": [
+                "§7赞助者：Dazhuo1"
+            ],
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "doll_s_dazhuo1"
+                }
+            },
+            "equippable": {
+                "slot": "head",
+                "equip_sound": {
+                    "sound_id": "kaleidoscope:toy"
+                }
+            }
+        }
+    }
+}

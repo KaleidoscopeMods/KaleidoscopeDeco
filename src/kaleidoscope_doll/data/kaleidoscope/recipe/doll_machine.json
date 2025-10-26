@@ -1,0 +1,33 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "***",
+        "*#*",
+        "*&*"
+    ],
+    "key": {
+        "*":"copper_ingot",
+        "#":"jukebox",
+        "&":"#copper_block"
+    },
+    "result": {
+        "id": "cow_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "kaleidoscope:doll_machine",
+            "minecraft:item_name": "玩偶抽奖机",
+            "lore":[
+                "§7使用钻石作为代币抽奖！"
+            ],
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "doll_machine"
+                }
+            }
+        }
+    }
+}

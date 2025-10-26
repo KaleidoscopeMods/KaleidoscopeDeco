@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "cow_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components":{
+                                "entity_data":{
+                                    "id":"minecraft:marker","Tags":["dc_place"],"data":{"test":1}}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

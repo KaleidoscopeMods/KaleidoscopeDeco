@@ -1,0 +1,20 @@
+{
+    "parent":"kaleidoscope:_tutorial/root",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope:doll/s/ysbb"
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope.tutorial.credits.title"},
+        "description": [{"translate": "advancements.kaleidoscope.tutorial.credits.description"},{"font": "kaleidoscope:recipes","text": "\u0002","color": "white"}],
+        "show_toast": false,
+        "announce_to_chat":false
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    }
+}

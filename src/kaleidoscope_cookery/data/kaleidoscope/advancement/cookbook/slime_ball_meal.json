@@ -1,0 +1,46 @@
+{
+    "parent": "kaleidoscope:cookbook/root",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/slime_ball_meal"
+            }
+        },
+        "title": "粘液饭",
+        "description": [
+            {
+                "text": "3\u0002 1\u0001\n",
+                "font": "kaleidoscope_cookery:cookbook"
+            },
+            {
+                "text": "使用粘液球制作的菜肴。属于创新配方之一，但还在弹跳的粘液球总让人怀疑它到底可吃与否。",
+                "italic": false
+            },
+            {
+                "text": "\n\n放置食用❃",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"slime_ball_meal"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

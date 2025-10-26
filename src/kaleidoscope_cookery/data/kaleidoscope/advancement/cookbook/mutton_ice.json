@@ -1,0 +1,46 @@
+{
+    "parent": "kaleidoscope:cookbook/mutton_flame",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/mutton_ice"
+            }
+        },
+        "title": "凛冬羊排",
+        "description": [
+            {
+                "text": "3\u0002 4\u0001\n",
+                "font": "kaleidoscope_cookery:cookbook"
+            },
+            {
+                "text": "蓝冰装饰的羊排。需要尽快食用，否则——蓝冰会化，而你会得到一块冷掉的羊排。",
+                "italic": false
+            },
+            {
+                "text": "\n\n放置食用",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"mutton_ice"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

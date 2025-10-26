@@ -1,0 +1,1 @@
+$execute at @s unless items block ~ ~ ~ container.$(value) *[custom_data~{kaleidoscope_stove_bg:1b}] positioned ~ ~ ~ run function kaleidoscope:cookery/stove/check_replace {var:$(value)}

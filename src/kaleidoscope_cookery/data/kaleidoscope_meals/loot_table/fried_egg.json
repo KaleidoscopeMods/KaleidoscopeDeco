@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "firework_star",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_cookery:meals/fried_egg",
+                                "minecraft:item_name": "煎蛋",
+                                "lore":[
+                                    {"text": "物美价廉，易于制作的美食。","color": "gray","italic": false},
+                                    {"text": "食用后并不能复活。","color": "gray","italic": false},
+                                    {"text": ""},
+                                    {"text": "即食","color":"dark_green","italic": false}
+                                ],
+                                "consumable": {
+                                    "animation": "eat",
+                                    "consume_seconds": 1.6
+                                },
+                                "food": {
+                                    "saturation": 4,
+                                    "nutrition": 2
+                                },
+                                "max_stack_size": 16,
+                                "custom_data": "{k_meal:\"fried_egg\"}"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

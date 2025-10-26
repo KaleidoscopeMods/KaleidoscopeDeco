@@ -1,0 +1,20 @@
+{
+    "parent":"kaleidoscope:root",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope:doll/doll_5"
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope_doll.root.title"},
+        "description": {"translate": "advancements.kaleidoscope_doll.root.description"},
+        "show_toast": false,
+        "announce_to_chat":false
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    }
+}

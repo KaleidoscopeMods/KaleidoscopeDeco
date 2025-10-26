@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "firework_star",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": "熟五花肉",
+                                "item_model": "kaleidoscope_cookery:ingredients/cooked_streaky_pork",
+                                "consumable": {
+                                    "animation": "eat",
+                                    "consume_seconds": 1.6
+                                },
+                                "food": {
+                                    "saturation": 12,
+                                    "nutrition": 6
+                                },
+                                "custom_data": "{k_ingreient:\"cooked_streaky_pork\"}"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

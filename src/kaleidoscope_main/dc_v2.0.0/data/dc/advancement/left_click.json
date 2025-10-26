@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "1":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"dc_interaction\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc:events/_detect/left_click"
+    }
+}

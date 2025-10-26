@@ -1,0 +1,18 @@
+{
+    "parent":"kaleidoscope:doll/root",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope:doll_machine"
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope_doll.roll.title"},
+        "description": {"translate":"advancements.kaleidoscope_doll.roll.description" }
+    },
+    "criteria": {
+        "1":{
+            "trigger": "impossible"
+        }
+    }
+}

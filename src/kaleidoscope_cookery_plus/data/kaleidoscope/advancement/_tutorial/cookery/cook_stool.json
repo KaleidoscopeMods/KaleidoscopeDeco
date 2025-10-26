@@ -1,0 +1,23 @@
+{
+    "parent":"kaleidoscope:_tutorial/cookery/furniture",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery_plus:cook_stool",
+                "custom_model_data": {
+                    "strings": ["oak"]
+                }
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope_cookery.tutorial.cook_stool.title"},
+        "description": [{"font": "default","translate": "advancements.kaleidoscope_cookery.tutorial.cook_stool.description","color": "green"},{"font": "kaleidoscope:recipes","text": "\u0016","color": "white"}],
+        "show_toast": false,
+        "announce_to_chat":false
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    }
+}

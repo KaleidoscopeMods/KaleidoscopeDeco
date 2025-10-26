@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "item_frame",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_cookery:meals/fondant_eyes",
+                                "minecraft:item_name": "翻糖蛛眼",
+                                "lore":[
+                                    {"text": "放置食用","color":"dark_green","italic": false}
+                                ],
+                                "entity_data": {
+                                    "id": "item_frame",
+                                    "Tags": [
+                                        "k_cookery_meal"
+                                    ],
+                                    "data": {
+                                        "index": "fondant_eyes"
+                                    },
+                                    "Invisible": true,
+                                    "Silent": true
+                                },
+                                "max_stack_size": 1,
+                                "custom_data": "{k_meal:\"fondant_eyes\"}"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+give @s minecraft:cow_spawn_egg[entity_data={id:"minecraft:marker",Tags:["dc_place"],data:{index:"test"}}]

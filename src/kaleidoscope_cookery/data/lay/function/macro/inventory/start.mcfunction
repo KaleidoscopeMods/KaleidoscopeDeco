@@ -1,0 +1,1 @@
+function lay:macro/inventory/function with storage lay Inventory

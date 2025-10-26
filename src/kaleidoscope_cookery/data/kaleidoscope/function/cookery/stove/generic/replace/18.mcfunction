@@ -1,0 +1,3 @@
+item replace block ~ ~ ~ container.18 with minecraft:firework_star[item_model="kaleidoscope_cookery:stove/gui/recipebook_pages",tooltip_display={"hide_tooltip":true},custom_data={kaleidoscope_stove_bg:1b},custom_model_data={floats:[0]}]
+
+execute store result block ~ ~ ~ Items[{Slot:18b}].components."minecraft:custom_model_data".floats[0] float 1 run scoreboard players get @s k_stove_recipebook_page

@@ -1,0 +1,1 @@
+execute as @e[tag=kplus_tick] at @s if entity @a[distance=..20] run function kaleidoscope_plus:doll/entity_tick

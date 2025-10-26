@@ -1,0 +1,106 @@
+#【kaleidoscope】通用编辑模板
+data modify storage dc:template kaleidoscope set value {\
+    events:{\
+        left_click:{\
+            criteria:[\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"pre/move_r_1px"},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"move"}}},\
+                    predicate:"!kaleidoscope:shift"\
+                },\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"pre/move_y_1px"},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"move"}}},\
+                    predicate:"kaleidoscope:shift"\
+                },\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"pre/rotate_h_225"},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"rotate"}}},\
+                    predicate:"!kaleidoscope:shift"\
+                },\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"pre/rotate_v_225"},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"rotate"}}},\
+                    predicate:"kaleidoscope:shift"\
+                },\
+            ],\
+            fallback:{event:"destruct"}\
+        },\
+        right_click:{\
+            criteria:[\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"pre/move_r_-1px"},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"move"}}},\
+                    predicate:"!kaleidoscope:shift"\
+                },\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"pre/move_y_-1px"},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"move"}}},\
+                    predicate:"kaleidoscope:shift"\
+                },\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"pre/rotate_h_-225"},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"rotate"}}},\
+                    predicate:"!kaleidoscope:shift"\
+                },\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"pre/rotate_v_-225"},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"rotate"}}},\
+                    predicate:"kaleidoscope:shift"\
+                },\
+            ],\
+            fallback:{event:"__nothing__"}\
+        }\
+    }\
+}
+
+
+#【doll】玩偶前置模板
+data modify storage dc:template doll set value {\
+    template:"kaleidoscope",\
+    modsize:[1.01f,1.01f,1.01f],\
+    interactsize:{height:0.6f,width:0.6f},\
+    events:{\
+        construct:[\
+            {event:"sound",args:{sound:"block.wool.place"}}\
+        ],\
+        left_click:{\
+            fallback:{event:"destruct",args:{item:{},particle:"block{block_state:\"white_wool\"}",sound:"block.wool.break"}}\
+        },\
+        right_click:{\
+            fallback:{\
+                event:"group",\
+                args:{\
+                    events:[\
+                        {event:"sound",args:{sound:"kaleidoscope:toy"}},\
+                        {event:"custom",args:{func:"kaleidoscope:doll/events/note"}}\
+                    ]\
+                }\
+            }\
+        }\
+    }\
+}
+
+#【doll_axolotl】美西螈前置模板
+data modify storage dc:template doll_axolotl set value {\
+    template:"doll",\
+    events:{\
+        right_click:{\
+            criteria:[\
+                {event:"trans",args:{index:"doll_37",func:"kaleidoscope:doll/axolotl/pink"},item:{id:"minecraft:pink_dye"}},\
+                {event:"trans",args:{index:"doll_37_cyan",func:"kaleidoscope:doll/axolotl/cyan"},item:{id:"minecraft:light_blue_dye"}},\
+                {event:"trans",args:{index:"doll_37_gold",func:"kaleidoscope:doll/axolotl/gold"},item:{id:"minecraft:yellow_dye"}},\
+                {event:"trans",args:{index:"doll_37_wild",func:"kaleidoscope:doll/axolotl/wild"},item:{id:"minecraft:brown_dye"}},\
+                {event:"custom",args:{func:"kaleidoscope:doll/axolotl/blue"},item:{id:"minecraft:blue_dye"}},\
+            ]\
+        }\
+    }\
+}

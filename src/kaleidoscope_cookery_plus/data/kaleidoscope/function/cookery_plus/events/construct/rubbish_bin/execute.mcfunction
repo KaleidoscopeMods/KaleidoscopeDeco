@@ -1,0 +1,1 @@
+data modify entity @s data.rubbish_bin set value []

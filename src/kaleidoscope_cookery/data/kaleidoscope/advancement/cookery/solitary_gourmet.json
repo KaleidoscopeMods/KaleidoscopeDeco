@@ -1,0 +1,76 @@
+{
+    "parent": "kaleidoscope:cookery/difference",
+    "display": {
+        "title": "孤独的美食家",
+        "description": "尝过所有炒菜",
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/plate"
+            }
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "braised_fish":{
+            "trigger": "impossible"
+        },
+        "chorus_eggs":{
+            "trigger": "impossible"
+        },
+        "dongpo_pork":{
+            "trigger": "impossible"
+        },
+        "fondant_eyes":{
+            "trigger": "impossible"
+        },
+        "fondant_pie":{
+            "trigger": "impossible"
+        },
+        "golden_salad":{
+            "trigger": "impossible"
+        },
+        "knight_steak":{
+            "trigger": "impossible"
+        },
+        "mutton_amethyst":{
+            "trigger": "impossible"
+        },
+        "mutton_flame":{
+            "trigger": "impossible"
+        },
+        "mutton_ice":{
+            "trigger": "impossible"
+        },
+        "pearl_meal":{
+            "trigger": "impossible"
+        },
+        "sashimi_desert":{
+            "trigger": "impossible"
+        },
+        "sashimi_end":{
+            "trigger": "impossible"
+        },
+        "sashimi_nether":{
+            "trigger": "impossible"
+        },
+        "sashimi_snow":{
+            "trigger": "impossible"
+        },
+        "sashimi_tundra":{
+            "trigger": "impossible"
+        },
+        "slime_ball_meal":{
+            "trigger": "impossible"
+        },
+        "spicy_chicken":{
+            "trigger": "impossible"
+        },
+        "stargazy_pie":{
+            "trigger": "impossible"
+        },
+        "yakitori":{
+            "trigger": "impossible"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+scoreboard objectives add lay_inventory dummy

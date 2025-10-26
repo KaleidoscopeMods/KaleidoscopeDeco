@@ -1,0 +1,1312 @@
+{
+    "parent":"kaleidoscope:_tutorial/doll/doll_machine",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope:doll/doll_52"
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope_doll.doll.title"},
+        "description": [{"font": "default","translate": "advancements.kaleidoscope_doll.doll.description" ,"color": "green"}],
+        "show_toast": false,
+        "announce_to_chat":false
+    },
+    "criteria": {
+        "2": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_2"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "3": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_3"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "4": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_4"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "5": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_5"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "6": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_6"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "7": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_7"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "8": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_8"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "9": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_9"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "10": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_10"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "11": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_11"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "12": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_12"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "13": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_13"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "14": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_14"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "15": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_15"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "16": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_16"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "17": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_17"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "18": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_18"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "19": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_19"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "20": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_20"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "21": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_21"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "22": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_22"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "23": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_23"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "24": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_24"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "25": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_25"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "26": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_26"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "27": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_27"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "28": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_28"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "29": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_29"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "30": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_30"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "31": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_31"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "32": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_32"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "33": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_33"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "34": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_34"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "35": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_35"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "36": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_36"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "37": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "kaleidoscope_doll_id":37
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "38": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_38"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "39": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_39"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "40": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_40"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "41": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_41"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "42": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_42"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "43": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_43"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "44": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_44"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "45": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_45"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "46": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_46"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "47": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_47"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "48": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_48"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "49": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_49"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "50": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_50"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "51": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_51"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "52": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_52"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "53": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_53"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "54": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_54"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "55": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_55"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "56": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_56"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "57": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_57"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "58": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_58"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "59": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_59"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "60": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_60"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "61": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_61"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "62": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_62"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "63": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_63"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "64": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_64"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "65": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_65"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "66": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_66"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65","66"]]
+}

@@ -1,0 +1,45 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "item_frame",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "entity_data": {
+                                    "id": "item_frame",
+                                    "Tags": ["dc_place"],
+                                    "Invisible": true,
+                                    "data": {
+                                        "index":"cook_stool",
+                                        "inheritance":{
+                                            "item":{
+                                                "components":{
+                                                    "minecraft:item_model":"kaleidoscope_cookery_plus:cook_stool",
+                                                    "minecraft:custom_model_data":{"strings":["pale_oak"]}
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "item_model": "kaleidoscope_cookery_plus:cook_stool",
+                                "custom_model_data": {
+                                    "strings": ["pale_oak"]
+                                },
+                                "item_name": {"translate":"item.kaleidoscope.cook_stool.pale_oak"},
+                                "equippable": {
+                                    "slot": "head",
+                                    "equip_sound": "block.wood.place"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

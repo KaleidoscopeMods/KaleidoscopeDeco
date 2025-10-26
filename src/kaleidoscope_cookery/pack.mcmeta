@@ -1,0 +1,14 @@
+{
+	"pack":{
+		"pack_format": 61,
+		"description":"森罗物语：玩偶"
+	},
+	"overlays": {
+        "entries": [
+            {
+                "directory": "v1215",
+                "formats": [71, 1000]
+            }
+        ]
+    }
+}

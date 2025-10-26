@@ -1,0 +1,4 @@
+data modify entity @n[tag=dc_trans_display,type=item_display] item.components."minecraft:custom_model_data" set value {strings:["empty","empty","empty"]}
+data modify entity @n[tag=dc_trans_display,type=item_display] item.components."minecraft:custom_model_data".strings[0] set string entity @s data.fishstack[0].id 10
+data modify entity @n[tag=dc_trans_display,type=item_display] item.components."minecraft:custom_model_data".strings[1] set string entity @s data.fishstack[1].id 10
+data modify entity @n[tag=dc_trans_display,type=item_display] item.components."minecraft:custom_model_data".strings[2] set string entity @s data.fishstack[2].id 10

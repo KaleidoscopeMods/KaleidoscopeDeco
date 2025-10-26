@@ -1,0 +1,9 @@
+{
+    "values":[
+        "dc:load",
+        "lay:macro/load",
+        "kaleidoscope:load",
+        {"required": false,"id": "kaleidoscope:doll/load"},
+        {"required": false,"id": "kaleidoscope:cookery_plus/load"}
+    ]
+}

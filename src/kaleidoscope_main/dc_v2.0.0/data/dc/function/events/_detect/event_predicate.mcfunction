@@ -1,0 +1,1 @@
+$execute unless entity @s[predicate=$(predicate)] run scoreboard players set #temp3 dc_click 0

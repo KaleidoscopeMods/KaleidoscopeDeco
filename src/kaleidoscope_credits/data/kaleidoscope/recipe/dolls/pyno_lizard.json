@@ -1,0 +1,30 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#wool",
+    "result": {
+        "id": "fox_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "kaleidoscope:doll/s/pyno_lizard",
+            "minecraft:item_name": "玩偶",
+            "lore": [
+                "§7赞助者：Pyno_Lizard"
+            ],
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "doll_s_pyno_lizard"
+                }
+            },
+            "equippable": {
+                "slot": "head",
+                "equip_sound": {
+                    "sound_id": "kaleidoscope:toy"
+                }
+            }
+        }
+    }
+}

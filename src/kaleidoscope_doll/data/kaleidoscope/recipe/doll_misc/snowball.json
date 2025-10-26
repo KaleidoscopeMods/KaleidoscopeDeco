@@ -1,0 +1,11 @@
+{
+    "type": "crafting_transmute",
+    "input": "fox_spawn_egg",
+    "material": "snowball",
+    "result": {
+        "id":"snowball",
+        "components":{
+            "minecraft:item_name": {"translate": "item.kaleidoscope.doll_snowball"}
+        }
+    }
+}
