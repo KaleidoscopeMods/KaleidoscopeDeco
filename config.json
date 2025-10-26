@@ -6,5 +6,6 @@
   "base_path": "./src",
   "sets_path": "./sets",
   "icon": "./icon.png",
-  "main_module": "kaleidoscope_main"
+  "main_module": "kaleidoscope_main",
+  "file_mode":true
 }
