@@ -1,0 +1,15 @@
+{
+    "model": {
+        "type": "condition",
+        "property": "custom_model_data",
+        "index": 0,
+        "on_false": {
+            "type": "model",
+            "model": "kaleidoscope:block/doll/doll_65"
+        },
+        "on_true": {
+            "type": "model",
+            "model": "kaleidoscope:block/doll/doll_65_1"
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+	"credit": "by YSBB  2025",
+	"parent": "kaleidoscope_cookery_plus:utensil_rack/0",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"3": "kaleidoscope_cookery_plus:block/misc/utensil_rack",
+		"particle": "kaleidoscope_cookery_plus:block/misc/utensil_rack"
+	},
+	"elements": [
+		{
+			"from": [1, 9, 14],
+			"to": [15, 14, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 9, 14]},
+			"faces": {
+				"north": {"uv": [0.5, 4.5, 7.5, 7], "texture": "#3"},
+				"east": {"uv": [0.5, 4.5, 1.5, 7], "texture": "#3"},
+				"south": {"uv": [0.5, 4.5, 7.5, 7], "texture": "#3"},
+				"west": {"uv": [0.5, 4.5, 1.5, 7], "texture": "#3"},
+				"up": {"uv": [0.5, 4.5, 7.5, 5.5], "texture": "#3"},
+				"down": {"uv": [0.5, 4.5, 7.5, 5.5], "texture": "#3"}
+			}
+		},
+		{
+			"from": [1.8, 9, 12.75],
+			"to": [14.1, 11, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 10, 12]},
+			"faces": {
+				"north": {"uv": [1, 7.5, 7, 8.5], "texture": "#3"},
+				"east": {"uv": [0.5, 7.5, 1, 8.5], "texture": "#3"},
+				"west": {"uv": [0.5, 7.5, 1, 8.5], "texture": "#3"}
+			}
+		},
+		{
+			"from": [3, 11, 13],
+			"to": [5, 15, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 11, 13]},
+			"faces": {
+				"north": {"uv": [9.5, 0, 10.5, 2], "texture": "#3"},
+				"east": {"uv": [9.5, 0, 10, 2], "texture": "#3"},
+				"south": {"uv": [9.5, 0, 10.5, 2], "texture": "#3"},
+				"west": {"uv": [9.5, 0, 10, 2], "texture": "#3"},
+				"up": {"uv": [9.5, 0, 10.5, 0.5], "texture": "#3"},
+				"down": {"uv": [9.5, 0, 10.5, 0.5], "texture": "#3"}
+			}
+		},
+		{
+			"from": [3, 2, 13],
+			"to": [8, 11, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 9, 12]},
+			"faces": {
+				"north": {"uv": [8, 2, 10.5, 6.5], "texture": "#3"},
+				"east": {"uv": [8, 2, 8.5, 6.5], "texture": "#3"},
+				"south": {"uv": [8, 2, 10.5, 6.5], "texture": "#3"},
+				"west": {"uv": [10, 2, 10.5, 6.5], "texture": "#3"},
+				"up": {"uv": [10.5, 2, 8, 2.5], "texture": "#3"},
+				"down": {"uv": [8, 2, 10.5, 2.5], "texture": "#3"}
+			}
+		}
+	],
+	"gui_light": "front"
+}

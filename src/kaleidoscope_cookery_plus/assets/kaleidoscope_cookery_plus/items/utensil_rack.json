@@ -1,0 +1,55 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "index": 0,
+        "fallback": {
+            "type": "model",
+            "model": "kaleidoscope_cookery_plus:utensil_rack/0"
+        },
+        "entries": [
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:utensil_rack/0"
+                },
+                "threshold": 0
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:utensil_rack/1"
+                },
+                "threshold": 1
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:utensil_rack/2"
+                },
+                "threshold": 2
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:utensil_rack/3"
+                },
+                "threshold": 3
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:utensil_rack/4"
+                },
+                "threshold": 4
+            },
+             {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:utensil_rack/5"
+                },
+                "threshold": 5
+            }
+        ]
+    }
+}

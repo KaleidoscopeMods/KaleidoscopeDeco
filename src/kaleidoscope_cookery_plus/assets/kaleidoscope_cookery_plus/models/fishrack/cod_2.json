@@ -1,0 +1,47 @@
+{
+	"texture_size": [32, 32],
+	"parent":"kaleidoscope_cookery_plus:fishrack/empty",
+	"textures": {
+		"2": "kaleidoscope_cookery_plus:block/fishrack/cod",
+		"particle": "kaleidoscope_cookery_plus:block/fishrack/0"
+	},
+	"elements": [
+		{
+			"name": "tail",
+			"from": [1, -1, 13],
+			"to": [5, 3, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.75, 6.25, 13]},
+			"faces": {
+				"north": {"uv": [13, 9, 15, 11], "rotation": 90, "texture": "#2"},
+				"south": {"uv": [15, 9, 13, 11], "rotation": 270, "texture": "#2"}
+			}
+		},
+		{
+			"name": "nose",
+			"from": [1, 11, 12],
+			"to": [4, 12, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.75, 6.25, 13]},
+			"faces": {
+				"north": {"uv": [7.5, 9, 8, 10.5], "rotation": 90, "texture": "#2"},
+				"east": {"uv": [8, 12.5, 8.5, 11.5], "rotation": 90, "texture": "#2"},
+				"south": {"uv": [7.5, 9, 8, 10.5], "rotation": 270, "texture": "#2"},
+				"west": {"uv": [8, 8.5, 7.5, 7.5], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [5.5, 9, 6.5, 10.5], "rotation": 270, "texture": "#2"}
+			}
+		},
+		{
+			"name": "body",
+			"from": [1, 3, 12],
+			"to": [5, 11, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.75, 6.25, 13]},
+			"faces": {
+				"north": {"uv": [8, 9, 12, 11], "rotation": 90, "texture": "#2"},
+				"east": {"uv": [8, 12.5, 12, 11.5], "rotation": 90, "texture": "#2"},
+				"south": {"uv": [12, 9, 8, 11], "rotation": 270, "texture": "#2"},
+				"west": {"uv": [7.5, 8.5, 11.5, 7.5], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [8, 9, 9, 11], "rotation": 270, "texture": "#2"},
+				"down": {"uv": [8, 3.5, 9, 5.5], "rotation": 270, "texture": "#2"}
+			}
+		}
+	]
+}

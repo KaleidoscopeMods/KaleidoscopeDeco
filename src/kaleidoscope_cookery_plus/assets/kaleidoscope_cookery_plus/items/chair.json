@@ -1,0 +1,224 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "select",
+        "property": "custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "model",
+          "model": "kaleidoscope_cookery_plus:chair/chairs/oak"
+        },
+        "cases": [
+          {
+            "when": "acacia",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/chairs/acacia"
+            }
+          },
+          {
+            "when": "bamboo",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/chairs/bamboo"
+            }
+          },
+          {
+            "when": "birch",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/chairs/birch"
+            }
+          },
+          {
+            "when": "cherry",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/chairs/cherry"
+            }
+          },
+          {
+            "when": "crimson",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/chairs/crimson"
+            }
+          },
+          {
+            "when": "dark_oak",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/chairs/dark_oak"
+            }
+          },
+          {
+            "when": "jungle",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/chairs/jungle"
+            }
+          },
+          {
+            "when": "mangrove",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/chairs/mangrove"
+            }
+          },
+          {
+            "when": "oak",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/chairs/oak"
+            }
+          },
+          {
+            "when": "pale_oak",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/chairs/pale_oak"
+            }
+          },
+          {
+            "when": "spruce",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/chairs/spruce"
+            }
+          },
+          {
+            "when": "warped",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/chairs/warped"
+            }
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "property": "custom_model_data",
+        "index": 1,
+        "fallback": {
+          "type": "empty"
+        },
+        "cases": [
+          {
+            "when": "black",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/carpets/black"
+            }
+          },
+          {
+            "when": "blue",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/carpets/blue"
+            }
+          },
+          {
+            "when": "brown",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/carpets/brown"
+            }
+          },
+          {
+            "when": "cyan",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/carpets/cyan"
+            }
+          },
+          {
+            "when": "gray",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/carpets/gray"
+            }
+          },
+          {
+            "when": "green",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/carpets/green"
+            }
+          },
+          {
+            "when": "light_blue",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/carpets/light_blue"
+            }
+          },
+          {
+            "when": "light_gray",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/carpets/light_gray"
+            }
+          },
+          {
+            "when": "lime",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/carpets/lime"
+            }
+          },
+          {
+            "when": "magenta",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/carpets/magenta"
+            }
+          },
+          {
+            "when": "orange",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/carpets/orange"
+            }
+          },
+          {
+            "when": "pink",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/carpets/pink"
+            }
+          },
+          {
+            "when": "purple",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/carpets/purple"
+            }
+          },
+          {
+            "when": "red",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/carpets/red"
+            }
+          },
+          {
+            "when": "white",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/carpets/white"
+            }
+          },
+          {
+            "when": "yellow",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:chair/carpets/yellow"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

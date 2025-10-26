@@ -1,0 +1,188 @@
+{
+    "model": {
+        "type": "select",
+        "fallback": {
+            "type": "model",
+            "model": "kaleidoscope_cookery_plus:basket/empty"
+        },
+        "property": "custom_model_data",
+        "index": 0,
+        "cases": [
+            {
+                "when": "apple",
+                "model": {
+                    "type": "range_dispatch",
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_cookery_plus:basket/empty"
+                    },
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "entries": [
+                        {
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:basket/apple/1"
+                            },
+                            "threshold": 1
+                        },
+                        {
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:basket/apple/3"
+                            },
+                            "threshold": 2
+                        },
+                        {
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:basket/apple/5"
+                            },
+                            "threshold": 3
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "chorus_fruit",
+                "model": {
+                    "type": "range_dispatch",
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_cookery_plus:basket/empty"
+                    },
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "entries": [
+                        {
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:basket/chorus_fruit/2"
+                            },
+                            "threshold": 1
+                        },
+                        {
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:basket/chorus_fruit/4"
+                            },
+                            "threshold": 2
+                        },
+                        {
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:basket/chorus_fruit/6"
+                            },
+                            "threshold": 3
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "egg",
+                "model": {
+                    "type": "range_dispatch",
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_cookery_plus:basket/empty"
+                    },
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "entries": [
+                        {
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:basket/egg/2"
+                            },
+                            "threshold": 1
+                        },
+                        {
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:basket/egg/4"
+                            },
+                            "threshold": 2
+                        },
+                        {
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:basket/egg/6"
+                            },
+                            "threshold": 3
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "glow_berries",
+                "model": {
+                    "type": "range_dispatch",
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_cookery_plus:basket/empty"
+                    },
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "entries": [
+                        {
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:basket/glow_berries/2"
+                            },
+                            "threshold": 1
+                        },
+                        {
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:basket/glow_berries/4"
+                            },
+                            "threshold": 2
+                        },
+                        {
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:basket/glow_berries/6"
+                            },
+                            "threshold": 3
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "sweet_berries",
+                "model": {
+                    "type": "range_dispatch",
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_cookery_plus:basket/empty"
+                    },
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "entries": [
+                        {
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:basket/sweet_berries/2"
+                            },
+                            "threshold": 1
+                        },
+                        {
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:basket/sweet_berries/4"
+                            },
+                            "threshold": 2
+                        },
+                        {
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:basket/sweet_berries/6"
+                            },
+                            "threshold": 3
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

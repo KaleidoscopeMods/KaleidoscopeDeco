@@ -1,0 +1,7 @@
+{
+	"parent":"kaleidoscope_cookery_plus:table/tables/single/_root",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "kaleidoscope_cookery_plus:block/table/woods/mangrove"
+	}
+}

@@ -1,0 +1,224 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "select",
+        "property": "custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "model",
+          "model": "kaleidoscope_cookery_plus:table/tables/right/oak"
+        },
+        "cases": [
+          {
+            "when": "acacia",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/tables/right/acacia"
+            }
+          },
+          {
+            "when": "bamboo",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/tables/right/bamboo"
+            }
+          },
+          {
+            "when": "birch",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/tables/right/birch"
+            }
+          },
+          {
+            "when": "cherry",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/tables/right/cherry"
+            }
+          },
+          {
+            "when": "crimson",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/tables/right/crimson"
+            }
+          },
+          {
+            "when": "dark_oak",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/tables/right/dark_oak"
+            }
+          },
+          {
+            "when": "jungle",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/tables/right/jungle"
+            }
+          },
+          {
+            "when": "mangrove",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/tables/right/mangrove"
+            }
+          },
+          {
+            "when": "oak",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/tables/right/oak"
+            }
+          },
+          {
+            "when": "pale_oak",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/tables/right/pale_oak"
+            }
+          },
+          {
+            "when": "spruce",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/tables/right/spruce"
+            }
+          },
+          {
+            "when": "warped",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/tables/right/warped"
+            }
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "property": "custom_model_data",
+        "index": 1,
+        "fallback": {
+          "type": "empty"
+        },
+        "cases": [
+          {
+            "when": "black",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/carpets/right/black"
+            }
+          },
+          {
+            "when": "blue",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/carpets/right/blue"
+            }
+          },
+          {
+            "when": "brown",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/carpets/right/brown"
+            }
+          },
+          {
+            "when": "cyan",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/carpets/right/cyan"
+            }
+          },
+          {
+            "when": "gray",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/carpets/right/gray"
+            }
+          },
+          {
+            "when": "green",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/carpets/right/green"
+            }
+          },
+          {
+            "when": "light_blue",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/carpets/right/light_blue"
+            }
+          },
+          {
+            "when": "light_gray",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/carpets/right/light_gray"
+            }
+          },
+          {
+            "when": "lime",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/carpets/right/lime"
+            }
+          },
+          {
+            "when": "magenta",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/carpets/right/magenta"
+            }
+          },
+          {
+            "when": "orange",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/carpets/right/orange"
+            }
+          },
+          {
+            "when": "pink",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/carpets/right/pink"
+            }
+          },
+          {
+            "when": "purple",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/carpets/right/purple"
+            }
+          },
+          {
+            "when": "red",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/carpets/right/red"
+            }
+          },
+          {
+            "when": "white",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/carpets/right/white"
+            }
+          },
+          {
+            "when": "yellow",
+            "model": {
+              "type": "model",
+              "model": "kaleidoscope_cookery_plus:table/carpets/right/yellow"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

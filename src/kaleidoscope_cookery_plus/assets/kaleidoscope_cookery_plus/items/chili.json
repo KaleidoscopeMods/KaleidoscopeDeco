@@ -1,0 +1,47 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "fallback": {
+            "type": "model",
+            "model": "kaleidoscope_cookery_plus:chili/item"
+        },
+        "cases": [
+            {
+                "when": "none",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_cookery_plus:chili/0"
+                    },
+                    "entries": [
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:chili/1"
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:chili/2"
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery_plus:chili/3"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

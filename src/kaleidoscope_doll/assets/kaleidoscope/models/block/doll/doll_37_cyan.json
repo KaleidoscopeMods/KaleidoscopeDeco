@@ -1,0 +1,128 @@
+{
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "kaleidoscope:block/doll/axolotl_cyan",
+		"particle": "kaleidoscope:block/doll/axolotl_cyan"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [5, 0, 2],
+			"to": [11, 4, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 2]},
+			"faces": {
+				"north": {"uv": [2, 2, 5, 4], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#0"},
+				"west": {"uv": [5, 2, 7, 4], "texture": "#0"},
+				"up": {"uv": [2, 2, 5, 0], "texture": "#0"},
+				"down": {"uv": [2, 4, 5, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "antennae",
+			"from": [3, 0, 5],
+			"to": [13, 8, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 0, 5]},
+			"faces": {
+				"north": {"uv": [9.5, 0, 14.5, 4], "texture": "#0"},
+				"south": {"uv": [9.5, 4, 14.5, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "body",
+			"from": [5, 0, 6],
+			"to": [11, 5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 6]},
+			"faces": {
+				"north": {"uv": [0, 11, 3, 13.5], "texture": "#0"},
+				"east": {"uv": [0, 8, 3.5, 10.5], "texture": "#0"},
+				"south": {"uv": [0, 11, 3, 13.5], "texture": "#0"},
+				"west": {"uv": [0, 8, 3.5, 10.5], "texture": "#0"},
+				"up": {"uv": [5, 8, 8, 11.5], "texture": "#0"},
+				"down": {"uv": [8, 8, 11, 11.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "forg_limbs",
+			"from": [2, 0.25, 4],
+			"to": [14, 0.25, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0.25, 4]},
+			"faces": {
+				"up": {"uv": [8, 14.5, 2, 16], "texture": "#0"},
+				"down": {"uv": [2, 14.5, 8, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "hind_limbs",
+			"from": [2, 0.25, 9],
+			"to": [14, 0.25, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0.25, 9]},
+			"faces": {
+				"up": {"uv": [8, 14.5, 2, 16], "texture": "#0"},
+				"down": {"uv": [2, 14.5, 8, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "tail",
+			"from": [8, 1.5, 12],
+			"to": [8, 5.5, 16],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 3.5, 14]},
+			"faces": {
+				"east": {"uv": [0, 14, 2, 16], "texture": "#0"},
+				"west": {"uv": [2, 14, 0, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [-9, 155, -3],
+			"translation": [0.5, 6, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-9, 155, -3],
+			"translation": [0.5, 6, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 4.25, 0]
+		},
+		"head": {
+			"translation": [0, 13, 0],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"fixed": {
+			"translation": [0, 3.5, 0],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	},
+	"groups": [
+		{
+			"name": "axolotl",
+			"origin": [14.5, 2.75, 6],
+			"color": 0,
+			"children": []
+		},
+		0,
+		1,
+		2,
+		3,
+		4,
+		5
+	]
+}

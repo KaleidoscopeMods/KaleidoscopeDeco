@@ -1,0 +1,8 @@
+{
+    "toy":{
+        "subtitle":"玩偶:按压",
+        "sounds":[
+            "kaleidoscope:block/duck_toy"
+        ]
+    }
+}

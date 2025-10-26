@@ -1,0 +1,28 @@
+{
+    "advancements.kaleidoscope.root.title":"森罗物语",
+    "advancements.kaleidoscope.root.description":"给世界添一抹奇幻色彩！",
+    "advancements.kaleidoscope.wand_1.title":"指点江山",
+    "advancements.kaleidoscope.wand_1.description":"使用指指点点法杖50次",
+    "advancements.kaleidoscope.wand_2.title":"精益求精",
+    "advancements.kaleidoscope.wand_2.description":"使用指指点点法杖2,000次",
+    "advancements.kaleidoscope.wand_3.title":"愚公移山",
+    "advancements.kaleidoscope.wand_3.description":"使用指指点点法杖100,000次，然后重新考虑你的人生选择",
+    "advancements.kaleidoscope.tutorial.root.title":"森罗说明书",
+    "advancements.kaleidoscope.tutorial.root.description":"关于森罗物语的一切",
+    "advancements.kaleidoscope.tutorial.credits.title":"赞助者玩偶            ",
+    "advancements.kaleidoscope.tutorial.credits.description":"§6感谢您的赞助!\n前往爱发电网站搜索森罗物语，赞助我们可获取专属玩偶！\n\n\n\n\n\n",
+    "advancements.kaleidoscope.tutorial.wand.title":"指指点点法杖",
+    "advancements.kaleidoscope.tutorial.wand.description":"§b使用法杖来移动/旋转模型!\n\n\n\n\n\n",
+    
+
+    "item.kaleidoscope.wand_1":"指指点点法杖-旋转",
+    "item.kaleidoscope.wand_2":"指指点点法杖-移动",
+    "item.kaleidoscope.wand_3":"指指点点法杖-转换",
+    "lore.kaleidoscope.wand_1.1":"对模型进行左右键互动可以旋转模型！",
+    "lore.kaleidoscope.wand_1.2":"站立点击：水平旋转；",
+    "lore.kaleidoscope.wand_1.3":"潜行点击：垂直旋转；",
+    "lore.kaleidoscope.wand_2.1":"对模型进行左右键互动可以移动模型！",
+    "lore.kaleidoscope.wand_2.2":"站立点击：水平移动；",
+    "lore.kaleidoscope.wand_2.3":"潜行点击：垂直移动；",
+    "lore.kaleidoscope.wand_3":"对部分模型进行左右键互动可以切换模型状态！"
+}

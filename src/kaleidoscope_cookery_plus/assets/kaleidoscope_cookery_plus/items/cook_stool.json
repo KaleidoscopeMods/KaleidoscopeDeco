@@ -1,0 +1,97 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "model",
+      "model": "kaleidoscope_cookery_plus:cook_stool/oak"
+    },
+    "cases": [
+      {
+        "when": "acacia",
+        "model": {
+          "type": "model",
+          "model": "kaleidoscope_cookery_plus:cook_stool/acacia"
+        }
+      },
+      {
+        "when": "bamboo",
+        "model": {
+          "type": "model",
+          "model": "kaleidoscope_cookery_plus:cook_stool/bamboo"
+        }
+      },
+      {
+        "when": "birch",
+        "model": {
+          "type": "model",
+          "model": "kaleidoscope_cookery_plus:cook_stool/birch"
+        }
+      },
+      {
+        "when": "cherry",
+        "model": {
+          "type": "model",
+          "model": "kaleidoscope_cookery_plus:cook_stool/cherry"
+        }
+      },
+      {
+        "when": "crimson",
+        "model": {
+          "type": "model",
+          "model": "kaleidoscope_cookery_plus:cook_stool/crimson"
+        }
+      },
+      {
+        "when": "dark_oak",
+        "model": {
+          "type": "model",
+          "model": "kaleidoscope_cookery_plus:cook_stool/dark_oak"
+        }
+      },
+      {
+        "when": "jungle",
+        "model": {
+          "type": "model",
+          "model": "kaleidoscope_cookery_plus:cook_stool/jungle"
+        }
+      },
+      {
+        "when": "mangrove",
+        "model": {
+          "type": "model",
+          "model": "kaleidoscope_cookery_plus:cook_stool/mangrove"
+        }
+      },
+      {
+        "when": "oak",
+        "model": {
+          "type": "model",
+          "model": "kaleidoscope_cookery_plus:cook_stool/oak"
+        }
+      },
+      {
+        "when": "pale_oak",
+        "model": {
+          "type": "model",
+          "model": "kaleidoscope_cookery_plus:cook_stool/pale_oak"
+        }
+      },
+      {
+        "when": "spruce",
+        "model": {
+          "type": "model",
+          "model": "kaleidoscope_cookery_plus:cook_stool/spruce"
+        }
+      },
+      {
+        "when": "warped",
+        "model": {
+          "type": "model",
+          "model": "kaleidoscope_cookery_plus:cook_stool/warped"
+        }
+      }
+    ]
+  }
+}

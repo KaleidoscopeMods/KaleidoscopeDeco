@@ -1,0 +1,146 @@
+{
+    "model": {
+        "type": "composite",
+        "models": [
+            {
+                "type": "model",
+                "model": "kaleidoscope_cookery_plus:fishrack/empty"
+            },
+            {
+                "type": "select",
+                "fallback": {
+                    "type": "empty"
+                },
+                "property": "custom_model_data",
+                "index": 0,
+                "cases": [
+                    {
+                        "when": "cod",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:fishrack/cod_0"
+                        }
+                    },
+                    {
+                        "when": "salmon",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:fishrack/salmon_0"
+                        }
+                    },
+                    {
+                        "when": "tropical_fish",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:fishrack/tropical_0"
+                        }
+                    },
+                    {
+                        "when": "cooked_cod",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:fishrack/cod_0"
+                        }
+                    },
+                    {
+                        "when": "cooked_salmon",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:fishrack/salmon_0"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "fallback": {
+                    "type": "empty"
+                },
+                "property": "custom_model_data",
+                "index": 1,
+                "cases": [
+                    {
+                        "when": "cod",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:fishrack/cod_1"
+                        }
+                    },
+                    {
+                        "when": "salmon",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:fishrack/salmon_1"
+                        }
+                    },
+                    {
+                        "when": "tropical_fish",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:fishrack/tropical_1"
+                        }
+                    },
+                    {
+                        "when": "cooked_cod",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:fishrack/cod_1"
+                        }
+                    },
+                    {
+                        "when": "cooked_salmon",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:fishrack/salmon_1"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "fallback": {
+                    "type": "empty"
+                },
+                "property": "custom_model_data",
+                "index": 2,
+                "cases": [
+                    {
+                        "when": "cod",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:fishrack/cod_2"
+                        }
+                    },
+                    {
+                        "when": "salmon",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:fishrack/salmon_2"
+                        }
+                    },
+                    {
+                        "when": "tropical_fish",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:fishrack/tropical_2"
+                        }
+                    },
+                    {
+                        "when": "cooked_cod",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:fishrack/cod_2"
+                        }
+                    },
+                    {
+                        "when": "cooked_salmon",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:fishrack/salmon_2"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+	"ambientocclusion": false,
+	"parent": "kaleidoscope_cookery_plus:chair/carpets/_root",
+	"textures": {
+		"particle": "kaleidoscope_cookery_plus:block/chair/carpet/orange"
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "model": {
+        "type": "condition",
+        "property": "extended_view",
+        "on_false": {
+            "type": "model",
+            "model": "kaleidoscope:block/doll_machine"
+        },
+        "on_true": {
+            "type": "model",
+            "model": "kaleidoscope:block/doll_machine_shake"
+        }
+    }
+}

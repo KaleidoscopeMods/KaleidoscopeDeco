@@ -1,0 +1,33 @@
+{
+    "model": {
+        "type": "condition",
+        "property": "custom_model_data",
+        "index": 0,
+        "on_false": {
+            "type": "condition",
+            "property": "custom_model_data",
+            "index": 1,
+            "on_false": {
+                "type": "model",
+                "model": "kaleidoscope_cookery_plus:stockpot/default"
+            },
+            "on_true": {
+                "type": "model",
+                "model": "kaleidoscope_cookery_plus:stockpot/default_lid"
+            }
+        },
+        "on_true": {
+            "type": "condition",
+            "property": "custom_model_data",
+            "index": 1,
+            "on_false": {
+                "type": "model",
+                "model": "kaleidoscope_cookery_plus:stockpot/hang"
+            },
+            "on_true": {
+                "type": "model",
+                "model": "kaleidoscope_cookery_plus:stockpot/hang_lid"
+            }
+        }
+    }
+}

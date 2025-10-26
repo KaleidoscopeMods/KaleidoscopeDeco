@@ -1,0 +1,33 @@
+{
+    "model": {
+        "type": "select",
+        "property": "local_time",
+        "fallback": {
+            "type": "empty"
+        },
+        "pattern": "s",
+        "cases": [
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope:block/green_doll_gift_box"
+                },
+                "when": ["1","2","7","8","13","14","19","20","25","26","31","32","37","38","43","44","49","50","55","56"]
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope:block/purple_doll_gift_box"
+                },
+                "when": ["3","4","9","10","15","16","21","22","27","28","33","34","39","40","45","46","51","52","57","58"]
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope:block/yellow_doll_gift_box"
+                },
+                "when": ["5","6","11","12","17","18","23","24","29","30","35","36","41","42","47","48","53","54","59","0"]
+            }
+        ]
+    }
+}

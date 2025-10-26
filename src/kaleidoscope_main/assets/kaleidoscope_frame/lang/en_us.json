@@ -1,0 +1,28 @@
+{
+    "advancements.kaleidoscope.root.title":"Kaleidoscope",
+    "advancements.kaleidoscope.root.description":"Add a touch of Fantasy to the World!",
+    "advancements.kaleidoscope.wand_1.title":"Command the World",
+    "advancements.kaleidoscope.wand_1.description":"Use Wands of Edit for 50 times",
+    "advancements.kaleidoscope.wand_2.title":"Strive for excellence",
+    "advancements.kaleidoscope.wand_2.description":"Use Wands of Edit for 2,000 times",
+    "advancements.kaleidoscope.wand_3.title":"What's the Point?",
+    "advancements.kaleidoscope.wand_3.description":"Use Wands of Edit for 100,000 times, and then reevaluate your life choices",
+    "advancements.kaleidoscope.tutorial.root.title":"Kaleidoscope Tutorial",
+    "advancements.kaleidoscope.tutorial.root.description":"Everything about Kaleidoscope",
+    "advancements.kaleidoscope.tutorial.credits.title":"Sponsorship            ",
+    "advancements.kaleidoscope.tutorial.credits.description":"§6Thank you for your sponsorship!\nSearch for \"Kaleidoscope\" on patron or aFdian and sponsor us to get the extensions!\n\n\n\n\n\n",
+    "advancements.kaleidoscope.tutorial.wand.title":"Wand of Edit",
+    "advancements.kaleidoscope.tutorial.wand.description":"§bYou can use these Mysterious Wands to Move, Rotate or Transform the Models!\n\n\n\n\n\n",
+    
+
+    "item.kaleidoscope.wand_1":"Wand of Edit - Rotate",
+    "item.kaleidoscope.wand_2":"Wand of Edit - Move",
+    "item.kaleidoscope.wand_3":"Wand of Edit - Transform",
+    "lore.kaleidoscope.wand_1.1":"Rotate models by Hitting or Interacting with them!",
+    "lore.kaleidoscope.wand_1.2":"Stand and Click for Horizontal Rotation",
+    "lore.kaleidoscope.wand_1.3":"Sneak and Click for Vertical Rotation",
+    "lore.kaleidoscope.wand_2.1":"Move models by Hitting or Interacting with them!",
+    "lore.kaleidoscope.wand_2.2":"Stand and Click for Horizontal Movement",
+    "lore.kaleidoscope.wand_2.3":"Sneak and Click for Vertical Movement",
+    "lore.kaleidoscope.wand_3":"Transform the state of Some model by Hitting or Interacting with them!"
+}

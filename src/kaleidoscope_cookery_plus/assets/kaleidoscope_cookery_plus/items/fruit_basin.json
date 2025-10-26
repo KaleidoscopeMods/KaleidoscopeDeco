@@ -1,0 +1,48 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "index": 0,
+        "fallback": {
+            "type": "model",
+            "model": "kaleidoscope_cookery_plus:fruit_basin/empty"
+        },
+        "cases": [
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:fruit_basin/beetroot"
+                },
+                "when": "beetroot"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:fruit_basin/carrot"
+                },
+                "when": "carrot"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:fruit_basin/golden_carrot"
+                },
+                "when": "golden_carrot"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:fruit_basin/poisonous_potato"
+                },
+                "when": "poisonous_potato"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:fruit_basin/potato"
+                },
+                "when": "potato"
+            }
+        ]
+    }
+}

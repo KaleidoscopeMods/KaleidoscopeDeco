@@ -1,0 +1,46 @@
+{
+	"texture_size": [32, 32],
+	"parent":"kaleidoscope_cookery_plus:fishrack/empty",
+	"textures": {
+		"4": "kaleidoscope_cookery_plus:block/fishrack/tropical"
+	},
+	"elements": [
+		{
+			"from": [11, 11, 12],
+			"to": [14, 12, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 11, 12]},
+			"faces": {
+				"north": {"uv": [12, 7, 12.5, 8.5], "rotation": 90, "texture": "#4"},
+				"east": {"uv": [12, 8, 12.5, 8.5], "rotation": 90, "texture": "#4"},
+				"south": {"uv": [12, 8.5, 12.5, 7], "rotation": 90, "texture": "#4"},
+				"west": {"uv": [12, 7, 12.5, 8], "rotation": 90, "texture": "#4"},
+				"up": {"uv": [14, 8.5, 13, 7], "rotation": 90, "texture": "#4"},
+				"down": {"uv": [0, 0, 1.5, 1], "texture": "#4"}
+			}
+		},
+		{
+			"name": "body_front",
+			"from": [11, 4, 12],
+			"to": [15, 11, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12.5, 5.75, 13]},
+			"faces": {
+				"north": {"uv": [12, 6.5, 8.5, 8.5], "rotation": 90, "texture": "#4"},
+				"east": {"uv": [8.5, 10, 12, 9], "rotation": 270, "texture": "#4"},
+				"south": {"uv": [8.5, 6.5, 12, 8.5], "rotation": 270, "texture": "#4"},
+				"west": {"uv": [8.5, 11.5, 12, 10.5], "rotation": 90, "texture": "#4"},
+				"up": {"uv": [11.5, 6.5, 12, 8.5], "rotation": 270, "texture": "#4"},
+				"down": {"uv": [8.5, 6.5, 9.5, 8.5], "rotation": 270, "texture": "#4"}
+			}
+		},
+		{
+			"name": "tail",
+			"from": [10, -2, 13],
+			"to": [16, 11, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12.5, 7.75, 13]},
+			"faces": {
+				"north": {"uv": [12, 6, 5.5, 9], "rotation": 90, "texture": "#4"},
+				"south": {"uv": [5.5, 9, 12, 6], "rotation": 270, "texture": "#4"}
+			}
+		}
+	]
+}

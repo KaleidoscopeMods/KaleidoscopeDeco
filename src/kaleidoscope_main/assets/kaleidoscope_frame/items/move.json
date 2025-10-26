@@ -1,0 +1,28 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "fallback": {
+            "type": "condition",
+            "property": "keybind_down",
+            "keybind": "key.sneak",
+            "on_true": {
+                "type": "model",
+                "model": "kaleidoscope_frame:item/tool/kaleidos_my"
+            },
+            "on_false": {
+                "type": "model",
+                "model": "kaleidoscope_frame:item/tool/kaleidos_mx"
+            }
+        },
+        "cases": [
+            {
+                "when": "gui",
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_frame:item/wand_m"
+                }
+            }
+        ]
+    }
+}

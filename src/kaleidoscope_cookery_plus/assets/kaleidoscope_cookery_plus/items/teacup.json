@@ -1,0 +1,41 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "index": 0,
+        "fallback": {
+            "type": "model",
+            "model": "kaleidoscope_cookery_plus:teacup/item"
+        },
+        "entries": [
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:teacup/1"
+                },
+                "threshold": 1
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:teacup/2"
+                },
+                "threshold": 2
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:teacup/3"
+                },
+                "threshold": 3
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:teacup/4"
+                },
+                "threshold": 4
+            }
+        ]
+    }
+}
