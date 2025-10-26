@@ -1,0 +1,272 @@
+{
+    "texture_size": [
+        32,
+        32
+    ],
+    "textures": {
+        "3": "kaleidoscope_cookery:block/meals/dongpo_pork",
+        "particle": "kaleidoscope_cookery:block/meals/plate"
+    },
+    "elements": [
+        {
+            "from": [
+                3.5,
+                1,
+                5.5
+            ],
+            "to": [
+                11.5,
+                7,
+                8.5
+            ],
+            "rotation": {
+                "angle": 22.5,
+                "axis": "y",
+                "origin": [
+                    7.5,
+                    4,
+                    7
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        0,
+                        2.5,
+                        4,
+                        5.5
+                    ],
+                    "texture": "#3"
+                },
+                "east": {
+                    "uv": [
+                        0,
+                        2.5,
+                        1.5,
+                        5.5
+                    ],
+                    "texture": "#3"
+                },
+                "south": {
+                    "uv": [
+                        0,
+                        2.5,
+                        4,
+                        5.5
+                    ],
+                    "texture": "#3"
+                },
+                "west": {
+                    "uv": [
+                        0,
+                        2.5,
+                        1.5,
+                        5.5
+                    ],
+                    "texture": "#3"
+                },
+                "up": {
+                    "uv": [
+                        4,
+                        0.5,
+                        0,
+                        2
+                    ],
+                    "rotation": 180,
+                    "texture": "#3"
+                },
+                "down": {
+                    "uv": [
+                        4,
+                        1,
+                        8,
+                        2.5
+                    ],
+                    "rotation": 180,
+                    "texture": "#3",
+                    "cullface": "down"
+                }
+            }
+        },
+        {
+            "from": [
+                10,
+                1,
+                9
+            ],
+            "to": [
+                12,
+                10,
+                11
+            ],
+            "rotation": {
+                "angle": 0,
+                "axis": "y",
+                "origin": [
+                    10,
+                    1,
+                    8
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        1,
+                        9.5,
+                        2,
+                        14
+                    ],
+                    "texture": "#3"
+                },
+                "east": {
+                    "uv": [
+                        1,
+                        9.5,
+                        2,
+                        14
+                    ],
+                    "texture": "#3"
+                },
+                "south": {
+                    "uv": [
+                        1,
+                        9.5,
+                        2,
+                        14
+                    ],
+                    "texture": "#3"
+                },
+                "west": {
+                    "uv": [
+                        1,
+                        9.5,
+                        2,
+                        14
+                    ],
+                    "texture": "#3"
+                },
+                "up": {
+                    "uv": [
+                        1,
+                        5.5,
+                        2,
+                        6.5
+                    ],
+                    "texture": "#3"
+                },
+                "down": {
+                    "uv": [
+                        1,
+                        10.5,
+                        2,
+                        11.5
+                    ],
+                    "texture": "#3"
+                }
+            }
+        },
+        {
+            "from": [
+                6,
+                1,
+                10
+            ],
+            "to": [
+                8,
+                8,
+                12
+            ],
+            "rotation": {
+                "angle": 0,
+                "axis": "y",
+                "origin": [
+                    4,
+                    1,
+                    9
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        0.5,
+                        9,
+                        1.5,
+                        12.5
+                    ],
+                    "texture": "#3"
+                },
+                "east": {
+                    "uv": [
+                        0.5,
+                        9,
+                        1.5,
+                        12.5
+                    ],
+                    "texture": "#3"
+                },
+                "south": {
+                    "uv": [
+                        0.5,
+                        9,
+                        1.5,
+                        12.5
+                    ],
+                    "texture": "#3"
+                },
+                "west": {
+                    "uv": [
+                        0.5,
+                        9,
+                        1.5,
+                        12.5
+                    ],
+                    "texture": "#3"
+                },
+                "up": {
+                    "uv": [
+                        0.5,
+                        9,
+                        1.5,
+                        10
+                    ],
+                    "texture": "#3"
+                },
+                "down": {
+                    "uv": [
+                        0.5,
+                        9,
+                        1.5,
+                        10
+                    ],
+                    "texture": "#3"
+                }
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "group",
+            "origin": [
+                8,
+                2,
+                7
+            ],
+            "color": 0,
+            "children": []
+        },
+        {
+            "name": "group",
+            "origin": [
+                8,
+                2,
+                7
+            ],
+            "color": 0,
+            "children": []
+        },
+        0,
+        1,
+        2
+    ],
+    "parent": "kaleidoscope_cookery:meals/gui/root"
+}

@@ -1,0 +1,16 @@
+{
+	"format_version": "1.21.6",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "kaleidoscope_cookery:item/ui/recipe_book_overlay"
+	},
+	"gui_light": "front",
+	"display": {
+		"ground": {
+			"scale": [0.1, 0.1, 0.1]
+		},
+		"gui": {
+			"translation": [4, -1, 79]
+		}
+	}
+}

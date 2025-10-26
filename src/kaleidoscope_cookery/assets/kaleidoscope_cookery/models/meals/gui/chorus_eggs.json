@@ -1,0 +1,269 @@
+{
+    "texture_size": [
+        32,
+        32
+    ],
+    "textures": {
+        "3": "kaleidoscope_cookery:block/meals/chorus_eggs",
+        "particle": "kaleidoscope_cookery:block/meals/plate"
+    },
+    "elements": [
+        {
+            "from": [
+                8,
+                1,
+                4
+            ],
+            "to": [
+                13,
+                6,
+                9
+            ],
+            "rotation": {
+                "angle": 0,
+                "axis": "y",
+                "origin": [
+                    9,
+                    1,
+                    5
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        3.5,
+                        0.5,
+                        6,
+                        3
+                    ],
+                    "texture": "#3"
+                },
+                "east": {
+                    "uv": [
+                        3.5,
+                        0.5,
+                        6,
+                        3
+                    ],
+                    "texture": "#3"
+                },
+                "south": {
+                    "uv": [
+                        3.5,
+                        0.5,
+                        6,
+                        3
+                    ],
+                    "texture": "#3"
+                },
+                "west": {
+                    "uv": [
+                        3.5,
+                        0.5,
+                        6,
+                        3
+                    ],
+                    "texture": "#3"
+                },
+                "up": {
+                    "uv": [
+                        0.5,
+                        0.5,
+                        3,
+                        3
+                    ],
+                    "texture": "#3"
+                },
+                "down": {
+                    "uv": [
+                        3.5,
+                        12.5,
+                        6,
+                        15
+                    ],
+                    "texture": "#3"
+                }
+            }
+        },
+        {
+            "from": [
+                4.5,
+                1,
+                6.5
+            ],
+            "to": [
+                6.5,
+                5,
+                8.5
+            ],
+            "rotation": {
+                "angle": 0,
+                "axis": "y",
+                "origin": [
+                    5.5,
+                    1,
+                    4.5
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        4.5,
+                        7.5,
+                        5.5,
+                        9.5
+                    ],
+                    "texture": "#3"
+                },
+                "east": {
+                    "uv": [
+                        4.5,
+                        7.5,
+                        5.5,
+                        9.5
+                    ],
+                    "texture": "#3"
+                },
+                "south": {
+                    "uv": [
+                        4.5,
+                        7.5,
+                        5.5,
+                        9.5
+                    ],
+                    "texture": "#3"
+                },
+                "west": {
+                    "uv": [
+                        4.5,
+                        7.5,
+                        5.5,
+                        9.5
+                    ],
+                    "texture": "#3"
+                },
+                "up": {
+                    "uv": [
+                        4.5,
+                        7.5,
+                        5.5,
+                        8.5
+                    ],
+                    "texture": "#3"
+                },
+                "down": {
+                    "uv": [
+                        4.5,
+                        7.5,
+                        5.5,
+                        8.5
+                    ],
+                    "texture": "#3"
+                }
+            }
+        },
+        {
+            "from": [
+                3,
+                4,
+                5
+            ],
+            "to": [
+                8,
+                9,
+                10
+            ],
+            "rotation": {
+                "angle": 0,
+                "axis": "y",
+                "origin": [
+                    4,
+                    4,
+                    6
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        3.5,
+                        0.5,
+                        6,
+                        3
+                    ],
+                    "texture": "#3"
+                },
+                "east": {
+                    "uv": [
+                        3.5,
+                        0.5,
+                        6,
+                        3
+                    ],
+                    "texture": "#3"
+                },
+                "south": {
+                    "uv": [
+                        3.5,
+                        0.5,
+                        6,
+                        3
+                    ],
+                    "texture": "#3"
+                },
+                "west": {
+                    "uv": [
+                        3.5,
+                        0.5,
+                        6,
+                        3
+                    ],
+                    "texture": "#3"
+                },
+                "up": {
+                    "uv": [
+                        0.5,
+                        0.5,
+                        3,
+                        3
+                    ],
+                    "texture": "#3"
+                },
+                "down": {
+                    "uv": [
+                        3.5,
+                        12.5,
+                        6,
+                        15
+                    ],
+                    "texture": "#3"
+                }
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "group",
+            "origin": [
+                8,
+                2,
+                7
+            ],
+            "color": 0,
+            "children": []
+        },
+        {
+            "name": "group",
+            "origin": [
+                8,
+                2,
+                7
+            ],
+            "color": 0,
+            "children": []
+        },
+        0,
+        1,
+        2
+    ],
+    "parent": "kaleidoscope_cookery:meals/gui/root"
+}

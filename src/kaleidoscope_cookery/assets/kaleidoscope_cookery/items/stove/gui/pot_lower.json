@@ -1,0 +1,34 @@
+{
+    "oversized_in_gui": true,
+    "model": {
+        "type": "condition",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "on_false": {
+            "type": "condition",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "on_false": {
+                "type": "model",
+                "model": "kaleidoscope_cookery:gui/pot_lower/normal"
+            },
+            "on_true": {
+                "type": "model",
+                "model": "kaleidoscope_cookery:gui/pot_lower/normal_stir"
+            }
+        },
+        "on_true": {
+            "type": "condition",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "on_false": {
+                "type": "model",
+                "model": "kaleidoscope_cookery:gui/pot_lower/with_grease"
+            },
+            "on_true": {
+                "type": "model",
+                "model": "kaleidoscope_cookery:gui/pot_lower/with_grease_stir"
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "kaleidoscope_cookery:item/ui/recipe_book"
+	},
+	"gui_light": "front",
+	"display": {
+		"ground": {
+			"scale": [0.1, 0.1, 0.1]
+		},
+		"gui": {
+			"translation": [0, 0, 80]
+		}
+	}
+}

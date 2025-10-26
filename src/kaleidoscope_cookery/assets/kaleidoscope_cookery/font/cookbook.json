@@ -1,0 +1,22 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope_cookery:font/food.png",
+            "chars": ["\u0001"],
+            "ascent": 5,
+            "height": 5
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope_cookery:font/melon.png",
+            "chars": ["\u0002"],
+            "ascent": 5,
+            "height": 5
+        },
+        {
+            "type": "reference",
+            "id": "default"
+        }
+    ]
+}

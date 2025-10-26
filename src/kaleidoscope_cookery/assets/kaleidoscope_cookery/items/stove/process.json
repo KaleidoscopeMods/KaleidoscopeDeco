@@ -1,0 +1,254 @@
+{
+    "oversized_in_gui":true,
+    "model":{
+        "type": "composite",
+        "models": [
+            {
+                "type": "minecraft:range_dispatch",
+                "property": "custom_model_data",
+                "index": 0,
+                "fallback": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery:gui/process_2/0"
+                },
+                "entries": [
+                    {
+                        "threshold": 0,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process/0"
+                        }
+                    },
+                    {
+                        "threshold": 1,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process/1"
+                        }
+                    },
+                    {
+                        "threshold": 2,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process/2"
+                        }
+                    },
+                    {
+                        "threshold": 3,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process/3"
+                        }
+                    },
+                    {
+                        "threshold": 4,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process/4"
+                        }
+                    },
+                    {
+                        "threshold": 5,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process/5"
+                        }
+                    },
+                    {
+                        "threshold": 6,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process/6"
+                        }
+                    },
+                    {
+                        "threshold": 7,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process/7"
+                        }
+                    },
+                    {
+                        "threshold": 8,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process/8"
+                        }
+                    },
+                    {
+                        "threshold": 9,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process/9"
+                        }
+                    },
+                    {
+                        "threshold": 10,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process/10"
+                        }
+                    },
+                    {
+                        "threshold": 11,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process/11"
+                        }
+                    },
+                    {
+                        "threshold": 12,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process/12"
+                        }
+                    },
+                    {
+                        "threshold": 13,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process/13"
+                        }
+                    },
+                    {
+                        "threshold": 14,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process/14"
+                        }
+                    },
+                    {
+                        "threshold": 15,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process/15"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "minecraft:range_dispatch",
+                "property": "custom_model_data",
+                "index": 1,
+                "fallback": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery:gui/process_2/0"
+                },
+                "entries": [
+                    {
+                        "threshold": 0,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process_2/0"
+                        }
+                    },
+                    {
+                        "threshold": 1,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process_2/1"
+                        }
+                    },
+                    {
+                        "threshold": 2,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process_2/2"
+                        }
+                    },
+                    {
+                        "threshold": 3,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process_2/3"
+                        }
+                    },
+                    {
+                        "threshold": 4,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process_2/4"
+                        }
+                    },
+                    {
+                        "threshold": 5,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process_2/5"
+                        }
+                    },
+                    {
+                        "threshold": 6,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process_2/6"
+                        }
+                    },
+                    {
+                        "threshold": 7,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process_2/7"
+                        }
+                    },
+                    {
+                        "threshold": 8,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process_2/8"
+                        }
+                    },
+                    {
+                        "threshold": 9,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process_2/9"
+                        }
+                    },
+                    {
+                        "threshold": 10,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process_2/10"
+                        }
+                    },
+                    {
+                        "threshold": 11,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process_2/11"
+                        }
+                    },
+                    {
+                        "threshold": 12,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process_2/12"
+                        }
+                    },
+                    {
+                        "threshold": 13,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process_2/13"
+                        }
+                    },
+                    {
+                        "threshold": 14,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process_2/14"
+                        }
+                    },
+                    {
+                        "threshold": 15,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:gui/process_2/15"
+                        }
+                    }
+                ]
+            }  
+        ]
+    }
+}

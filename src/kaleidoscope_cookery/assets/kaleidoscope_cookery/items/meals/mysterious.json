@@ -1,0 +1,26 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "fallback": {
+            "type": "model",
+            "model": "kaleidoscope_cookery:meals/block/mysterious"
+        },
+        "cases": [
+            {
+                "when": [
+                    "gui",
+                    "firstperson_lefthand",
+                    "firstperson_righthand",
+                    "thirdperson_lefthand",
+                    "thirdperson_righthand",
+                    "ground"
+                ],
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery:meals/item/mysterious"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "oversized_in_gui":true,
+    "model": {
+        "type": "model",
+        "model": "kaleidoscope_cookery:meals/gui/fried_egg"
+    }
+}

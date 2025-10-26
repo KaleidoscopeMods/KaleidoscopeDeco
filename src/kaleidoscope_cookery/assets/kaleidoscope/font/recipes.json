@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/stove.png",
+            "chars": ["\u0014"],
+            "ascent": 48,
+            "height": 48
+        }
+    ]
+}

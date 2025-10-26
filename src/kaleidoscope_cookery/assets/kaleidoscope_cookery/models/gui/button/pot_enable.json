@@ -1,0 +1,16 @@
+{
+	"parent": "kaleidoscope_cookery:gui/buttons",
+	"textures": {
+		"layer0": "kaleidoscope_cookery:item/ui/pot_enable"
+	},
+	"display": {
+		"ground": {
+			"scale": [0.1, 0.1, 0.1]
+		},
+		"gui": {
+			"scale": [0.8, 0.8, 0.8],
+			"translation": [0,0,0]
+		}
+	},
+	"gui_light": "front"
+}

@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "kaleidoscope_cookery:item/icons/task_frame_unobtained"
+    },
+    "display": {
+        "gui": {
+			"scale": [1.6, 1.6, 1.6]
+		}
+    }
+}

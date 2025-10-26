@@ -1,0 +1,34 @@
+{
+    "oversized_in_gui":true,
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "index": 0,
+        "fallback": {
+            "type": "empty"
+        },
+        "entries": [
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery:gui/recipe_book/a"
+                },
+                "threshold": 1
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery:gui/recipe_book/b"
+                },
+                "threshold": 2
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery:gui/recipe_book/c"
+                },
+                "threshold": 3
+            }
+        ]
+    }
+}

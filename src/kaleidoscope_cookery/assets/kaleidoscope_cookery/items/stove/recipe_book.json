@@ -1,0 +1,12 @@
+{
+    "oversized_in_gui":true,
+    "model": {
+        "type": "composite",
+        "models": [
+            {
+                "type": "model",
+                "model": "kaleidoscope_cookery:gui/recipe_book"
+            }
+        ]
+    }
+}

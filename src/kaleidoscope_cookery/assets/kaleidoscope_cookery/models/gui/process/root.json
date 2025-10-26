@@ -1,0 +1,12 @@
+{
+	"parent": "item/generated",
+	"display": {
+		"ground": {
+			"scale": [0.1, 0.1, 0.1]
+		},
+		"gui": {
+			"scale": [1, 1, 1]
+		}
+	},
+	"gui_light": "front"
+}

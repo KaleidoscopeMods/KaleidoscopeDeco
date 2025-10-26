@@ -1,0 +1,6 @@
+{
+	"parent":"kaleidoscope_cookery:gui/recipe_book/root",
+	"textures": {
+		"1": "kaleidoscope_cookery:item/ui/recipes/b"
+	}
+}

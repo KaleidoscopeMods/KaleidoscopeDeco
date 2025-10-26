@@ -1,0 +1,10 @@
+{
+    "block.stove.fry":{
+        "sounds": [
+            {
+                "name": "kaleidoscope_cookery:fry"
+            }
+        ],
+        "subtitle": "炒锅：噼啪作响"
+    }
+}

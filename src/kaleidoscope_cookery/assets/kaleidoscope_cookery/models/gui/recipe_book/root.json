@@ -1,0 +1,25 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "kaleidoscope_cookery:item/ui/recipes/a"
+	},
+	"elements": [
+		{
+			"from": [-16, -16, 0],
+			"to": [20, 32, 1],
+			"faces": {
+				"south": {"uv": [0, 0, 9, 12], "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"ground": {
+			"scale": [0.1, 0.1, 0.1]
+		},
+		"gui": {
+			"translation": [-60, -22, -80],
+			"scale": [3.55, 3.55, 1]
+		}
+	}
+}
