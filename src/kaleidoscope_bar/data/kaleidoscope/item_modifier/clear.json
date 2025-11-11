@@ -1,0 +1,8 @@
+{
+    "function": "set_count",
+    "count": {
+        "type": "score",
+        "target": "this",
+        "score": "kaleidoscope_clear"
+    }
+}

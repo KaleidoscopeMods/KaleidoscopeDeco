@@ -1,0 +1,1 @@
+execute if entity @a[tag=dc_click_temp,gamemode=!creative] run loot spawn ~ ~ ~ loot kaleidoscope:lab/tube

@@ -1,0 +1,23 @@
+{
+    "item.kaleidoscope_lab.balance":"Balance",
+    "item.kaleidoscope_lab.globe":"Globe",
+    "item.kaleidoscope_lab.microscope":"Microscope",
+    "item.kaleidoscope_lab.paper_with_ink":"Paper With Ink",
+    "item.kaleidoscope_lab.paper":"Draft Paper",
+    "item.kaleidoscope_lab.ink":"Ink Bottle",
+    "item.kaleidoscope_lab.spyglass":"Spyglass",
+    "item.kaleidoscope_lab.tube":"Test Tube",
+
+    "advancements.kaleidoscope_lab.tutorial.spyglass.title":"Spyglass",
+    "advancements.kaleidoscope_lab.tutorial.spyglass.description":"Essential decorations for the study.\n\n§Lab\n\n\n\n\n\n",
+    "advancements.kaleidoscope_lab.tutorial.microscope.title":"Microscope",
+    "advancements.kaleidoscope_lab.tutorial.microscope.description":"Precision laboratory equipment.\n\n§Lab\n\n\n\n\n\n",
+    "advancements.kaleidoscope_lab.tutorial.globe.title":"Globe",
+    "advancements.kaleidoscope_lab.tutorial.globe.description":"Hello, World!\n\n§Lab\n\n\n\n\n\n",
+    "advancements.kaleidoscope_lab.tutorial.balance.title":"Balance",
+    "Balance.kaleidoscope_lab.tutorial.balance.description":"Interact to switch its status.\n\n§Lab\n\n\n\n\n\n",
+    "advancements.kaleidoscope_lab.tutorial.paper_with_ink.title":"Paper With Ink",
+    "advancements.kaleidoscope_lab.tutorial.paper_with_ink.description":"Ink, quill pens, and unfinished poems.\n\n§Lab\n\n\n\n\n\n",
+    "advancements.kaleidoscope_lab.tutorial.tube.title":"Test Tube Rack",
+    "advancements.kaleidoscope_lab.tutorial.tube.description":"You can stack it up to a maximum of 3.\n\n§Lab\n\n\n\n\n\n"
+}

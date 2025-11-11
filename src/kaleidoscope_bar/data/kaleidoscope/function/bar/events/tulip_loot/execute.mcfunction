@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot {"pools":[{rolls:1,entries:[{type:"item",name:"red_tulip"},{type:"item",name:"orange_tulip"},{type:"item",name:"white_tulip"},{type:"item",name:"pink_tulip"},]}]}

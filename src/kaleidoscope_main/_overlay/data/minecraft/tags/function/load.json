@@ -4,6 +4,11 @@
         "lay:macro/load",
         "kaleidoscope:load",
         {"required": false,"id": "kaleidoscope:doll/load"},
-        {"required": false,"id": "kaleidoscope:cookery_plus/load"}
+        {"required": false,"id": "kaleidoscope:cookery_plus/load"},
+        {"required": false,"id":  "kaleidoscope:chinese/load"},
+        {"required": false,"id":  "kaleidoscope:bar/load"},
+        {"required": false,"id":  "kaleidoscope:lab/load"},
+        {"required": false,"id":  "kaleidoscope:holiday/load"},
+         {"required": false,"id":  "kaleidoscope:road/load"}
     ]
 }

@@ -1,0 +1,24 @@
+{
+    "type": "stonecutting",
+    "ingredient": "#kaleidoscope:lanterns",
+    "result": {
+        "id": "cow_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "kaleidoscope_holiday:lights/7",
+            "minecraft:item_name": {
+                "translate": "item.kaleidoscope_holiday.lights"
+            },
+            "lore": [],
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "kaleidoscope_holiday:lights/7"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "item.kaleidoscope_lab.balance":"天平",
+    "item.kaleidoscope_lab.globe":"地球仪",
+    "item.kaleidoscope_lab.microscope":"显微镜",
+    "item.kaleidoscope_lab.paper_with_ink":"纸与笔",
+    "item.kaleidoscope_lab.paper":"稿纸",
+    "item.kaleidoscope_lab.ink":"墨水瓶",
+    "item.kaleidoscope_lab.spyglass":"望远镜",
+    "item.kaleidoscope_lab.tube":"试管",
+
+    "advancements.kaleidoscope_lab.tutorial.spyglass.title":"望远镜",
+    "advancements.kaleidoscope_lab.tutorial.spyglass.description":"书房必备摆饰。\n\n§9书房\n\n\n\n\n\n",
+    "advancements.kaleidoscope_lab.tutorial.microscope.title":"显微镜",
+    "advancements.kaleidoscope_lab.tutorial.microscope.description":"精密实验用具。\n\n§9书房\n\n\n\n\n\n",
+    "advancements.kaleidoscope_lab.tutorial.globe.title":"地球仪",
+    "advancements.kaleidoscope_lab.tutorial.globe.description":"你好，世界！\n\n§9书房\n\n\n\n\n\n",
+    "advancements.kaleidoscope_lab.tutorial.balance.title":"天平",
+    "advancements.kaleidoscope_lab.tutorial.balance.description":"右键可改变平衡状态。\n\n§9书房\n\n\n\n\n\n",
+    "advancements.kaleidoscope_lab.tutorial.paper_with_ink.title":"纸与笔",
+    "advancements.kaleidoscope_lab.tutorial.paper_with_ink.description":"墨水、羽毛笔，和未写完的诗。\n\n§9书房\n\n\n\n\n\n",
+    "advancements.kaleidoscope_lab.tutorial.tube.title":"试管",
+    "advancements.kaleidoscope_lab.tutorial.tube.description":"实验用具。每个试管架最多可放置3支试管。\n\n§9书房\n\n\n\n\n\n"
+}

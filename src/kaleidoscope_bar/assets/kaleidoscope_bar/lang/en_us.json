@@ -1,0 +1,36 @@
+{
+    "item.kaleidoscope_chinese.blackboard":"Display Board",
+
+    "dialog.kaleidoscope.blackboard.title":"Edit display board massage",
+    "dialog.kaleidoscope.blackboard.yes":"Done",
+    "dialog.kaleidoscope.blackboard.no":"Cancel",
+    "dialog.kaleidoscope.blackboard.text_area":"Text",
+    "dialog.kaleidoscope.blackboard.color":"Color",
+    "dialog.kaleidoscope.blackboard.style":"Style",
+
+    "dialog.kaleidoscope.blackboard.color.white":"White",
+    "dialog.kaleidoscope.blackboard.color.yellow":"Yellow",
+    "dialog.kaleidoscope.blackboard.color.light_purple":"Light Purple",
+    "dialog.kaleidoscope.blackboard.color.red":"Red",
+    "dialog.kaleidoscope.blackboard.color.aqua":"Aqua",
+    "dialog.kaleidoscope.blackboard.color.green":"Green",
+    "dialog.kaleidoscope.blackboard.color.blue":"Blue",
+    "dialog.kaleidoscope.blackboard.color.dark_gray":"Dark Gray",
+    "dialog.kaleidoscope.blackboard.color.gray":"Gray",
+    "dialog.kaleidoscope.blackboard.color.gold":"Gold",
+    "dialog.kaleidoscope.blackboard.color.dark_purple":"Dark Purple",
+    "dialog.kaleidoscope.blackboard.color.dark_red":"Dark Red",
+    "dialog.kaleidoscope.blackboard.color.dark_aqua":"Dark Aqua",
+    "dialog.kaleidoscope.blackboard.color.dark_green":"Dark Green",
+    "dialog.kaleidoscope.blackboard.color.dark_blue":"Dark Blue",
+    "dialog.kaleidoscope.blackboard.color.black":"Black",
+    
+    "dialog.kaleidoscope.blackboard.style.none":"None",
+    "dialog.kaleidoscope.blackboard.style.bold":"Bold",
+    "dialog.kaleidoscope.blackboard.style.italic":"Italic",
+    "dialog.kaleidoscope.blackboard.style.underlined":"Underlined",
+    "dialog.kaleidoscope.blackboard.style.strikethrough":"Strikethrough",
+    
+    "advancements.kaleidoscope_bar.tutorial.blackboard.title":"Display Board",
+    "advancements.kaleidoscope_bar.tutorial.blackboard.description":"Decorate the board with different flowers, or cut them out with a pair of shears. \n if Commands allowed, you can interact with the board to edit the text it displays.\n\n§9Bar\n\n\n\n\n\n"
+}

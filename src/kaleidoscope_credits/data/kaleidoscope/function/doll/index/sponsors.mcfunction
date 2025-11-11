@@ -1051,3 +1051,55 @@ data modify storage dc:index keylist append value "doll_s_lfly_a"
 #【LFly_B】
 data modify storage dc:index input.doll_s_lfly_b set value {loot_table:"kaleidoscope:doll/s/lfly_b",template:"doll"}
 data modify storage dc:index keylist append value "doll_s_lfly_b"
+
+#【changhaiming】
+data modify storage dc:index input.doll_s_changhaiming set value {loot_table:"kaleidoscope:doll/s/changhaiming",template:"doll"}
+data modify storage dc:index keylist append value "doll_s_changhaiming"
+
+#【Haruka_Aoba】
+data modify storage dc:index input.doll_s_haruka_aoba set value {loot_table:"kaleidoscope:doll/s/haruka_aoba",template:"doll"}
+data modify storage dc:index keylist append value "doll_s_haruka_aoba"
+
+#【JDK_SHINANO】
+data modify storage dc:index input.doll_s_jdk_shinano set value {loot_table:"kaleidoscope:doll/s/jdk_shinano",template:"doll"}
+data modify storage dc:index keylist append value "doll_s_jdk_shinano"
+
+#【kunkun278】
+data modify storage dc:index input.doll_s_kunkun278 set value {loot_table:"kaleidoscope:doll/s/kunkun278",template:"doll"}
+data modify storage dc:index keylist append value "doll_s_kunkun278"
+
+#【Muyan_Lor】
+data modify storage dc:index input.doll_s_muyan_lor set value {loot_table:"kaleidoscope:doll/s/muyan_lor",template:"doll"}
+data modify storage dc:index keylist append value "doll_s_muyan_lor"
+
+#【rexuexilanhua】
+data modify storage dc:index input.doll_s_rexuexilanhua set value {loot_table:"kaleidoscope:doll/s/rexuexilanhua",template:"doll"}
+data modify storage dc:index keylist append value "doll_s_rexuexilanhua"
+
+#【Sekiort】
+data modify storage dc:index input.doll_s_sekiort set value {loot_table:"kaleidoscope:doll/s/sekiort",template:"doll"}
+data modify storage dc:index keylist append value "doll_s_sekiort"
+
+#【shutuzhuangxibao】
+data modify storage dc:index input.doll_s_shutuzhuangxibao set value {loot_table:"kaleidoscope:doll/s/shutuzhuangxibao",template:"doll"}
+data modify storage dc:index keylist append value "doll_s_shutuzhuangxibao"
+
+#【sliver3at】
+data modify storage dc:index input.doll_s_sliver3at set value {loot_table:"kaleidoscope:doll/s/sliver3at",template:"doll"}
+data modify storage dc:index keylist append value "doll_s_sliver3at"
+
+#【Tang70422】
+data modify storage dc:index input.doll_s_tang70422 set value {loot_table:"kaleidoscope:doll/s/tang70422",template:"doll"}
+data modify storage dc:index keylist append value "doll_s_tang70422"
+
+#【Txibao】
+data modify storage dc:index input.doll_s_txibao set value {loot_table:"kaleidoscope:doll/s/txibao",template:"doll"}
+data modify storage dc:index keylist append value "doll_s_txibao"
+
+#【Xycbs】
+data modify storage dc:index input.doll_s_xycbs set value {loot_table:"kaleidoscope:doll/s/xycbs",template:"doll"}
+data modify storage dc:index keylist append value "doll_s_xycbs"
+
+#【Halgus】
+data modify storage dc:index input.doll_s_halgus set value {loot_table:"kaleidoscope:doll/s/halgus",template:"doll"}
+data modify storage dc:index keylist append value "doll_s_halgus"

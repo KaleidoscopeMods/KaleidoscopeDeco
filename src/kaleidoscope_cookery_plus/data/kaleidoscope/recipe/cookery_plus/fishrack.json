@@ -6,7 +6,7 @@
     ],
     "key": {
         "*": "stick",
-        "#": "chain"
+        "#": "#kaleidoscope:chains"
     },
     "result": {
         "id": "cow_spawn_egg",

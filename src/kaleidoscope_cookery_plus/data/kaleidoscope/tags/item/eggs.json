@@ -1,0 +1,7 @@
+{
+    "values": [
+        {"id":"blue_egg","required": false},
+        {"id":"brown_egg","required": false},
+        "egg"
+    ]
+}

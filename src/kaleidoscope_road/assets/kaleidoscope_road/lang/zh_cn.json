@@ -1,0 +1,22 @@
+{
+    "item.kaleidoscope_road.road_block":"路障",
+    "item.kaleidoscope_road.traffic_cone_1":"红色锥形路障",
+    "item.kaleidoscope_road.traffic_cone_2":"黑色锥形路障",
+    "item.kaleidoscope_road.warning_sign":"警告标牌",
+    
+    "lore.kaleidoscope_road.warning_sign.creeper":"注意苦力怕",
+    "lore.kaleidoscope_road.warning_sign.radiation":"注意声波",
+    "lore.kaleidoscope_road.warning_sign.risk":"注意危险",
+    "lore.kaleidoscope_road.warning_sign.blbl":"注意闪电",
+    "lore.kaleidoscope_road.warning_sign.fight":"禁止打斗",
+    "lore.kaleidoscope_road.warning_sign.enter":"禁止进入",
+    "lore.kaleidoscope_road.warning_sign.fire":"禁止点火",
+    "lore.kaleidoscope_road.warning_sign.tnt":"严禁爆炸物",
+
+    "advancements.kaleidoscope_road.tutorial.road_block.title":"路障",
+    "advancements.kaleidoscope_road.tutorial.road_block.description":"前方禁止通行。\n\n§9街道\n\n\n\n\n\n",
+    "advancements.kaleidoscope_road.tutorial.traffic_cone.title":"雪糕筒",
+    "advancements.kaleidoscope_road.tutorial.traffic_cone.description":"最经典的路障。\n\n§9街道\n\n\n\n\n\n",
+    "advancements.kaleidoscope_road.tutorial.warning_sign.title":"警告标牌",
+    "advancements.kaleidoscope_road.tutorial.warning_sign.description":"适合粘贴在墙上作为警示。\n\n§9街道\n\n\n\n\n\n"
+}

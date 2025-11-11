@@ -118,6 +118,132 @@
             "chars": ["\u0017"],
             "ascent": 48,
             "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/bell.png",
+            "chars": ["\u0018"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/lights.png",
+            "chars": ["\u0019"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/sunshade.png",
+            "chars": ["\u0020"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/red_lantern.png",
+            "chars": ["\u0021"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/blessing_belt.png",
+            "chars": ["\u0022"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/censor.png",
+            "chars": ["\u0023"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/river_lamp.png",
+            "chars": ["\u0024"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/blackboard.png",
+            "chars": ["\u0025"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/road_block.png",
+            "chars": ["\u0026"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/traffic_cone_red.png",
+            "chars": ["\u0027"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/traffic_cone_yellow.png",
+            "chars": ["\u0028"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/warning_signs.png",
+            "chars": ["\u0029"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/spyglass.png",
+            "chars": ["\u0030"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/microscope.png",
+            "chars": ["\u0031"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/globe.png",
+            "chars": ["\u0032"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/balance.png",
+            "chars": ["\u0033"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/paper_with_ink.png",
+            "chars": ["\u0034"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/tube.png",
+            "chars": ["\u0035"],
+            "ascent": 48,
+            "height": 48
         }
     ]
 }

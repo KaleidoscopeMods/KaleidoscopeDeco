@@ -1,0 +1,23 @@
+#【kaleidoscope_blackboard】展板通用模板
+data modify storage dc:template kaleidoscope_blackboard set value {\
+    template:"kaleidoscope",\
+    modsize:[1f,1f,1f],\
+    interactsize:{height:1.5f,width:0.7f},\
+    type:"hitbox",\
+    "extra_data":{width:0.7f,offset:0.3f},\
+    events:{\
+        construct:[\
+            {event:"sound",args:{sound:"block.wood.place"}},\
+            {event:"custom",args:{func:"kaleidoscope:bar/events/board_interaction"}}\
+        ],\
+        "update":[\
+            {event:"custom",args:{func:"kaleidoscope:bar/events/board_interaction_reset"}}\
+        ],\
+        left_click:{\
+            fallback:{event:"destruct",args:{item:{},particle:"block{block_state:\"black_concrete\"}",sound:"block.wood.break"}}\
+        },\
+        right_click:{\
+            "fallback":{event:"custom",args:{func:"kaleidoscope:bar/events/set_text"}}\
+        }\
+    }\
+}

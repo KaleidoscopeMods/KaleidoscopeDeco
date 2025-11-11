@@ -1,0 +1,32 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " * ",
+        "*#*",
+        " * "
+    ],
+    "key": {
+        "*": "red_dye",
+        "#": "#kaleidoscope:lanterns"
+    },
+    "result": {
+        "id": "cow_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "kaleidoscope_chinese:lantern",
+            "minecraft:item_name": {
+                "translate": "item.kaleidoscope_chinese.lantern"
+            },
+            "lore": [],
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "kaleidoscope_chinese:lantern"
+                }
+            }
+        }
+    }
+}

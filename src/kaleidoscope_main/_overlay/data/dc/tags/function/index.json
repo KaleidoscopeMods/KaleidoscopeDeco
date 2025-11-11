@@ -14,6 +14,11 @@
         {
             "id": "#kaleidoscope:cookery_plus_index",
             "required": false
-        }
+        },
+        {"required": false,"id": "#kaleidoscope:lab_index"},
+        {"required": false,"id": "#kaleidoscope:bar_index"},
+        {"required": false,"id": "#kaleidoscope:chinese_index"},
+        {"required": false,"id": "#kaleidoscope:road_index"},
+        {"required": false,"id": "#kaleidoscope:holiday_index"}
     ]
 }

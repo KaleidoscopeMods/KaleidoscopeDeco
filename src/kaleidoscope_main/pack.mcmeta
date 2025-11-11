@@ -1,14 +1,15 @@
 {
 	"pack":{
-		"pack_format": 64,
-		"description":"森罗物语：装饰",
-        "min_format":[64,0],
+		"pack_format": 65,
+        "supported_formats": {"min_inclusive": 65, "max_inclusive": 81},
+		"description":"森罗物语：数据包版",
+        "min_format":[65,0],
         "max_format":[1000,0]
 	},
 	"overlays": {
         "entries": [
             {
-                "directory": "dc_v2.0.0",
+                "directory": "dc_v2.0.1",
                 "formats": [71, 81],
                 "min_format":[71,0],
                 "max_format":[1000,0]

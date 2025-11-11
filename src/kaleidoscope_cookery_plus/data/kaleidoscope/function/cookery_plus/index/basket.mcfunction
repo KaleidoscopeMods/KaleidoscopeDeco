@@ -20,7 +20,7 @@ data modify storage dc:index input.basket_empty set value {\
                 {\
                     event:"trans",\
                     args:{index:"basket_egg_1",func:"kaleidoscope:cookery_plus/trans/basket/add_egg"},\
-                    item:{id:"#kaleidoscope:cookery_plus/eggs"}\
+                    item:{id:"#kaleidoscope:eggs"}\
                 },\
                 {\
                     event:"trans",\
@@ -253,7 +253,7 @@ data modify storage dc:index input.basket_egg_1 set value {\
                 {\
                     event:"trans",\
                     args:{index:"basket_egg_2",func:"kaleidoscope:cookery_plus/trans/basket/add_egg"},\
-                    item:{id:"#kaleidoscope:cookery_plus/eggs"}\
+                    item:{id:"#kaleidoscope:eggs"}\
                 },\
                 {\
                     event:"trans",\
@@ -287,7 +287,7 @@ data modify storage dc:index input.basket_egg_2 set value {\
                 {\
                     event:"trans",\
                     args:{index:"basket_egg_3",func:"kaleidoscope:cookery_plus/trans/basket/add_egg"},\
-                    item:{id:"#kaleidoscope:cookery_plus/eggs"}\
+                    item:{id:"#kaleidoscope:eggs"}\
                 },\
                 {\
                     event:"trans",\

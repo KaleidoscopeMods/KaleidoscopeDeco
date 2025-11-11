@@ -15,3 +15,6 @@ data modify storage dc:index keylist append value "943"
 data modify storage dc:index input.unknown set value {loot_table:"kaleidoscope:doll/s/unknown",template:"doll"}
 data modify storage dc:index keylist append value "unknown"
 
+#【grainalcohol】GRAINALCOHOL
+data modify storage dc:index input.grainalcohol set value {loot_table:"kaleidoscope:doll/s/grainalcohol",template:"doll"}
+data modify storage dc:index keylist append value "grainalcohol"

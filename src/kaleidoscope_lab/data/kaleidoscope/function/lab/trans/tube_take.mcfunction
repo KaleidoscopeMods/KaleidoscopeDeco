@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot kaleidoscope:lab/tube

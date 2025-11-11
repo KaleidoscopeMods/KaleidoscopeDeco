@@ -1,0 +1,20 @@
+{
+    "parent":"kaleidoscope:_tutorial/chinese/lantern",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_chinese:blessing_belt"
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope_chinese.tutorial.blessing_belt.title"},
+        "description": [{"font": "default","translate": "advancements.kaleidoscope_chinese.tutorial.blessing_belt.description","color": "green"},{"font": "kaleidoscope:recipes","text": "\u0022","color": "white"}],
+        "show_toast": false,
+        "announce_to_chat":false
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    }
+}

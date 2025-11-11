@@ -1,0 +1,1 @@
+$data modify storage kaleidoscope:bar blackboard.dialog.body.yes.action.template set value "data modify entity @n[tag=k_board_extra_interaction,type=interaction,scores={dc_uid=$(score)}] CustomName set value $(value)"

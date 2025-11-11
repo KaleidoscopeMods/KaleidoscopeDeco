@@ -1,0 +1,67 @@
+[
+    {
+        "condition": "any_of",
+        "terms": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type_specific": {
+                        "type": "player",
+                        "gamemode":["creative"] 
+                    } 
+                }
+            },
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand":{
+                            "items": "#pickaxes"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "condition": "inverted",
+        "term": {
+            "condition": "any_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "equipment": {
+                            "mainhand":{
+                                "predicates": {
+                                    "custom_data": {
+                                        "kaleidoscope":"move"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "equipment": {
+                            "mainhand":{
+                                "predicates": {
+                                    "custom_data": {
+                                        "kaleidoscope":"rotate"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    } 
+]
+

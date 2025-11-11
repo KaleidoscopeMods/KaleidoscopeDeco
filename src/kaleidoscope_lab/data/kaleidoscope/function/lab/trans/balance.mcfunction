@@ -1,0 +1,1 @@
+playsound block.copper.step block @a

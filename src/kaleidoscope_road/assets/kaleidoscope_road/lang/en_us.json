@@ -1,0 +1,22 @@
+{
+    "item.kaleidoscope_road.road_block":"Road Block",
+    "item.kaleidoscope_road.traffic_cone_1":"Red Traffic Cone",
+    "item.kaleidoscope_road.traffic_cone_2":"Black Traffic Cone",
+    "item.kaleidoscope_road.warning_sign":"Warning Sign",
+    
+    "lore.kaleidoscope_road.warning_sign.creeper":"Aware of Creeper",
+    "lore.kaleidoscope_road.warning_sign.radiation":"Aware of Sonic",
+    "lore.kaleidoscope_road.warning_sign.risk":"Aware of Danger",
+    "lore.kaleidoscope_road.warning_sign.blbl":"Aware of Lightning",
+    "lore.kaleidoscope_road.warning_sign.fight":"No Fighting",
+    "lore.kaleidoscope_road.warning_sign.enter":"No Enter",
+    "lore.kaleidoscope_road.warning_sign.fire":"No Fire",
+    "lore.kaleidoscope_road.warning_sign.tnt":"No Explosions",
+
+    "advancements.kaleidoscope_road.tutorial.road_block.title":"Road Block",
+    "advancements.kaleidoscope_road.tutorial.road_block.description":"No Entry.\n\n§9Street\n\n\n\n\n\n",
+    "advancements.kaleidoscope_road.tutorial.traffic_cone.title":"Traffic Cone",
+    "advancements.kaleidoscope_road.tutorial.traffic_cone.description":"The Classic one.\n\n§9Street\n\n\n\n\n\n",
+    "advancements.kaleidoscope_road.tutorial.warning_sign.title":"Warning Sign",
+    "advancements.kaleidoscope_road.tutorial.warning_sign.description":"Warnings on Walls.\n\n§9Street\n\n\n\n\n\n"
+}

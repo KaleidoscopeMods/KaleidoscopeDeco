@@ -1,0 +1,194 @@
+{
+    "type": "confirmation",
+    "title": {
+        "translate": "dialog.kaleidoscope.blackboard.title"
+    },
+    "yes": {
+        "label": {
+            "translate": "dialog.kaleidoscope.blackboard.yes"
+        },
+        "action": {
+            "type": "dynamic/run_command",
+            "template": "data modify entity @s CustomName set value {text:\"$(text)\",color:\"$(color)\",$(style)}"
+        }
+    },
+    "no": {
+        "label": {
+            "translate": "dialog.kaleidoscope.blackboard.no"
+        }
+    },
+    "pause": true,
+    "inputs": [
+        {
+            "type": "text",
+            "key": "text",
+            "label": {
+                "translate": "dialog.kaleidoscope.blackboard.text_area"
+            }
+        },
+        {
+            "type": "single_option",
+            "key": "color",
+            "label": {
+                "translate": "dialog.kaleidoscope.blackboard.color"
+            },
+            "options": [
+                {
+                    "id": "white",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.color.white",
+                        "color": "white"
+                    }
+                },
+                {
+                    "id": "yellow",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.color.yellow",
+                        "color": "yellow"
+                    }
+                },
+                {
+                    "id": "light_purple",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.color.light_purple",
+                        "color": "light_purple"
+                    }
+                },
+                {
+                    "id": "red",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.color.red",
+                        "color": "red"
+                    }
+                },
+                {
+                    "id": "aqua",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.color.aqua",
+                        "color": "aqua"
+                    }
+                },
+                {
+                    "id": "green",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.color.green",
+                        "color": "green"
+                    }
+                },
+                {
+                    "id": "blue",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.color.blue",
+                        "color": "blue"
+                    }
+                },
+                {
+                    "id": "dark_gray",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.color.dark_gray",
+                        "color": "dark_gray"
+                    }
+                },
+                {
+                    "id": "gray",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.color.gray",
+                        "color": "gray"
+                    }
+                },
+                {
+                    "id": "gold",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.color.gold",
+                        "color": "gold"
+                    }
+                },
+                {
+                    "id": "dark_purple",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.color.dark_purple",
+                        "color": "dark_purple"
+                    }
+                },
+                {
+                    "id": "dark_red",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.color.dark_red",
+                        "color": "dark_red"
+                    }
+                },
+                {
+                    "id": "dark_aqua",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.color.dark_aqua",
+                        "color": "dark_aqua"
+                    }
+                },
+                {
+                    "id": "dark_green",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.color.dark_green",
+                        "color": "dark_green"
+                    }
+                },
+                {
+                    "id": "dark_blue",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.color.dark_blue",
+                        "color": "dark_blue"
+                    }
+                },
+                {
+                    "id": "black",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.color.black",
+                        "color": "black"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "single_option",
+            "key": "style",
+            "label": {
+                "translate": "dialog.kaleidoscope.blackboard.style"
+            },
+            "options": [
+                {
+                    "id": "bold:false,italic:false,underlined:false,strikethrough:false",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.style.none"
+                    }
+                },
+                {
+                    "id": "bold:true,italic:false,underlined:false,strikethrough:false",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.style.bold",
+                        "bold": true
+                    }
+                },
+                {
+                    "id": "bold:false,italic:true,underlined:false,strikethrough:false",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.style.italic",
+                        "italic": true
+                    }
+                },
+                {
+                    "id": "bold:false,italic:false,underlined:true,strikethrough:false",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.style.underlined",
+                        "underlined": true
+                    }
+                },
+                {
+                    "id": "bold:false,italic:false,underlined:false,strikethrough:true",
+                    "display": {
+                        "translate": "dialog.kaleidoscope.blackboard.style.strikethrough",
+                        "strikethrough": true
+                    }
+                }
+            ]
+        }
+    ]
+}

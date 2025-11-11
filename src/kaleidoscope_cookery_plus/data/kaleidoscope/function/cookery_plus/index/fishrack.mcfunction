@@ -20,7 +20,7 @@ data modify storage dc:index input.fishrack_0 set value {\
                 {\
                     event:"trans",\
                     args:{index:"fishrack_1",func:"kaleidoscope:cookery_plus/trans/fishrack/add_fish"},\
-                    item:{id:"#kaleidoscope:cookery_plus/fish"}\
+                    item:{id:"#kaleidoscope:fish"}\
                 },\
             ]\
         }\
@@ -58,7 +58,7 @@ data modify storage dc:index input.fishrack_1 set value {\
                 {\
                     event:"trans",\
                     args:{index:"fishrack_2",func:"kaleidoscope:cookery_plus/trans/fishrack/add_fish"},\
-                    item:{id:"#kaleidoscope:cookery_plus/fish"}\
+                    item:{id:"#kaleidoscope:fish"}\
                 },\
                 {\
                     event:"trans",\
@@ -101,7 +101,7 @@ data modify storage dc:index input.fishrack_2 set value {\
                 {\
                     event:"trans",\
                     args:{index:"fishrack_3",func:"kaleidoscope:cookery_plus/trans/fishrack/add_fish"},\
-                    item:{id:"#kaleidoscope:cookery_plus/fish"}\
+                    item:{id:"#kaleidoscope:fish"}\
                 },\
                 {\
                     event:"trans",\

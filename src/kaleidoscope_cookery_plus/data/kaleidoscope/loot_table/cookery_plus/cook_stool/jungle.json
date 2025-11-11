@@ -33,7 +33,8 @@
                                 "item_name": {"translate":"item.kaleidoscope.cook_stool.jungle"},
                                 "equippable": {
                                     "slot": "head",
-                                    "equip_sound": "block.wood.place"
+                                    "equip_sound": "block.wood.place",
+                                    "swappable":false
                                 }
                             }
                         }

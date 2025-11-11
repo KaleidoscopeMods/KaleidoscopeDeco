@@ -1,0 +1,20 @@
+{
+    "parent":"kaleidoscope:_tutorial/lab/microscope",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_lab:globe"
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope_lab.tutorial.globe.title"},
+        "description": [{"font": "default","translate": "advancements.kaleidoscope_lab.tutorial.globe.description","color": "green"},{"font": "kaleidoscope:recipes","text": "\u0032","color": "white"}],
+        "show_toast": false,
+        "announce_to_chat":false
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    }
+}

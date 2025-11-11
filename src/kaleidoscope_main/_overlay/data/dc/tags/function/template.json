@@ -1,7 +1,12 @@
 {
     "values": [
         {"required": false,"id":  "kaleidoscope:doll/template"},
-        {"required": false,"id":  "kaleidoscope:cookery_plus/template"}
+        {"required": false,"id":  "kaleidoscope:cookery_plus/template"},
+        {"required": false,"id":  "kaleidoscope:chinese/template"},
+        {"required": false,"id":  "kaleidoscope:bar/template"},
+        {"required": false,"id":  "kaleidoscope:lab/template"},
+        {"required": false,"id":  "kaleidoscope:holiday/template"},
+         {"required": false,"id":  "kaleidoscope:road/template"}
         
     ]
 }

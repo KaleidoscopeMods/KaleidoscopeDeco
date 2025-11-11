@@ -1,0 +1,14 @@
+{
+    "values": [
+        {"required": false,"id": "chain"},
+        {"required": false,"id": "iron_chain"},
+        {"required": false,"id": "copper_chain"},
+        {"required": false,"id": "exposed_copper_chain"},
+        {"required": false,"id": "weathered_copper_chain"},
+        {"required": false,"id": "oxidized_copper_chain"},
+        {"required": false,"id": "waxed_copper_chain"},
+        {"required": false,"id": "waxed_exposed_copper_chain"},
+        {"required": false,"id": "waxed_weathered_copper_chain"},
+        {"required": false,"id": "waxed_oxidized_copper_chain"}
+    ]
+}

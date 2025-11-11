@@ -1,5 +1,5 @@
 {
-    "parent":"kaleidoscope:_tutorial/wand",
+    "parent":"kaleidoscope:_tutorial/cookery/basket",
     "display": {
         "icon": {
             "id": "firework_star",

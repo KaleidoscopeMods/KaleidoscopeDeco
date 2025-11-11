@@ -1,0 +1,13 @@
+{
+    "item.kaleidoscope_holiday.lights":"Light String",
+    "item.kaleidoscope_holiday.sunshade":"Sunshade Umbrella",
+    "item.kaleidoscope_holiday.sunshade_banner":"Sunshade Canopy",
+    "item.kaleidoscope_holiday.bell":"Tiny Bells",
+
+    "advancements.kaleidoscope_holiday.tutorial.bell.title":"Tiny Bells",
+    "advancements.kaleidoscope_holiday.tutorial.bell.description":"Suitable for the ceiling, and you can modify its height using the Move Wand.\n\n§9Holiday\n\n\n\n\n\n",
+    "advancements.kaleidoscope_holiday.tutorial.lights.title":"Light String",
+    "advancements.kaleidoscope_holiday.tutorial.lights.description":"You can switch its variants using the Transform Wand.\n\n§9Holiday\n\n\n\n\n\n",
+    "advancements.kaleidoscope_holiday.tutorial.sunshade.title":"Sunshade Umbrellas and Canopies",
+    "advancements.kaleidoscope_holiday.tutorial.sunshade.description":"You can change its color using the Transform Wand.\n\n§9Holiday\n\n\n\n\n\n"
+}

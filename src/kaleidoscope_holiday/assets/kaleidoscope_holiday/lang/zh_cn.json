@@ -1,0 +1,13 @@
+{
+    "item.kaleidoscope_holiday.lights":"小灯串",
+    "item.kaleidoscope_holiday.sunshade":"遮阳伞",
+    "item.kaleidoscope_holiday.sunshade_banner":"遮阳棚",
+    "item.kaleidoscope_holiday.bell":"小铃铛",
+
+    "advancements.kaleidoscope_holiday.tutorial.bell.title":"小铃铛",
+    "advancements.kaleidoscope_holiday.tutorial.bell.description":"适合挂在天花板，可用移动法杖控制高度\n\n§9假日\n\n\n\n\n\n",
+    "advancements.kaleidoscope_holiday.tutorial.lights.title":"小灯串",
+    "advancements.kaleidoscope_holiday.tutorial.lights.description":"可使用转换法杖切换变种\n\n§9假日\n\n\n\n\n\n",
+    "advancements.kaleidoscope_holiday.tutorial.sunshade.title":"遮阳棚/遮阳伞",
+    "advancements.kaleidoscope_holiday.tutorial.sunshade.description":"可使用转换法杖改变颜色\n\n§9假日\n\n\n\n\n\n"
+}

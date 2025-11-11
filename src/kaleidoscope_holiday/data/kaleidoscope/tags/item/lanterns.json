@@ -1,0 +1,14 @@
+{
+    "values": [
+        {"required": false,"id": "lantern"},
+        {"required": false,"id": "soul_lantern"},
+        {"required": false,"id": "copper_lantern"},
+        {"required": false,"id": "exposed_copper_lantern"},
+        {"required": false,"id": "weathered_copper_lantern"},
+        {"required": false,"id": "oxidized_copper_lantern"},
+        {"required": false,"id": "waxed_copper_lantern"},
+        {"required": false,"id": "waxed_exposed_copper_lantern"},
+        {"required": false,"id": "waxed_weathered_copper_lantern"},
+        {"required": false,"id": "waxed_oxidized_copper_lantern"}
+    ]
+}

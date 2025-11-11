@@ -1,0 +1,30 @@
+{
+    "type": "stonecutting",
+    "ingredient": "paper",
+    "result": {
+        "id": "cow_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "kaleidoscope_road:warning_sign/3",
+            "minecraft:item_name": {
+                "translate": "item.kaleidoscope_road.warning_sign"
+            },
+            "lore": [
+                {
+                    "translate": "lore.kaleidoscope_road.warning_sign.risk",
+                    "color": "gray",
+                    "italic": false
+                }
+            ],
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "kaleidoscope_road:warning_sign_3"
+                }
+            }
+        }
+    }
+}

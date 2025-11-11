@@ -1,0 +1,15 @@
+{
+    "item.kaleidoscope_chinese.blessing_belt":"Blessing Belt",
+    "item.kaleidoscope_chinese.censor":"Censor",
+    "item.kaleidoscope_chinese.lantern":"Chinese Lantern",
+    "item.kaleidoscope_chinese.river_lamp":"River Lamp",
+
+    "advancements.kaleidoscope_chinese.tutorial.blessing_belt.title":"Blessing Belt",
+    "advancements.kaleidoscope_chinese.tutorial.blessing_belt.description":"Common temple decorations, Suitable for hanging.\n\n§9Chinese style\n\n\n\n\n\n",
+    "advancements.kaleidoscope_chinese.tutorial.censor.title":"Censor",
+    "advancements.kaleidoscope_chinese.tutorial.censor.description":"Common temple decorations。\n\n§9Chinese style\n\n\n\n\n\n",
+    "advancements.kaleidoscope_chinese.tutorial.lantern.title":"Red Lantern",
+    "advancements.kaleidoscope_chinese.tutorial.lantern.description":"Classic Chinese elements.\n\n§9Chinese style\n\n\n\n\n\n",
+    "advancements.kaleidoscope_chinese.tutorial.river_lamp.title":"River Lamp",
+    "advancements.kaleidoscope_chinese.tutorial.river_lamp.description":"Lotus-shaped River Lamp. Suitable on water. You can change its color using the Transform Wand.\n\n§9Chinese style\n\n\n\n\n\n"
+}

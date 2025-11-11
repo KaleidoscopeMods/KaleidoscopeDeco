@@ -1,0 +1,20 @@
+{
+    "parent":"kaleidoscope:_tutorial/lab/balance",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_lab:paper_with_ink"
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope_lab.tutorial.paper_with_ink.title"},
+        "description": [{"font": "default","translate": "advancements.kaleidoscope_lab.tutorial.paper_with_ink.description","color": "green"},{"font": "kaleidoscope:recipes","text": "\u0034","color": "white"}],
+        "show_toast": false,
+        "announce_to_chat":false
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    }
+}

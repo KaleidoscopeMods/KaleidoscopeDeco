@@ -1,0 +1,36 @@
+{
+    "item.kaleidoscope_chinese.blackboard":"展板",
+
+    "dialog.kaleidoscope.blackboard.title":"编辑展板内容",
+    "dialog.kaleidoscope.blackboard.yes":"确认",
+    "dialog.kaleidoscope.blackboard.no":"取消",
+    "dialog.kaleidoscope.blackboard.text_area":"展示文字",
+    "dialog.kaleidoscope.blackboard.color":"颜色",
+    "dialog.kaleidoscope.blackboard.style":"样式",
+
+    "dialog.kaleidoscope.blackboard.color.white":"白色",
+    "dialog.kaleidoscope.blackboard.color.yellow":"黄色",
+    "dialog.kaleidoscope.blackboard.color.light_purple":"品红色",
+    "dialog.kaleidoscope.blackboard.color.red":"红色",
+    "dialog.kaleidoscope.blackboard.color.aqua":"天蓝色",
+    "dialog.kaleidoscope.blackboard.color.green":"黄绿色",
+    "dialog.kaleidoscope.blackboard.color.blue":"蓝色",
+    "dialog.kaleidoscope.blackboard.color.dark_gray":"深灰色",
+    "dialog.kaleidoscope.blackboard.color.gray":"灰色",
+    "dialog.kaleidoscope.blackboard.color.gold":"金色",
+    "dialog.kaleidoscope.blackboard.color.dark_purple":"紫色",
+    "dialog.kaleidoscope.blackboard.color.dark_red":"深红色",
+    "dialog.kaleidoscope.blackboard.color.dark_aqua":"青色",
+    "dialog.kaleidoscope.blackboard.color.dark_green":"绿色",
+    "dialog.kaleidoscope.blackboard.color.dark_blue":"深蓝色",
+    "dialog.kaleidoscope.blackboard.color.black":"黑色",
+    
+    "dialog.kaleidoscope.blackboard.style.none":"无",
+    "dialog.kaleidoscope.blackboard.style.bold":"加粗",
+    "dialog.kaleidoscope.blackboard.style.italic":"斜体",
+    "dialog.kaleidoscope.blackboard.style.underlined":"下划线",
+    "dialog.kaleidoscope.blackboard.style.strikethrough":"删除线",
+    
+    "advancements.kaleidoscope_bar.tutorial.blackboard.title":"展板",
+    "advancements.kaleidoscope_bar.tutorial.blackboard.description":"可使用各种花卉装饰展板，使用剪刀拆下对应花卉；\n管理员对展板右键可编辑展板展示内容。\n\n§9酒馆\n\n\n\n\n\n"
+}
