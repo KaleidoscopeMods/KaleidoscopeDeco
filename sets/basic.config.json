@@ -1,0 +1,13 @@
+{
+  "set_name": "Basic",
+  "description": "去除扩展包，仅包含基础装饰内容",
+  "modules": [
+    "kaleidoscope_doll",
+    "kaleidoscope_cookery",
+    "kaleidoscope_bar",
+    "kaleidoscope_chinese",
+    "kaleidoscope_holiday",
+    "kaleidoscope_lab",
+    "kaleidoscope_road"
+  ]
+}

@@ -1,7 +1,8 @@
 {
   "module_name": "kaleidoscope_doll_plus",
-  "description": "",
+  "description": "玩偶扩展包，依赖玩偶主题",
   "support_version": "*",
   "weight": 0,
-  "breaks": []
+  "breaks": [],
+  "bindings":["kaleidoscope_doll"]
 }

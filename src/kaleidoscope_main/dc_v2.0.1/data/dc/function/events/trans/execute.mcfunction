@@ -24,9 +24,17 @@ scoreboard players operation $tempid dc_temp = @s dc_uid
 execute as @e[distance=..5,tag=dc_display] if score @s dc_uid = $tempid dc_temp run tag @s add dc_trans_display
 execute as @e[distance=..5,tag=dc_interaction] if score @s dc_uid = $tempid dc_temp run tag @s add dc_trans_interaction
 
+## 保护原有参数
+data modify storage dc:temp trans.args set value {}
+data modify storage dc:temp trans.args set from storage dc events.temp.target.args
+
+
+## 调用更新模块执行转换操作
 $execute if score @s dc_exception matches 0 run data modify entity @s data.index set value "$(index)"
 execute if score @s dc_exception matches 0 run function dc:events/_update/execute
 
+## 还原参数
+data modify storage dc events.temp.target.args set from storage dc:temp trans.args
 
 execute if score @s dc_exception matches 0 if data storage dc events.temp.target.args.func run function dc:events/trans/func with storage dc events.temp.target.args
 tag @e remove dc_trans_pivot

@@ -1,5 +1,5 @@
 {
-    "parent":"kaleidoscope:_tutorial/credits",
+    "parent":"kaleidoscope:_tutorial/root",
     "display": {
         "icon": {
             "id": "firework_star",

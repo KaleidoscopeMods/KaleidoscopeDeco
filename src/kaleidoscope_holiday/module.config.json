@@ -1,6 +1,6 @@
 {
   "module_name": "kaleidoscope_holiday",
-  "description": "",
+  "description": "假日主题，适合度假与节日",
   "support_version": "*",
   "weight": 0,
   "breaks": []

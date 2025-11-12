@@ -1,6 +1,6 @@
 {
   "module_name": "kaleidoscope_road",
-  "description": "",
+  "description": "街道主题，适合室外与道路",
   "support_version": "*",
   "weight": 0,
   "breaks": []
