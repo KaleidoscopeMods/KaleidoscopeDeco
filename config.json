@@ -7,6 +7,6 @@
   "sets_path": "./sets",
   "icon": "./icon.png",
   "main_module": "kaleidoscope_main",
-  "suggested_version":"1.21.5-1.21.10",
+  "suggested_version":"1.21.10",
   "file_mode":true
 }
