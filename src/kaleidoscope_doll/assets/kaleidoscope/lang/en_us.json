@@ -25,7 +25,7 @@
     "item.kaleidoscope.doll_totem":"Doll of Undying",
     "lore.kaleidoscope.doll_gift_box":"§7Place and Interact to get a doll!",
     "lore.kaleidoscope.doll_machine":"§7Draw dolls through emerald tokens!",
-    "lore.kaleidoscope.doll.author":"Author: %s",
+    "lore.kaleidoscope.doll.author":"§r§7Author: %s",
     "entity.minecraft.silverfish_and_endermite":"Silverfish  and Endermite",
     "text.kaleidoscope.doll_machine_reject":"Draw dolls through emerald tokens!"
 }

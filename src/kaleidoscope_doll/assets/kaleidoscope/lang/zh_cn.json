@@ -25,7 +25,7 @@
     "item.kaleidoscope.doll_totem":"图腾玩偶",
     "lore.kaleidoscope.doll_gift_box":"§7放置后互动获取玩偶",
     "lore.kaleidoscope.doll_machine":"§7使用绿宝石作为代币抽奖！",
-    "lore.kaleidoscope.doll.author":"作者：%s",
+    "lore.kaleidoscope.doll.author":"§r§7作者：%s",
     "entity.minecraft.silverfish_and_endermite":"蠹虫和末影螨",
     "text.kaleidoscope.doll_machine_reject":"使用绿宝石进行抽奖！"
 }
