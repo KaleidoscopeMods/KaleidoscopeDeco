@@ -3,11 +3,11 @@
 
 [中文](https://github.com/KaleidoscopeMods/KaleidoscopeDeco/blob/master/README.md) | **English**
 
-Kaleidoscope: Deco is a spin-off mod of Kaleidoscope, driven entirely by Datapacks and targeting Minecraft version 1.21.5 and above. This mod emphasizes the decorative aspects of Kaleidoscope models, discarding complex functionalities and retaining only simple interactions.
+Kaleidoscope Deco is a spin-off mod of Kaleidoscope, driven entirely by Datapacks and targeting Minecraft version 1.21.5 and above. This mod emphasizes the decorative aspects of Kaleidoscope models, discarding complex functionalities and retaining only simple interactions.
 
 ## Modularity and Customization
 
-Kaleidoscope: Deco divides its content into multiple modules based on model themes. Players can use the [Minecraft Data Pack / Resource Pack Builder](https://build.xekr.dev/#/KaleidoscopeMods/KaleidoscopeDeco) to select the modules they wish to include, or download a complete data pack containing all modules directly from the Releases page.
+Kaleidoscope Deco divides its content into multiple modules based on model themes. Players can use the [Minecraft Data Pack / Resource Pack Builder](https://build.xekr.dev/#/KaleidoscopeMods/KaleidoscopeDeco) to select the modules they wish to include, or download a complete data pack containing all modules directly from the Releases page.
 
 Modules are categorized into **core packs** and **extension packs**. Core packs primarily contain decorative models, while extension packs add functional enhancements on top of their corresponding core packs. Players may choose modules according to their needs.
 
@@ -29,10 +29,10 @@ Modules are categorized into **core packs** and **extension packs**. Core packs 
 
 ## Open Source Licenses
 
-Kaleidoscope: Deco is open-sourced under the following licenses:  
+Kaleidoscope Deco is open-sourced under the following licenses:  
 - **Data Pack**: [GPL v3.0 License](https://www.gnu.org/licenses/gpl-3.0.html)  
 - **Resource Pack**: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 
 ## Feedback
 
-You can submit suggestions or report bugs for Kaleidoscope: Deco via [GitHub Issues](https://github.com/KaleidoscopeMods/KaleidoscopeDeco/issues)!
+You can submit suggestions or report bugs for Kaleidoscope Deco via [GitHub Issues](https://github.com/KaleidoscopeMods/KaleidoscopeDeco/issues)!
