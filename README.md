@@ -1,6 +1,8 @@
 # 森罗物语：装饰
 ![Minecraft](https://img.shields.io/badge/Minecraft-Java_Edition-brightgreen) ![Datapack](https://img.shields.io/badge/Datapack-1.21.5~1.21.10-orange) ![License](https://img.shields.io/badge/License-GPL_v3%20|%20CC%20BY--NC--SA%204.0-blue)
 
+**中文** | [English](https://github.com/KaleidoscopeMods/KaleidoscopeDeco/blob/master/README_EN.md)
+
 森罗物语：装饰是森罗物语的一个分支模组，由数据包驱动，面向1.21.5及以上的高版本，本模组侧重森罗模型的装饰属性，舍弃复杂的功能，仅保留简单的互动。
 
 ## 模块化与构建

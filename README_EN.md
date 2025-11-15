@@ -1,6 +1,8 @@
 # 森罗物语：装饰
 ![Minecraft](https://img.shields.io/badge/Minecraft-Java_Edition-brightgreen) ![Datapack](https://img.shields.io/badge/Datapack-1.21.5~1.21.10-orange) ![License](https://img.shields.io/badge/License-GPL_v3%20|%20CC%20BY--NC--SA%204.0-blue)
 
+[中文](https://github.com/KaleidoscopeMods/KaleidoscopeDeco/blob/master/README.md) | **English**
+
 Kaleidoscope: Deco is a spin-off mod of Kaleidoscope, driven entirely by Datapacks and targeting Minecraft version 1.21.5 and above. This mod emphasizes the decorative aspects of Kaleidoscope models, discarding complex functionalities and retaining only simple interactions.
 
 ## Modularity and Customization
