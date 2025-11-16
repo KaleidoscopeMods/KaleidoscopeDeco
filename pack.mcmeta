@@ -1,0 +1,31 @@
+{
+	"pack":{
+		"pack_format": 55,
+        "supported_formats": {"min_inclusive": 55, "max_inclusive": 64},
+		"description":"森罗物语：装饰",
+        "min_format":[55,0],
+        "max_format":[1000,0]
+	},
+	"overlays": {
+        "entries": [
+            {
+                "directory": "dc_v2.0.1",
+                "formats": [71, 81],
+                "min_format":[71,0],
+                "max_format":[1000,0]
+            },
+            {
+                "directory": "v1215",
+                "formats": [71, 81],
+                "min_format":[71,0],
+                "max_format":[1000,0]
+            },  
+            {
+                "directory": "_overlay",
+                "formats": [71, 81],
+                "min_format":[71,0],
+                "max_format":[1000,0]
+            }
+        ]
+    }
+}
