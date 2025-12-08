@@ -8,7 +8,7 @@
             "minecraft:item_model": "kaleidoscope:doll/s/unknown",
             "minecraft:item_name": {"translate": "item.kaleidoscope.doll"},
             "lore":[
-                {"translate": "lore.kaleidoscope.doll.author","with": [{"text":"Albert_Cat"}]}
+                {"translate": "lore.kaleidoscope.doll.author","with": [{"text":"Albert_Cat","italic": false,"color": "gray"}]}
             ],
             "minecraft:entity_data": {
                 "id": "minecraft:marker",

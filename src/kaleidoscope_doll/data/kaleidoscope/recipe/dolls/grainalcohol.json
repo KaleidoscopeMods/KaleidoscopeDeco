@@ -8,7 +8,7 @@
             "minecraft:item_model": "kaleidoscope:doll/s/grainalcohol",
             "minecraft:item_name": {"translate": "item.kaleidoscope.doll"},
             "lore":[
-                {"translate": "lore.kaleidoscope.doll.author","with": [{"text":"GRAINALCOHOL"}]}
+                {"translate": "lore.kaleidoscope.doll.author","with": [{"text":"GRAINALCOHOL","italic": false,"color": "gray"}]}
             ],
             "minecraft:entity_data": {
                 "id": "minecraft:marker",

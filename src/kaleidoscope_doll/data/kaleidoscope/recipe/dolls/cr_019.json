@@ -8,7 +8,7 @@
             "minecraft:item_model": "kaleidoscope:doll/s/cr_019",
             "minecraft:item_name": {"translate": "item.kaleidoscope.doll"},
             "lore":[
-                {"translate": "lore.kaleidoscope.doll.author","with": [{"text":"CR_019"}]}
+                {"translate": "lore.kaleidoscope.doll.author","with": [{"text":"CR_019","italic": false,"color": "gray"}]}
             ],
             "minecraft:entity_data": {
                 "id": "minecraft:marker",
