@@ -1,9 +1,9 @@
 {
 	"pack":{
-		"pack_format": 55,
-        "supported_formats": {"min_inclusive": 55, "max_inclusive": 64},
-		"description":"森罗物语：装饰",
-        "min_format":[55,0],
+		"pack_format": 65,
+        "supported_formats": {"min_inclusive": 65, "max_inclusive": 81},
+		"description":"森罗物语：数据包版",
+        "min_format":[65,0],
         "max_format":[1000,0]
 	},
 	"overlays": {

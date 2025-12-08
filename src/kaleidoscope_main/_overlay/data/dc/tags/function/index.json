@@ -19,6 +19,8 @@
         {"required": false,"id": "#kaleidoscope:bar_index"},
         {"required": false,"id": "#kaleidoscope:chinese_index"},
         {"required": false,"id": "#kaleidoscope:road_index"},
-        {"required": false,"id": "#kaleidoscope:holiday_index"}
+        {"required": false,"id": "#kaleidoscope:holiday_index"},
+        {"required": false,"id": "kaleidoscope:cookery/index/misc"},
+        {"required": false,"id": "kaleidoscope:cookery/index/meals"}
     ]
 }

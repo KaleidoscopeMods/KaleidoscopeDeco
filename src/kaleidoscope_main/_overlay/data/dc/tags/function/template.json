@@ -6,7 +6,8 @@
         {"required": false,"id":  "kaleidoscope:bar/template"},
         {"required": false,"id":  "kaleidoscope:lab/template"},
         {"required": false,"id":  "kaleidoscope:holiday/template"},
-         {"required": false,"id":  "kaleidoscope:road/template"}
+        {"required": false,"id":  "kaleidoscope:road/template"},
+        {"required": false,"id":  "kaleidoscope:cookery/template"}
         
     ]
 }

@@ -604,9 +604,9 @@ data modify storage dc:index keylist append value "doll_s_dfg233"
 data modify storage dc:index input.doll_s_dx_zimu set value {loot_table:"kaleidoscope:doll/s/dx_zimu",template:"doll"}
 data modify storage dc:index keylist append value "doll_s_dx_zimu"
 
-#【fantasy sunny】
+#【fantasy_sunny】
 data modify storage dc:index input.doll_s_fantasy_sunny set value {loot_table:"kaleidoscope:doll/s/fantasy_sunny",template:"doll"}
-data modify storage dc:index keylist append value "doll_s_fantasy sunny"
+data modify storage dc:index keylist append value "doll_s_fantasy_sunny"
 
 #【fenglingyushi】
 data modify storage dc:index input.doll_s_fenglingyushi set value {loot_table:"kaleidoscope:doll/s/fenglingyushi",template:"doll"}
