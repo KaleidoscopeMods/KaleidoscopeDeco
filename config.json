@@ -2,7 +2,7 @@
   "pack_name": "森罗物语：装饰",
   "author": "CR_019，药水棒冰",
   "description": "数据包驱动的高版本装饰模组",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "base_path": "./src",
   "sets_path": "./sets",
   "icon": "./icon.png",
