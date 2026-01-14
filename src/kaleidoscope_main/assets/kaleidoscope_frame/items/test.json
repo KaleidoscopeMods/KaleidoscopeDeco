@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "fallback": {
+                "type": "model",
+                "model": "kaleidoscope_frame:item/tool/kaleidos_rx"
+            },
+        "cases": [
+            {
+                "when": ["gui","fixed","ground","shelf"],
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_frame:item/wand_r"
+                }
+            }
+        ]
+    }
+}

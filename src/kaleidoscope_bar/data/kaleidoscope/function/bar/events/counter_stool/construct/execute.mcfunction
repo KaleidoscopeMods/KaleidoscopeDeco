@@ -1,0 +1,3 @@
+tag @s add kaleidoscope_bar_counter_stool
+execute as @n[tag=dc_custom_display] unless data entity @s item.components."minecraft:custom_model_data".strings run data modify entity @s item.components."minecraft:custom_model_data".strings set value ["none"]
+execute as @n[tag=dc_custom_display] unless data entity @s item.components."minecraft:custom_model_data".flags run data modify entity @s item.components."minecraft:custom_model_data".flags set value [false]

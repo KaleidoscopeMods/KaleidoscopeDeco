@@ -1,0 +1,6 @@
+{
+    "parent": "kaleidoscope_bar:item/painting/parent",
+    "textures": {
+        "3":"kaleidoscope_bar:item/painting/1"
+    }
+}

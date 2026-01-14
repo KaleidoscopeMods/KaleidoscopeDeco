@@ -1,5 +1,10 @@
 {
     "values": [
-        "kaleidoscope:bar/index/blackboard"
+        "kaleidoscope:bar/index/blackboard",
+        "kaleidoscope:bar/index/misc",
+        "kaleidoscope:bar/index/cabinet",
+        "kaleidoscope:bar/index/sofa",
+        "kaleidoscope:bar/index/grape_vine",
+        "kaleidoscope:bar/index/bottles"
     ]
 }

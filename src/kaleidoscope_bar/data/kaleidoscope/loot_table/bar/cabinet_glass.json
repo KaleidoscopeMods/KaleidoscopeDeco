@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "item_frame",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_bar:cabinet",
+                                "custom_model_data":{
+                                    "strings": ["single","empty","empty"],
+                                    "flags": [true]
+                                },
+                                "minecraft:item_name": {"translate": "item.kaleidoscope_bar.cabinet_glass"},
+                                "lore":[
+                                    
+                                ],
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:item_frame",
+                                    "Tags": [
+                                        "dc_place"
+                                    ],
+                                    "data": {
+                                        "index": "kaleidoscope_bar:cabinet_glass"
+                                    },
+                                    "Silent": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

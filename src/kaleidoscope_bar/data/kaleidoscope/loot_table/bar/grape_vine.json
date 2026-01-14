@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "cow_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_bar:grape_vine",
+                                "minecraft:item_name": {"translate": "item.kaleidoscope_bar.grape_vine"},
+                                "lore":[
+                                    
+                                ],
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "dc_place"
+                                    ],
+                                    "data": {
+                                        "index": "kaleidoscope_bar:grape_vine_0"
+                                    }
+                                },
+                                "custom_data": "{id:\"kaleidoscope:grape_vine\"}"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

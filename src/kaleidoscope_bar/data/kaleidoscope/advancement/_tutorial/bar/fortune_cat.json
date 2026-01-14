@@ -1,0 +1,20 @@
+{
+    "parent":"kaleidoscope:_tutorial/bar/painting",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_bar:fortune_cat"
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope_bar.tutorial.fortune_cat.title"},
+        "description": [{"font": "default","translate": "advancements.kaleidoscope_bar.tutorial.fortune_cat.description","color": "green"},{"font": "kaleidoscope:recipes","text": "\u0043","color": "white"}],
+        "show_toast": false,
+        "announce_to_chat":false
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    }
+}

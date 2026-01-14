@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "cow_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_bar:bottles/demi_jeb",
+                                "minecraft:item_name": {
+                                    "translate": "item.kaleidoscope_bar.bottles.demi_jeb"
+                                },
+                                "lore": [],
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "dc_place"
+                                    ],
+                                    "data": {
+                                        "index": "kaleidoscope_bar:demi_jeb"
+                                    }
+                                },
+                                "custom_data": "{id:\"kaleidoscope_bar:wine_bottle\",type:\"demi_jeb\"}"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

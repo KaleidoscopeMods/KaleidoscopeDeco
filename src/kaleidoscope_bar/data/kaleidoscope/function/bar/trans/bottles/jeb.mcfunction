@@ -1,0 +1,1 @@
+execute as @a[limit=1,sort=nearest,tag=dc_click_temp,gamemode=!creative] run item modify entity @s weapon.mainhand kaleidoscope:clear

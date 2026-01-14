@@ -1,0 +1,7 @@
+{
+	"parent": "kaleidoscope_bar:item/sofa/middle",
+	"textures":{
+		"texture":"kaleidoscope_bar:item/sofa/8",
+		"particle": "kaleidoscope_bar:item/sofa/8"
+	}
+}

@@ -1,0 +1,9 @@
+execute if score #rotation dc_temp matches -22..22 run data modify entity @s Rotation[0] set value 0f
+execute if score #rotation dc_temp matches 23..67 run data modify entity @s Rotation[0] set value 45f
+execute if score #rotation dc_temp matches 68..112 run data modify entity @s Rotation[0] set value 90f
+execute if score #rotation dc_temp matches 113..157 run data modify entity @s Rotation[0] set value 135f
+execute if score #rotation dc_temp matches 158..180 run data modify entity @s Rotation[0] set value 180f
+execute if score #rotation dc_temp matches -179..-158 run data modify entity @s Rotation[0] set value 180f
+execute if score #rotation dc_temp matches -157..-113 run data modify entity @s Rotation[0] set value -135f
+execute if score #rotation dc_temp matches -112..-68 run data modify entity @s Rotation[0] set value -90f
+execute if score #rotation dc_temp matches -67..-23 run data modify entity @s Rotation[0] set value -45f

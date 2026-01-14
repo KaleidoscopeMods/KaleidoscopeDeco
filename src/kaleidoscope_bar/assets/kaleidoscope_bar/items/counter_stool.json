@@ -1,0 +1,278 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "index": 0,
+        "fallback": {
+            "type": "condition",
+            "property": "custom_model_data",
+            "index": 0,
+            "on_false": {
+                "type": "model",
+                "model": "kaleidoscope_bar:item/counter_stool/tall/0"
+            },
+            "on_true": {
+                "type": "model",
+                "model": "kaleidoscope_bar:item/counter_stool/short/0"
+            }
+        },
+        "cases": [
+            {
+                "when": "white",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/tall/1"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/short/1"
+                    }
+                }
+            },
+            {
+                "when": "light_gray",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/tall/2"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/short/2"
+                    }
+                }
+            },
+            {
+                "when": "gray",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/tall/3"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/short/3"
+                    }
+                }
+            },
+            {
+                "when": "black",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/tall/4"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/short/4"
+                    }
+                }
+            },
+            {
+                "when": "brown",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/tall/5"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/short/5"
+                    }
+                }
+            },
+            {
+                "when": "red",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/tall/6"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/short/6"
+                    }
+                }
+            },
+            {
+                "when": "orange",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/tall/7"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/short/7"
+                    }
+                }
+            },
+            {
+                "when": "yellow",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/tall/8"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/short/8"
+                    }
+                }
+            },
+            {
+                "when": "lime",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/tall/9"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/short/9"
+                    }
+                }
+            },
+            {
+                "when": "green",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/tall/10"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/short/10"
+                    }
+                }
+            },
+            {
+                "when": "cyan",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/tall/11"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/short/11"
+                    }
+                }
+            },
+            {
+                "when": "light_blue",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/tall/12"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/short/12"
+                    }
+                }
+            },
+            {
+                "when": "blue",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/tall/13"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/short/13"
+                    }
+                }
+            },
+            {
+                "when": "purple",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/tall/14"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/short/14"
+                    }
+                }
+            },
+            {
+                "when": "magenta",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/tall/15"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/short/15"
+                    }
+                }
+            },
+            {
+                "when": "pink",
+                "model": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/tall/16"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/counter_stool/short/16"
+                    }
+                }
+            }
+        ]
+    }
+}

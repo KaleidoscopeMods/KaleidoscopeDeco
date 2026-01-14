@@ -1,0 +1,1 @@
+playsound item.axe.wax_off player @a

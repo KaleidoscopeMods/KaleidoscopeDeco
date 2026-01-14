@@ -32,6 +32,7 @@ data modify storage dc:index input.cart_with_chest set value {\
         components:{"minecraft:item_model":"kaleidoscope_cookery:cart_with_chest"}\
     },\
     template:"kaleidoscope",\
+    prop:{orient:"16"},\
     events:{\
         "construct":[\
             {event:"custom",args:{func:"kaleidoscope:cookery/cart/construct_with_chest"}},\

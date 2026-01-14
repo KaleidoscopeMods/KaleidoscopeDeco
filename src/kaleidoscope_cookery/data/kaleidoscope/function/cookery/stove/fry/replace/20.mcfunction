@@ -9,3 +9,4 @@ execute if score @s[tag=!k_stove_fry_start] k_stove_start_excp matches 1 if data
 
 
 execute if entity @s[tag=k_stove_fry_start] run item replace block ~ ~ ~ container.20 with minecraft:firework_star[item_model="kaleidoscope_cookery:stove/button/off",item_name={"text":"关火"},custom_data={kaleidoscope_stove_bg:1b,kaleidoscope_stove_start:1b}]
+

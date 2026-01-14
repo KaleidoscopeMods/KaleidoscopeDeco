@@ -1,0 +1,839 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "custom_model_data",
+        "index": 0,
+        "fallback": {
+            "type": "select",
+            "property": "custom_model_data",
+            "index": 1,
+            "fallback": {
+                "type": "model",
+                "model": "kaleidoscope_bar:item/sofa/single"
+            },
+            "cases": [
+                {
+                    "when": "left",
+                    "model": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/left"
+                    }
+                },
+                {
+                    "when": "right",
+                    "model": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/right"
+                    }
+                },
+                {
+                    "when": "middle",
+                    "model": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/middle"
+                    }
+                },
+                {
+                    "when": "corner_left",
+                    "model": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/corner_left"
+                    }
+                },
+                {
+                    "when": "corner_right",
+                    "model": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/corner"
+                    }
+                }
+            ]
+        },
+        "cases": [
+            {
+                "when": "white",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/white/single"
+                    },
+                    "cases": [
+                        {
+                            "when": "left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/white/left"
+                            }
+                        },
+                        {
+                            "when": "right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/white/right"
+                            }
+                        },
+                        {
+                            "when": "middle",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/white/middle"
+                            }
+                        },
+                        {
+                            "when": "corner_left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/white/corner_left"
+                            }
+                        },
+                        {
+                            "when": "corner_right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/white/corner"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "light_gray",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/light_gray/single"
+                    },
+                    "cases": [
+                        {
+                            "when": "left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/light_gray/left"
+                            }
+                        },
+                        {
+                            "when": "right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/light_gray/right"
+                            }
+                        },
+                        {
+                            "when": "middle",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/light_gray/middle"
+                            }
+                        },
+                        {
+                            "when": "corner_left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/light_gray/corner_left"
+                            }
+                        },
+                        {
+                            "when": "corner_right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/light_gray/corner"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "gray",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/gray/single"
+                    },
+                    "cases": [
+                        {
+                            "when": "left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/gray/left"
+                            }
+                        },
+                        {
+                            "when": "right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/gray/right"
+                            }
+                        },
+                        {
+                            "when": "middle",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/gray/middle"
+                            }
+                        },
+                        {
+                            "when": "corner_left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/gray/corner_left"
+                            }
+                        },
+                        {
+                            "when": "corner_right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/gray/corner"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "black",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/black/single"
+                    },
+                    "cases": [
+                        {
+                            "when": "left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/black/left"
+                            }
+                        },
+                        {
+                            "when": "right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/black/right"
+                            }
+                        },
+                        {
+                            "when": "middle",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/black/middle"
+                            }
+                        },
+                        {
+                            "when": "corner_left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/black/corner_left"
+                            }
+                        },
+                        {
+                            "when": "corner_right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/black/corner"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "brown",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/brown/single"
+                    },
+                    "cases": [
+                        {
+                            "when": "left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/brown/left"
+                            }
+                        },
+                        {
+                            "when": "right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/brown/right"
+                            }
+                        },
+                        {
+                            "when": "middle",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/brown/middle"
+                            }
+                        },
+                        {
+                            "when": "corner_left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/brown/corner_left"
+                            }
+                        },
+                        {
+                            "when": "corner_right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/brown/corner"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "red",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/red/single"
+                    },
+                    "cases": [
+                        {
+                            "when": "left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/red/left"
+                            }
+                        },
+                        {
+                            "when": "right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/red/right"
+                            }
+                        },
+                        {
+                            "when": "middle",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/red/middle"
+                            }
+                        },
+                        {
+                            "when": "corner_left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/red/corner_left"
+                            }
+                        },
+                        {
+                            "when": "corner_right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/red/corner"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "orange",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/orange/single"
+                    },
+                    "cases": [
+                        {
+                            "when": "left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/orange/left"
+                            }
+                        },
+                        {
+                            "when": "right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/orange/right"
+                            }
+                        },
+                        {
+                            "when": "middle",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/orange/middle"
+                            }
+                        },
+                        {
+                            "when": "corner_left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/orange/corner_left"
+                            }
+                        },
+                        {
+                            "when": "corner_right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/orange/corner"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "yellow",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/yellow/single"
+                    },
+                    "cases": [
+                        {
+                            "when": "left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/yellow/left"
+                            }
+                        },
+                        {
+                            "when": "right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/yellow/right"
+                            }
+                        },
+                        {
+                            "when": "middle",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/yellow/middle"
+                            }
+                        },
+                        {
+                            "when": "corner_left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/yellow/corner_left"
+                            }
+                        },
+                        {
+                            "when": "corner_right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/yellow/corner"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "lime",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/lime/single"
+                    },
+                    "cases": [
+                        {
+                            "when": "left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/lime/left"
+                            }
+                        },
+                        {
+                            "when": "right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/lime/right"
+                            }
+                        },
+                        {
+                            "when": "middle",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/lime/middle"
+                            }
+                        },
+                        {
+                            "when": "corner_left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/lime/corner_left"
+                            }
+                        },
+                        {
+                            "when": "corner_right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/lime/corner"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "green",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/green/single"
+                    },
+                    "cases": [
+                        {
+                            "when": "left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/green/left"
+                            }
+                        },
+                        {
+                            "when": "right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/green/right"
+                            }
+                        },
+                        {
+                            "when": "middle",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/green/middle"
+                            }
+                        },
+                        {
+                            "when": "corner_left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/green/corner_left"
+                            }
+                        },
+                        {
+                            "when": "corner_right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/green/corner"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "cyan",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/cyan/single"
+                    },
+                    "cases": [
+                        {
+                            "when": "left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/cyan/left"
+                            }
+                        },
+                        {
+                            "when": "right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/cyan/right"
+                            }
+                        },
+                        {
+                            "when": "middle",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/cyan/middle"
+                            }
+                        },
+                        {
+                            "when": "corner_left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/cyan/corner_left"
+                            }
+                        },
+                        {
+                            "when": "corner_right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/cyan/corner"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "light_blue",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/light_blue/single"
+                    },
+                    "cases": [
+                        {
+                            "when": "left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/light_blue/left"
+                            }
+                        },
+                        {
+                            "when": "right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/light_blue/right"
+                            }
+                        },
+                        {
+                            "when": "middle",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/light_blue/middle"
+                            }
+                        },
+                        {
+                            "when": "corner_left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/light_blue/corner_left"
+                            }
+                        },
+                        {
+                            "when": "corner_right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/light_blue/corner"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "blue",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/blue/single"
+                    },
+                    "cases": [
+                        {
+                            "when": "left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/blue/left"
+                            }
+                        },
+                        {
+                            "when": "right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/blue/right"
+                            }
+                        },
+                        {
+                            "when": "middle",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/blue/middle"
+                            }
+                        },
+                        {
+                            "when": "corner_left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/blue/corner_left"
+                            }
+                        },
+                        {
+                            "when": "corner_right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/blue/corner"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "purple",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/purple/single"
+                    },
+                    "cases": [
+                        {
+                            "when": "left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/purple/left"
+                            }
+                        },
+                        {
+                            "when": "right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/purple/right"
+                            }
+                        },
+                        {
+                            "when": "middle",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/purple/middle"
+                            }
+                        },
+                        {
+                            "when": "corner_left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/purple/corner_left"
+                            }
+                        },
+                        {
+                            "when": "corner_right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/purple/corner"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "magenta",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/magenta/single"
+                    },
+                    "cases": [
+                        {
+                            "when": "left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/magenta/left"
+                            }
+                        },
+                        {
+                            "when": "right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/magenta/right"
+                            }
+                        },
+                        {
+                            "when": "middle",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/magenta/middle"
+                            }
+                        },
+                        {
+                            "when": "corner_left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/magenta/corner_left"
+                            }
+                        },
+                        {
+                            "when": "corner_right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/magenta/corner"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "pink",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "fallback": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/sofa/pink/single"
+                    },
+                    "cases": [
+                        {
+                            "when": "left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/pink/left"
+                            }
+                        },
+                        {
+                            "when": "right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/pink/right"
+                            }
+                        },
+                        {
+                            "when": "middle",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/pink/middle"
+                            }
+                        },
+                        {
+                            "when": "corner_left",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/pink/corner_left"
+                            }
+                        },
+                        {
+                            "when": "corner_right",
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_bar:item/sofa/pink/corner"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

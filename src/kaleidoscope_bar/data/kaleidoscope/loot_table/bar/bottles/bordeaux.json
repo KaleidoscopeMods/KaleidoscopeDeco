@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "cow_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_bar:bottles/bordeaux",
+                                "minecraft:item_name": {
+                                    "translate": "item.kaleidoscope_bar.bottles.bordeaux"
+                                },
+                                "lore": [],
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "dc_place"
+                                    ],
+                                    "data": {
+                                        "index": "kaleidoscope_bar:bordeaux"
+                                    }
+                                },
+                                "custom_data": "{id:\"kaleidoscope_bar:wine_bottle\",type:\"bordeaux\"}"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

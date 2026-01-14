@@ -1,0 +1,2 @@
+tag @s add kaleidoscope_bar_sofa
+execute as @n[tag=dc_custom_display] unless data entity @s item.components."minecraft:custom_model_data".strings run data modify entity @s item.components."minecraft:custom_model_data".strings set value ["none","single"]

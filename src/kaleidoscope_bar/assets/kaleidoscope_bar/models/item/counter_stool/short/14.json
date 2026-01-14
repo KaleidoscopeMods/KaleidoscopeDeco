@@ -1,0 +1,7 @@
+{
+	"parent":"kaleidoscope_bar:item/counter_stool/short/0",
+	"textures": {
+		"7": "kaleidoscope_bar:item/counter_stool/14",
+		"particle": "kaleidoscope_bar:item/counter_stool/14"
+	}
+}

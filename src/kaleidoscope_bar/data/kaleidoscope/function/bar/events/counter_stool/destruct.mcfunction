@@ -1,0 +1,2 @@
+data modify entity @s Item.components."minecraft:custom_model_data".flags[0] set value false
+data modify entity @s Item.components.minecraft:entity_data.data.inheritance.item.components."minecraft:custom_model_data".flags[0] set value false

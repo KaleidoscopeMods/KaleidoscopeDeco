@@ -9,7 +9,7 @@
 	"overlays": {
         "entries": [
             {
-                "directory": "dc_v2.0.1",
+                "directory": "dc_v2.1.0",
                 "formats": [71, 81],
                 "min_format":[71,0],
                 "max_format":[1000,0]

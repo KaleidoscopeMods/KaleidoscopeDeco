@@ -1,0 +1,43 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "***",
+        "*#*",
+        "***"
+    ],
+    "key": {
+        "*": "nether_brick",
+        "#": "glass_pane"
+    },
+    "result": {
+        "id": "item_frame",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "kaleidoscope_bar:cabinet",
+            "custom_model_data": {
+                "strings": [
+                    "single",
+                    "empty",
+                    "empty"
+                ],
+                "flags": [
+                    true
+                ]
+            },
+            "minecraft:item_name": {
+                "translate": "item.kaleidoscope_bar.cabinet_glass"
+            },
+            "lore": [],
+            "minecraft:entity_data": {
+                "id": "minecraft:item_frame",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "kaleidoscope_bar:cabinet_glass"
+                },
+                "Silent": true
+            }
+        }
+    }
+}

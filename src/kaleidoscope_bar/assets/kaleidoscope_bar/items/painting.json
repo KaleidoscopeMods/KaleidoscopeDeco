@@ -1,0 +1,111 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "index": 0,
+        "fallback": {
+            "type": "model",
+            "model": "kaleidoscope_bar:item/painting/parent"
+        },
+        "entries": [
+            {
+                "threshold": -4,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/painting/104"
+                }
+            },
+            {
+                "threshold": -3,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/painting/103"
+                }
+            },
+            {
+                "threshold": -2,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/painting/102"
+                }
+            },
+            {
+                "threshold": -1,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/painting/101"
+                }
+            },
+            {
+                "threshold": 0,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/painting/parent"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/painting/1"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/painting/2"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/painting/3"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/painting/4"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/painting/5"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/painting/6"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/painting/7"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/painting/8"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/painting/9"
+                }
+            }
+        ]
+    }
+}

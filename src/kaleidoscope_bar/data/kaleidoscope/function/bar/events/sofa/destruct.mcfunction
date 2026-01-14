@@ -1,0 +1,2 @@
+data modify entity @s Item.components."minecraft:custom_model_data".strings[1] set value "single"
+data modify entity @s Item.components.minecraft:entity_data.data.inheritance.item.components."minecraft:custom_model_data".strings[1] set value "single"

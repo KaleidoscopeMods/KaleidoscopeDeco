@@ -1,0 +1,33 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "***",
+        "###",
+        "###"
+    ],
+    "key": {
+        "*": "gold_ingot",
+        "#": "#planks"
+    },
+    "result": {
+        "id": "item_frame",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "kaleidoscope_bar:bar_counter",
+            "minecraft:item_name": {
+                "translate": "item.kaleidoscope_bar.bar_counter"
+            },
+            "lore": [],
+            "minecraft:entity_data": {
+                "id": "minecraft:item_frame",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "kaleidoscope_bar:bar_counter"
+                },
+                "Silent": true
+            }
+        }
+    }
+}
