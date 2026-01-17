@@ -2,15 +2,15 @@
   "set_name": "Credit Excption",
   "description": "仅去除赞助者玩偶模块",
   "modules": [
-    "kaleidoscope_doll",
-    "kaleidoscope_cookery",
-    "kaleidoscope_bar",
-    "kaleidoscope_chinese",
-    "kaleidoscope_holiday",
-    "kaleidoscope_lab",
-    "kaleidoscope_road",
+    "玩偶",
+    "烹饪",
+    "酒馆",
+    "中式",
+    "假日",
+    "书房",
+    "街道",
 
-    "kaleidoscope_cookery_plus",
-    "kaleidoscope_doll_plus"
+    "烹饪扩展包",
+    "玩偶扩展包"
   ]
 }

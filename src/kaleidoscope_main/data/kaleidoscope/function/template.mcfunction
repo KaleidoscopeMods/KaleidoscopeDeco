@@ -72,6 +72,34 @@ data modify storage dc:template kaleidoscope set value {\
     }\
 }
 
+#【kaleidoscope_z_rotate】带z轴旋转的编辑模板
+data modify storage dc:template kaleidoscope_z_rotate set value {\
+    "template":"kaleidoscope",\
+    "events":{\
+        "left_click":{\
+            criteria:[\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"rotate",args:{type:"Z",angle:-22.5f}},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"rotate"}}},\
+                    predicate:"kaleidoscope:ctrl"\
+                },\
+            ]\
+        },\
+        "right_click":{\
+            criteria:[\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"rotate",args:{type:"Z",angle:22.5f}},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"rotate"}}},\
+                    predicate:"kaleidoscope:ctrl"\
+                },\
+            ]\
+        }\
+    }\
+}\
+
+
 #【kaleidoscope_block_90】90度方块模板
 data modify storage dc:template kaleidoscope_block_90 set value {\
     type:"fixed",\

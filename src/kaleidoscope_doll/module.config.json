@@ -1,5 +1,5 @@
 {
-  "module_name": "kaleidoscope_doll",
+  "module_name": "玩偶",
   "description": "玩偶主题，使用抽奖机抽取玩偶",
   "support_version": "*",
   "weight": 1,

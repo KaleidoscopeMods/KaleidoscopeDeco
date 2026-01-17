@@ -59,7 +59,7 @@ data modify storage dc:index input.kaleidoscope_bar:painting set value {\
     modsize:[1f,1f,1f],\
     interactsize:{height:1f,width:1f},\
     loot_table:"kaleidoscope:bar/painting",\
-    template:"kaleidoscope",\
+    template:"kaleidoscope_z_rotate",\
     prop:{attach:"cubic"},\
     events:{\
         "construct":[\
@@ -97,7 +97,7 @@ data modify storage dc:index keylist append value "kaleidoscope_bar:painting"
 data modify storage dc:index input.kaleidoscope_bar:painting_waxed set value {\
     modsize:[1f,1f,1f],\
     interactsize:{height:1f,width:1f},\
-    template:"kaleidoscope",\
+    template:"kaleidoscope_z_rotate",\
     prop:{attach:"cubic"},\
     events:{\
         "construct":[\

@@ -1,6 +1,6 @@
 {
-  "module_name": "kaleidoscope_credits",
-  "description": "赞助者玩偶",
+  "module_name": "赞助者玩偶",
+  "description": "包含赞助者玩偶，其中有一些很好看（",
   "support_version": "*",
   "weight": 0,
   "breaks": []

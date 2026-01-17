@@ -28,7 +28,9 @@ data modify entity @n[type=marker,tag=dc_pivot_temp] data.events merge from enti
 data modify entity @n[type=marker,tag=dc_pivot_temp] data.item set from entity @s data.item
 data modify entity @n[type=marker,tag=dc_pivot_temp] data.loot_table set from entity @s data.loot_table
 data modify entity @n[type=marker,tag=dc_pivot_temp] data.index set from entity @s data.index
-data modify entity @n[type=marker,tag=dc_pivot_temp] data.Rotation set from entity @n[type=item_display,tag=dc_display_temp] Rotation
+data modify entity @n[type=marker,tag=dc_pivot_temp] data.Rotation set value [0f,0f,0f]
+data modify entity @n[type=marker,tag=dc_pivot_temp] data.Rotation[0] set from entity @n[type=item_display,tag=dc_display_temp] Rotation[0]
+data modify entity @n[type=marker,tag=dc_pivot_temp] data.Rotation[1] set from entity @n[type=item_display,tag=dc_display_temp] Rotation[1]
 data modify entity @n[type=marker,tag=dc_pivot_temp] data.prop.modsize set from entity @s data.modsize
 data modify entity @n[type=marker,tag=dc_pivot_temp] data.prop.interactsize set from entity @s data.interactsize
 data modify entity @n[type=marker,tag=dc_pivot_temp] data.prop merge from entity @s data.prop

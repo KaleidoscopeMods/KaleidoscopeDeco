@@ -1,0 +1,1 @@
+scoreboard players set @s dc_version 27

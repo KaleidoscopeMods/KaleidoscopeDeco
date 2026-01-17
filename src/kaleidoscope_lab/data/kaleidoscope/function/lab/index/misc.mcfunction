@@ -60,7 +60,7 @@ data modify storage dc:index input.kaleidoscope_lab:globe set value {\
             {event:"sound",args:{sound:"minecraft:block.wood.place"}},\
         ],\
         left_click:{\
-            fallback:{event:"destruct",args:{item:{},particle:"block{block_state:\"spruce_planks\"}",sound:"minecraft:block.wood.break"}}\
+            fallback:{event:"destruct",args:{item:{},particle:"self",sound:"minecraft:block.wood.break"}}\
         }\
     }\
 }
@@ -93,19 +93,19 @@ data modify storage dc:index keylist append value "kaleidoscope_lab:paper_with_i
 # 【kaleidoscope_lab:paper】稿纸
 data modify storage dc:index input.kaleidoscope_lab:paper set value {\
     modsize:[1f,1f,1f],\
-    interactsize:{height:0.2f,width:1f},\
+    interactsize:{height:1f,width:1f},\
     loot_table:"kaleidoscope:lab/paper",\
-    prop:{height_adaption:1b},\
+    prop:{height_adaption:0b,attach:"cubic"},\
     item:{\
         components:{"minecraft:item_model":"kaleidoscope_lab:paper"}\
     },\
-    template:"kaleidoscope",\
+    template:"kaleidoscope_z_rotate",\
     events:{\
         "construct":[\
             {event:"sound",args:{sound:"minecraft:block.wool.place"}},\
         ],\
         left_click:{\
-            fallback:{event:"destruct",args:{item:{},particle:"block{block_state:\"sandstone\"}",sound:"minecraft:block.wool.break"}}\
+            fallback:{event:"destruct",args:{item:{},particle:"self",sound:"minecraft:block.wool.break"}}\
         }\
     }\
 }

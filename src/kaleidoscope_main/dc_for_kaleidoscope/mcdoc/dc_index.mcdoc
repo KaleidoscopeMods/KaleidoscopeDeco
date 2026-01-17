@@ -1,4 +1,4 @@
-//update:26/1/12
+//update:26/1/17
 use ::java::world::component::DataComponentPatch
 
 dispatch minecraft:storage["dc:index"] to dcInput
@@ -12,9 +12,9 @@ struct dcItemStack {
 }
 
 struct dcTriggerItem {
-    id?:( 
-        #[id(registry="item")] string | 
-        #[id(registry="item",tags="allowed")] string
+    id?: (
+        #[id(registry="item")] string |
+        #[id(registry="item", tags="allowed")] string |
     ),
     components?: DataComponentPatch,
     count?: int @ 1..99,
@@ -27,9 +27,9 @@ struct dcInput {
     keylist: [string],
     key: [string],
     temp: dcIndex,
-    storage: struct{
-        [string]: dcIndex
-    }
+    storage: struct {
+        [string]: dcIndex,
+    },
 }
 
 struct dcTemplate {
@@ -49,8 +49,18 @@ struct dcIndex {
     },
     prop?: struct {
         height_adaption?: boolean,
-        attach?: dcAttach,
-        orient?: dcOrient,
+        attach?: enum(string) {
+            False = "false",
+            Square = "square",
+            Cubic = "cubic",
+        },
+        orient?: enum(string) {
+            zero = "0",
+            fixed = "fixed",
+            four = "4",
+            eight = "8",
+            sixteen = "16",
+        },
     },
     events?: struct {
         construct?: [dcEvent],
@@ -67,28 +77,14 @@ struct dcIndex {
     },
 }
 
-dispatch dc:extra_data[Hitbox] to struct extra_data_hitbox{
-    width?: float @ 0.0..2.0,
-    offset?: float @ -2.0..2.0,
+dispatch dc:extra_data[Hitbox] to struct extra_data_hitbox {
+    width?: float @ 0..2,
+    offset?: float @ -2..2,
 }
 
-dispatch dc:extra_data[Light] to struct extra_data_light{
+dispatch dc:extra_data[Light] to struct extra_data_light {
     level?: byte @ 0..15,
     hitbox?: boolean,
-}
-
-enum(string) dcAttach {
-    False = "false",
-    Square = "square",
-    Cubic = "cubic"
-}
-
-enum(string) dcOrient {
-    zero = "0",
-    fixed = "fixed",
-    four = "4",
-    eight = "8",
-    sixteen = "16"
 }
 
 enum(string) dcType {
@@ -139,7 +135,10 @@ struct dcEvent {
 dispatch dc:args[destruct] to struct argsDestruct {
     args?: struct {
         item?: destructItem,
-        particle?: (#[id="particle_type"] string | string),
+        particle?: (
+            #[id="particle_type"] string |
+            string |
+        ),
         sound?: #[id="sound_event"] string,
     },
 }
@@ -154,7 +153,7 @@ type destructItem = (
         },
         item?: dcItemStack,
         loot_table?: #[id="loot_table"] string,
-        func?: #[id="function"] string
+        func?: #[id="function"] string,
     } |
 )
 
@@ -167,7 +166,7 @@ dispatch dc:args[move] to struct argsMove {
             R = "R",
             V = "V",
         },
-        distance: float @ -2.0..2.0,
+        distance: float @ -2..2,
     },
 }
 
@@ -176,8 +175,9 @@ dispatch dc:args[rotate] to struct argsRotate {
         type?: enum(string) {
             H = "H",
             V = "V",
+            Z = "Z",
         },
-        angle: float @ -180.0..180.0,
+        angle: float @ -180..180,
     },
 }
 
@@ -187,8 +187,8 @@ dispatch dc:args[sit] to struct argsSit {
         offset?: struct {
             x?: float @ -3..3,
             y?: float @ -3..3,
-            z?: float @ -3..3
-        }
+            z?: float @ -3..3,
+        },
     },
 }
 

@@ -12,7 +12,8 @@ data modify entity @n[type=item_display,tag=dc_edit_display] item_display set fr
 data modify entity @n[type=item_display,tag=dc_edit_display] transformation.scale set from storage dc events.update.modsize
 execute as @n[type=item_display,tag=dc_edit_display] run tp @s @n[type=marker,tag=dc_edit_pivot]
 execute as @n[type=item_display,tag=dc_edit_display] at @s run function dc:construct/display_offset
-data modify entity @n[type=item_display,tag=dc_edit_display] Rotation set from entity @n[type=marker,tag=dc_edit_pivot] data.Rotation
+data modify entity @n[type=item_display,tag=dc_edit_display] Rotation[0] set from entity @n[type=marker,tag=dc_edit_pivot] data.Rotation[0]
+data modify entity @n[type=item_display,tag=dc_edit_display] Rotation[1] set from entity @n[type=marker,tag=dc_edit_pivot] data.Rotation[1]
 
 data modify entity @n[type=interaction,tag=dc_edit_interaction] height set from storage dc events.update.interactsize.height
 data modify entity @n[type=interaction,tag=dc_edit_interaction] width set from storage dc events.update.interactsize.width
@@ -37,6 +38,7 @@ execute unless data storage dc {events:{update:{type:"fixed"}}} unless data stor
 
 #高度适应
 execute if data entity @s {data:{prop:{height_adaption:1b}}} run function dc:events/_general/adaption
+#execute if data entity @s {data:{prop:{height_adaption:2b}}} run function dc:events/_general/adaption
 
 #事件执行
 execute as @n[type=marker,tag=dc_edit_pivot] if data entity @s data.events.update run function lay:macro/list/init {list:"entity @s data.events.update",func:"dc:events/_update/update_event"}

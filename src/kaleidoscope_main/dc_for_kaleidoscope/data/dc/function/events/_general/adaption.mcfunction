@@ -11,7 +11,8 @@ execute store result storage dc:temp adt.sin float 1 run scoreboard players get 
 execute store result storage dc:temp adt.cos float 1 run scoreboard players get $cos dc_temp
 
 
-execute as @e[distance=..5,tag=dc_adt_interaction,limit=1] run function dc:events/_general/adaption_ with storage dc:temp adt
+execute if data entity @s {data:{prop:{height_adaption:1b}}} as @e[distance=..5,tag=dc_adt_interaction,limit=1] run function dc:events/_general/adaption_out with storage dc:temp adt
+#execute if data entity @s {data:{prop:{height_adaption:2b}}} as @e[distance=..5,tag=dc_adt_interaction,limit=1] run function dc:events/_general/adaption_in with storage dc:temp adt
 
 tag @e[distance=..5] remove dc_adt_interaction
 

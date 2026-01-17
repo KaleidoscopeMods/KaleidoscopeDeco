@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "cow_spawn_egg",
+                    "name": "item_frame",
                     "functions": [
                         {
                             "function": "set_components",
@@ -16,13 +16,14 @@
                                     
                                 ],
                                 "minecraft:entity_data": {
-                                    "id": "minecraft:marker",
+                                    "id": "minecraft:item_frame",
                                     "Tags": [
                                         "dc_place"
                                     ],
                                     "data": {
                                         "index": "kaleidoscope_lab:paper"
-                                    }
+                                    },
+                                    "Silent": true
                                 }
                             }
                         }

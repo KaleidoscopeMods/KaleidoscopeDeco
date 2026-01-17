@@ -1,5 +1,5 @@
 {
-  "module_name": "kaleidoscope_cookery_plus",
+  "module_name": "烹饪扩展包",
   "description": "烹饪扩展主题，包含灶台和炒菜机制",
   "support_version": "*",
   "weight": 1,
