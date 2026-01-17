@@ -2,12 +2,12 @@
   "set_name": "Basic",
   "description": "去除扩展包，仅包含基础装饰内容",
   "modules": [
-    "玩偶",
-    "烹饪",
-    "酒馆",
-    "中式",
-    "假日",
-    "书房",
-    "街道"
+    "kaleidoscope_doll",
+    "kaleidoscope_cookery",
+    "kaleidoscope_bar",
+    "kaleidoscope_chinese",
+    "kaleidoscope_holiday",
+    "kaleidoscope_lab",
+    "kaleidoscope_road"
   ]
 }

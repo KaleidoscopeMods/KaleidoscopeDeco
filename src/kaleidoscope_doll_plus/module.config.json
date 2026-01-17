@@ -4,5 +4,5 @@
   "support_version": "*",
   "weight": 0,
   "breaks": [],
-  "bindings":["玩偶"]
+  "bindings":["kaleidoscope_doll"]
 }
