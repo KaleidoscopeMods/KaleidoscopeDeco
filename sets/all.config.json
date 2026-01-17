@@ -3,7 +3,7 @@
   "description": "包含全部模块的完整包体",
   "modules": [
     "kaleidoscope_doll",
-    "kaleidoscope_cookery",
+    "kaleidoscope_cookery_plus",
     "kaleidoscope_credits",
     "kaleidoscope_bar",
     "kaleidoscope_chinese",
@@ -11,7 +11,7 @@
     "kaleidoscope_lab",
     "kaleidoscope_road",
 
-    "kaleidoscope_cookery_plus",
+    "kaleidoscope_cookery",
     "kaleidoscope_doll_plus"
   ]
 }

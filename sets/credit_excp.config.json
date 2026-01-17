@@ -3,14 +3,14 @@
   "description": "仅去除赞助者玩偶模块",
   "modules": [
     "kaleidoscope_doll",
-    "kaleidoscope_cookery",
+    "kaleidoscope_cookery_plus",
     "kaleidoscope_bar",
     "kaleidoscope_chinese",
     "kaleidoscope_holiday",
     "kaleidoscope_lab",
     "kaleidoscope_road",
 
-    "kaleidoscope_cookery_plus",
+    "kaleidoscope_cookery",    
     "kaleidoscope_doll_plus"
   ]
 }
