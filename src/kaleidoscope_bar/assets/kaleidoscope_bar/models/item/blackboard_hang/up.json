@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"parent": "kaleidoscope_bar:item/blackboard_hang/raw",
+	"textures": {
+		"particle": "kaleidoscope_bar:item/blackboard"
+	},
+	"elements": [
+		{
+			"from": [-0.01, 12.99, 14.99],
+			"to": [16.01, 16.01, 16.01],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1, 14]},
+			"faces": {
+				"north": {"uv": [4, 9, 8, 9.75], "texture": "#particle"},
+				"east": {"uv": [0, 0, 0.25, 0.75], "texture": "#particle"},
+				"south": {"uv": [4, 9, 8, 9.75], "texture": "#particle"},
+				"west": {"uv": [0, 0, 0.25, 0.75], "texture": "#particle"},
+				"up": {"uv": [0, 0, 4, 0.25], "texture": "#particle"},
+				"down": {"uv": [0, 0, 4, 0.25], "texture": "#particle"}
+			}
+		}
+	],
+	"gui_light": "front"
+}

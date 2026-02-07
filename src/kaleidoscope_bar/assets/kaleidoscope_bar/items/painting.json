@@ -9,6 +9,13 @@
         },
         "entries": [
             {
+                "threshold": -5,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/painting/105"
+                }
+            },
+            {
                 "threshold": -4,
                 "model": {
                     "type": "model",

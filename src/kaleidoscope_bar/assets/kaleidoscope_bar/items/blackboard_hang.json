@@ -1,0 +1,140 @@
+{
+    "tip": "4个flag，对应左右上下",
+    "model": {
+        "type": "composite",
+        "models": [
+            {
+                "type": "model",
+                "model": "kaleidoscope_bar:item/blackboard_hang/base"
+            },
+            {
+                "type": "condition",
+                "property": "custom_model_data",
+                "index": 0,
+                "on_false": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/blackboard_hang/left"
+                },
+                "on_true": {
+                    "type": "empty"
+                }
+            },
+            {
+                "type": "condition",
+                "property": "custom_model_data",
+                "index": 1,
+                "on_false": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/blackboard_hang/right"
+                },
+                "on_true": {
+                    "type": "empty"
+                }
+            },
+            {
+                "type": "condition",
+                "property": "custom_model_data",
+                "index": 2,
+                "on_false": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/blackboard_hang/up"
+                },
+                "on_true": {
+                    "type": "empty"
+                }
+            },
+            {
+                "type": "condition",
+                "property": "custom_model_data",
+                "index": 3,
+                "on_false": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/blackboard_hang/down"
+                },
+                "on_true": {
+                    "type": "empty"
+                }
+            },
+            {
+                "type": "condition",
+                "property": "custom_model_data",
+                "index": 0,
+                "on_false": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 2,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/blackboard_hang/up_left"
+                    },
+                    "on_true": {
+                        "type": "empty"
+                    }
+                },
+                "on_true": {
+                    "type": "empty"
+                }
+            },
+            {
+                "type": "condition",
+                "property": "custom_model_data",
+                "index": 0,
+                "on_false": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 3,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/blackboard_hang/down_left"
+                    },
+                    "on_true": {
+                        "type": "empty"
+                    }
+                },
+                "on_true": {
+                    "type": "empty"
+                }
+            },
+            {
+                "type": "condition",
+                "property": "custom_model_data",
+                "index": 1,
+                "on_false": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 2,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/blackboard_hang/up_right"
+                    },
+                    "on_true": {
+                        "type": "empty"
+                    }
+                },
+                "on_true": {
+                    "type": "empty"
+                }
+            },
+            {
+                "type": "condition",
+                "property": "custom_model_data",
+                "index": 1,
+                "on_false": {
+                    "type": "condition",
+                    "property": "custom_model_data",
+                    "index": 3,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_bar:item/blackboard_hang/down_right"
+                    },
+                    "on_true": {
+                        "type": "empty"
+                    }
+                },
+                "on_true": {
+                    "type": "empty"
+                }
+            }
+        ]
+    }
+}

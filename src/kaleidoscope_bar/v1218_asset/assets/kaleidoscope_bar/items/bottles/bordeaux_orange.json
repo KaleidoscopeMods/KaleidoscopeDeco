@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "fallback": {
+        "type": "model",
+        "model": "kaleidoscope_bar:item/bottles/bordeaux_orange"
+    },
+    "cases": [
+        {
+            "when": ["gui","fixed"],
+            "model": {
+                "type": "model",
+                "model": "kaleidoscope_bar:item/bottles/item/bordeaux_orange"
+            }
+        }
+    ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope_bar:font/blackboard.png",
+            "height": 120,
+            "ascent": 3,
+            "chars": ["\u0001"]
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope_bar:font/blackboard_.png",
+            "height": 1,
+            "ascent": 1,
+            "chars": ["\u0003"]
+        },
+        {
+            "type": "space",
+            "advances": {
+                "\u0002":-10,
+                "\u0004":120
+            }
+        }
+    ]
+}

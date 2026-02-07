@@ -19,6 +19,12 @@
                 "formats": [71, 81],
                 "min_format":[71,0],
                 "max_format":[1000,0]
+            },
+            {
+                "directory": "v1218_asset",
+                "formats": [55, 64],
+                "min_format":[55,0],
+                "max_format":[64,0]
             },  
             {
                 "directory": "_overlay",
