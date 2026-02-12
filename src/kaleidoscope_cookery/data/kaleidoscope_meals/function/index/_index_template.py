@@ -63,7 +63,7 @@ def generate_mcfunction(id, name, x, loot=None):
                     }
                 }
 
-            reclaim["fallback"]["args"]["events"][1] = {"event":"destruct","args":{"particle":"block{block_state:\"oak_planks\"}","sound":"minecraft:block.wood.break"}}
+            reclaim["fallback"]["args"]["events"][1] = {"event":"destruct","args":{"particle":"self","sound":"minecraft:block.wood.break"}}
             reclaim["fallback"]["args"]["events"][0]["args"]["func"] = "kaleidoscope:cookery/events/summon_plate"
             
             file.write(f'data modify storage dc:index input.{id_with_i} set value {{ \\' + "\n")
@@ -95,12 +95,13 @@ def generate_mcfunction(id, name, x, loot=None):
             file.write(f'data modify storage dc:index keylist append value "{id_with_i}" ' + "\n\n")
 
 if __name__ == "__main__":
-    id = "yakitori"  
-    name = "烧鸟串"  
-    x = 4  
+    id = "brown_mushroom_pot_soup"  
+    name = "棕蘑菇瓦罐汤"  
+    x = 2  
     loot = None
 
     generate_mcfunction(id, name, x, loot)
 
 
 
+#kaleidoscope_meals:reclaim/

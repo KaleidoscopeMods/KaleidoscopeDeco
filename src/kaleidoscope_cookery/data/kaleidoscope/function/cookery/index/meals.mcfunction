@@ -11,7 +11,7 @@ data modify storage dc:index input.meal_plate set value {\
             {event:"sound",args:{sound:"minecraft:block.wood.place"}},\
         ],\
         left_click:{\
-            fallback:{event:"destruct",args:{item:{mode:"replace",item:{id:"bowl"}},particle:"block{block_state:\"oak_planks\"}",sound:"minecraft:block.wood.break"}}\
+            fallback:{event:"destruct",args:{item:{mode:"replace",item:{id:"bowl"}},particle:"self",sound:"minecraft:block.wood.break"}}\
         },\
         right_click:{\
             fallback:{event:"group",args:{events:[{event:"custom",args:{func:"kaleidoscope:cookery/events/reclaim_plate"}},{event:"destruct"}]}}\
@@ -31,7 +31,7 @@ data modify storage dc:index input.semi_meal set value {\
             {event:"sound",args:{sound:"minecraft:block.wood.place"}},\
         ],\
         left_click:{\
-            fallback:{event:"destruct",args:{item:{},particle:"block{block_state:\"oak_planks\"}",sound:"minecraft:block.wood.break"}}\
+            fallback:{event:"destruct",args:{item:{},particle:"self",sound:"minecraft:block.wood.break"}}\
         },\
         right_click:{\
             fallback:{event:"group",args:{events:[{event:"custom",args:{func:"kaleidoscope:cookery/events/reclaim_plate"}},{event:"destruct"}]}}\
@@ -51,7 +51,7 @@ data modify storage dc:index input.dark_meal set value {\
             {event:"sound",args:{sound:"minecraft:block.wood.place"}},\
         ],\
         left_click:{\
-            fallback:{event:"destruct",args:{item:{},particle:"block{block_state:\"oak_planks\"}",sound:"minecraft:block.wood.break"}}\
+            fallback:{event:"destruct",args:{item:{},particle:"self",sound:"minecraft:block.wood.break"}}\
         },\
         right_click:{\
             fallback:{event:"group",args:{events:[{event:"custom",args:{func:"kaleidoscope:cookery/events/reclaim_plate"}},{event:"destruct"}]}}\
@@ -77,7 +77,7 @@ data modify storage dc:index input.mysterious set value { \
             {event:"sound",args:{sound:"minecraft:block.wood.place"}}, \
         ], \
         left_click:{ \
-            fallback:{event:"destruct",args:{item:{},particle:"block{block_state:\"oak_planks\"}",sound:"minecraft:block.wood.break"}} \
+            fallback:{event:"destruct",args:{item:{},particle:"self",sound:"minecraft:block.wood.break"}} \
         }, \
         right_click:{ \
                 "fallback": {\

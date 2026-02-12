@@ -12,6 +12,6 @@ execute if entity @s[tag=dc_rc_hit] run data modify storage dc events.execute se
 execute if entity @s[tag=dc_rc_hit] if data entity @a[tag=dc_click_temp,limit=1] SelectedItem run data modify storage dc events.execute.item set from entity @a[tag=dc_click_temp,limit=1] SelectedItem
 
 
-execute if entity @s[tag=dc_rc_hit] at @s as @e[distance=..1,tag=dc_pivot] if score @s dc_uid = @e[limit=1,tag=dc_rc_hit] dc_uid at @s run function dc:events/_detect/event_trigger
+execute if entity @s[tag=dc_rc_hit] at @s as @e[distance=..5,tag=dc_pivot] if score @s dc_uid = @e[limit=1,tag=dc_rc_hit] dc_uid at @s run function dc:events/_detect/event_trigger
 
 tag @s remove dc_rc_hit

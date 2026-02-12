@@ -6,6 +6,7 @@ execute unless data entity @n[tag=dc_custom_display] item.components."minecraft:
 
 execute store result score @s kaleidoscope_temp run data get entity @n[tag=dc_custom_display] item.components."minecraft:custom_model_data".floats[0]
 
+execute if score @s kaleidoscope_temp matches -5 run data modify entity @n[tag=dc_custom_display] item.components."minecraft:lore"[0].translate set value "lore.kaleidoscope_bar.painting.105"
 execute if score @s kaleidoscope_temp matches -4 run data modify entity @n[tag=dc_custom_display] item.components."minecraft:lore"[0].translate set value "lore.kaleidoscope_bar.painting.104"
 execute if score @s kaleidoscope_temp matches -3 run data modify entity @n[tag=dc_custom_display] item.components."minecraft:lore"[0].translate set value "lore.kaleidoscope_bar.painting.103"
 execute if score @s kaleidoscope_temp matches -2 run data modify entity @n[tag=dc_custom_display] item.components."minecraft:lore"[0].translate set value "lore.kaleidoscope_bar.painting.102"

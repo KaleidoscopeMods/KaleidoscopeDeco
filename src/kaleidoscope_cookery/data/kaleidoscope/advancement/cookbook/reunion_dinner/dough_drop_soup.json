@@ -1,0 +1,46 @@
+{
+    "parent": "kaleidoscope:cookbook/reunion_dinner/fried_spring_roll",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/dough_drop_soup"
+            }
+        },
+        "title": "疙瘩汤",
+        "description": [
+            {
+                "text": "3\u0002 3\u0001\n",
+                "font": "kaleidoscope_cookery:cookbook"
+            },
+            {
+                "text": "知名的家常面食。将面粉加水搅打成小面疙瘩，加入蔬菜、蛋花、肉末等配料煮成咸味汤羹。做法简单、口感软滑、暖胃暖心。",
+                "italic": false
+            },
+            {
+                "text": "\n\n放置食用",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"dough_drop_soup"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

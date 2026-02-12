@@ -1,0 +1,1 @@
+$dialog show @n[type=player,tag=dc_click_temp] $(body)

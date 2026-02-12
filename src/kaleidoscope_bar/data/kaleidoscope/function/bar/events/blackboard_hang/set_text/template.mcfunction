@@ -1,0 +1,1 @@
+$data modify storage kaleidoscope:bar blackboard.dialog.body.yes.action.template set value "function kaleidoscope:bar/events/blackboard_hang/set_text/update {score:$(score),value:$(value),align:$(align),lock:$(lock)}"

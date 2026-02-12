@@ -15,7 +15,7 @@ data modify storage dc:index input.golden_salad set value { \
             {event:"sound",args:{sound:"minecraft:block.wood.place"}}, \
         ], \
         left_click:{ \
-            fallback:{event:"destruct",args:{item:{},particle:"block{block_state:\"oak_planks\"}",sound:"minecraft:block.wood.break"}} \
+            fallback:{event:"destruct",args:{item:{},particle:"self",sound:"minecraft:block.wood.break"}} \
         }, \
         right_click:{ \
                 "fallback": {\
@@ -61,7 +61,7 @@ data modify storage dc:index input.golden_salad_1 set value { \
                             {\
                                 "event": "destruct",\
                                 "args": {\
-                                    "particle": "block{block_state:\"oak_planks\"}",\
+                                    "particle": "self",\
                                     "sound": "minecraft:block.wood.break"\
                                 }\
                             }\
@@ -113,7 +113,7 @@ data modify storage dc:index input.golden_salad_2 set value { \
                             {\
                                 "event": "destruct",\
                                 "args": {\
-                                    "particle": "block{block_state:\"oak_planks\"}",\
+                                    "particle": "self",\
                                     "sound": "minecraft:block.wood.break"\
                                 }\
                             }\
@@ -165,7 +165,7 @@ data modify storage dc:index input.golden_salad_3 set value { \
                             {\
                                 "event": "destruct",\
                                 "args": {\
-                                    "particle": "block{block_state:\"oak_planks\"}",\
+                                    "particle": "self",\
                                     "sound": "minecraft:block.wood.break"\
                                 }\
                             }\
@@ -217,7 +217,7 @@ data modify storage dc:index input.golden_salad_4 set value { \
                             {\
                                 "event": "destruct",\
                                 "args": {\
-                                    "particle": "block{block_state:\"oak_planks\"}",\
+                                    "particle": "self",\
                                     "sound": "minecraft:block.wood.break"\
                                 }\
                             }\
@@ -269,7 +269,7 @@ data modify storage dc:index input.golden_salad_5 set value { \
                             {\
                                 "event": "destruct",\
                                 "args": {\
-                                    "particle": "block{block_state:\"oak_planks\"}",\
+                                    "particle": "self",\
                                     "sound": "minecraft:block.wood.break"\
                                 }\
                             }\
@@ -321,7 +321,7 @@ data modify storage dc:index input.golden_salad_6 set value { \
                             {\
                                 "event": "destruct",\
                                 "args": {\
-                                    "particle": "block{block_state:\"oak_planks\"}",\
+                                    "particle": "self",\
                                     "sound": "minecraft:block.wood.break"\
                                 }\
                             }\

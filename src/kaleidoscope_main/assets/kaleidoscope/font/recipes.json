@@ -307,6 +307,13 @@
             "chars": ["\u0044"],
             "ascent": 48,
             "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/blackboard_hang.png",
+            "chars": ["\u0045"],
+            "ascent": 48,
+            "height": 48
         }
     ]
 }

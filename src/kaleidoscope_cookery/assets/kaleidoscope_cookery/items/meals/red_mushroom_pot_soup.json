@@ -1,0 +1,54 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "fallback": {
+            "type": "minecraft:range_dispatch",
+            "property": "custom_model_data",
+            "index": 0,
+            "fallback": {
+                "type": "model",
+                "model": "kaleidoscope_cookery:meals/block/red_mushroom_pot_soup/0"
+            },
+            "entries": [
+                {
+                    "threshold": 0,
+                    "model": {
+                        "type": "model",
+                        "model": "kaleidoscope_cookery:meals/block/red_mushroom_pot_soup/0"
+                    }
+                },
+                {
+                    "threshold": 1,
+                    "model": {
+                        "type": "model",
+                        "model": "kaleidoscope_cookery:meals/block/red_mushroom_pot_soup/1"
+                    }
+                },
+                {
+                    "threshold": 2,
+                    "model": {
+                        "type": "model",
+                        "model": "kaleidoscope_cookery:meals/block/red_mushroom_pot_soup/2"
+                    }
+                }
+            ]
+        },
+        "cases": [
+            {
+                "when": [
+                    "gui",
+                    "firstperson_lefthand",
+                    "firstperson_righthand",
+                    "thirdperson_lefthand",
+                    "thirdperson_righthand",
+                    "ground"
+                ],
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery:meals/item/red_mushroom_pot_soup"
+                }
+            }
+        ]
+    }
+}

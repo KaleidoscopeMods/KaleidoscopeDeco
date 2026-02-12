@@ -1,0 +1,46 @@
+{
+    "parent": "kaleidoscope:cookery/imperial_banquet",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/braised_pork_ribs"
+            }
+        },
+        "title": "红烧排骨",
+        "description": [
+            {
+                "text": "4\u0002 5\u0001\n",
+                "font": "kaleidoscope_cookery:cookbook"
+            },
+            {
+                "text": "经典红烧技法制作的排骨。永远不会出错的选择。\n\n骨头：我也要炒吗？\n猪肉：对。",
+                "italic": false
+            },
+            {
+                "text": "\n\n放置食用",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"braised_pork_ribs"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

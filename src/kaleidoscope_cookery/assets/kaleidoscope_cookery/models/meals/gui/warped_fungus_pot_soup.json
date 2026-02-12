@@ -1,0 +1,102 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "kaleidoscope_cookery:meals/gui/root",
+	"render_type": "minecraft:cutout",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "kaleidoscope_cookery:block/meals/warped_fungus_pot_soup"
+	},
+	"elements": [
+		{
+			"name": "bb_main2",
+			"from": [7, 6, 6],
+			"to": [11, 7, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -1, 8]},
+			"faces": {
+				"north": {"uv": [14, 5, 16, 5.5], "texture": "#1"},
+				"east": {"uv": [14, 5, 16, 5.5], "texture": "#1"},
+				"south": {"uv": [14, 5, 16, 5.5], "texture": "#1"},
+				"west": {"uv": [14, 5, 16, 5.5], "texture": "#1"},
+				"up": {"uv": [14, 2.5, 16, 4.5], "texture": "#1"},
+				"down": {"uv": [14, 2.5, 16, 4.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "bb_main2",
+			"from": [5, 7, 8],
+			"to": [9, 8, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -1, 8]},
+			"faces": {
+				"north": {"uv": [14, 5, 16, 5.5], "texture": "#1"},
+				"east": {"uv": [14, 5, 16, 5.5], "texture": "#1"},
+				"south": {"uv": [14, 5, 16, 5.5], "texture": "#1"},
+				"west": {"uv": [14, 5, 16, 5.5], "texture": "#1"},
+				"up": {"uv": [14, 2.5, 16, 4.5], "texture": "#1"},
+				"down": {"uv": [14, 2.5, 16, 4.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "bb_main2",
+			"from": [5, 8, 6],
+			"to": [10, 9, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -1, 8]},
+			"faces": {
+				"north": {"uv": [13.5, 5.5, 16, 6], "texture": "#1"},
+				"east": {"uv": [13.5, 5.5, 16, 6], "texture": "#1"},
+				"south": {"uv": [13.5, 5.5, 16, 6], "texture": "#1"},
+				"west": {"uv": [13.5, 5.5, 16, 6], "texture": "#1"},
+				"up": {"uv": [11, 3.5, 13.5, 6], "texture": "#1"},
+				"down": {"uv": [11, 3.5, 13.5, 6], "texture": "#1"}
+			}
+		},
+		{
+			"name": "bb_main2",
+			"from": [6, 4, 7],
+			"to": [7, 8, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -1, 8]},
+			"faces": {
+				"north": {"uv": [12.5, 6, 13, 8], "texture": "#1"},
+				"east": {"uv": [12.5, 6, 13, 8], "texture": "#1"},
+				"south": {"uv": [12.5, 6, 13, 8], "texture": "#1"},
+				"west": {"uv": [12.5, 6, 13, 8], "texture": "#1"},
+				"up": {"uv": [12.5, 6, 13, 6.5], "texture": "#1"},
+				"down": {"uv": [12.5, 6, 13, 6.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "bb_main",
+			"from": [3, 0, 3],
+			"to": [13, 5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, -1, 6]},
+			"faces": {
+				"north": {"uv": [11, 2, 14, 5.5], "texture": "#1"},
+				"east": {"uv": [11, 2, 14, 5.5], "texture": "#1"},
+				"south": {"uv": [11, 2, 14, 5.5], "texture": "#1"},
+				"west": {"uv": [11, 2, 14, 5.5], "texture": "#1"},
+				"up": {"uv": [10.5, 0, 13.5, 3], "texture": "#1"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "bb_main3",
+			"origin": [8, 0, 8],
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "bb_main2",
+			"origin": [8, 0, 8],
+			"color": 1,
+			"children": [0, 1, 2, 3]
+		},
+		{
+			"name": "bb_main",
+			"origin": [8, 0, 8],
+			"color": 2,
+			"children": [4]
+		}
+	]
+}

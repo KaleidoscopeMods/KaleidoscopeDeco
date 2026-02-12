@@ -56,6 +56,11 @@ execute if score @s k_stove_pot_vision matches 1 run data modify entity @s item.
 execute if score @s k_stove_pot_vision matches 0 run data modify entity @s item.components."minecraft:custom_model_data".flags[0] set value false
 execute if entity @s[tag=k_stove_fry_start] run data modify entity @s item.components."minecraft:custom_model_data".flags[1] set value true
 execute unless entity @s[tag=k_stove_fry_start] run data modify entity @s item.components."minecraft:custom_model_data".flags[1] set value false
+execute if data entity @s data.recipe run data modify entity @s item.components."minecraft:custom_model_data".flags[2] set value true
+execute unless data entity @s data.recipe run data modify entity @s item.components."minecraft:custom_model_data".flags[2] set value false
+
+execute if data entity @s data.pot_type store result entity @s item.components."minecraft:custom_model_data".floats[0] float 1 run data get entity @s data.pot_type
+
 
 
 #禁用

@@ -10,7 +10,9 @@ def process_json_file(file_path):
         print(f"Processing file: {file_path}")
         del data["display"]
         data["parent"] = "kaleidoscope_cookery:meals/gui/root"
-    
+    elif not "parent" in data:
+        print(f"Processing file: {file_path}")
+        data["parent"] = "kaleidoscope_cookery:meals/gui/root"
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=4)
 

@@ -1,0 +1,1 @@
+execute as @e[type=text_display,tag=k_board_text] if score @s dc_uid = @n[tag=dc_custom_pivot] dc_uid run kill @s

@@ -1,34 +1,57 @@
 {
     "oversized_in_gui": true,
     "model": {
-        "type": "condition",
-        "property": "minecraft:custom_model_data",
+        "type": "range_dispatch",
+        "property": "custom_model_data",
         "index": 0,
-        "on_false": {
+        "fallback": {
             "type": "condition",
             "property": "minecraft:custom_model_data",
-            "index": 1,
+            "index": 0,
             "on_false": {
-                "type": "model",
-                "model": "kaleidoscope_cookery:gui/pot_lower/normal"
+                "type": "condition",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "on_false": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery:gui/pot_lower/normal"
+                },
+                "on_true": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery:gui/pot_lower/normal_stir"
+                }
             },
             "on_true": {
-                "type": "model",
-                "model": "kaleidoscope_cookery:gui/pot_lower/normal_stir"
+                "type": "condition",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "on_false": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery:gui/pot_lower/with_grease"
+                },
+                "on_true": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery:gui/pot_lower/with_grease_stir"
+                }
             }
         },
-        "on_true": {
-            "type": "condition",
-            "property": "minecraft:custom_model_data",
-            "index": 1,
-            "on_false": {
-                "type": "model",
-                "model": "kaleidoscope_cookery:gui/pot_lower/with_grease"
-            },
-            "on_true": {
-                "type": "model",
-                "model": "kaleidoscope_cookery:gui/pot_lower/with_grease_stir"
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "condition",
+                    "property": "minecraft:custom_model_data",
+                    "index": 0,
+                    "on_false": {
+                        "type": "model",
+                        "model": "kaleidoscope_cookery:gui/pot_lower/stock"
+                    },
+                    "on_true": {
+                        "type": "model",
+                        "model": "kaleidoscope_cookery:gui/pot_lower/stock"
+                    }
+                }
             }
-        }
+        ]
     }
 }

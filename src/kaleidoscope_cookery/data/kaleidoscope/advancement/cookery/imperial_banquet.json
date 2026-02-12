@@ -1,0 +1,58 @@
+{
+    "parent": "kaleidoscope:cookbook/root",
+    "display": {
+        "title": "满汉全席",
+        "description": "品尝所有年夜饭主题菜品",
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:icons/porcelain_plate"
+            }
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "oil_splashed_fish":{
+            "trigger": "impossible"
+        },
+        "cold_roasted_meat":{
+            "trigger": "impossible"
+        },
+        "braised_pork_ribs":{
+            "trigger": "impossible"
+        },
+        "candied_potato":{
+            "trigger": "impossible"
+        },
+        "dough_drop_soup":{
+            "trigger": "impossible"
+        },
+        "numbing_spicy_chicken":{
+            "trigger": "impossible"
+        },
+        "spicy_rabbit_head":{
+            "trigger": "impossible"
+        },
+        "spicy_blood_stew":{
+            "trigger": "impossible"
+        },
+        "four_joy_meatball_soup":{
+            "trigger": "impossible"
+        },
+        "fried_spring_roll":{
+            "trigger": "impossible"
+        },
+        "crimson_fungus_pot_soup":{
+            "trigger": "impossible"
+        },
+        "warped_fungus_pot_soup":{
+            "trigger": "impossible"
+        },
+        "red_mushroom_pot_soup":{
+            "trigger": "impossible"
+        },
+        "brown_mushroom_pot_soup":{
+            "trigger": "impossible"
+        }
+    }
+}

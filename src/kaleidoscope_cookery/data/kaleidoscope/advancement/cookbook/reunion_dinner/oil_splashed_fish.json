@@ -1,0 +1,46 @@
+{
+    "parent": "kaleidoscope:cookbook/reunion_dinner/cold_roasted_meat",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/oil_splashed_fish"
+            }
+        },
+        "title": "油泼鱼",
+        "description": [
+            {
+                "text": "5\u0002 4\u0001\n",
+                "font": "kaleidoscope_cookery:cookbook"
+            },
+            {
+                "text": "将热油淋在已蒸熟或焯熟的鱼上，激发出葱姜蒜和调料的香气而制成的菜品。需要挑刺是它唯一的缺点。",
+                "italic": false
+            },
+            {
+                "text": "\n\n放置食用",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"oil_splashed_fish"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

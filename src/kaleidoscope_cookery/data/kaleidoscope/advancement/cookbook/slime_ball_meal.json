@@ -1,5 +1,5 @@
 {
-    "parent": "kaleidoscope:cookbook/root",
+    "parent": "kaleidoscope:cookery/solitary_gourmet",
     "display": {
         "icon": {
             "id": "firework_star",

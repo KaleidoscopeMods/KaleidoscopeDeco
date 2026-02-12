@@ -1,0 +1,1 @@
+execute as @n[tag=dc_custom_display] run function kaleidoscope:bar/events/sofa/mode_switch/_

@@ -1,5 +1,5 @@
 {
-    "parent": "kaleidoscope:cookery/difference",
+    "parent": "kaleidoscope:cookbook/root",
     "display": {
         "title": "孤独的美食家",
         "description": "尝过所有炒菜",

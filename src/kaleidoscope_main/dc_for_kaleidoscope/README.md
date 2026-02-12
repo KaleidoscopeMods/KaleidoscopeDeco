@@ -23,7 +23,8 @@ data modify storage dc:index keylist append value "<name>"
         当"type"为"hitbox"时：
         (float)width:1f, //碰撞箱宽度
         (float)offset:0f //碰撞箱的偏移量，可为负值。
-        当"type"为"fixed"时，没有额外参数。
+        当"type"为"fixed"时：
+        (boolean) hitbox:0b //（默认0）是否有碰撞箱，设置为1时拥有一个碰撞箱。
         当"type"为"light"时：
         (byte) level:15b //（值域0-15，默认值15）光源亮度；
         (boolean) hitbox:0b //（默认0）是否有碰撞箱，设置为1时拥有一个碰撞箱。

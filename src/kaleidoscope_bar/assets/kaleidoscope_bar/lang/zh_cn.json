@@ -19,6 +19,8 @@
     "advancements.kaleidoscope_bar.tutorial.sofa.description":"方块类型，与其他沙发能自动连接。\n懒人沙发：不会自动连接而能够自由移动和旋转的沙发变体。\n\n§9酒馆\n\n\n\n\n\n",
     "advancements.kaleidoscope_bar.tutorial.tankard.title":"酒杯",
     "advancements.kaleidoscope_bar.tutorial.tankard.description":"经典的木质酒杯，请问你需要来一杯吗？\n\n§9酒馆\n\n\n\n\n\n",
+    "advancements.kaleidoscope_bar.tutorial.blackboard_hang.title":"黑板",
+    "advancements.kaleidoscope_bar.tutorial.blackboard_hang.description":"用于展示文字的黑板。\n\n管理员对其右键交互可编辑展示的文字，共三行，每行限5个字符；另可设置对齐模式和自动连接状态\n\n§9酒馆\n\n\n\n\n\n",
 
     "item.kaleidoscope_chinese.blackboard":"展板",
     "item.kaleidoscope_bar.bottles.artistic0":"艺术酒瓶",
@@ -72,6 +74,9 @@
     "dialog.kaleidoscope.blackboard.align.left":"左对齐",
     "dialog.kaleidoscope.blackboard.align.middle":"居中",
     "dialog.kaleidoscope.blackboard.align.right":"右对齐",
+    "dialog.kaleidoscope.blackboard.lock":"自动连接",
+    "dialog.kaleidoscope.blackboard.lock.true":"锁定",
+    "dialog.kaleidoscope.blackboard.lock.false":"解锁",
 
     "dialog.kaleidoscope.blackboard.color.white":"白色",
     "dialog.kaleidoscope.blackboard.color.yellow":"黄色",

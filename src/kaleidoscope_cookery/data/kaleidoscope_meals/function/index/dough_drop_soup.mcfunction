@@ -1,0 +1,197 @@
+# 【dough_drop_soup】疙瘩汤
+data modify storage dc:index input.dough_drop_soup set value { \
+    modsize:[1f,1f,1f], \
+    interactsize:{height:0.3f,width:1f}, \
+    loot_table:"kaleidoscope_meals:dough_drop_soup", \
+    item:{ \
+        components:{ \
+            "minecraft:item_model":"kaleidoscope_cookery:meals/dough_drop_soup", \
+            "minecraft:custom_model_data":{floats:[0]} \
+        }, \
+    }, \
+    template:"kaleidoscope", \
+    events:{ \
+        "construct":[ \
+            {event:"sound",args:{sound:"minecraft:block.copper_grate.place"}}, \
+        ], \
+        left_click:{ \
+            fallback:{event:"destruct",args:{item:{},particle:"self",sound:"minecraft:block.glass.break"}} \
+        }, \
+        right_click:{ \
+                "fallback": {\
+                    "event": "trans",\
+                    "args": {\
+                        "index": "dough_drop_soup_1",\
+                        "func": "kaleidoscope_meals:effect/eat/dough_drop_soup"\
+                    }\
+                }\
+            } \
+    } \
+} 
+data modify storage dc:index keylist append value "dough_drop_soup" 
+
+# 【dough_drop_soup_1】
+data modify storage dc:index input.dough_drop_soup_1 set value { \
+    modsize:[1f,1f,1f], \
+    interactsize:{height:0.3f,width:1f}, \
+    loot_table:"kaleidoscope_meals:dough_drop_soup", \
+    item:{ \
+        components:{ \
+            "minecraft:item_model":"kaleidoscope_cookery:meals/dough_drop_soup", \
+            "minecraft:custom_model_data":{floats:[1]} \
+        }, \
+    }, \
+    template:"kaleidoscope", \
+    events:{ \
+        "construct":[ \
+            {event:"sound",args:{sound:"minecraft:block.copper_grate.place"}}, \
+        ], \
+        left_click:{ \
+\
+                "fallback": {\
+                    "event": "group",\
+                    "args": {\
+                        "events": [\
+                            {\
+                                "event": "custom",\
+                                "args": {\
+                                    "func": "kaleidoscope:cookery/events/summon_plate"\
+                                }\
+                            },\
+                            {\
+                                "event": "destruct",\
+                                "args": {\
+                                    "particle": "self",\
+                                    "sound": "minecraft:block.glass.break"\
+                                }\
+                            }\
+                        ]\
+                    }\
+                }\
+                    }, \
+        right_click:{ \
+                "fallback": {\
+                    "event": "trans",\
+                    "args": {\
+                        "index": "dough_drop_soup_2",\
+                        "func": "kaleidoscope_meals:effect/eat/dough_drop_soup"\
+                    }\
+                }\
+            } \
+    } \
+} 
+data modify storage dc:index keylist append value "dough_drop_soup_1" 
+
+# 【dough_drop_soup_2】
+data modify storage dc:index input.dough_drop_soup_2 set value { \
+    modsize:[1f,1f,1f], \
+    interactsize:{height:0.3f,width:1f}, \
+    loot_table:"kaleidoscope_meals:dough_drop_soup", \
+    item:{ \
+        components:{ \
+            "minecraft:item_model":"kaleidoscope_cookery:meals/dough_drop_soup", \
+            "minecraft:custom_model_data":{floats:[2]} \
+        }, \
+    }, \
+    template:"kaleidoscope", \
+    events:{ \
+        "construct":[ \
+            {event:"sound",args:{sound:"minecraft:block.copper_grate.place"}}, \
+        ], \
+        left_click:{ \
+\
+                "fallback": {\
+                    "event": "group",\
+                    "args": {\
+                        "events": [\
+                            {\
+                                "event": "custom",\
+                                "args": {\
+                                    "func": "kaleidoscope:cookery/events/summon_plate"\
+                                }\
+                            },\
+                            {\
+                                "event": "destruct",\
+                                "args": {\
+                                    "particle": "self",\
+                                    "sound": "minecraft:block.glass.break"\
+                                }\
+                            }\
+                        ]\
+                    }\
+                }\
+                    }, \
+        right_click:{ \
+                "fallback": {\
+                    "event": "trans",\
+                    "args": {\
+                        "index": "dough_drop_soup_3",\
+                        "func": "kaleidoscope_meals:effect/eat/dough_drop_soup"\
+                    }\
+                }\
+            } \
+    } \
+} 
+data modify storage dc:index keylist append value "dough_drop_soup_2" 
+
+# 【dough_drop_soup_3】
+data modify storage dc:index input.dough_drop_soup_3 set value { \
+    modsize:[1f,1f,1f], \
+    interactsize:{height:0.3f,width:1f}, \
+    loot_table:"kaleidoscope_meals:dough_drop_soup", \
+    item:{ \
+        components:{ \
+            "minecraft:item_model":"kaleidoscope_cookery:meals/dough_drop_soup", \
+            "minecraft:custom_model_data":{floats:[3]} \
+        }, \
+    }, \
+    template:"kaleidoscope", \
+    events:{ \
+        "construct":[ \
+            {event:"sound",args:{sound:"minecraft:block.copper_grate.place"}}, \
+        ], \
+        left_click:{ \
+\
+                "fallback": {\
+                    "event": "group",\
+                    "args": {\
+                        "events": [\
+                            {\
+                                "event": "custom",\
+                                "args": {\
+                                    "func": "kaleidoscope:cookery/events/summon_plate"\
+                                }\
+                            },\
+                            {\
+                                "event": "destruct",\
+                                "args": {\
+                                    "particle": "self",\
+                                    "sound": "minecraft:block.glass.break"\
+                                }\
+                            }\
+                        ]\
+                    }\
+                }\
+                    }, \
+        right_click:{ \
+                "fallback": {\
+                    "event": "group",\
+                    "args": {\
+                        "events": [\
+                            {\
+                                "event": "custom",\
+                                "args": {\
+                                    "func": "kaleidoscope:cookery/events/reclaim_plate"\
+                                }\
+                            },\
+                            {\
+                                "event": "destruct"\
+                            }\
+                        ]\
+                    }\
+                }\
+            } \
+    } \
+} 
+data modify storage dc:index keylist append value "dough_drop_soup_3" 
+

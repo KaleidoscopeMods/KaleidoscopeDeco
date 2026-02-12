@@ -1,5 +1,5 @@
 #放置一个屏障，后面和regular相同
-setblock ~ ~ ~ barrier
+execute unless data entity @s {data:{extra_data:{hitbox:false}}} run setblock ~ ~ ~ barrier
 summon marker ~ ~ ~ {Tags:["dc_pivot","dc_pivot_temp"]}
 summon item_display ~ ~ ~ {Tags:["dc_display","dc_display_temp"]}
 summon interaction ~ ~ ~ {Tags:["dc_interaction","dc_interaction_temp"],response:1b,attack:{player:[I;0,0,0,0],timestamp:0L},interaction:{player:[I;0,0,0,0],timestamp:0L}}

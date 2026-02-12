@@ -4,6 +4,9 @@ execute store result score @s kaleidoscope_temp run data get entity @s data.cabi
 execute if score @s kaleidoscope_temp matches 2.. run return run playsound entity.villager.no block @a ~ ~ ~ 0.5 0.9
 
 data modify entity @s data.cabinet append from entity @n[tag=dc_click_temp] SelectedItem
+data modify entity @s data.cabinet[-1].count set value 1
+execute as @n[type=player,tag=dc_click_temp,gamemode=!creative] store result score @s kaleidoscope_clear run data get entity @s SelectedItem.count
+scoreboard players remove @n[type=player,tag=dc_click_temp,gamemode=!creative] kaleidoscope_clear 1
 execute as @n[type=player,tag=dc_click_temp,gamemode=!creative] run item modify entity @s weapon.mainhand kaleidoscope:clear
 
 playsound block.lantern.place player @a ~ ~ ~ 0.3 1.2

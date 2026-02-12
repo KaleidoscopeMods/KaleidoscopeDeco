@@ -19,6 +19,8 @@
     "advancements.kaleidoscope_bar.tutorial.sofa.description":"Block type, can be automatically connected with other sofas.\nLazy Sofa: a variant of sofa which won't automatically connect but can be moved and rotated.\n\n§9Bar\n\n\n\n\n\n",
     "advancements.kaleidoscope_bar.tutorial.tankard.title":"Tankard",
     "advancements.kaleidoscope_bar.tutorial.tankard.description":"Would you like a glass of beer?\n\n§9Bar\n\n\n\n\n\n",
+    "advancements.kaleidoscope_bar.tutorial.blackboard_hang.title":"Blackboard",
+    "advancements.kaleidoscope_bar.tutorial.blackboard_hang.description":"Blackboard used for displaying text.\n\nThe administrator can edit the displayed text through right-click interaction. There are three lines in total, with each line limited to 5 characters. Additionally, alignment mode and automatic connection status can be set.\n\n§9Bar\n\n\n\n\n\n",
 
     "item.kaleidoscope_chinese.blackboard":"Display Board",
     "item.kaleidoscope_bar.bottles.artistic0":"Artistic Wine Bottle",
@@ -71,6 +73,9 @@
     "dialog.kaleidoscope.blackboard.align.left":"Left",
     "dialog.kaleidoscope.blackboard.align.middle":"Center",
     "dialog.kaleidoscope.blackboard.align.right":"Right",
+    "dialog.kaleidoscope.blackboard.lock":"Auto-Connection",
+    "dialog.kaleidoscope.blackboard.lock.true":"Locked",
+    "dialog.kaleidoscope.blackboard.lock.false":"Unlocked",
 
     "dialog.kaleidoscope.blackboard.color.white":"White",
     "dialog.kaleidoscope.blackboard.color.yellow":"Yellow",

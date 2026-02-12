@@ -21,6 +21,21 @@
         "kaleidoscope_meals:index/sashimi_nether",
         "kaleidoscope_meals:index/sashimi_snow",
         "kaleidoscope_meals:index/sashimi_tundra",
-        "kaleidoscope_meals:index/yakitori"
+        "kaleidoscope_meals:index/yakitori",
+
+        "kaleidoscope_meals:index/oil_splashed_fish",
+        "kaleidoscope_meals:index/cold_roasted_meat",
+        "kaleidoscope_meals:index/braised_pork_ribs",
+        "kaleidoscope_meals:index/candied_potato",
+        "kaleidoscope_meals:index/dough_drop_soup",
+        "kaleidoscope_meals:index/numbing_spicy_chicken",
+        "kaleidoscope_meals:index/spicy_rabbit_head",
+        "kaleidoscope_meals:index/spicy_blood_stew",
+        "kaleidoscope_meals:index/four_joy_meatball_soup",
+        "kaleidoscope_meals:index/fried_spring_roll",
+        "kaleidoscope_meals:index/crimson_fungus_pot_soup",
+        "kaleidoscope_meals:index/warped_fungus_pot_soup",
+        "kaleidoscope_meals:index/red_mushroom_pot_soup",
+        "kaleidoscope_meals:index/brown_mushroom_pot_soup"
     ]
 }

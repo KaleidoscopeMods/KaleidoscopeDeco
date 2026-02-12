@@ -1,0 +1,43 @@
+# 【kaleidoscope_bar:blackboard_hang】黑板
+data modify storage dc:index input.kaleidoscope_bar:blackboard_hang set value {\
+    modsize:[1f,1f,1f],\
+    type:"fixed",\
+    extra_data:{hitbox:false},\
+    loot_table:"kaleidoscope:bar/blackboard_hang",\
+    template:"kaleidoscope_block_90",\
+    prop:{attach:"square"},\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_bar:blackboard_hang"}\
+    },\
+    events:{\
+        "construct":[\
+            {event:"sound",args:{sound:"minecraft:block.wool.place"}},\
+            {event:"custom",args:{func:"kaleidoscope:bar/events/blackboard_hang/construct"}},\
+            {event:"custom",args:{func:"kaleidoscope:bar/events/blackboard_hang/connect"}},\
+            {event:"broadcast"}\
+        ],\
+        destruct:[\
+            {event:"custom",args:{func:"kaleidoscope:bar/events/blackboard_hang/destruct"}},\
+            {event:"broadcast"}\
+        ],\
+        update:[\
+            {event:"custom",args:{func:"kaleidoscope:bar/events/blackboard_hang/connect"}},\
+            {event:"custom",args:{func:"kaleidoscope:bar/events/blackboard_hang/update"}}\
+        ],\
+        left_click:{\
+            criteria:[\
+                {\
+                    event:"__nothing__",\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"trans"}}}\
+                },\
+            ],\
+            fallback:{"event":"group",args:{events:[\
+                {event:"destruct",args:{item:{},particle:"self",sound:"minecraft:entity.painting.break"}}\
+            ]}}\
+        },\
+        right_click:{\
+            "fallback":{event:"custom",args:{func:"kaleidoscope:bar/events/blackboard_hang/set_text"}}\
+        }\
+    }\
+}
+data modify storage dc:index keylist append value "kaleidoscope_bar:blackboard_hang"

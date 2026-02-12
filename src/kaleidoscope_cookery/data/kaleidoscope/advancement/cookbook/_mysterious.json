@@ -1,5 +1,5 @@
 {
-    "parent": "kaleidoscope:cookbook/root",
+    "parent": "kaleidoscope:cookbook/_overburnt",
     "display": {
         "icon": {
             "id": "firework_star",

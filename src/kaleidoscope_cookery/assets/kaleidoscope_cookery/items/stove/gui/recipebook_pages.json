@@ -28,6 +28,20 @@
                     "model": "kaleidoscope_cookery:gui/recipe_book/c"
                 },
                 "threshold": 3
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery:gui/recipe_book/d"
+                },
+                "threshold": 4
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery:gui/recipe_book/e"
+                },
+                "threshold": 5
             }
         ]
     }

@@ -15,7 +15,7 @@ data modify storage dc:index input.mutton_ice set value { \
             {event:"sound",args:{sound:"minecraft:block.wood.place"}}, \
         ], \
         left_click:{ \
-            fallback:{event:"destruct",args:{item:{},particle:"block{block_state:\"oak_planks\"}",sound:"minecraft:block.wood.break"}} \
+            fallback:{event:"destruct",args:{item:{},particle:"self",sound:"minecraft:block.wood.break"}} \
         }, \
         right_click:{ \
                 "fallback": {\
@@ -62,7 +62,7 @@ data modify storage dc:index input.mutton_ice_1 set value { \
                             {\
                                 "event": "destruct",\
                                 "args": {\
-                                    "particle": "block{block_state:\"oak_planks\"}",\
+                                    "particle": "self",\
                                     "sound": "minecraft:block.wood.break"\
                                 }\
                             }\
@@ -115,7 +115,7 @@ data modify storage dc:index input.mutton_ice_2 set value { \
                             {\
                                 "event": "destruct",\
                                 "args": {\
-                                    "particle": "block{block_state:\"oak_planks\"}",\
+                                    "particle": "self",\
                                     "sound": "minecraft:block.wood.break"\
                                 }\
                             }\
@@ -168,7 +168,7 @@ data modify storage dc:index input.mutton_ice_3 set value { \
                             {\
                                 "event": "destruct",\
                                 "args": {\
-                                    "particle": "block{block_state:\"oak_planks\"}",\
+                                    "particle": "self",\
                                     "sound": "minecraft:block.wood.break"\
                                 }\
                             }\

@@ -17,17 +17,49 @@
             }
         },
         "on_true": {
-            "type": "condition",
+            "type": "range_dispatch",
             "property": "custom_model_data",
-            "index": 1,
-            "on_false": {
-                "type": "model",
-                "model": "kaleidoscope_cookery:block/stove/normal_with_pot"
+            "index": 0,
+            "fallback": {
+                "type": "condition",
+                "property": "custom_model_data",
+                "index": 1,
+                "on_false": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery:block/stove/normal_with_pot"
+                },
+                "on_true": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery:block/stove/light_with_pot"
+                }
             },
-            "on_true": {
-                "type": "model",
-                "model": "kaleidoscope_cookery:block/stove/light_with_pot"
-            }
+            "entries": [
+                {
+                    "threshold": 1,
+                    "model": {
+                        "type": "condition",
+                        "property": "custom_model_data",
+                        "index": 1,
+                        "on_false": {
+                            "type": "condition",
+                            "property": "custom_model_data",
+                            "index": 2,
+                            "on_false": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery:block/stove/normal_with_stock_empty"
+                            },
+                            "on_true": {
+                                "type": "model",
+                                "model": "kaleidoscope_cookery:block/stove/normal_with_stock"
+                            }
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery:block/stove/light_with_stock"
+                        }
+                    }
+                }
+            ]
         }
     }
 }

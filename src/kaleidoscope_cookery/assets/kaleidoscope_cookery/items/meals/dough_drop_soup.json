@@ -1,0 +1,61 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "fallback": {
+            "type": "minecraft:range_dispatch",
+            "property": "custom_model_data",
+            "index": 0,
+            "fallback": {
+                "type": "model",
+                "model": "kaleidoscope_cookery:meals/block/dough_drop_soup/0"
+            },
+            "entries": [
+                {
+                    "threshold": 0,
+                    "model": {
+                        "type": "model",
+                        "model": "kaleidoscope_cookery:meals/block/dough_drop_soup/0"
+                    }
+                },
+                {
+                    "threshold": 1,
+                    "model": {
+                        "type": "model",
+                        "model": "kaleidoscope_cookery:meals/block/dough_drop_soup/1"
+                    }
+                },
+                {
+                    "threshold": 2,
+                    "model": {
+                        "type": "model",
+                        "model": "kaleidoscope_cookery:meals/block/dough_drop_soup/2"
+                    }
+                },
+                {
+                    "threshold": 3,
+                    "model": {
+                        "type": "model",
+                        "model": "kaleidoscope_cookery:meals/block/dough_drop_soup/3"
+                    }
+                }
+            ]
+        },
+        "cases": [
+            {
+                "when": [
+                    "gui",
+                    "firstperson_lefthand",
+                    "firstperson_righthand",
+                    "thirdperson_lefthand",
+                    "thirdperson_righthand",
+                    "ground"
+                ],
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery:meals/item/dough_drop_soup"
+                }
+            }
+        ]
+    }
+}

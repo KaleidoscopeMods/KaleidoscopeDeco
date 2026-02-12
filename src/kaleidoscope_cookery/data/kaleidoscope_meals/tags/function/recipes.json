@@ -1,6 +1,7 @@
 {
     "values": [
         "kaleidoscope_meals:recipes/ingredients",
-        "kaleidoscope_meals:recipes/meals"
+        "kaleidoscope_meals:recipes/meals",
+        "kaleidoscope_meals:recipes/reunion_dinner"
     ]
 }

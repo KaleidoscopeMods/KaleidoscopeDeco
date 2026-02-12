@@ -15,7 +15,7 @@ data modify storage dc:index input.knight_steak set value { \
             {event:"sound",args:{sound:"minecraft:block.wood.place"}}, \
         ], \
         left_click:{ \
-            fallback:{event:"destruct",args:{item:{},particle:"block{block_state:\"oak_planks\"}",sound:"minecraft:block.wood.break"}} \
+            fallback:{event:"destruct",args:{item:{},particle:"self",sound:"minecraft:block.wood.break"}} \
         }, \
         right_click:{ \
                 "fallback": {\
@@ -47,7 +47,7 @@ data modify storage dc:index input.knight_steak_1 set value { \
             {event:"sound",args:{sound:"minecraft:block.wood.place"}}, \
         ], \
         left_click:{ \
-            fallback:{event:"destruct",args:{item:{mode:"replace",item:{id:"bowl"}},particle:"block{block_state:\"oak_planks\"}",sound:"minecraft:block.wood.break"}} \
+            fallback:{event:"destruct",args:{item:{mode:"replace",item:{id:"bowl"}},particle:"self",sound:"minecraft:block.wood.break"}} \
         }, \
         right_click:{ \
                 "fallback": {\
@@ -79,7 +79,7 @@ data modify storage dc:index input.knight_steak_2 set value { \
             {event:"sound",args:{sound:"minecraft:block.wood.place"}}, \
         ], \
         left_click:{ \
-            fallback:{event:"destruct",args:{item:{mode:"replace",item:{id:"bowl"}},particle:"block{block_state:\"oak_planks\"}",sound:"minecraft:block.wood.break"}} \
+            fallback:{event:"destruct",args:{item:{mode:"replace",item:{id:"bowl"}},particle:"self",sound:"minecraft:block.wood.break"}} \
         }, \
         right_click:{ \
                 "fallback": {\
@@ -111,7 +111,7 @@ data modify storage dc:index input.knight_steak_3 set value { \
             {event:"sound",args:{sound:"minecraft:block.wood.place"}}, \
         ], \
         left_click:{ \
-            fallback:{event:"destruct",args:{item:{mode:"replace",item:{id:"bowl"}},particle:"block{block_state:\"oak_planks\"}",sound:"minecraft:block.wood.break"}} \
+            fallback:{event:"destruct",args:{item:{mode:"replace",item:{id:"bowl"}},particle:"self",sound:"minecraft:block.wood.break"}} \
         }, \
         right_click:{ \
                 "fallback": {\
@@ -143,7 +143,7 @@ data modify storage dc:index input.knight_steak_4 set value { \
             {event:"sound",args:{sound:"minecraft:block.wood.place"}}, \
         ], \
         left_click:{ \
-            fallback:{event:"destruct",args:{item:{mode:"replace",item:{id:"bowl"}},particle:"block{block_state:\"oak_planks\"}",sound:"minecraft:block.wood.break"}} \
+            fallback:{event:"destruct",args:{item:{mode:"replace",item:{id:"bowl"}},particle:"self",sound:"minecraft:block.wood.break"}} \
         }, \
         right_click:{ \
                 "fallback": {\

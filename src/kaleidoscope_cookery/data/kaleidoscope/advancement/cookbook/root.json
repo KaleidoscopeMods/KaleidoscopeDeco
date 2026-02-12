@@ -1,5 +1,5 @@
 {
-    "parent": "kaleidoscope:cookery/novice_chef",
+    "parent": "kaleidoscope:cookery/placetaker/2",
     "display": {
         "icon": {
             "id": "firework_star",

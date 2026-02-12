@@ -1,4 +1,4 @@
-//update:26/1/17
+//update:26/2/8
 use ::java::world::component::DataComponentPatch
 
 dispatch minecraft:storage["dc:index"] to dcInput
@@ -85,6 +85,10 @@ dispatch dc:extra_data[Hitbox] to struct extra_data_hitbox {
 dispatch dc:extra_data[Light] to struct extra_data_light {
     level?: byte @ 0..15,
     hitbox?: boolean,
+}
+
+dispatch dc:extra_data[Fixed] to struct extra_data_fixed {
+    hitbox?: boolean
 }
 
 enum(string) dcType {

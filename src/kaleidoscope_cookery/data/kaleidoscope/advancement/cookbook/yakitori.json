@@ -1,5 +1,5 @@
 {
-    "parent": "kaleidoscope:cookbook/root",
+    "parent": "kaleidoscope:cookbook/golden_salad",
     "display": {
         "icon": {
             "id": "firework_star",

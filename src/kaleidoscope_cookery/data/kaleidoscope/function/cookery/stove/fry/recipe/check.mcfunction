@@ -22,4 +22,7 @@ execute if score #temp k_stove_fry_recipe_flag matches 0 unless data storage kal
 execute if score #temp k_stove_fry_recipe_flag matches 0 if data storage kaleidoscope_temp cookery.fry.recipe.need_bowl run data modify entity @s data.need_bowl set from storage kaleidoscope_temp cookery.fry.recipe.need_bowl
 execute if score #temp k_stove_fry_recipe_flag matches 0 unless data storage kaleidoscope_temp cookery.fry.recipe.need_bowl run data modify entity @s data.need_bowl set value 1b
 
+execute if score #temp k_stove_fry_recipe_flag matches 0 if data storage kaleidoscope_temp cookery.fry.recipe.pot_type run data modify entity @s data.pot_type set from storage kaleidoscope_temp cookery.fry.recipe.pot_type
+execute if score #temp k_stove_fry_recipe_flag matches 0 unless data storage kaleidoscope_temp cookery.fry.recipe.pot_type run data modify entity @s data.pot_type set value 0
+
 execute if score #temp k_stove_fry_recipe_flag matches 0 run scoreboard players set @s k_stove_fry_recipe_flag 1
