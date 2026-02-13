@@ -1,7 +1,7 @@
 tag @s add kaleidoscope_bar_blackboard_hang
 execute as @n[tag=dc_custom_display] unless data entity @s item.components."minecraft:custom_model_data".flags run data modify entity @s item.components."minecraft:custom_model_data".flags set value [false,false,false,false]
 
-summon text_display ~ ~ ~ {Tags:["k_board_text","k_board_text_temp"],text:{text:"",color:"gray"},background:0}
+summon text_display ~ ~ ~ {Tags:["k_board_text","k_board_text_temp"],text:{text:"",color:"gray"},background:0,brightness:{sky:15,block:15}}
 
 scoreboard players operation @n[tag=k_board_text_temp] dc_uid = @s dc_uid
 
