@@ -7,6 +7,7 @@ tp @n[tag=dc_custom_text] @n[tag=dc_custom_interaction]
 data modify entity @n[tag=dc_custom_text] Rotation set from entity @n[tag=dc_custom_interaction] Rotation
 execute as @n[tag=dc_custom_text] at @s run tp ^ ^-0.1 ^0.37
 
-
-
 tag @n[tag=dc_custom_text] remove dc_custom_text
+
+execute store result storage kaleidoscope:temp blackboard_hang.score int 1 run scoreboard players get @s dc_uid
+function kaleidoscope:bar/events/blackboard_hang/set_text/update_text with storage kaleidoscope:temp blackboard_hang

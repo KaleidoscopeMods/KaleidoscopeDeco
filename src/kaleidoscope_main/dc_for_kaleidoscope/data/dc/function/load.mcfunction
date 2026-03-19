@@ -23,7 +23,7 @@ function dc:template/_main
 function dc:index/_main
 
 #options
-execute unless score $auto_install dc_options matches -2147483648..2147483647 run scoreboard players set $auto_install dc_options 0
+execute unless score $auto_install dc_options matches -2147483648..2147483647 run scoreboard players set $auto_install dc_options 1
 execute unless score $silent_update dc_options matches -2147483648..2147483647 run scoreboard players set $silent_update dc_options 0
 execute unless score $silent_register dc_options matches -2147483648..2147483647 run scoreboard players set $silent_register dc_options 0
 execute unless score $silent_exception dc_options matches -2147483648..2147483647 run scoreboard players set $silent_exception dc_options 0
@@ -31,6 +31,7 @@ execute unless score $silent_exception dc_options matches -2147483648..214748364
 #version
 scoreboard objectives add dc_version dummy
 scoreboard players set $version dc_version 25
+execute store result score $game_version dc_version run data get entity @p DataVersion
 
 #exception
 scoreboard objectives add dc_exception dummy
@@ -41,6 +42,9 @@ forceload add 0 0
 #schedules
 schedule clear dc:schedule_1s
 schedule function dc:schedule_1s 1s
+
+schedule clear dc:schedule_0.5s
+schedule function dc:schedule_0.5s 0.5s
 
 #auto_install
 execute if score $auto_install dc_options matches 1 run function dc:api/install

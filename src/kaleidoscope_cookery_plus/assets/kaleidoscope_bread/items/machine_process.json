@@ -1,0 +1,175 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "index": 0,
+        "scale": 1,
+        "fallback": {
+            "type": "model",
+            "model": "kaleidoscope_bread:item/machine_process/0"
+        },
+        "entries": [
+            {
+                "threshold": 0,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/0"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/1"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/2"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/3"
+                }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/4"
+                }
+            },
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/5"
+                }
+            },
+            {
+                "threshold": 55,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/6"
+                }
+            },
+            {
+                "threshold": 65,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/7"
+                }
+            },
+            {
+                "threshold": 75,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/8"
+                }
+            },
+            {
+                "threshold": 85,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/9"
+                }
+            },
+            {
+                "threshold": 95,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/10"
+                }
+            },
+            {
+                "threshold": 105,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/11"
+                }
+            },
+            {
+                "threshold": 135,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/12"
+                }
+            },
+            {
+                "threshold": 137,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/13"
+                }
+            },
+            {
+                "threshold": 139,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/14"
+                }
+            },
+            {
+                "threshold": 141,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/15"
+                }
+            },
+            {
+                "threshold": 143,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/16"
+                }
+            },
+            {
+                "threshold": 145,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/17"
+                }
+            },
+            {
+                "threshold": 147,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/18"
+                }
+            },
+            {
+                "threshold": 149,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/19"
+                }
+            },
+            {
+                "threshold": 151,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/20"
+                }
+            },
+            {
+                "threshold": 153,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/21"
+                }
+            },
+            {
+                "threshold": 155,
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_process/22"
+                }
+            }
+        ]
+    }
+}

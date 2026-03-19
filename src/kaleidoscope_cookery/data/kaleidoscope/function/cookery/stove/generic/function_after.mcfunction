@@ -1,6 +1,8 @@
 #通用处理_后
 
 #gui处理
-function kaleidoscope:cookery/stove/generic/replace/0
-function kaleidoscope:cookery/stove/generic/replace/18
-function kaleidoscope:cookery/stove/generic/replace/19
+
+function kaleidoscope:cookery/stove/generic/replace
+
+#更新标记
+tag @s remove k_stove_update

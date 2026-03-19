@@ -10,4 +10,3 @@ function kaleidoscope:cookery/stove/tick
 
 advancement revoke @a only kaleidoscope:cookery/placetaker/1
 advancement revoke @a only kaleidoscope:cookery/placetaker/2
-advancement revoke @a only kaleidoscope:cookery/placetaker/3

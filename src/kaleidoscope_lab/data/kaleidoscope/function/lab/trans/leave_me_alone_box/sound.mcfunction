@@ -1,0 +1,12 @@
+execute if score @s kaleidoscope_anim_type matches 1 run function kaleidoscope:lab/trans/leave_me_alone_box/sounds/1
+execute if score @s kaleidoscope_anim_type matches 2 run function kaleidoscope:lab/trans/leave_me_alone_box/sounds/2
+execute if score @s kaleidoscope_anim_type matches 3 run function kaleidoscope:lab/trans/leave_me_alone_box/sounds/3
+execute if score @s kaleidoscope_anim_type matches 4 run function kaleidoscope:lab/trans/leave_me_alone_box/sounds/4
+execute if score @s kaleidoscope_anim_type matches 5 run function kaleidoscope:lab/trans/leave_me_alone_box/sounds/5
+execute if score @s kaleidoscope_anim_type matches 6 run function kaleidoscope:lab/trans/leave_me_alone_box/sounds/6
+execute if score @s kaleidoscope_anim_type matches 7 run function kaleidoscope:lab/trans/leave_me_alone_box/sounds/7
+execute if score @s kaleidoscope_anim_type matches 8 run function kaleidoscope:lab/trans/leave_me_alone_box/sounds/8
+execute if score @s kaleidoscope_anim_type matches 9 run function kaleidoscope:lab/trans/leave_me_alone_box/sounds/9
+execute if score @s kaleidoscope_anim_type matches 10 run function kaleidoscope:lab/trans/leave_me_alone_box/sounds/10
+execute if score @s kaleidoscope_anim_type matches 11 run function kaleidoscope:lab/trans/leave_me_alone_box/sounds/11
+execute if score @s kaleidoscope_anim_type matches 12 run function kaleidoscope:lab/trans/leave_me_alone_box/sounds/12

@@ -1,0 +1,4500 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "index": 0,
+        "fallback": {
+            "type": "model",
+            "model": "kaleidoscope_lab:leave_me_alone_box/open/0"
+        },
+        "cases": [
+            {
+                "when": "open",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "fallback": {
+                        "type": "empty"
+                    },
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/open/0"
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/open/1"
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/open/2"
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/open/3"
+                            }
+                        },
+                        {
+                            "threshold": 4,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/open/4"
+                            }
+                        },
+                        {
+                            "threshold": 5,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/open/5"
+                            }
+                        },
+                        {
+                            "threshold": 6,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/open/6"
+                            }
+                        },
+                        {
+                            "threshold": 7,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/open/7"
+                            }
+                        },
+                        {
+                            "threshold": 8,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/open/8"
+                            }
+                        },
+                        {
+                            "threshold": 9,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/open/9"
+                            }
+                        },
+                        {
+                            "threshold": 10,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/open/10"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "close1",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "fallback": {
+                        "type": "empty"
+                    },
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/0"
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/1"
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/2"
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/3"
+                            }
+                        },
+                        {
+                            "threshold": 4,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/4"
+                            }
+                        },
+                        {
+                            "threshold": 5,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/5"
+                            }
+                        },
+                        {
+                            "threshold": 6,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/6"
+                            }
+                        },
+                        {
+                            "threshold": 7,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/7"
+                            }
+                        },
+                        {
+                            "threshold": 8,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/8"
+                            }
+                        },
+                        {
+                            "threshold": 9,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/9"
+                            }
+                        },
+                        {
+                            "threshold": 10,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/10"
+                            }
+                        },
+                        {
+                            "threshold": 11,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/11"
+                            }
+                        },
+                        {
+                            "threshold": 12,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/12"
+                            }
+                        },
+                        {
+                            "threshold": 13,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/13"
+                            }
+                        },
+                        {
+                            "threshold": 14,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/14"
+                            }
+                        },
+                        {
+                            "threshold": 15,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/15"
+                            }
+                        },
+                        {
+                            "threshold": 16,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/16"
+                            }
+                        },
+                        {
+                            "threshold": 17,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/17"
+                            }
+                        },
+                        {
+                            "threshold": 18,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/18"
+                            }
+                        },
+                        {
+                            "threshold": 19,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/19"
+                            }
+                        },
+                        {
+                            "threshold": 20,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close1/20"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "close2",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "fallback": {
+                        "type": "empty"
+                    },
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/0"
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/1"
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/2"
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/3"
+                            }
+                        },
+                        {
+                            "threshold": 4,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/4"
+                            }
+                        },
+                        {
+                            "threshold": 5,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/5"
+                            }
+                        },
+                        {
+                            "threshold": 6,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/6"
+                            }
+                        },
+                        {
+                            "threshold": 7,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/7"
+                            }
+                        },
+                        {
+                            "threshold": 8,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/8"
+                            }
+                        },
+                        {
+                            "threshold": 9,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/9"
+                            }
+                        },
+                        {
+                            "threshold": 10,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/10"
+                            }
+                        },
+                        {
+                            "threshold": 11,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/11"
+                            }
+                        },
+                        {
+                            "threshold": 12,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/12"
+                            }
+                        },
+                        {
+                            "threshold": 13,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/13"
+                            }
+                        },
+                        {
+                            "threshold": 14,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/14"
+                            }
+                        },
+                        {
+                            "threshold": 15,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/15"
+                            }
+                        },
+                        {
+                            "threshold": 16,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/16"
+                            }
+                        },
+                        {
+                            "threshold": 17,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/17"
+                            }
+                        },
+                        {
+                            "threshold": 18,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/18"
+                            }
+                        },
+                        {
+                            "threshold": 19,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/19"
+                            }
+                        },
+                        {
+                            "threshold": 20,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/20"
+                            }
+                        },
+                        {
+                            "threshold": 21,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/21"
+                            }
+                        },
+                        {
+                            "threshold": 22,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/22"
+                            }
+                        },
+                        {
+                            "threshold": 23,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/23"
+                            }
+                        },
+                        {
+                            "threshold": 24,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/24"
+                            }
+                        },
+                        {
+                            "threshold": 25,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/25"
+                            }
+                        },
+                        {
+                            "threshold": 26,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/26"
+                            }
+                        },
+                        {
+                            "threshold": 27,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/27"
+                            }
+                        },
+                        {
+                            "threshold": 28,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/28"
+                            }
+                        },
+                        {
+                            "threshold": 29,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/29"
+                            }
+                        },
+                        {
+                            "threshold": 30,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/30"
+                            }
+                        },
+                        {
+                            "threshold": 31,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/31"
+                            }
+                        },
+                        {
+                            "threshold": 32,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/32"
+                            }
+                        },
+                        {
+                            "threshold": 33,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/33"
+                            }
+                        },
+                        {
+                            "threshold": 34,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/34"
+                            }
+                        },
+                        {
+                            "threshold": 35,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close2/35"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "close3",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "fallback": {
+                        "type": "empty"
+                    },
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/0"
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/1"
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/2"
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/3"
+                            }
+                        },
+                        {
+                            "threshold": 4,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/4"
+                            }
+                        },
+                        {
+                            "threshold": 5,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/5"
+                            }
+                        },
+                        {
+                            "threshold": 6,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/6"
+                            }
+                        },
+                        {
+                            "threshold": 7,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/7"
+                            }
+                        },
+                        {
+                            "threshold": 8,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/8"
+                            }
+                        },
+                        {
+                            "threshold": 9,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/9"
+                            }
+                        },
+                        {
+                            "threshold": 10,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/10"
+                            }
+                        },
+                        {
+                            "threshold": 11,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/11"
+                            }
+                        },
+                        {
+                            "threshold": 12,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/12"
+                            }
+                        },
+                        {
+                            "threshold": 13,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/13"
+                            }
+                        },
+                        {
+                            "threshold": 14,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/14"
+                            }
+                        },
+                        {
+                            "threshold": 15,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/15"
+                            }
+                        },
+                        {
+                            "threshold": 16,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/16"
+                            }
+                        },
+                        {
+                            "threshold": 17,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/17"
+                            }
+                        },
+                        {
+                            "threshold": 18,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/18"
+                            }
+                        },
+                        {
+                            "threshold": 19,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/19"
+                            }
+                        },
+                        {
+                            "threshold": 20,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/20"
+                            }
+                        },
+                        {
+                            "threshold": 21,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/21"
+                            }
+                        },
+                        {
+                            "threshold": 22,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/22"
+                            }
+                        },
+                        {
+                            "threshold": 23,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/23"
+                            }
+                        },
+                        {
+                            "threshold": 24,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/24"
+                            }
+                        },
+                        {
+                            "threshold": 25,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/25"
+                            }
+                        },
+                        {
+                            "threshold": 26,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/26"
+                            }
+                        },
+                        {
+                            "threshold": 27,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/27"
+                            }
+                        },
+                        {
+                            "threshold": 28,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/28"
+                            }
+                        },
+                        {
+                            "threshold": 29,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/29"
+                            }
+                        },
+                        {
+                            "threshold": 30,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/30"
+                            }
+                        },
+                        {
+                            "threshold": 31,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/31"
+                            }
+                        },
+                        {
+                            "threshold": 32,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/32"
+                            }
+                        },
+                        {
+                            "threshold": 33,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/33"
+                            }
+                        },
+                        {
+                            "threshold": 34,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/34"
+                            }
+                        },
+                        {
+                            "threshold": 35,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/35"
+                            }
+                        },
+                        {
+                            "threshold": 36,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/36"
+                            }
+                        },
+                        {
+                            "threshold": 37,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/37"
+                            }
+                        },
+                        {
+                            "threshold": 38,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/38"
+                            }
+                        },
+                        {
+                            "threshold": 39,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/39"
+                            }
+                        },
+                        {
+                            "threshold": 40,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/40"
+                            }
+                        },
+                        {
+                            "threshold": 41,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/41"
+                            }
+                        },
+                        {
+                            "threshold": 42,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/42"
+                            }
+                        },
+                        {
+                            "threshold": 43,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/43"
+                            }
+                        },
+                        {
+                            "threshold": 44,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/44"
+                            }
+                        },
+                        {
+                            "threshold": 45,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/45"
+                            }
+                        },
+                        {
+                            "threshold": 46,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/46"
+                            }
+                        },
+                        {
+                            "threshold": 47,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/47"
+                            }
+                        },
+                        {
+                            "threshold": 48,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/48"
+                            }
+                        },
+                        {
+                            "threshold": 49,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/49"
+                            }
+                        },
+                        {
+                            "threshold": 50,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close3/50"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "close4",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "fallback": {
+                        "type": "empty"
+                    },
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/0"
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/1"
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/2"
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/3"
+                            }
+                        },
+                        {
+                            "threshold": 4,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/4"
+                            }
+                        },
+                        {
+                            "threshold": 5,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/5"
+                            }
+                        },
+                        {
+                            "threshold": 6,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/6"
+                            }
+                        },
+                        {
+                            "threshold": 7,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/7"
+                            }
+                        },
+                        {
+                            "threshold": 8,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/8"
+                            }
+                        },
+                        {
+                            "threshold": 9,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/9"
+                            }
+                        },
+                        {
+                            "threshold": 10,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/10"
+                            }
+                        },
+                        {
+                            "threshold": 11,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/11"
+                            }
+                        },
+                        {
+                            "threshold": 12,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/12"
+                            }
+                        },
+                        {
+                            "threshold": 13,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/13"
+                            }
+                        },
+                        {
+                            "threshold": 14,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/14"
+                            }
+                        },
+                        {
+                            "threshold": 15,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/15"
+                            }
+                        },
+                        {
+                            "threshold": 16,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/16"
+                            }
+                        },
+                        {
+                            "threshold": 17,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/17"
+                            }
+                        },
+                        {
+                            "threshold": 18,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/18"
+                            }
+                        },
+                        {
+                            "threshold": 19,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/19"
+                            }
+                        },
+                        {
+                            "threshold": 20,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/20"
+                            }
+                        },
+                        {
+                            "threshold": 21,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/21"
+                            }
+                        },
+                        {
+                            "threshold": 22,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/22"
+                            }
+                        },
+                        {
+                            "threshold": 23,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/23"
+                            }
+                        },
+                        {
+                            "threshold": 24,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/24"
+                            }
+                        },
+                        {
+                            "threshold": 25,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/25"
+                            }
+                        },
+                        {
+                            "threshold": 26,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/26"
+                            }
+                        },
+                        {
+                            "threshold": 27,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/27"
+                            }
+                        },
+                        {
+                            "threshold": 28,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/28"
+                            }
+                        },
+                        {
+                            "threshold": 29,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/29"
+                            }
+                        },
+                        {
+                            "threshold": 30,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/30"
+                            }
+                        },
+                        {
+                            "threshold": 31,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/31"
+                            }
+                        },
+                        {
+                            "threshold": 32,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/32"
+                            }
+                        },
+                        {
+                            "threshold": 33,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/33"
+                            }
+                        },
+                        {
+                            "threshold": 34,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/34"
+                            }
+                        },
+                        {
+                            "threshold": 35,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/35"
+                            }
+                        },
+                        {
+                            "threshold": 36,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/36"
+                            }
+                        },
+                        {
+                            "threshold": 37,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/37"
+                            }
+                        },
+                        {
+                            "threshold": 38,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/38"
+                            }
+                        },
+                        {
+                            "threshold": 39,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/39"
+                            }
+                        },
+                        {
+                            "threshold": 40,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/40"
+                            }
+                        },
+                        {
+                            "threshold": 41,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/41"
+                            }
+                        },
+                        {
+                            "threshold": 42,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/42"
+                            }
+                        },
+                        {
+                            "threshold": 43,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/43"
+                            }
+                        },
+                        {
+                            "threshold": 44,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/44"
+                            }
+                        },
+                        {
+                            "threshold": 45,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close4/45"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "open2",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "fallback": {
+                        "type": "empty"
+                    },
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/open2/0"
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/open2/1"
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/open2/2"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "close5",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "fallback": {
+                        "type": "empty"
+                    },
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/0"
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/1"
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/2"
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/3"
+                            }
+                        },
+                        {
+                            "threshold": 4,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/4"
+                            }
+                        },
+                        {
+                            "threshold": 5,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/5"
+                            }
+                        },
+                        {
+                            "threshold": 6,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/6"
+                            }
+                        },
+                        {
+                            "threshold": 7,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/7"
+                            }
+                        },
+                        {
+                            "threshold": 8,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/8"
+                            }
+                        },
+                        {
+                            "threshold": 9,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/9"
+                            }
+                        },
+                        {
+                            "threshold": 10,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/10"
+                            }
+                        },
+                        {
+                            "threshold": 11,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/11"
+                            }
+                        },
+                        {
+                            "threshold": 12,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/12"
+                            }
+                        },
+                        {
+                            "threshold": 13,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/13"
+                            }
+                        },
+                        {
+                            "threshold": 14,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/14"
+                            }
+                        },
+                        {
+                            "threshold": 15,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/15"
+                            }
+                        },
+                        {
+                            "threshold": 16,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/16"
+                            }
+                        },
+                        {
+                            "threshold": 17,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/17"
+                            }
+                        },
+                        {
+                            "threshold": 18,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/18"
+                            }
+                        },
+                        {
+                            "threshold": 19,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/19"
+                            }
+                        },
+                        {
+                            "threshold": 20,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/20"
+                            }
+                        },
+                        {
+                            "threshold": 21,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/21"
+                            }
+                        },
+                        {
+                            "threshold": 22,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/22"
+                            }
+                        },
+                        {
+                            "threshold": 23,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/23"
+                            }
+                        },
+                        {
+                            "threshold": 24,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/24"
+                            }
+                        },
+                        {
+                            "threshold": 25,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/25"
+                            }
+                        },
+                        {
+                            "threshold": 26,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/26"
+                            }
+                        },
+                        {
+                            "threshold": 27,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/27"
+                            }
+                        },
+                        {
+                            "threshold": 28,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/28"
+                            }
+                        },
+                        {
+                            "threshold": 29,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/29"
+                            }
+                        },
+                        {
+                            "threshold": 30,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close5/30"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "close6",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "fallback": {
+                        "type": "empty"
+                    },
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/0"
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/1"
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/2"
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/3"
+                            }
+                        },
+                        {
+                            "threshold": 4,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/4"
+                            }
+                        },
+                        {
+                            "threshold": 5,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/5"
+                            }
+                        },
+                        {
+                            "threshold": 6,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/6"
+                            }
+                        },
+                        {
+                            "threshold": 7,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/7"
+                            }
+                        },
+                        {
+                            "threshold": 8,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/8"
+                            }
+                        },
+                        {
+                            "threshold": 9,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/9"
+                            }
+                        },
+                        {
+                            "threshold": 10,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/10"
+                            }
+                        },
+                        {
+                            "threshold": 11,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/11"
+                            }
+                        },
+                        {
+                            "threshold": 12,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/12"
+                            }
+                        },
+                        {
+                            "threshold": 13,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/13"
+                            }
+                        },
+                        {
+                            "threshold": 14,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/14"
+                            }
+                        },
+                        {
+                            "threshold": 15,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/15"
+                            }
+                        },
+                        {
+                            "threshold": 16,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/16"
+                            }
+                        },
+                        {
+                            "threshold": 17,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/17"
+                            }
+                        },
+                        {
+                            "threshold": 18,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/18"
+                            }
+                        },
+                        {
+                            "threshold": 19,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/19"
+                            }
+                        },
+                        {
+                            "threshold": 20,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/20"
+                            }
+                        },
+                        {
+                            "threshold": 21,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/21"
+                            }
+                        },
+                        {
+                            "threshold": 22,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/22"
+                            }
+                        },
+                        {
+                            "threshold": 23,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/23"
+                            }
+                        },
+                        {
+                            "threshold": 24,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/24"
+                            }
+                        },
+                        {
+                            "threshold": 25,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/25"
+                            }
+                        },
+                        {
+                            "threshold": 26,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/26"
+                            }
+                        },
+                        {
+                            "threshold": 27,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/27"
+                            }
+                        },
+                        {
+                            "threshold": 28,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/28"
+                            }
+                        },
+                        {
+                            "threshold": 29,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/29"
+                            }
+                        },
+                        {
+                            "threshold": 30,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/30"
+                            }
+                        },
+                        {
+                            "threshold": 31,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/31"
+                            }
+                        },
+                        {
+                            "threshold": 32,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/32"
+                            }
+                        },
+                        {
+                            "threshold": 33,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/33"
+                            }
+                        },
+                        {
+                            "threshold": 34,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/34"
+                            }
+                        },
+                        {
+                            "threshold": 35,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/35"
+                            }
+                        },
+                        {
+                            "threshold": 36,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/36"
+                            }
+                        },
+                        {
+                            "threshold": 37,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/37"
+                            }
+                        },
+                        {
+                            "threshold": 38,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/38"
+                            }
+                        },
+                        {
+                            "threshold": 39,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/39"
+                            }
+                        },
+                        {
+                            "threshold": 40,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/40"
+                            }
+                        },
+                        {
+                            "threshold": 41,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/41"
+                            }
+                        },
+                        {
+                            "threshold": 42,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/42"
+                            }
+                        },
+                        {
+                            "threshold": 43,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/43"
+                            }
+                        },
+                        {
+                            "threshold": 44,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/44"
+                            }
+                        },
+                        {
+                            "threshold": 45,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/45"
+                            }
+                        },
+                        {
+                            "threshold": 46,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/46"
+                            }
+                        },
+                        {
+                            "threshold": 47,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/47"
+                            }
+                        },
+                        {
+                            "threshold": 48,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/48"
+                            }
+                        },
+                        {
+                            "threshold": 49,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/49"
+                            }
+                        },
+                        {
+                            "threshold": 50,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close6/50"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "close7",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "fallback": {
+                        "type": "empty"
+                    },
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/0"
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/1"
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/2"
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/3"
+                            }
+                        },
+                        {
+                            "threshold": 4,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/4"
+                            }
+                        },
+                        {
+                            "threshold": 5,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/5"
+                            }
+                        },
+                        {
+                            "threshold": 6,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/6"
+                            }
+                        },
+                        {
+                            "threshold": 7,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/7"
+                            }
+                        },
+                        {
+                            "threshold": 8,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/8"
+                            }
+                        },
+                        {
+                            "threshold": 9,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/9"
+                            }
+                        },
+                        {
+                            "threshold": 10,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/10"
+                            }
+                        },
+                        {
+                            "threshold": 11,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/11"
+                            }
+                        },
+                        {
+                            "threshold": 12,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/12"
+                            }
+                        },
+                        {
+                            "threshold": 13,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/13"
+                            }
+                        },
+                        {
+                            "threshold": 14,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/14"
+                            }
+                        },
+                        {
+                            "threshold": 15,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/15"
+                            }
+                        },
+                        {
+                            "threshold": 16,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/16"
+                            }
+                        },
+                        {
+                            "threshold": 17,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/17"
+                            }
+                        },
+                        {
+                            "threshold": 18,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/18"
+                            }
+                        },
+                        {
+                            "threshold": 19,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/19"
+                            }
+                        },
+                        {
+                            "threshold": 20,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/20"
+                            }
+                        },
+                        {
+                            "threshold": 21,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/21"
+                            }
+                        },
+                        {
+                            "threshold": 22,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/22"
+                            }
+                        },
+                        {
+                            "threshold": 23,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/23"
+                            }
+                        },
+                        {
+                            "threshold": 24,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/24"
+                            }
+                        },
+                        {
+                            "threshold": 25,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/25"
+                            }
+                        },
+                        {
+                            "threshold": 26,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/26"
+                            }
+                        },
+                        {
+                            "threshold": 27,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/27"
+                            }
+                        },
+                        {
+                            "threshold": 28,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/28"
+                            }
+                        },
+                        {
+                            "threshold": 29,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/29"
+                            }
+                        },
+                        {
+                            "threshold": 30,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/30"
+                            }
+                        },
+                        {
+                            "threshold": 31,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/31"
+                            }
+                        },
+                        {
+                            "threshold": 32,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/32"
+                            }
+                        },
+                        {
+                            "threshold": 33,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/33"
+                            }
+                        },
+                        {
+                            "threshold": 34,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/34"
+                            }
+                        },
+                        {
+                            "threshold": 35,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/35"
+                            }
+                        },
+                        {
+                            "threshold": 36,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/36"
+                            }
+                        },
+                        {
+                            "threshold": 37,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/37"
+                            }
+                        },
+                        {
+                            "threshold": 38,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/38"
+                            }
+                        },
+                        {
+                            "threshold": 39,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/39"
+                            }
+                        },
+                        {
+                            "threshold": 40,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/40"
+                            }
+                        },
+                        {
+                            "threshold": 41,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/41"
+                            }
+                        },
+                        {
+                            "threshold": 42,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/42"
+                            }
+                        },
+                        {
+                            "threshold": 43,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/43"
+                            }
+                        },
+                        {
+                            "threshold": 44,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/44"
+                            }
+                        },
+                        {
+                            "threshold": 45,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/45"
+                            }
+                        },
+                        {
+                            "threshold": 46,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/46"
+                            }
+                        },
+                        {
+                            "threshold": 47,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/47"
+                            }
+                        },
+                        {
+                            "threshold": 48,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/48"
+                            }
+                        },
+                        {
+                            "threshold": 49,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/49"
+                            }
+                        },
+                        {
+                            "threshold": 50,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/50"
+                            }
+                        },
+                        {
+                            "threshold": 51,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/51"
+                            }
+                        },
+                        {
+                            "threshold": 52,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close7/52"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "close8",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "fallback": {
+                        "type": "empty"
+                    },
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/0"
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/1"
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/2"
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/3"
+                            }
+                        },
+                        {
+                            "threshold": 4,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/4"
+                            }
+                        },
+                        {
+                            "threshold": 5,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/5"
+                            }
+                        },
+                        {
+                            "threshold": 6,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/6"
+                            }
+                        },
+                        {
+                            "threshold": 7,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/7"
+                            }
+                        },
+                        {
+                            "threshold": 8,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/8"
+                            }
+                        },
+                        {
+                            "threshold": 9,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/9"
+                            }
+                        },
+                        {
+                            "threshold": 10,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/10"
+                            }
+                        },
+                        {
+                            "threshold": 11,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/11"
+                            }
+                        },
+                        {
+                            "threshold": 12,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/12"
+                            }
+                        },
+                        {
+                            "threshold": 13,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/13"
+                            }
+                        },
+                        {
+                            "threshold": 14,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/14"
+                            }
+                        },
+                        {
+                            "threshold": 15,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/15"
+                            }
+                        },
+                        {
+                            "threshold": 16,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/16"
+                            }
+                        },
+                        {
+                            "threshold": 17,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/17"
+                            }
+                        },
+                        {
+                            "threshold": 18,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/18"
+                            }
+                        },
+                        {
+                            "threshold": 19,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/19"
+                            }
+                        },
+                        {
+                            "threshold": 20,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/20"
+                            }
+                        },
+                        {
+                            "threshold": 21,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/21"
+                            }
+                        },
+                        {
+                            "threshold": 22,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/22"
+                            }
+                        },
+                        {
+                            "threshold": 23,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/23"
+                            }
+                        },
+                        {
+                            "threshold": 24,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/24"
+                            }
+                        },
+                        {
+                            "threshold": 25,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/25"
+                            }
+                        },
+                        {
+                            "threshold": 26,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/26"
+                            }
+                        },
+                        {
+                            "threshold": 27,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/27"
+                            }
+                        },
+                        {
+                            "threshold": 28,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/28"
+                            }
+                        },
+                        {
+                            "threshold": 29,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/29"
+                            }
+                        },
+                        {
+                            "threshold": 30,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/30"
+                            }
+                        },
+                        {
+                            "threshold": 31,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/31"
+                            }
+                        },
+                        {
+                            "threshold": 32,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/32"
+                            }
+                        },
+                        {
+                            "threshold": 33,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/33"
+                            }
+                        },
+                        {
+                            "threshold": 34,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/34"
+                            }
+                        },
+                        {
+                            "threshold": 35,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/35"
+                            }
+                        },
+                        {
+                            "threshold": 36,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/36"
+                            }
+                        },
+                        {
+                            "threshold": 37,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/37"
+                            }
+                        },
+                        {
+                            "threshold": 38,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/38"
+                            }
+                        },
+                        {
+                            "threshold": 39,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/39"
+                            }
+                        },
+                        {
+                            "threshold": 40,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/40"
+                            }
+                        },
+                        {
+                            "threshold": 41,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/41"
+                            }
+                        },
+                        {
+                            "threshold": 42,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/42"
+                            }
+                        },
+                        {
+                            "threshold": 43,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/43"
+                            }
+                        },
+                        {
+                            "threshold": 44,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/44"
+                            }
+                        },
+                        {
+                            "threshold": 45,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/45"
+                            }
+                        },
+                        {
+                            "threshold": 46,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/46"
+                            }
+                        },
+                        {
+                            "threshold": 47,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/47"
+                            }
+                        },
+                        {
+                            "threshold": 48,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/48"
+                            }
+                        },
+                        {
+                            "threshold": 49,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/49"
+                            }
+                        },
+                        {
+                            "threshold": 50,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close8/50"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "close9",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "fallback": {
+                        "type": "empty"
+                    },
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/0"
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/1"
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/2"
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/3"
+                            }
+                        },
+                        {
+                            "threshold": 4,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/4"
+                            }
+                        },
+                        {
+                            "threshold": 5,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/5"
+                            }
+                        },
+                        {
+                            "threshold": 6,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/6"
+                            }
+                        },
+                        {
+                            "threshold": 7,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/7"
+                            }
+                        },
+                        {
+                            "threshold": 8,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/8"
+                            }
+                        },
+                        {
+                            "threshold": 9,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/9"
+                            }
+                        },
+                        {
+                            "threshold": 10,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/10"
+                            }
+                        },
+                        {
+                            "threshold": 11,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/11"
+                            }
+                        },
+                        {
+                            "threshold": 12,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/12"
+                            }
+                        },
+                        {
+                            "threshold": 13,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/13"
+                            }
+                        },
+                        {
+                            "threshold": 14,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/14"
+                            }
+                        },
+                        {
+                            "threshold": 15,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/15"
+                            }
+                        },
+                        {
+                            "threshold": 16,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/16"
+                            }
+                        },
+                        {
+                            "threshold": 17,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/17"
+                            }
+                        },
+                        {
+                            "threshold": 18,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/18"
+                            }
+                        },
+                        {
+                            "threshold": 19,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/19"
+                            }
+                        },
+                        {
+                            "threshold": 20,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/20"
+                            }
+                        },
+                        {
+                            "threshold": 21,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/21"
+                            }
+                        },
+                        {
+                            "threshold": 22,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/22"
+                            }
+                        },
+                        {
+                            "threshold": 23,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/23"
+                            }
+                        },
+                        {
+                            "threshold": 24,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/24"
+                            }
+                        },
+                        {
+                            "threshold": 25,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/25"
+                            }
+                        },
+                        {
+                            "threshold": 26,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/26"
+                            }
+                        },
+                        {
+                            "threshold": 27,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/27"
+                            }
+                        },
+                        {
+                            "threshold": 28,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/28"
+                            }
+                        },
+                        {
+                            "threshold": 29,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/29"
+                            }
+                        },
+                        {
+                            "threshold": 30,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/30"
+                            }
+                        },
+                        {
+                            "threshold": 31,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/31"
+                            }
+                        },
+                        {
+                            "threshold": 32,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/32"
+                            }
+                        },
+                        {
+                            "threshold": 33,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/33"
+                            }
+                        },
+                        {
+                            "threshold": 34,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/34"
+                            }
+                        },
+                        {
+                            "threshold": 35,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/35"
+                            }
+                        },
+                        {
+                            "threshold": 36,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/36"
+                            }
+                        },
+                        {
+                            "threshold": 37,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/37"
+                            }
+                        },
+                        {
+                            "threshold": 38,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/38"
+                            }
+                        },
+                        {
+                            "threshold": 39,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/39"
+                            }
+                        },
+                        {
+                            "threshold": 40,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/40"
+                            }
+                        },
+                        {
+                            "threshold": 41,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/41"
+                            }
+                        },
+                        {
+                            "threshold": 42,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/42"
+                            }
+                        },
+                        {
+                            "threshold": 43,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/43"
+                            }
+                        },
+                        {
+                            "threshold": 44,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/44"
+                            }
+                        },
+                        {
+                            "threshold": 45,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/45"
+                            }
+                        },
+                        {
+                            "threshold": 46,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/46"
+                            }
+                        },
+                        {
+                            "threshold": 47,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/47"
+                            }
+                        },
+                        {
+                            "threshold": 48,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/48"
+                            }
+                        },
+                        {
+                            "threshold": 49,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/49"
+                            }
+                        },
+                        {
+                            "threshold": 50,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/50"
+                            }
+                        },
+                        {
+                            "threshold": 51,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/51"
+                            }
+                        },
+                        {
+                            "threshold": 52,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/52"
+                            }
+                        },
+                        {
+                            "threshold": 53,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/53"
+                            }
+                        },
+                        {
+                            "threshold": 54,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/54"
+                            }
+                        },
+                        {
+                            "threshold": 55,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/55"
+                            }
+                        },
+                        {
+                            "threshold": 56,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/56"
+                            }
+                        },
+                        {
+                            "threshold": 57,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/57"
+                            }
+                        },
+                        {
+                            "threshold": 58,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/58"
+                            }
+                        },
+                        {
+                            "threshold": 59,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/59"
+                            }
+                        },
+                        {
+                            "threshold": 60,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/60"
+                            }
+                        },
+                        {
+                            "threshold": 61,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/61"
+                            }
+                        },
+                        {
+                            "threshold": 62,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/62"
+                            }
+                        },
+                        {
+                            "threshold": 63,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/63"
+                            }
+                        },
+                        {
+                            "threshold": 64,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/64"
+                            }
+                        },
+                        {
+                            "threshold": 65,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/65"
+                            }
+                        },
+                        {
+                            "threshold": 66,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/66"
+                            }
+                        },
+                        {
+                            "threshold": 67,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/67"
+                            }
+                        },
+                        {
+                            "threshold": 68,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/68"
+                            }
+                        },
+                        {
+                            "threshold": 69,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/69"
+                            }
+                        },
+                        {
+                            "threshold": 70,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/70"
+                            }
+                        },
+                        {
+                            "threshold": 71,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/71"
+                            }
+                        },
+                        {
+                            "threshold": 72,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/72"
+                            }
+                        },
+                        {
+                            "threshold": 73,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/73"
+                            }
+                        },
+                        {
+                            "threshold": 74,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/74"
+                            }
+                        },
+                        {
+                            "threshold": 75,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/75"
+                            }
+                        },
+                        {
+                            "threshold": 76,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/76"
+                            }
+                        },
+                        {
+                            "threshold": 77,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/77"
+                            }
+                        },
+                        {
+                            "threshold": 78,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/78"
+                            }
+                        },
+                        {
+                            "threshold": 79,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/79"
+                            }
+                        },
+                        {
+                            "threshold": 80,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close9/80"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "close10",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "fallback": {
+                        "type": "empty"
+                    },
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/0"
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/1"
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/2"
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/3"
+                            }
+                        },
+                        {
+                            "threshold": 4,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/4"
+                            }
+                        },
+                        {
+                            "threshold": 5,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/5"
+                            }
+                        },
+                        {
+                            "threshold": 6,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/6"
+                            }
+                        },
+                        {
+                            "threshold": 7,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/7"
+                            }
+                        },
+                        {
+                            "threshold": 8,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/8"
+                            }
+                        },
+                        {
+                            "threshold": 9,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/9"
+                            }
+                        },
+                        {
+                            "threshold": 10,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/10"
+                            }
+                        },
+                        {
+                            "threshold": 11,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/11"
+                            }
+                        },
+                        {
+                            "threshold": 12,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/12"
+                            }
+                        },
+                        {
+                            "threshold": 13,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/13"
+                            }
+                        },
+                        {
+                            "threshold": 14,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/14"
+                            }
+                        },
+                        {
+                            "threshold": 15,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/15"
+                            }
+                        },
+                        {
+                            "threshold": 16,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/16"
+                            }
+                        },
+                        {
+                            "threshold": 17,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/17"
+                            }
+                        },
+                        {
+                            "threshold": 18,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/18"
+                            }
+                        },
+                        {
+                            "threshold": 19,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/19"
+                            }
+                        },
+                        {
+                            "threshold": 20,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/20"
+                            }
+                        },
+                        {
+                            "threshold": 21,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/21"
+                            }
+                        },
+                        {
+                            "threshold": 22,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/22"
+                            }
+                        },
+                        {
+                            "threshold": 23,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/23"
+                            }
+                        },
+                        {
+                            "threshold": 24,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/24"
+                            }
+                        },
+                        {
+                            "threshold": 25,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/25"
+                            }
+                        },
+                        {
+                            "threshold": 26,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/26"
+                            }
+                        },
+                        {
+                            "threshold": 27,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/27"
+                            }
+                        },
+                        {
+                            "threshold": 28,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/28"
+                            }
+                        },
+                        {
+                            "threshold": 29,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/29"
+                            }
+                        },
+                        {
+                            "threshold": 30,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/30"
+                            }
+                        },
+                        {
+                            "threshold": 31,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/31"
+                            }
+                        },
+                        {
+                            "threshold": 32,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/32"
+                            }
+                        },
+                        {
+                            "threshold": 33,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/33"
+                            }
+                        },
+                        {
+                            "threshold": 34,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/34"
+                            }
+                        },
+                        {
+                            "threshold": 35,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/35"
+                            }
+                        },
+                        {
+                            "threshold": 36,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/36"
+                            }
+                        },
+                        {
+                            "threshold": 37,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/37"
+                            }
+                        },
+                        {
+                            "threshold": 38,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/38"
+                            }
+                        },
+                        {
+                            "threshold": 39,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/39"
+                            }
+                        },
+                        {
+                            "threshold": 40,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/40"
+                            }
+                        },
+                        {
+                            "threshold": 41,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/41"
+                            }
+                        },
+                        {
+                            "threshold": 42,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/42"
+                            }
+                        },
+                        {
+                            "threshold": 43,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/43"
+                            }
+                        },
+                        {
+                            "threshold": 44,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/44"
+                            }
+                        },
+                        {
+                            "threshold": 45,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/45"
+                            }
+                        },
+                        {
+                            "threshold": 46,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/46"
+                            }
+                        },
+                        {
+                            "threshold": 47,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/47"
+                            }
+                        },
+                        {
+                            "threshold": 48,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/48"
+                            }
+                        },
+                        {
+                            "threshold": 49,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/49"
+                            }
+                        },
+                        {
+                            "threshold": 50,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/50"
+                            }
+                        },
+                        {
+                            "threshold": 51,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/51"
+                            }
+                        },
+                        {
+                            "threshold": 52,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/52"
+                            }
+                        },
+                        {
+                            "threshold": 53,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/53"
+                            }
+                        },
+                        {
+                            "threshold": 54,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/54"
+                            }
+                        },
+                        {
+                            "threshold": 55,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/55"
+                            }
+                        },
+                        {
+                            "threshold": 56,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/56"
+                            }
+                        },
+                        {
+                            "threshold": 57,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/57"
+                            }
+                        },
+                        {
+                            "threshold": 58,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/58"
+                            }
+                        },
+                        {
+                            "threshold": 59,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/59"
+                            }
+                        },
+                        {
+                            "threshold": 60,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/60"
+                            }
+                        },
+                        {
+                            "threshold": 61,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/61"
+                            }
+                        },
+                        {
+                            "threshold": 62,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/62"
+                            }
+                        },
+                        {
+                            "threshold": 63,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/63"
+                            }
+                        },
+                        {
+                            "threshold": 64,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/64"
+                            }
+                        },
+                        {
+                            "threshold": 65,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/65"
+                            }
+                        },
+                        {
+                            "threshold": 66,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/66"
+                            }
+                        },
+                        {
+                            "threshold": 67,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/67"
+                            }
+                        },
+                        {
+                            "threshold": 68,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close10/68"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "close11",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "fallback": {
+                        "type": "empty"
+                    },
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/0"
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/1"
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/2"
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/3"
+                            }
+                        },
+                        {
+                            "threshold": 4,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/4"
+                            }
+                        },
+                        {
+                            "threshold": 5,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/5"
+                            }
+                        },
+                        {
+                            "threshold": 6,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/6"
+                            }
+                        },
+                        {
+                            "threshold": 7,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/7"
+                            }
+                        },
+                        {
+                            "threshold": 8,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/8"
+                            }
+                        },
+                        {
+                            "threshold": 9,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/9"
+                            }
+                        },
+                        {
+                            "threshold": 10,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/10"
+                            }
+                        },
+                        {
+                            "threshold": 11,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/11"
+                            }
+                        },
+                        {
+                            "threshold": 12,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/12"
+                            }
+                        },
+                        {
+                            "threshold": 13,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/13"
+                            }
+                        },
+                        {
+                            "threshold": 14,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/14"
+                            }
+                        },
+                        {
+                            "threshold": 15,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/15"
+                            }
+                        },
+                        {
+                            "threshold": 16,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/16"
+                            }
+                        },
+                        {
+                            "threshold": 17,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/17"
+                            }
+                        },
+                        {
+                            "threshold": 18,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/18"
+                            }
+                        },
+                        {
+                            "threshold": 19,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/19"
+                            }
+                        },
+                        {
+                            "threshold": 20,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/20"
+                            }
+                        },
+                        {
+                            "threshold": 21,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/21"
+                            }
+                        },
+                        {
+                            "threshold": 22,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/22"
+                            }
+                        },
+                        {
+                            "threshold": 23,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/23"
+                            }
+                        },
+                        {
+                            "threshold": 24,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/24"
+                            }
+                        },
+                        {
+                            "threshold": 25,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/25"
+                            }
+                        },
+                        {
+                            "threshold": 26,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/26"
+                            }
+                        },
+                        {
+                            "threshold": 27,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/27"
+                            }
+                        },
+                        {
+                            "threshold": 28,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/28"
+                            }
+                        },
+                        {
+                            "threshold": 29,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/29"
+                            }
+                        },
+                        {
+                            "threshold": 30,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/30"
+                            }
+                        },
+                        {
+                            "threshold": 31,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/31"
+                            }
+                        },
+                        {
+                            "threshold": 32,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/32"
+                            }
+                        },
+                        {
+                            "threshold": 33,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/33"
+                            }
+                        },
+                        {
+                            "threshold": 34,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/34"
+                            }
+                        },
+                        {
+                            "threshold": 35,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/35"
+                            }
+                        },
+                        {
+                            "threshold": 36,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/36"
+                            }
+                        },
+                        {
+                            "threshold": 37,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/37"
+                            }
+                        },
+                        {
+                            "threshold": 38,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/38"
+                            }
+                        },
+                        {
+                            "threshold": 39,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/39"
+                            }
+                        },
+                        {
+                            "threshold": 40,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/40"
+                            }
+                        },
+                        {
+                            "threshold": 41,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/41"
+                            }
+                        },
+                        {
+                            "threshold": 42,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/42"
+                            }
+                        },
+                        {
+                            "threshold": 43,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/43"
+                            }
+                        },
+                        {
+                            "threshold": 44,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/44"
+                            }
+                        },
+                        {
+                            "threshold": 45,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close11/45"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "close12",
+                "model": {
+                    "type": "range_dispatch",
+                    "property": "custom_model_data",
+                    "index": 0,
+                    "fallback": {
+                        "type": "empty"
+                    },
+                    "entries": [
+                        {
+                            "threshold": 0,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/0"
+                            }
+                        },
+                        {
+                            "threshold": 1,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/1"
+                            }
+                        },
+                        {
+                            "threshold": 2,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/2"
+                            }
+                        },
+                        {
+                            "threshold": 3,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/3"
+                            }
+                        },
+                        {
+                            "threshold": 4,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/4"
+                            }
+                        },
+                        {
+                            "threshold": 5,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/5"
+                            }
+                        },
+                        {
+                            "threshold": 6,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/6"
+                            }
+                        },
+                        {
+                            "threshold": 7,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/7"
+                            }
+                        },
+                        {
+                            "threshold": 8,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/8"
+                            }
+                        },
+                        {
+                            "threshold": 9,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/9"
+                            }
+                        },
+                        {
+                            "threshold": 10,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/10"
+                            }
+                        },
+                        {
+                            "threshold": 11,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/11"
+                            }
+                        },
+                        {
+                            "threshold": 12,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/12"
+                            }
+                        },
+                        {
+                            "threshold": 13,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/13"
+                            }
+                        },
+                        {
+                            "threshold": 14,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/14"
+                            }
+                        },
+                        {
+                            "threshold": 15,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/15"
+                            }
+                        },
+                        {
+                            "threshold": 16,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/16"
+                            }
+                        },
+                        {
+                            "threshold": 17,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/17"
+                            }
+                        },
+                        {
+                            "threshold": 18,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/18"
+                            }
+                        },
+                        {
+                            "threshold": 19,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/19"
+                            }
+                        },
+                        {
+                            "threshold": 20,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/20"
+                            }
+                        },
+                        {
+                            "threshold": 21,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/21"
+                            }
+                        },
+                        {
+                            "threshold": 22,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/22"
+                            }
+                        },
+                        {
+                            "threshold": 23,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/23"
+                            }
+                        },
+                        {
+                            "threshold": 24,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/24"
+                            }
+                        },
+                        {
+                            "threshold": 25,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/25"
+                            }
+                        },
+                        {
+                            "threshold": 26,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/26"
+                            }
+                        },
+                        {
+                            "threshold": 27,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/27"
+                            }
+                        },
+                        {
+                            "threshold": 28,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/28"
+                            }
+                        },
+                        {
+                            "threshold": 29,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/29"
+                            }
+                        },
+                        {
+                            "threshold": 30,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/30"
+                            }
+                        },
+                        {
+                            "threshold": 31,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/31"
+                            }
+                        },
+                        {
+                            "threshold": 32,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/32"
+                            }
+                        },
+                        {
+                            "threshold": 33,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/33"
+                            }
+                        },
+                        {
+                            "threshold": 34,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/34"
+                            }
+                        },
+                        {
+                            "threshold": 35,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/35"
+                            }
+                        },
+                        {
+                            "threshold": 36,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/36"
+                            }
+                        },
+                        {
+                            "threshold": 37,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/37"
+                            }
+                        },
+                        {
+                            "threshold": 38,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/38"
+                            }
+                        },
+                        {
+                            "threshold": 39,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/39"
+                            }
+                        },
+                        {
+                            "threshold": 40,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/40"
+                            }
+                        },
+                        {
+                            "threshold": 41,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/41"
+                            }
+                        },
+                        {
+                            "threshold": 42,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/42"
+                            }
+                        },
+                        {
+                            "threshold": 43,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/43"
+                            }
+                        },
+                        {
+                            "threshold": 44,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/44"
+                            }
+                        },
+                        {
+                            "threshold": 45,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/45"
+                            }
+                        },
+                        {
+                            "threshold": 46,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/46"
+                            }
+                        },
+                        {
+                            "threshold": 47,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/47"
+                            }
+                        },
+                        {
+                            "threshold": 48,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/48"
+                            }
+                        },
+                        {
+                            "threshold": 49,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/49"
+                            }
+                        },
+                        {
+                            "threshold": 50,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/50"
+                            }
+                        },
+                        {
+                            "threshold": 51,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/51"
+                            }
+                        },
+                        {
+                            "threshold": 52,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/52"
+                            }
+                        },
+                        {
+                            "threshold": 53,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/53"
+                            }
+                        },
+                        {
+                            "threshold": 54,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/54"
+                            }
+                        },
+                        {
+                            "threshold": 55,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/55"
+                            }
+                        },
+                        {
+                            "threshold": 56,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/56"
+                            }
+                        },
+                        {
+                            "threshold": 57,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/57"
+                            }
+                        },
+                        {
+                            "threshold": 58,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/58"
+                            }
+                        },
+                        {
+                            "threshold": 59,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/59"
+                            }
+                        },
+                        {
+                            "threshold": 60,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/60"
+                            }
+                        },
+                        {
+                            "threshold": 61,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/61"
+                            }
+                        },
+                        {
+                            "threshold": 62,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/62"
+                            }
+                        },
+                        {
+                            "threshold": 63,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/63"
+                            }
+                        },
+                        {
+                            "threshold": 64,
+                            "model": {
+                                "type": "model",
+                                "model": "kaleidoscope_lab:leave_me_alone_box/close12/64"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

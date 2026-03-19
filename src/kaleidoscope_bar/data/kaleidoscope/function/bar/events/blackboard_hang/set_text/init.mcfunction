@@ -24,31 +24,24 @@ data modify storage kaleidoscope:bar blackboard.dialog.body set value \
             "type": "text",\
             "key": "text1",\
             "label": {\
-                "text":"\u0002\u0001",\
+                "text":"\u0002\u0001\u0002",\
                 "font":"kaleidoscope_bar:bg",\
             },\
-            "max_length":5,\
-            "width":100,\
+            "max_length":54,\
+            "width":80,\
+            "multiline":{\
+                "max_lines":7,\
+                "height":80\
+            }\
         },\
         {\
-            "type": "text",\
-            "key": "text2",\
+            "type": "boolean",\
+            "key": "lock",\
             "label": {\
-                "text":"\u0002\u0004",\
-                "font":"kaleidoscope_bar:bg",\
+                "translate": "dialog.kaleidoscope.blackboard.lock"\
             },\
-            "max_length":5,\
-            "width":100,\
-        },\
-        {\
-            "type": "text",\
-            "key": "text3",\
-            "label": {\
-                "text":"\u0002\u0004",\
-                "font":"kaleidoscope_bar:bg",\
-            },\
-            "max_length":5,\
-            "width":100,\
+            "on_true":"add",\
+            "on_false":"remove"\
         },\
         {\
             "type": "single_option",\
@@ -56,7 +49,7 @@ data modify storage kaleidoscope:bar blackboard.dialog.body set value \
             "label": {\
                 "translate": "dialog.kaleidoscope.blackboard.align"\
             },\
-            "width":120,\
+            "width":160,\
             "options": [\
                 {\
                     "id": "left",\
@@ -77,30 +70,8 @@ data modify storage kaleidoscope:bar blackboard.dialog.body set value \
                     }\
                 },\
             ]\
-        },\
-        {\
-            "type": "single_option",\
-            "key": "lock",\
-            "label": {\
-                "translate": "dialog.kaleidoscope.blackboard.lock"\
-            },\
-            "width":120,\
-            "options": [\
-                {\
-                    "id": "add",\
-                    "display": {\
-                        "translate": "dialog.kaleidoscope.blackboard.lock.true"\
-                    }\
-                },\
-                {\
-                    "id": "remove",\
-                    "display": {\
-                        "translate": "dialog.kaleidoscope.blackboard.lock.false"\
-                    }\
-                }\
-            ]\
         }\
     ]\
 }
 
-data modify storage kaleidoscope:bar blackboard.dialog.template set value {score:0,value:"{text:\\\"$(text1)\\\",extra:[{text:\\\"\\\"},{text:\\\"$(text2)\\\"},{text:\\\"\\\"},{text:\\\"$(text3)\\\"},{text:\\\"\\\"}]}",align:"$(align)",lock:"$(lock)"}
+data modify storage kaleidoscope:bar blackboard.dialog.template set value {score:0,value:"{text:\\\"$(text1)\\\",extra:[{text:\\\"\\\"}]}",align:"$(align)",lock:"$(lock)"}

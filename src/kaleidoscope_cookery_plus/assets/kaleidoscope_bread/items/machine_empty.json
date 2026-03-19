@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "cases": [
+            {
+                "when": ["none"],
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bread:item/machine_empty"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "kaleidoscope_bread:item/machine_item"
+        }
+    }
+}

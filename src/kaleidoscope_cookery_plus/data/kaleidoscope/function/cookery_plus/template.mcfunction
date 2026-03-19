@@ -78,3 +78,23 @@ data modify storage dc:template kaleidoscope_basket set value {\
     }\
 }
 
+# 【kaleidoscope_bread_machine】切面包机
+data modify storage dc:template kaleidoscope_bread_machine set value {\
+    modsize:[1f,1f,1f],\
+    interactsize:{height:1.1f,width:2f},\
+    type:"hitbox",\
+    extra_data:{width:1.99f,offset:-1f},\
+    loot_table:"kaleidoscope:bread/machine",\
+    template:"kaleidoscope",\
+    events:{\
+        "construct":[\
+            {event:"custom",args:{func:"kaleidoscope:bread/events/machine/construct"}},\
+            {event:"sound",args:{sound:"minecraft:block.vault.place"}}\
+        ],\
+        left_click:{\
+            fallback:{"event":"group",args:{events:[\
+                {event:"destruct",args:{item:{},particle:"block{block_state:\"iron_block\"}",sound:"minecraft:block.vault.break"}}\
+            ]}}\
+        },\
+    }\
+}

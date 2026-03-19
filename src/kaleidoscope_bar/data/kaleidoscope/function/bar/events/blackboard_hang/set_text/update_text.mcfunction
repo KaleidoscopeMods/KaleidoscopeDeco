@@ -1,0 +1,5 @@
+$data modify entity @n[tag=k_board_text,type=text_display,scores={dc_uid=$(score)}] transformation.translation[0] set value 0
+$execute store result score #left kaleidoscope_temp run data get entity @n[tag=dc_display,type=item_display,scores={dc_uid=$(score)}] item.components."minecraft:custom_model_data".flags[0]
+$execute store result score #right kaleidoscope_temp run data get entity @n[tag=dc_display,type=item_display,scores={dc_uid=$(score)}] item.components."minecraft:custom_model_data".flags[1]
+$execute if data entity @n[tag=k_board_text,type=text_display,scores={dc_uid=$(score)}] {alignment:"left"} unless score #left kaleidoscope_temp matches 1 run data modify entity @n[tag=k_board_text,type=text_display,scores={dc_uid=$(score)}] transformation.translation[0] set value 0.05
+$execute if data entity @n[tag=k_board_text,type=text_display,scores={dc_uid=$(score)}] {alignment:"right"} unless score #right kaleidoscope_temp matches 1 run data modify entity @n[tag=k_board_text,type=text_display,scores={dc_uid=$(score)}] transformation.translation[0] set value -0.05

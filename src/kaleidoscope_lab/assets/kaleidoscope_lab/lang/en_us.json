@@ -7,6 +7,7 @@
     "item.kaleidoscope_lab.ink":"Ink Bottle",
     "item.kaleidoscope_lab.spyglass":"Spyglass",
     "item.kaleidoscope_lab.tube":"Test Tube",
+    "item.kaleidoscope_lab.leave_me_alone_box":"Leave Me Alone Box",
 
     "advancements.kaleidoscope_lab.tutorial.spyglass.title":"Spyglass",
     "advancements.kaleidoscope_lab.tutorial.spyglass.description":"Essential decorations for the study.\n\n§Lab\n\n\n\n\n\n",
@@ -19,5 +20,7 @@
     "advancements.kaleidoscope_lab.tutorial.paper_with_ink.title":"Paper With Ink",
     "advancements.kaleidoscope_lab.tutorial.paper_with_ink.description":"Ink, quill pens, and unfinished poems.\n\n§Lab\n\n\n\n\n\n",
     "advancements.kaleidoscope_lab.tutorial.tube.title":"Test Tube Rack",
-    "advancements.kaleidoscope_lab.tutorial.tube.description":"You can stack it up to a maximum of 3.\n\n§Lab\n\n\n\n\n\n"
+    "advancements.kaleidoscope_lab.tutorial.tube.description":"You can stack it up to a maximum of 3.\n\n§Lab\n\n\n\n\n\n",
+    "advancements.kaleidoscope_lab.tutorial.leave_me_alone_box.title":"Leave Me Alone Box",
+    "advancements.kaleidoscope_lab.tutorial.leave_me_alone_box.description":"Interact to trigger random animations.\n\n§9Lab\n\n\n\n\n\n"
 }

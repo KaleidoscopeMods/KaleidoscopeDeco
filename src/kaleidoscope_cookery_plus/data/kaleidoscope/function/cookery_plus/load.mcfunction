@@ -1,2 +1,3 @@
 scoreboard objectives add kaleidoscope_temp dummy
 scoreboard objectives add kaleidoscope_clear dummy
+scoreboard objectives add kaleidoscope_bread_timer dummy

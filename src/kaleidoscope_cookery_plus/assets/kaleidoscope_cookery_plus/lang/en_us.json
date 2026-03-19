@@ -27,6 +27,8 @@
     "advancements.kaleidoscope_cookery.tutorial.teapot.description":"Interact to switch its state.\n\n§9Kitchen\n\n\n\n\n\n",
     "advancements.kaleidoscope_cookery.tutorial.utensil_rack.title":"Utensil Rack",
     "advancements.kaleidoscope_cookery.tutorial.utensil_rack.description":"Interact to switch its state.\n\n§9Kitchen\n\n\n\n\n\n",
+    "advancements.kaleidoscope_cookery.tutorial.bread_slicer.title":"Bread Slicer",
+    "advancements.kaleidoscope_cookery.tutorial.bread_slicer.description":"A machine that can cut bread into small pieces.\nAfter closing the cover, sneak and click to start.\n\n§9Kitchen\n\n\n\n\n\n",
     "advancements.kaleidoscope_cookery.basket.title":"Put all your Eggs in ONE Basket",
     "advancements.kaleidoscope_cookery.basket.description":"You shouldn't put all your Eggs in ONE Basket.\nBut you DO.",
     "advancements.kaleidoscope_cookery.pot.title":"Frying Pan",
@@ -93,5 +95,8 @@
     "item.kaleidoscope.table.oak":"Oak Dining Table",
     "item.kaleidoscope.table.pale_oak":"Pale Oak Dining Table",
     "item.kaleidoscope.table.spruce":"Spruce Dining Table",
-    "item.kaleidoscope.table.warped":"WarpedDining Table"
+    "item.kaleidoscope.table.warped":"WarpedDining Table",
+    
+    "item.kaleidoscope_bread.machine":"Bread Slicer",
+    "item.kaleidoscope_bread.slice":"Bread Slice"
 }

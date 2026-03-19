@@ -8,6 +8,7 @@
         "kaleidoscope:cookery_plus/index/utensil_rack",
         "kaleidoscope:cookery_plus/index/table",
         "kaleidoscope:cookery_plus/index/pots",
-        "kaleidoscope:cookery_plus/index/chili_strings"
+        "kaleidoscope:cookery_plus/index/chili_strings",
+        "kaleidoscope:bread/index/machine"
     ]
 }

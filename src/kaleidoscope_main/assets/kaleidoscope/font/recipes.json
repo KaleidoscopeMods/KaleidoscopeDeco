@@ -314,6 +314,20 @@
             "chars": ["\u0045"],
             "ascent": 48,
             "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/bread_slicer.png",
+            "chars": ["\u0046"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/lmabox.png",
+            "chars": ["\u0047"],
+            "ascent": 48,
+            "height": 48
         }
     ]
 }

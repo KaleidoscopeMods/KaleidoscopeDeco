@@ -1,0 +1,1 @@
+execute as @e[tag=k_lmabox_tick] at @s if entity @a[distance=..20] run function kaleidoscope:lab/trans/leave_me_alone_box/sound

@@ -20,7 +20,7 @@
     "advancements.kaleidoscope_bar.tutorial.tankard.title":"酒杯",
     "advancements.kaleidoscope_bar.tutorial.tankard.description":"经典的木质酒杯，请问你需要来一杯吗？\n\n§9酒馆\n\n\n\n\n\n",
     "advancements.kaleidoscope_bar.tutorial.blackboard_hang.title":"黑板",
-    "advancements.kaleidoscope_bar.tutorial.blackboard_hang.description":"用于展示文字的黑板。\n\n管理员对其右键交互可编辑展示的文字，共三行，每行限5个字符；另可设置对齐模式和自动连接状态\n\n§9酒馆\n\n\n\n\n\n",
+    "advancements.kaleidoscope_bar.tutorial.blackboard_hang.description":"用于展示文字的黑板。\n\n管理员对其右键交互可编辑展示的文字。另可设置对齐模式和自动连接状态\n\n§9酒馆\n\n\n\n\n\n",
 
     "item.kaleidoscope_chinese.blackboard":"展板",
     "item.kaleidoscope_bar.bottles.artistic0":"艺术酒瓶",

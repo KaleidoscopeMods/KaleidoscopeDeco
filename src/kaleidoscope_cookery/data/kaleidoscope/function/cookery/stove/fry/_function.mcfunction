@@ -1,5 +1,3 @@
-
-
 ## 开始按钮处理
 scoreboard players set @s k_stove_start_excp 0
 
@@ -14,7 +12,11 @@ execute if entity @a[scores={k_stove_start=1..},distance=..5] unless items block
 
 execute if entity @a[scores={k_stove_discard=1..},distance=..5] unless items block ~ ~ ~ container.21 *[custom_data~{kaleidoscope_stove_bg:1b}] run function kaleidoscope:cookery/stove/fry/discard_button
 
+#翻炒互动
 execute if entity @a[scores={k_stove_stir=1..},distance=..5] unless items block ~ ~ ~ container.5 *[custom_data~{kaleidoscope_stove_bg:1b}] run function kaleidoscope:cookery/stove/fry/stir
+execute if score @s k_stove_stir_timer matches 1 run tag @s add k_stove_update
+execute if score @s k_stove_stir_timer matches 1.. run scoreboard players remove @s k_stove_stir_timer 1
+
 
 execute unless score @s k_stove_pot_vision matches 0..1 run scoreboard players set @s k_stove_pot_vision 1
 
@@ -35,21 +37,13 @@ execute if entity @s[tag=!k_stove_fry_start] run function kaleidoscope:cookery/s
 execute if entity @a[scores={k_stove_out=1..},distance=..5] unless items block ~ ~ ~ container.15 *[custom_data~{kaleidoscope_stove_bg:1b}] run function kaleidoscope:cookery/stove/fry/out/main
 
 #误放入处理
-function kaleidoscope:cookery/stove/fry/check_init
+execute if entity @a[distance=..6] store result score @s k_stove_temp if data block ~ ~ ~ Items[{components:{"minecraft:custom_data":{kaleidoscope_stove_bg:1b}}}]
+execute unless score @s k_stove_temp matches 20 run function kaleidoscope:cookery/stove/fry/check_init
 
 #gui处理
+function kaleidoscope:cookery/stove/fry/replace
 
-function kaleidoscope:cookery/stove/fry/replace/5
-function kaleidoscope:cookery/stove/fry/replace/26
-function kaleidoscope:cookery/stove/fry/replace/24
-function kaleidoscope:cookery/stove/fry/replace/6
-function kaleidoscope:cookery/stove/fry/replace/15
 
-function kaleidoscope:cookery/stove/fry/replace/20
-
-function kaleidoscope:cookery/stove/fry/replace/21
-
-function kaleidoscope:cookery/stove/fry/replace/7
 
 #外观处理
 execute if score @s k_stove_pot_vision matches 1 run data modify entity @s item.components."minecraft:custom_model_data".flags[0] set value true

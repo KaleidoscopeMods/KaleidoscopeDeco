@@ -1,4 +1,4 @@
-#1s loot
+#1s loop
 
 execute as @e[tag=dc_sit_assistant] run function dc:events/sit/clear_assistant
 

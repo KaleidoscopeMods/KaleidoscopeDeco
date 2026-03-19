@@ -5,11 +5,15 @@ function kaleidoscope:bar/events/blackboard_hang/set_text/template with storage 
 execute unless data entity @s text.text run return 0
 
 data modify storage kaleidoscope:bar blackboard.dialog.body.inputs[0].initial set from entity @s text.text
-data modify storage kaleidoscope:bar blackboard.dialog.body.inputs[1].initial set from entity @s text.extra[1]
-data modify storage kaleidoscope:bar blackboard.dialog.body.inputs[2].initial set from entity @s text.extra[3]
+#data modify storage kaleidoscope:bar blackboard.dialog.body.inputs[1].initial set from entity @s text.extra[1]
+#data modify storage kaleidoscope:bar blackboard.dialog.body.inputs[2].initial set from entity @s text.extra[3]
+#data modify storage kaleidoscope:bar blackboard.dialog.body.inputs[2].initial set from entity @s text.extra[5]
+#data modify storage kaleidoscope:bar blackboard.dialog.body.inputs[2].initial set from entity @s text.extra[7]
 
+execute if entity @s[tag=kaleidoscope_bar_blackboard_bind] run data modify storage kaleidoscope:bar blackboard.dialog.body.inputs[1] merge value {initial:true}
+execute unless entity @s[tag=kaleidoscope_bar_blackboard_bind] run data modify storage kaleidoscope:bar blackboard.dialog.body.inputs[1] merge value {initial:false}
 
-execute if data entity @s {alignment:"left"} run data modify storage kaleidoscope:bar blackboard.dialog.body.inputs[3].options[0] merge value {initial:true}
-execute if data entity @s {alignment:"center"} run data modify storage kaleidoscope:bar blackboard.dialog.body.inputs[3].options[1] merge value {initial:true}
-execute if data entity @s {alignment:"right"} run data modify storage kaleidoscope:bar blackboard.dialog.body.inputs[3].options[2] merge value {initial:true}
+execute if data entity @s {alignment:"left"} run data modify storage kaleidoscope:bar blackboard.dialog.body.inputs[2].options[0] merge value {initial:true}
+execute if data entity @s {alignment:"center"} run data modify storage kaleidoscope:bar blackboard.dialog.body.inputs[2].options[1] merge value {initial:true}
+execute if data entity @s {alignment:"right"} run data modify storage kaleidoscope:bar blackboard.dialog.body.inputs[2].options[2] merge value {initial:true}
 

@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "firework_star",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "kaleidoscope_bread:slice",
+                                "consumable": {
+                                    "consume_seconds": 1
+                                },
+                                "food": {
+                                    "can_always_eat": false,
+                                    "saturation": 2,
+                                    "nutrition": 1
+                                },
+                                "item_name": {
+                                    "translate": "item.kaleidoscope_bread.slice"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " * ",
+        " # ",
+        " % "
+    ],
+    "key": {
+        "*": "redstone",
+        "#": "chest",
+        "%": "lever"
+    },
+    "result": {
+        "id": "cow_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "kaleidoscope_lab:leave_me_alone_box",
+            "minecraft:item_name": {
+                "translate": "item.kaleidoscope_lab.leave_me_alone_box"
+            },
+            "lore": [],
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "kaleidoscope_lab:leave_me_alone_box"
+                }
+            }
+        }
+    }
+}

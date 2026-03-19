@@ -33,6 +33,8 @@ scoreboard objectives add k_stove_pot_vision_trigger dummy "炒锅模型显示"
 scoreboard objectives add k_stove_rotation dummy
 scoreboard objectives add k_stove_facing dummy
 
+scoreboard objectives add k_stove_temp dummy
+
 scoreboard objectives add k_stove_number dummy
 execute unless score # k_stove_number matches -2147483648..2147483647 run scoreboard players set # k_stove_number -2147483648
 

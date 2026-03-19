@@ -27,6 +27,8 @@
     "advancements.kaleidoscope_cookery.tutorial.teapot.description":"右键点击切换沸腾状态\n\n§9厨房\n\n\n\n\n\n",
     "advancements.kaleidoscope_cookery.tutorial.utensil_rack.title":"厨具架",
     "advancements.kaleidoscope_cookery.tutorial.utensil_rack.description":"右键点击切换其上厨具类型\n\n§9厨房\n\n\n\n\n\n",
+    "advancements.kaleidoscope_cookery.tutorial.bread_slicer.title":"切面包机",
+    "advancements.kaleidoscope_cookery.tutorial.bread_slicer.description":"可将面包切成小片的机器。\n关盖后潜行点击以启动切面包机。\n\n§9厨房\n\n\n\n\n\n",
     "advancements.kaleidoscope_cookery.basket.title":"咕煮一掷",
     "advancements.kaleidoscope_cookery.basket.description":"“您注意到了吗？‘孤注一掷’的英文直译就是‘把鸡蛋放在同一个篮子里’，令人忍俊不禁。”",
     "advancements.kaleidoscope_cookery.pot.title":"红太狼的平底锅",
@@ -93,5 +95,8 @@
     "item.kaleidoscope.table.oak":"橡木餐桌",
     "item.kaleidoscope.table.pale_oak":"苍白橡木餐桌",
     "item.kaleidoscope.table.spruce":"云杉木餐桌",
-    "item.kaleidoscope.table.warped":"诡异木餐桌"
+    "item.kaleidoscope.table.warped":"诡异木餐桌",
+
+    "item.kaleidoscope_bread.machine":"切面包机",
+    "item.kaleidoscope_bread.slice":"面包片"
 }

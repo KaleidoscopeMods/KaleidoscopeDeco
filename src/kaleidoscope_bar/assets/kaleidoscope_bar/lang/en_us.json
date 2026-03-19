@@ -20,7 +20,7 @@
     "advancements.kaleidoscope_bar.tutorial.tankard.title":"Tankard",
     "advancements.kaleidoscope_bar.tutorial.tankard.description":"Would you like a glass of beer?\n\n§9Bar\n\n\n\n\n\n",
     "advancements.kaleidoscope_bar.tutorial.blackboard_hang.title":"Blackboard",
-    "advancements.kaleidoscope_bar.tutorial.blackboard_hang.description":"Blackboard used for displaying text.\n\nThe administrator can edit the displayed text through right-click interaction. There are three lines in total, with each line limited to 5 characters. Additionally, alignment mode and automatic connection status can be set.\n\n§9Bar\n\n\n\n\n\n",
+    "advancements.kaleidoscope_bar.tutorial.blackboard_hang.description":"Blackboard used for displaying text.\n\nThe administrator can edit the displayed text through right-click interaction. Additionally, alignment mode and automatic connection status can be set.\n\n§9Bar\n\n\n\n\n\n",
 
     "item.kaleidoscope_chinese.blackboard":"Display Board",
     "item.kaleidoscope_bar.bottles.artistic0":"Artistic Wine Bottle",
