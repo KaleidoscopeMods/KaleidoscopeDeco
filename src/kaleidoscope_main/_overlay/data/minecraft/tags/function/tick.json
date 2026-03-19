@@ -1,6 +1,7 @@
 {
     "values":[
         "dc:main",
+        "sh:_/tick",
         {"required": false,"id": "kaleidoscope:doll/tick"},
         {"required": false,"id": "kaleidoscope:cookery_plus/tick"},
         {"required": false,"id": "kaleidoscope:cookery/tick"},
