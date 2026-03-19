@@ -1,0 +1,2 @@
+$data modify entity @s item.components."minecraft:custom_model_data".strings[$(anim_index)] set value "_none_"
+$data modify entity @s item.components."minecraft:custom_model_data".floats[$(frame_index)] set value 0
