@@ -15,8 +15,9 @@
     "kaleidoscope:doll/s/*"
   ],
   "sort": [
-    "kaleidoscope:doll/*",
+    "kaleidoscope:doll/doll_machine",
     "kaleidoscope:gift_box/*",
+    "kaleidoscope:doll/*",
     "kaleidoscope:doll/s/*"
   ]
 }
