@@ -1,0 +1,22 @@
+{
+  "location": "kaleidoscope:doll",
+  "name": {
+    "translate":"anisum.kaleidoscope.doll"
+  },
+  "icon": {
+    "id": "minecraft:iron_ingot",
+    "components": {
+      "minecraft:item_model": "kaleidoscope:doll_machine"
+    }
+  },
+  "include": [
+    "kaleidoscope:doll/*",
+    "kaleidoscope:gift_box/*",
+    "kaleidoscope:doll/s/*"
+  ],
+  "sort": [
+    "kaleidoscope:doll/*",
+    "kaleidoscope:gift_box/*",
+    "kaleidoscope:doll/s/*"
+  ]
+}

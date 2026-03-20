@@ -1,0 +1,44 @@
+{
+  "location": "kaleidoscope:main",
+  "name": {
+    "translate":"anisum.kaleidoscope.main"
+  },
+  "icon": {
+    "id": "minecraft:iron_ingot",
+    "components": {
+      "minecraft:item_model": "kaleidoscope_frame:rotate"
+    }
+  },
+  "include": [
+    "kaleidoscope:*",
+    "kaleidoscope:cookery_plus/*",
+    "kaleidoscope:cookery_plus/*/*",
+    "kaleidoscope:bread/*",
+    "kaleidoscope:bar/*",
+    "kaleidoscope:bar/*/*",
+    "kaleidoscope:chinese/*",
+    "kaleidoscope:chinese/*/*",
+    "kaleidoscope:holidy/*",
+    "kaleidoscope:holidy/*/*",
+    "kaleidoscope:lab/*",
+    "kaleidoscope:lab/*/*",
+    "kaleidoscope:road/*",
+    "kaleidoscope:road/*/*"
+  ],
+  "sort": [
+    "kaleidoscope:*",
+    "kaleidoscope:cookery_plus/*",
+    "kaleidoscope:cookery_plus/*/*",
+    "kaleidoscope:bread/*",
+    "kaleidoscope:bar/*",
+    "kaleidoscope:bar/*/*",
+    "kaleidoscope:chinese/*",
+    "kaleidoscope:chinese/*/*",
+    "kaleidoscope:holidy/*",
+    "kaleidoscope:holidy/*/*",
+    "kaleidoscope:lab/*",
+    "kaleidoscope:lab/*/*",
+    "kaleidoscope:road/*",
+    "kaleidoscope:road/*/*"
+  ]
+}

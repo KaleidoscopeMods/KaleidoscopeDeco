@@ -1,0 +1,22 @@
+{
+  "location": "kaleidoscope:cookery_plus",
+  "name": {
+    "translate":"anisum.kaleidoscope.cookery_plus"
+  },
+  "icon": {
+    "id": "minecraft:iron_ingot",
+    "components": {
+      "minecraft:item_model": "kaleidoscope_cookery:meals/fondant_pie"
+    }
+  },
+  "include": [
+    "kaleidoscope:cookery/cart_with_chest",
+    "kaleidoscope:cookery/stove",
+    "kaleidoscope_meals:*"
+  ],
+  "sort": [
+    "kaleidoscope:cookery/cart_with_chest",
+    "kaleidoscope:cookery/stove",
+    "kaleidoscope_meals:*"
+  ]
+}
