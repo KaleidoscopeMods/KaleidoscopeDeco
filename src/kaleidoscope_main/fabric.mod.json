@@ -1,0 +1,16 @@
+{
+    "id": "mr_kaleidoscope_deco",
+    "version": "1.3",
+    "name": "森罗物语：装饰",
+    "description": "数据包驱动的高版本装饰模组",
+    "authors": [
+        "CR_019，药水棒冰"
+    ],
+    "contact": {},
+    "icon": "pack.png",
+    "license": "All Right Reserved",
+    "environment": "*",
+    "depends": {
+        "fabric-resource-loader-v0": "*"
+    }
+}

@@ -1,0 +1,10 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license="All Right Reserved"
+[[mods]]
+modId = "mr_kaleidoscope_deco"
+version = "1.3"
+displayName = "森罗物语：装饰"
+description = "数据包驱动的高版本装饰模组"
+logoFile = "pack.png"
+authors = "CR_019，药水棒冰"
