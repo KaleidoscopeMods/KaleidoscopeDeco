@@ -27,5 +27,8 @@
     "lore.kaleidoscope.doll_machine":"§7使用绿宝石作为代币抽奖！",
     "lore.kaleidoscope.doll.author":"§r§7作者：%s",
     "entity.minecraft.silverfish_and_endermite":"蠹虫和末影螨",
-    "text.kaleidoscope.doll_machine_reject":"使用绿宝石进行抽奖！"
+    "text.kaleidoscope.doll_machine_reject":"使用绿宝石进行抽奖！",
+
+    "lore.kaleidoscope.creeper_girl":"苦力怕娘",
+    "lore.kaleidoscope.skeleton_girl":"骷髅娘"
 }

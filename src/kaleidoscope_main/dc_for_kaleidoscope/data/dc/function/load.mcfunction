@@ -36,6 +36,8 @@ execute store result score $game_version dc_version run data get entity @p DataV
 #exception
 scoreboard objectives add dc_exception dummy
 
+scoreboard objectives add dc_order dummy
+
 #math
 forceload add 0 0
 

@@ -1,0 +1,31 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " # ",
+        " * "
+    ],
+    "key": {
+        "*": "hopper",
+        "#": "redstone_torch"
+    },
+    "result": {
+        "id": "item_frame",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "kaleidoscope_bar:tap",
+            "minecraft:item_name": {
+                "translate": "item.kaleidoscope_bar.tap"
+            },
+            "lore": [],
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "dc_place"
+                ],
+                "data": {
+                    "index": "kaleidoscope_bar:tap_closed"
+                }
+            }
+        }
+    }
+}

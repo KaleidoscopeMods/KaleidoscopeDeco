@@ -17,10 +17,8 @@ execute as @n[type=item_display,tag=dc_display_temp] at @s run function dc:const
 function dc:construct/facing
 
 #interaction
-scoreboard players operation @n[tag=dc_interaction_temp] dc_uid = $uid dc_uid
-data modify entity @n[type=interaction,tag=dc_interaction_temp] height set from entity @s data.interactsize.height
-data modify entity @n[type=interaction,tag=dc_interaction_temp] width set from entity @s data.interactsize.width
-data modify entity @n[type=interaction,tag=dc_interaction_temp] Rotation set from entity @n[type=item_display,tag=dc_display_temp] Rotation
+execute if score #complex_interaction dc_temp matches 0 run function dc:construct/summon/interaction/edit_single
+execute if score #complex_interaction dc_temp matches 1 run function dc:construct/summon/interaction/edit_complex
 
 #pivot
 scoreboard players operation @n[tag=dc_pivot_temp] dc_uid = $uid dc_uid
@@ -40,8 +38,12 @@ execute if data entity @s data.extra_data run data modify entity @n[type=marker,
 
 
 
+
+
 #prop
 execute as @n[type=marker,tag=dc_pivot_temp] at @s store result entity @s data.prop.timestamp int 1 run time query gametime
+
+
 
 #construct
 execute as @n[type=marker,tag=dc_pivot_temp] if data entity @s data.events.construct run function lay:macro/list/init {list:"entity @s data.events.construct",func:"dc:construct/construct_event"}

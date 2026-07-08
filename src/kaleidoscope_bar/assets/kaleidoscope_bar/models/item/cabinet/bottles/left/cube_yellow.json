@@ -1,0 +1,36 @@
+{
+	"format_version": "1.21.11",
+	"textures": {
+		"0": "kaleidoscope_bar:item/bottles/l"
+	},
+	"elements": [
+		{
+			"name": "bone",
+			"from": [10.5, 8, 6.5],
+			"to": [13.5, 15, 9.5],
+			"rotation": {"x": 0, "y": 90, "z": 0, "origin": [12, 8, 8]},
+			"faces": {
+				"north": {"uv": [11, 0, 14, 7], "texture": "#0"},
+				"east": {"uv": [11, 0, 14, 7], "texture": "#0"},
+				"south": {"uv": [11, 0, 14, 7], "texture": "#0"},
+				"west": {"uv": [11, 0, 14, 7], "texture": "#0"},
+				"up": {"uv": [0, 1, 3, 4], "texture": "#0"},
+				"down": {"uv": [13, 9, 16, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "bone",
+			"from": [8.5, 1, 6],
+			"to": [15.5, 10, 10],
+			"rotation": {"x": 0, "y": 90, "z": 0, "origin": [12, 9, 8]},
+			"faces": {
+				"north": {"uv": [9, 7, 16, 16], "texture": "#0"},
+				"east": {"uv": [4, 7, 8, 16], "texture": "#0"},
+				"south": {"uv": [9, 7, 16, 16], "texture": "#0"},
+				"west": {"uv": [4, 7, 8, 16], "texture": "#0"},
+				"up": {"uv": [3, 1, 10, 5], "texture": "#0"},
+				"down": {"uv": [3, 1, 10, 5], "texture": "#0"}
+			}
+		}
+	]
+}

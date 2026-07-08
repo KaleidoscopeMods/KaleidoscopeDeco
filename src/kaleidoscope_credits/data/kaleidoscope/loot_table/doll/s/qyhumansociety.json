@@ -11,9 +11,9 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:item_model": "kaleidoscope:doll/s/qyhumansociety",
-                                "minecraft:item_name": "玩偶",
+                                "minecraft:item_name": "赞助者玩偶",
                                 "lore": [
-                                    "§7赞助者：QyHumanSociety"
+                                    "§7QyHumanSociety"
                                 ],
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",

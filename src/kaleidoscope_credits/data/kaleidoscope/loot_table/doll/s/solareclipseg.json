@@ -11,9 +11,9 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:item_model": "kaleidoscope:doll/s/solareclipseg",
-                                "minecraft:item_name": "玩偶",
+                                "minecraft:item_name": "赞助者玩偶",
                                 "lore": [
-                                    "§7赞助者：SolarEclipseG"
+                                    "§7SolarEclipseG"
                                 ],
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",

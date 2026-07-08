@@ -1,5 +1,5 @@
 {
-    "parent":"kaleidoscope:_tutorial/bar/tankard",
+    "parent":"kaleidoscope:_tutorial/bar/tap",
     "display": {
         "icon": {
             "id": "firework_star",

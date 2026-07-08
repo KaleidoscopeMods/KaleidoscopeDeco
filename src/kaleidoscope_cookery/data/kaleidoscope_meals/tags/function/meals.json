@@ -36,6 +36,11 @@
         "kaleidoscope_meals:index/crimson_fungus_pot_soup",
         "kaleidoscope_meals:index/warped_fungus_pot_soup",
         "kaleidoscope_meals:index/red_mushroom_pot_soup",
-        "kaleidoscope_meals:index/brown_mushroom_pot_soup"
+        "kaleidoscope_meals:index/brown_mushroom_pot_soup",
+
+        "kaleidoscope_meals:index/apple_platter",
+        "kaleidoscope_meals:index/berry_platter",
+        "kaleidoscope_meals:index/melon_platter",
+        "kaleidoscope_meals:index/chrous_platter"
     ]
 }

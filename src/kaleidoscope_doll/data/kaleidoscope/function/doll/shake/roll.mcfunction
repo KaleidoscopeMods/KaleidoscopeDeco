@@ -1,7 +1,7 @@
 tag @s remove kal_machine_shake
 playsound entity.experience_orb.pickup block @a ~ ~ ~
 
-loot spawn ~ ~1 ~ loot kaleidoscope:gift_box_roll/roll
+loot spawn ~ ~1.5 ~ loot kaleidoscope:gift_box_roll/roll
 particle happy_villager ~ ~2 ~ 0.5 0.5 0.5 0 5
 
 data modify storage dc events.temp.target.args set value {index:"doll_machine"}

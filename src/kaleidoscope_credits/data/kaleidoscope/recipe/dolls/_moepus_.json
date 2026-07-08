@@ -6,9 +6,9 @@
         "count": 1,
         "components": {
             "minecraft:item_model": "kaleidoscope:doll/s/_moepus_",
-            "minecraft:item_name": "玩偶",
+            "minecraft:item_name": "赞助者玩偶",
             "lore": [
-                "§7赞助者：_MoePus_"
+                "§7_MoePus_"
             ],
             "minecraft:entity_data": {
                 "id": "minecraft:marker",

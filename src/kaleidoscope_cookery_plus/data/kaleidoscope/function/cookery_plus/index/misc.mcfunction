@@ -30,7 +30,7 @@ data modify storage dc:index input.teapot_boil set value {\
     interactsize:{height:0.8f,width:0.8f},\
     loot_table:"kaleidoscope:cookery_plus/teapot",\
     item:{\
-        components:{"minecraft:item_model":"kaleidoscope_cookery_plus:teapot","minecraft:custom_model_data":{"flags":[true]}}\
+        components:{"minecraft:item_model":"kaleidoscope_cookery_plus:teapot","minecraft:custom_model_data":{"flags":[true],floats:[0]}}\
     },\
     template:"kaleidoscope",\
     events:{\
@@ -293,3 +293,21 @@ data modify storage dc:index input.scarecrow_1 set value {\
 data modify storage dc:index keylist append value "scarecrow_1"
 
 
+# 【kaleidoscope:ladder】人字梯
+data modify storage dc:index input."kaleidoscope:ladder" set value {\
+    type:"complex",\
+    extra_data:{hitbox:[{width:0.95f,offset:{x:0,y:-0.2,z:0}},{width:0.7f,offset:{x:0,y:0.7,z:-0.1}},{width:0.5f,offset:{x:0,y:1.51,z:-0.25}}]},\
+    modsize:[1f,1f,1f],\
+    interactsize:[{height:0.8f,width:1f,offset:{x:0,y:0,z:0}},{height:0.7f,width:0.8f,offset:{x:0,y:0.7,z:-0.1}},{height:0.62f,width:0.5f,offset:{x:0,y:1.4,z:-0.25}}],\
+    loot_table:"kaleidoscope:cookery_plus/ladder",\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_cookery_plus:ladder","minecraft:custom_model_data":{"flags":[true]}}\
+    },\
+    template:"kaleidoscope",\
+    events:{\
+        "construct":[\
+            {event:"sound",args:{sound:"minecraft:block.wood.place"}}\
+        ]\
+    }\
+}
+data modify storage dc:index keylist append value "kaleidoscope:ladder"

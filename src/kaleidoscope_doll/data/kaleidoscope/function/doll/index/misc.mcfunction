@@ -97,7 +97,7 @@ data modify storage dc:index input.doll_machine set value {\
     },\
     modsize:[1f,1f,1f],\
     interactsize:{height:1.5f,width:1f},\
-    loot_table:"kaleidoscope:doll_machine",\
+    loot_table:"kaleidoscope:doll/doll_machine",\
     template:"kaleidoscope",\
     events:{\
         construct:[{event:"sound",args:{sound:"minecraft:block.copper.place"}}],\
@@ -107,7 +107,7 @@ data modify storage dc:index input.doll_machine set value {\
                 args:{\
                     sound:"minecraft:block.copper.break",\
                     particle:"block{block_state:\"oxidized_copper\"}",\
-                    "item":{mode:"replace",loot_table:"kaleidoscope:doll_machine"}\
+                    "item":{mode:"replace",loot_table:"kaleidoscope:doll/doll_machine"}\
                 }\
             }\
         },\
@@ -141,7 +141,7 @@ data modify storage dc:index input.doll_machine_shake set value {\
                 args:{\
                     sound:"minecraft:block.copper.break",\
                     particle:"block{block_state:\"oxidized_copper\"}",\
-                    "item":{mode:"replace",loot_table:"kaleidoscope:doll_machine"}\
+                    "item":{mode:"replace",loot_table:"kaleidoscope:doll/doll_machine"}\
                 }\
             }\
         }\

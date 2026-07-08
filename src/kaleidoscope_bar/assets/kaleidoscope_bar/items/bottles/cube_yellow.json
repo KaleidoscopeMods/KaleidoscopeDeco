@@ -1,0 +1,23 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "fallback": {
+            "type": "model",
+            "model": "kaleidoscope_bar:item/bottles/cube_yellow"
+        },
+        "cases": [
+            {
+                "when": [
+                    "gui",
+                    "fixed",
+                    "on_shelf"
+                ],
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/bottles/item/cube_yellow"
+                }
+            }
+        ]
+    }
+}

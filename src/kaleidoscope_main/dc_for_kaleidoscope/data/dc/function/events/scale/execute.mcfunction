@@ -3,6 +3,7 @@
 #不是我喜欢的类型，直接拒绝
 execute if entity @s[tag=dc_type_fixed] run return run function dc:exception/events/scale/fixed
 execute if entity @s[tag=dc_type_light] run return run function dc:exception/events/scale/light
+execute if entity @s[tag=dc_type_complex] run return run function dc:exception/events/scale/complex
 
 execute store result score #scale_prev dc_temp run data get entity @s data.prop.scale 10000
 execute store result score #scale_var dc_temp run data get storage dc events.temp.target.args.scale 10000

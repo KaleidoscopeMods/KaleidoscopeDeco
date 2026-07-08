@@ -132,3 +132,101 @@ data modify storage dc:index input.kaleidoscope_bar:painting_waxed set value {\
 data modify storage dc:index keylist append value "kaleidoscope_bar:painting_waxed"
 
 
+# 【kaleidoscope_bar:coffee_table】咖啡桌
+data modify storage dc:index input.kaleidoscope_bar:coffee_table set value {\
+    modsize:[1f,1f,1f],\
+    type:"fixed",\
+    loot_table:"kaleidoscope:bar/coffee_table",\
+    template:"kaleidoscope_block_90",\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_bar:coffee_table"}\
+    },\
+    events:{\
+        "construct":[\
+            {event:"sound",args:{sound:"minecraft:block.copper_grate.place"}},\
+            {event:"custom",args:{func:"kaleidoscope:bar/events/coffee_table/construct"}},\
+            {event:"custom",args:{func:"kaleidoscope:bar/events/coffee_table/connect"}},\
+            {event:"broadcast"}\
+        ],\
+        destruct:[\
+            {event:"broadcast"}\
+        ],\
+        update:[\
+            {event:"custom",args:{func:"kaleidoscope:bar/events/coffee_table/connect"}}\
+        ],\
+        left_click:{\
+            criteria:[\
+                {\
+                    event:"__nothing__",\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"trans"}}}\
+                },\
+            ],\
+            fallback:{"event":"group",args:{events:[\
+                {event:"destruct",args:{item:{},particle:"self",sound:"minecraft:block.copper_grate.break"}}\
+            ]}}\
+        },\
+        right_click:{\
+            "criteria":[\
+                {\
+                    event:"group",\
+                    "args":{events:[{event:"custom",args:{func:"kaleidoscope:bar/events/coffee_table/mode_switch"}},{event:"custom",args:{func:"kaleidoscope:events/wand"}}]},\
+                    item:{components:{"minecraft:custom_data":{kaleidoscope:"trans"}}}\
+                },\
+            ],\
+        }\
+    }\
+}
+data modify storage dc:index keylist append value "kaleidoscope_bar:coffee_table"
+
+
+# 【kaleidoscope_bar:tap_closed】水龙头
+data modify storage dc:index input.kaleidoscope_bar:tap_closed set value {\
+    modsize:[1f,1f,1f],\
+    interactsize:{height:0.8f,width:0.8f},\
+    loot_table:"kaleidoscope:bar/tap",\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_bar:tap","minecraft:custom_model_data":{"flags":[false]}}\
+    },\
+    template:"kaleidoscope",\
+    events:{\
+        "construct":[\
+            {event:"sound",args:{sound:"minecraft:block.copper.place"}}\
+        ],\
+        left_click:{\
+            fallback:{event:"destruct",args:{item:{},particle:"self",sound:"minecraft:block.copper.break"}}\
+        },\
+        right_click:{\
+            fallback:{\
+                    event:"trans",\
+                    args:{index:"kaleidoscope_bar:tap_open",func:"kaleidoscope:bar/trans/tap/open"},\
+                }\
+        }\
+    }\
+}
+data modify storage dc:index keylist append value "kaleidoscope_bar:tap_closed"
+
+# 【kaleidoscope_bar:tap_open】水龙头（打开）
+data modify storage dc:index input.kaleidoscope_bar:tap_open set value {\
+    modsize:[1f,1f,1f],\
+    interactsize:{height:0.8f,width:0.8f},\
+    loot_table:"kaleidoscope:bar/tap",\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_bar:tap","minecraft:custom_model_data":{"flags":[true]}}\
+    },\
+    template:"kaleidoscope",\
+    events:{\
+        "construct":[\
+            {event:"sound",args:{sound:"minecraft:block.copper.place"}}\
+        ],\
+        left_click:{\
+            fallback:{event:"destruct",args:{item:{},particle:"self",sound:"minecraft:block.copper.break"}}\
+        },\
+        right_click:{\
+            fallback:{\
+                    event:"trans",\
+                    args:{index:"kaleidoscope_bar:tap_closed",func:"kaleidoscope:bar/trans/tap/close"},\
+                }\
+        }\
+    }\
+}
+data modify storage dc:index keylist append value "kaleidoscope_bar:tap_open"

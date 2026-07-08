@@ -11,9 +11,9 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:item_model": "kaleidoscope:doll/s/zaiqiafandexiaohe_swim",
-                                "minecraft:item_name": "玩偶",
+                                "minecraft:item_name": "赞助者玩偶",
                                 "lore": [
-                                    "§7赞助者：在掐饭的小禾-泳装"
+                                    "§7在掐饭的小禾-泳装"
                                 ],
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",

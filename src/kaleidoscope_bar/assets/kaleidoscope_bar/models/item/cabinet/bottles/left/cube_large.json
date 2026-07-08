@@ -1,0 +1,64 @@
+{
+	"format_version": "1.21.11",
+	"textures": {
+		"0": "kaleidoscope_bar:item/bottles/n"
+	},
+	"elements": [
+		{
+			"name": "bb_main",
+			"from": [11, 8, 7],
+			"to": [13, 14, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-14, 0, 24]},
+			"faces": {
+				"north": {"uv": [12, 1, 14, 7], "texture": "#0"},
+				"east": {"uv": [12, 1, 14, 7], "texture": "#0"},
+				"south": {"uv": [12, 1, 14, 7], "texture": "#0"},
+				"west": {"uv": [12, 1, 14, 7], "texture": "#0"},
+				"up": {"uv": [12, 1, 14, 3], "texture": "#0"},
+				"down": {"uv": [7, 5, 9, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "bb_main",
+			"from": [9.5, 8, 5.5],
+			"to": [14.5, 9, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-14, 0, 24]},
+			"faces": {
+				"north": {"uv": [11, 6, 16, 7], "texture": "#0"},
+				"east": {"uv": [11, 6, 16, 7], "texture": "#0"},
+				"south": {"uv": [11, 6, 16, 7], "texture": "#0"},
+				"west": {"uv": [11, 6, 16, 7], "texture": "#0"},
+				"up": {"uv": [6, 1, 11, 6], "texture": "#0"},
+				"down": {"uv": [6, 1, 11, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "bb_main",
+			"from": [9, 1, 5],
+			"to": [15, 6, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-14, 1, 24]},
+			"faces": {
+				"north": {"uv": [0, 11, 6, 16], "texture": "#0"},
+				"east": {"uv": [7, 11, 13, 16], "texture": "#0"},
+				"south": {"uv": [0, 11, 6, 16], "texture": "#0"},
+				"west": {"uv": [7, 11, 13, 16], "texture": "#0"},
+				"up": {"uv": [0, 1, 6, 7], "texture": "#0"},
+				"down": {"uv": [0, 1, 6, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "bb_main",
+			"from": [9, 6, 5],
+			"to": [15, 8, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-14, 0, 24]},
+			"faces": {
+				"north": {"uv": [0, 8, 6, 10], "texture": "#0"},
+				"east": {"uv": [7, 8, 13, 10], "texture": "#0"},
+				"south": {"uv": [0, 8, 6, 10], "texture": "#0"},
+				"west": {"uv": [7, 8, 13, 10], "texture": "#0"},
+				"up": {"uv": [0, 1, 6, 7], "texture": "#0"},
+				"down": {"uv": [0, 1, 6, 7], "texture": "#0"}
+			}
+		}
+	]
+}

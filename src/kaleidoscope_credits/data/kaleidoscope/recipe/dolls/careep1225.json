@@ -6,9 +6,9 @@
         "count": 1,
         "components": {
             "minecraft:item_model": "kaleidoscope:doll/s/careep1225",
-            "minecraft:item_name": "玩偶",
+            "minecraft:item_name": "赞助者玩偶",
             "lore": [
-                "§7赞助者：Careep1225"
+                "§7Careep1225"
             ],
             "minecraft:entity_data": {
                 "id": "minecraft:marker",

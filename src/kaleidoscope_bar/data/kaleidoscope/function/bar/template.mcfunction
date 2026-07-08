@@ -35,7 +35,10 @@ data modify storage dc:template kaleidoscope_wine_bottle set value {\
             {event:"sound",args:{sound:"block.glass.place"}},\
         ],\
         left_click:{\
-            fallback:{event:"destruct",args:{particle:"self",sound:"block.glass.break"}}\
+            fallback:{event:"destruct",args:{item:{mode:"inherit"},sound:"entity.item.pickup"}},\
+            criteria:[\
+                {event:"destruct",args:{particle:"self",sound:"block.glass.break"},item:{id:"mace"}}\
+            ]\
         },\
         right_click:{\
             "fallback":{event:"destruct",args:{item:{mode:"inherit"},sound:"entity.item.pickup"}}\

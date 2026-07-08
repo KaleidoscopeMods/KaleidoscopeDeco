@@ -15,10 +15,13 @@ execute as @n[type=item_display,tag=dc_edit_display] at @s run function dc:const
 data modify entity @n[type=item_display,tag=dc_edit_display] Rotation[0] set from entity @n[type=marker,tag=dc_edit_pivot] data.Rotation[0]
 data modify entity @n[type=item_display,tag=dc_edit_display] Rotation[1] set from entity @n[type=marker,tag=dc_edit_pivot] data.Rotation[1]
 
-data modify entity @n[type=interaction,tag=dc_edit_interaction] height set from storage dc events.update.interactsize.height
-data modify entity @n[type=interaction,tag=dc_edit_interaction] width set from storage dc events.update.interactsize.width
+
+#interaction
+execute unless entity @s[tag=dc_type_complex] run data modify entity @n[type=interaction,tag=dc_edit_interaction] height set from storage dc events.update.interactsize.height
+execute unless entity @s[tag=dc_type_complex] run data modify entity @n[type=interaction,tag=dc_edit_interaction] width set from storage dc events.update.interactsize.width
 
 execute if entity @s[tag=dc_type_hitbox] run function dc:events/_update/types/hitbox
+execute if entity @s[tag=dc_type_complex] run function dc:events/_update/types/complex
 execute if entity @s[tag=dc_type_light] run function dc:events/_update/types/light
 
 data modify entity @n[type=marker,tag=dc_edit_pivot] data.events set from storage dc events.update.events
@@ -34,10 +37,10 @@ data modify entity @n[type=marker,tag=dc_edit_pivot] data.prop.extra_data set fr
 
 
 #缩放
-execute unless data storage dc {events:{update:{type:"fixed"}}} unless data storage dc {events:{update:{type:"light"}}} run function dc:events/_general/zoom
+execute unless data storage dc {events:{update:{type:"fixed"}}} unless data storage dc {events:{update:{type:"light"}}} unless data storage dc {events:{update:{type:"complex"}}} run function dc:events/_general/zoom
 
 #高度适应
-execute if data entity @s {data:{prop:{height_adaption:1b}}} run function dc:events/_general/adaption
+execute if data entity @s {data:{prop:{height_adaption:1b}}} unless entity @s[tag=dc_type_complex] run function dc:events/_general/adaption
 #execute if data entity @s {data:{prop:{height_adaption:2b}}} run function dc:events/_general/adaption
 
 #事件执行

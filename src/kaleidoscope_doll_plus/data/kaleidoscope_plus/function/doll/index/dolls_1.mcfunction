@@ -939,3 +939,46 @@ data modify storage dc:index input.doll_66 set value {loot_table:"kaleidoscope:d
     }\
 }
 data modify storage dc:index keylist append value "doll_66"
+
+
+
+#【creeper_girl】苦力怕娘
+data modify storage dc:index input.creeper_girl set value {loot_table:"kaleidoscope:doll/creeper_girl",template:"doll",\
+    events:{\
+        left_click:{\
+            fallback:{event:"destruct",args:{item:{},particle:"block{block_state:\"lime_wool\"}"}}\
+        },\
+        right_click:{\
+            fallback:{event:"custom",args:{func:"kaleidoscope_plus:doll/events/pat/creeper"}},\
+            criteria:[\
+                {event:"custom",args:{func:"kaleidoscope_plus:doll/events/explode"},item:{id:"minecraft:flint_and_steel"}}\
+            ]\
+        }\
+    }\
+}
+data modify storage dc:index keylist append value "creeper_girl"
+
+
+#【skeleton_girl】骷髅娘
+data modify storage dc:index input.skeleton_girl set value {loot_table:"kaleidoscope:doll/skeleton_girl",template:"doll",\
+    events:{\
+        construct:[\
+            {event:"sound",args:{sound:"minecraft:entity.skeleton.ambient"}}\
+        ],\
+        left_click:{\
+            fallback:{event:"destruct",args:{item:{},particle:"block{block_state:\"white_wool\"}",sound:"minecraft:entity.skeleton.hurt"}}\
+        },\
+        right_click:{\
+            fallback:{\
+                event:"group",\
+                args:{\
+                    events:[\
+                        {event:"sound",args:{sound:"minecraft:entity.skeleton.step"}},\
+                        {event:"custom",args:{func:"kaleidoscope:doll/events/note"}}\
+                    ]\
+                }\
+            }\
+        }\
+    }\
+}
+data modify storage dc:index keylist append value "skeleton_girl"

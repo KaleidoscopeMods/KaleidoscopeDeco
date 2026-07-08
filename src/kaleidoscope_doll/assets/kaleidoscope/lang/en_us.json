@@ -27,5 +27,8 @@
     "lore.kaleidoscope.doll_machine":"§7Draw dolls through emerald tokens!",
     "lore.kaleidoscope.doll.author":"§r§7Author: %s",
     "entity.minecraft.silverfish_and_endermite":"Silverfish  and Endermite",
-    "text.kaleidoscope.doll_machine_reject":"Draw dolls through emerald tokens!"
+    "text.kaleidoscope.doll_machine_reject":"Draw dolls through emerald tokens!",
+    
+    "lore.kaleidoscope.creeper_girl":"Creeper-Chan",
+    "lore.kaleidoscope.skeleton_girl":"Skeleton-Chan"
 }

@@ -183,3 +183,113 @@ data modify storage dc:index input.kaleidoscope_bar:tankard set value {\
     }\
 }
 data modify storage dc:index keylist append value "kaleidoscope_bar:tankard"
+
+# 【kaleidoscope_bar:bordeaux_yellow】酒瓶
+data modify storage dc:index input.kaleidoscope_bar:bordeaux_yellow set value {\
+    loot_table:"kaleidoscope:bar/bottles/bordeaux_yellow",\
+    template:"kaleidoscope_wine_bottle",\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_bar:bottles/bordeaux_yellow"}\
+    }\
+}
+data modify storage dc:index keylist append value "kaleidoscope_bar:bordeaux_yellow"
+
+# 【kaleidoscope_bar:bordeaux_red】酒瓶
+data modify storage dc:index input.kaleidoscope_bar:bordeaux_red set value {\
+    loot_table:"kaleidoscope:bar/bottles/bordeaux_red",\
+    template:"kaleidoscope_wine_bottle",\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_bar:bottles/bordeaux_red"}\
+    }\
+}
+data modify storage dc:index keylist append value "kaleidoscope_bar:bordeaux_red"
+
+# 【kaleidoscope_bar:bordeaux_glow】酒瓶
+data modify storage dc:index input.kaleidoscope_bar:bordeaux_glow set value {\
+    loot_table:"kaleidoscope:bar/bottles/bordeaux_glow",\
+    template:"kaleidoscope_wine_bottle",\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_bar:bottles/bordeaux_glow"}\
+    }\
+}
+data modify storage dc:index keylist append value "kaleidoscope_bar:bordeaux_glow"
+
+# 【kaleidoscope_bar:bordeaux_gold】酒瓶
+data modify storage dc:index input.kaleidoscope_bar:bordeaux_gold set value {\
+    loot_table:"kaleidoscope:bar/bottles/bordeaux_gold",\
+    template:"kaleidoscope_wine_bottle",\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_bar:bottles/bordeaux_gold"}\
+    }\
+}
+data modify storage dc:index keylist append value "kaleidoscope_bar:bordeaux_gold"
+
+# 【kaleidoscope_bar:cube_yellow】酒瓶
+data modify storage dc:index input.kaleidoscope_bar:cube_yellow set value {\
+    loot_table:"kaleidoscope:bar/bottles/cube_yellow",\
+    template:"kaleidoscope_wine_bottle",\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_bar:bottles/cube_yellow"}\
+    }\
+}
+data modify storage dc:index keylist append value "kaleidoscope_bar:cube_yellow"
+
+# 【kaleidoscope_bar:cube_red】酒瓶
+data modify storage dc:index input.kaleidoscope_bar:cube_red set value {\
+    loot_table:"kaleidoscope:bar/bottles/cube_red",\
+    template:"kaleidoscope_wine_bottle",\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_bar:bottles/cube_red"}\
+    }\
+}
+data modify storage dc:index keylist append value "kaleidoscope_bar:cube_red"
+
+# 【kaleidoscope_bar:cube_orange】酒瓶
+data modify storage dc:index input.kaleidoscope_bar:cube_orange set value {\
+    loot_table:"kaleidoscope:bar/bottles/cube_orange",\
+    template:"kaleidoscope_wine_bottle",\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_bar:bottles/cube_orange"}\
+    }\
+}
+data modify storage dc:index keylist append value "kaleidoscope_bar:cube_orange"
+
+# 【kaleidoscope_bar:cube_large】酒瓶
+data modify storage dc:index input.kaleidoscope_bar:cube_large set value {\
+    loot_table:"kaleidoscope:bar/bottles/cube_large",\
+    template:"kaleidoscope_wine_bottle",\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_bar:bottles/cube_large"}\
+    }\
+}
+data modify storage dc:index keylist append value "kaleidoscope_bar:cube_large"
+
+# 【kaleidoscope_bar:artistic1】酒瓶
+data modify storage dc:index input.kaleidoscope_bar:artistic1 set value {\
+    loot_table:"kaleidoscope:bar/bottles/artistic1",\
+    template:"kaleidoscope_wine_bottle",\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_bar:bottles/artistic1"}\
+    }\
+}
+data modify storage dc:index keylist append value "kaleidoscope_bar:artistic1"
+
+# 【kaleidoscope_bar:artistic2】酒瓶
+data modify storage dc:index input.kaleidoscope_bar:artistic2 set value {\
+    loot_table:"kaleidoscope:bar/bottles/artistic2",\
+    template:"kaleidoscope_wine_bottle",\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_bar:bottles/artistic2"}\
+    }\
+}
+data modify storage dc:index keylist append value "kaleidoscope_bar:artistic2"
+
+# 【kaleidoscope_bar:flask】酒瓶
+data modify storage dc:index input.kaleidoscope_bar:flask set value {\
+    loot_table:"kaleidoscope:bar/bottles/flask",\
+    template:"kaleidoscope_wine_bottle",\
+    item:{\
+        components:{"minecraft:item_model":"kaleidoscope_bar:bottles/flask"}\
+    }\
+}
+data modify storage dc:index keylist append value "kaleidoscope_bar:flask"

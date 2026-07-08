@@ -275,3 +275,13 @@ data modify storage dc:index keylist append value "doll_65"
 #【doll_66】炽足兽
 data modify storage dc:index input.doll_66 set value {loot_table:"kaleidoscope:doll/doll_66",template:"doll"}
 data modify storage dc:index keylist append value "doll_66"
+
+
+#【creeper_girl】苦力怕娘
+data modify storage dc:index input.creeper_girl set value {loot_table:"kaleidoscope:doll/creeper_girl",template:"doll"}
+data modify storage dc:index keylist append value "creeper_girl"
+
+
+#【skeleton_girl】骷髅娘
+data modify storage dc:index input.skeleton_girl set value {loot_table:"kaleidoscope:doll/skeleton_girl",template:"doll"}
+data modify storage dc:index keylist append value "skeleton_girl"

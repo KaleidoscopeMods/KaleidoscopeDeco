@@ -6,9 +6,9 @@
         "count": 1,
         "components": {
             "minecraft:item_model": "kaleidoscope:doll/s/fantasy_sunny",
-            "minecraft:item_name": "玩偶",
+            "minecraft:item_name": "赞助者玩偶",
             "lore": [
-                "§7赞助者：fantasy sunny"
+                "§7fantasy sunny"
             ],
             "minecraft:entity_data": {
                 "id": "minecraft:marker",

@@ -1,5 +1,5 @@
 #as_display
-#面向玩家
-execute at @s facing entity @a[limit=1,tag=dc_player] feet run rotate @s ~ 0
+#跟随锚点
+execute at @s at @n[tag=dc_place_temp] run rotate @s ~ 0
 
 execute store result score #rotation dc_temp run data get entity @s Rotation[0]

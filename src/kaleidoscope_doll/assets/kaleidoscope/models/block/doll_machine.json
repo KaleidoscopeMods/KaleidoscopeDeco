@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made by YSBB with Blockbench",
 	"render_type": "cutout",
 	"texture_size": [32, 32],
@@ -139,7 +140,7 @@
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, 225, 0],
+			"rotation": [0, -135, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"ground": {
@@ -147,8 +148,8 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"rotation": [30, 225, 0],
-			"translation": [0, -0.5, 0],
+			"rotation": [30, -135, 0],
+			"translation": [0, -3.5, 0],
 			"scale": [0.625, 0.625, 0.625]
 		},
 		"fixed": {
@@ -163,6 +164,7 @@
 		{
 			"name": "group",
 			"origin": [0, 0, 0],
+			"scope": 0,
 			"color": 0,
 			"children": []
 		},

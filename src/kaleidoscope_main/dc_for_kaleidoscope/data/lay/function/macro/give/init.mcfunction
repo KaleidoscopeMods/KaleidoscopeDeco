@@ -1,1 +1,1 @@
-data modify storage lay Item set value {id:"minecraft:air",Count:1b,tag:""}
+data modify storage lay Item set value {id:"minecraft:air",count:1,tag:""}

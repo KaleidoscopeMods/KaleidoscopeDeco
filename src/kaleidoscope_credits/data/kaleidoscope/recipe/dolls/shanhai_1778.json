@@ -6,9 +6,9 @@
         "count": 1,
         "components": {
             "minecraft:item_model": "kaleidoscope:doll/s/shanhai_1778",
-            "minecraft:item_name": "玩偶",
+            "minecraft:item_name": "赞助者玩偶",
             "lore": [
-                "§7赞助者：shanhai_1778"
+                "§7shanhai_1778"
             ],
             "minecraft:entity_data": {
                 "id": "minecraft:marker",

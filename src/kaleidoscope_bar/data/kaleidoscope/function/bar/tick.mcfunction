@@ -1,0 +1,1 @@
+execute as @e[tag=kbar_tick] at @s if entity @a[distance=..20] run function kaleidoscope:bar/entity_tick

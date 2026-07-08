@@ -23,6 +23,7 @@ function dc:events/_general/sound with storage dc events.temp.target.args
 #特殊类型
 execute if entity @s[tag=dc_type_fixed] run function dc:events/destruct/extra/fixed
 execute if entity @s[tag=dc_type_hitbox] run function dc:events/destruct/extra/hitbox
+execute if entity @s[tag=dc_type_complex] run function dc:events/destruct/extra/hitbox
 execute if entity @s[tag=dc_type_light] run function dc:events/destruct/extra/light
 
 #展示实体清除

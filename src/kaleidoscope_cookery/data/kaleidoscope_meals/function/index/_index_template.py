@@ -95,9 +95,9 @@ def generate_mcfunction(id, name, x, loot=None):
             file.write(f'data modify storage dc:index keylist append value "{id_with_i}" ' + "\n\n")
 
 if __name__ == "__main__":
-    id = "brown_mushroom_pot_soup"  
-    name = "棕蘑菇瓦罐汤"  
-    x = 2  
+    id = "chrous_platter"  
+    name = "紫颂果拼盘"  
+    x = 5
     loot = None
 
     generate_mcfunction(id, name, x, loot)

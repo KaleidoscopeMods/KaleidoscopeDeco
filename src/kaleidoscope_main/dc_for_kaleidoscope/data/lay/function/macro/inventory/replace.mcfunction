@@ -8,4 +8,7 @@ execute if score #return lay_inventory matches 2 if score #slot lay_inventory ma
 execute if score #return lay_inventory matches 2 if score #slot lay_inventory matches 101 run data modify storage lay Item.slot set value "armor.legs"
 execute if score #return lay_inventory matches 2 if score #slot lay_inventory matches 102 run data modify storage lay Item.slot set value "armor.chest"
 execute if score #return lay_inventory matches 2 if score #slot lay_inventory matches 103 run data modify storage lay Item.slot set value "armor.head"
+execute if score #return lay_inventory matches 2 if score #slot lay_inventory matches 104 run data modify storage lay Item.slot set value "armor.body"
+execute if score #return lay_inventory matches 2 if score #slot lay_inventory matches 105 run data modify storage lay Item.slot set value "saddle"
+
 function lay:macro/give/replace

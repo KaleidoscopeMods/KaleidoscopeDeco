@@ -9,20 +9,10 @@ import os
 
 # 在此处直接指定参数列表
 ITEMS = [
-    ("oil_splashed_fish", "油泼鱼"),
-    ("cold_roasted_meat", "冷肉炙"),
-    ("braised_pork_ribs", "红烧排骨"),
-    ("candied_potato", "拔丝土豆"),
-    ("dough_drop_soup", "疙瘩汤"),
-    ("numbing_spicy_chicken", "椒麻鸡"),
-    ("spicy_rabbit_head", "麻辣兔头"),
-    ("spicy_blood_stew", "毛血旺"),
-    ("four_joy_meatball_soup", "四喜丸子汤"),
-    ("fried_spring_roll", "炸春卷"),
-    ("crimson_fungus_pot_soup", "绯红菌瓦罐汤"),
-    ("warped_fungus_pot_soup", "诡异菌瓦罐汤"),
-    ("red_mushroom_pot_soup", "红蘑菇瓦罐汤"),
-    ("brown_mushroom_pot_soup", "棕蘑菇瓦罐汤")
+    ("apple_platter", "苹果拼盘"),
+    ("berry_platter", "浆果拼盘"),
+    ("melon_platter", "西瓜拼盘"),
+    ("chrous_platter", "紫颂果拼盘"),
 ]
 
 def generate_json_file(item_id, name):

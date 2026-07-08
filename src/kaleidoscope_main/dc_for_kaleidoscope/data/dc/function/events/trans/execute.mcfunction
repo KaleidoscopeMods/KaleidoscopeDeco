@@ -14,8 +14,13 @@ $data modify storage dc:temp trans_check.type1 set from storage dc:index storage
 execute store result score #temp dc_temp run data modify storage dc:temp trans_check.compare set from storage dc:temp trans_check.type1
 execute if score #temp dc_temp matches 1 run scoreboard players set @s dc_exception 2
 
+execute if data storage dc:temp {trans_check:{type0:"complex"}} run scoreboard players set @s dc_exception 3
+execute if data storage dc:temp {trans_check:{type1:"complex"}} run scoreboard players set @s dc_exception 3
+execute if score @s dc_exception matches 3 run data modify storage dc:temp trans_check.type0 set value "complex"
+
 execute if score @s dc_exception matches 2 run data modify storage dc:temp trans_check.index set from storage dc events.temp.target.args.index
 execute if score @s dc_exception matches 2 run return run function dc:exception/events/trans/type_dismatch with storage dc:temp trans_check
+execute if score @s dc_exception matches 3 run return run function dc:exception/events/trans/type_not_support with storage dc:temp trans_check
 
 
 #执行
@@ -30,8 +35,8 @@ data modify storage dc:temp trans.args set from storage dc events.temp.target.ar
 
 
 ## 调用更新模块执行转换操作
-$execute if score @s dc_exception matches 0 run data modify entity @s data.index set value "$(index)"
-execute if score @s dc_exception matches 0 run function dc:events/_update/execute
+$execute unless score @s dc_exception matches 1.. run data modify entity @s data.index set value "$(index)"
+execute unless score @s dc_exception matches 1.. run function dc:events/_update/execute
 
 ## 还原参数
 data modify storage dc events.temp.target.args set from storage dc:temp trans.args

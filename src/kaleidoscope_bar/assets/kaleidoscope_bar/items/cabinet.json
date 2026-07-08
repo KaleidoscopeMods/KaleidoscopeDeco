@@ -176,6 +176,83 @@
                             "type": "model",
                             "model": "kaleidoscope_bar:item/cabinet/bottles/left/tankard"
                         }
+                    },
+                    {
+                        "when": "bordeaux_yellow",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/left/bordeaux_yellow"
+                        }
+                    },
+                    {
+                        "when": "bordeaux_red",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/left/bordeaux_red"
+                        }
+                    },
+                    {
+                        "when": "bordeaux_glow",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/left/bordeaux_glow"
+                        }
+                    },
+                    {
+                        "when": "bordeaux_gold",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/left/bordeaux_gold"
+                        }
+                    },
+                    {
+                        "when": "cube_yellow",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/left/cube_yellow"
+                        }
+                    },
+                    {
+                        "when": "cube_red",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/left/cube_red"
+                        }
+                    },
+                    {
+                        "when": "cube_orange",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/left/cube_orange"
+                        }
+                    },
+                    {
+                        "when": "cube_large",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/left/cube_large"
+                        }
+                    },
+                    {
+                        "when": "artistic1",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/left/artistic1"
+                        }
+                    },
+                    {
+                        "when": "artistic2",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/left/artistic2"
+                        }
+                    },
+                    {
+                        "when": "flask",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/left/flask"
+                        }
                     }
                 ]
             },
@@ -283,6 +360,83 @@
                         "model": {
                             "type": "model",
                             "model": "kaleidoscope_bar:item/cabinet/bottles/right/tankard"
+                        }
+                    },
+                    {
+                        "when": "bordeaux_yellow",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/right/bordeaux_yellow"
+                        }
+                    },
+                    {
+                        "when": "bordeaux_red",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/right/bordeaux_red"
+                        }
+                    },
+                    {
+                        "when": "bordeaux_glow",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/right/bordeaux_glow"
+                        }
+                    },
+                    {
+                        "when": "bordeaux_gold",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/right/bordeaux_gold"
+                        }
+                    },
+                    {
+                        "when": "cube_yellow",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/right/cube_yellow"
+                        }
+                    },
+                    {
+                        "when": "cube_red",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/right/cube_red"
+                        }
+                    },
+                    {
+                        "when": "cube_orange",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/right/cube_orange"
+                        }
+                    },
+                    {
+                        "when": "cube_large",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/right/cube_large"
+                        }
+                    },
+                    {
+                        "when": "artistic1",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/right/artistic1"
+                        }
+                    },
+                    {
+                        "when": "artistic2",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/right/artistic2"
+                        }
+                    },
+                    {
+                        "when": "flask",
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_bar:item/cabinet/bottles/right/flask"
                         }
                     }
                 ]

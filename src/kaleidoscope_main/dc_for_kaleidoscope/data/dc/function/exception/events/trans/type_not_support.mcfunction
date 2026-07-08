@@ -1,0 +1,1 @@
+$execute if score $silent_exception dc_options matches 1 run tellraw @n[type=player,tag=dc_click_temp] {text:"错误：的类型\"$(type0)\"不支持转换",color:"red",italic:false}

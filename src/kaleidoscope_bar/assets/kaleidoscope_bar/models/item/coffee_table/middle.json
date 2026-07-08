@@ -1,0 +1,32 @@
+{
+	"parent": "block/cube",
+	"format_version": "1.21.6",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "kaleidoscope_bar:item/coffee_table/geometry.a",
+		"particle": "kaleidoscope_bar:item/coffee_table/geometry.a"
+	},
+	"elements": [
+		{
+			"name": "bb_main",
+			"from": [0, 13, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, 0, 9]},
+			"faces": {
+				"north": {"uv": [4, 4.5, 8, 5.25], "texture": "#0"},
+				"south": {"uv": [4, 4.5, 8, 5.25], "texture": "#0"},
+				"up": {"uv": [4, 0, 8, 4], "texture": "#0"},
+				"down": {"uv": [4, 0, 8, 4], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "middle",
+			"origin": [-8, 0, 9],
+			"scope": 0,
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

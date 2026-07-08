@@ -1,15 +1,77 @@
 {
     "model": {
-        "type": "condition",
-        "property": "custom_model_data",
-        "index": 0,
-        "on_false": {
-            "type": "model",
-            "model": "kaleidoscope_cookery_plus:teapot"
-        },
-        "on_true": {
-            "type": "model",
-            "model": "kaleidoscope_cookery_plus:teapot_boil"
+        "type": "select",
+        "property": "display_context",
+        "cases": [
+            {
+                "when": ["gui"],
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:teapot_item"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "condition",
+            "property": "custom_model_data",
+            "index": 0,
+            "on_false": {
+                "type": "model",
+                "model": "kaleidoscope_cookery_plus:teapot"
+            },
+            "on_true": {
+                "type": "range_dispatch",
+                "property": "custom_model_data",
+                "index": 0,
+                "fallback": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:teapot_boil/0"
+                },
+                "entries": [
+                    {
+                        "threshold": 0,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:teapot_boil/0"
+                        }
+                    },
+                    {
+                        "threshold": 1,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:teapot_boil/1"
+                        }
+                    },
+                    {
+                        "threshold": 2,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:teapot_boil/2"
+                        }
+                    },
+                    {
+                        "threshold": 3,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:teapot_boil/3"
+                        }
+                    },
+                    {
+                        "threshold": 4,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:teapot_boil/4"
+                        }
+                    },
+                    {
+                        "threshold": 5,
+                        "model": {
+                            "type": "model",
+                            "model": "kaleidoscope_cookery_plus:teapot_boil/5"
+                        }
+                    }
+                ]
+            }
         }
     }
 }

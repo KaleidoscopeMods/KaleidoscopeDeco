@@ -328,6 +328,34 @@
             "chars": ["\u0047"],
             "ascent": 48,
             "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/mushroom_strings.png",
+            "chars": ["\u0048"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/ladder.png",
+            "chars": ["\u0049"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/coffee_table.png",
+            "chars": ["\u0050"],
+            "ascent": 48,
+            "height": 48
+        },
+        {
+            "type": "bitmap",
+            "file": "kaleidoscope:font/recipes/tap.png",
+            "chars": ["\u0051"],
+            "ascent": 48,
+            "height": 48
         }
     ]
 }

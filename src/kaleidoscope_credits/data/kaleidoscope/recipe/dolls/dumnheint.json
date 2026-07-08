@@ -6,9 +6,9 @@
         "count": 1,
         "components": {
             "minecraft:item_model": "kaleidoscope:doll/s/dumnheint",
-            "minecraft:item_name": "玩偶",
+            "minecraft:item_name": "赞助者玩偶",
             "lore": [
-                "§7赞助者：dumnheint"
+                "§7dumnheint"
             ],
             "minecraft:entity_data": {
                 "id": "minecraft:marker",

@@ -4,6 +4,9 @@ summon marker ~ ~ ~ {Tags:["dc_pivot","dc_pivot_temp"]}
 summon item_display ~ ~ ~ {Tags:["dc_display","dc_display_temp"]}
 summon interaction ~ ~ ~ {Tags:["dc_interaction","dc_interaction_temp"],response:1b,attack:{player:[I;0,0,0,0],timestamp:0L},interaction:{player:[I;0,0,0,0],timestamp:0L}}
 
+scoreboard players set #complex_interaction dc_temp 1
+scoreboard players set #complex_interaction dc_temp 1
+
 function dc:construct/summon/public
 
 #交互箱大小强制设为1*1

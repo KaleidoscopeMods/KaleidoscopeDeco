@@ -1,0 +1,1 @@
+tag @s add kaleidoscope_bar_coffee_table

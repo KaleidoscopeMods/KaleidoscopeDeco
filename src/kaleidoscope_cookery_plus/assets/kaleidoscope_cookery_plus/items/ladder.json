@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "cases": [
+            {
+                "when": [
+                    "gui",
+                    "fixed",
+                    "ground",
+                    "firstperson_lefthand",
+                    "firstperson_righthand",
+                    "thirdperson_lefthand",
+                    "thirdperson_righthand"
+                ],
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_cookery_plus:ladder_item"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "kaleidoscope_cookery_plus:ladder"
+        }
+    }
+}

@@ -29,6 +29,11 @@
     "advancements.kaleidoscope_cookery.tutorial.utensil_rack.description":"右键点击切换其上厨具类型\n\n§9厨房\n\n\n\n\n\n",
     "advancements.kaleidoscope_cookery.tutorial.bread_slicer.title":"切面包机",
     "advancements.kaleidoscope_cookery.tutorial.bread_slicer.description":"可将面包切成小片的机器。\n关盖后潜行点击以启动切面包机。\n\n§9厨房\n\n\n\n\n\n",
+    "advancements.kaleidoscope_cookery.tutorial.ladder.title":"人字梯",
+    "advancements.kaleidoscope_cookery.tutorial.ladder.description":"用于爬上高处。\n点按跳跃可爬上两格高的位置。\n\n§9厨房\n\n\n\n\n\n",
+    "advancements.kaleidoscope_cookery.tutorial.mushroom_strings.title":"蘑菇挂串",
+    "advancements.kaleidoscope_cookery.tutorial.mushroom_strings.description":"对已有挂串继续使用可延长挂串长度，最多至4格；\n\n§9厨房\n\n\n\n\n\n",
+
     "advancements.kaleidoscope_cookery.basket.title":"咕煮一掷",
     "advancements.kaleidoscope_cookery.basket.description":"“您注意到了吗？‘孤注一掷’的英文直译就是‘把鸡蛋放在同一个篮子里’，令人忍俊不禁。”",
     "advancements.kaleidoscope_cookery.pot.title":"红太狼的平底锅",
@@ -57,6 +62,8 @@
     "item.kaleidoscope.teapot":"茶壶",
     "item.kaleidoscope.utensil_rack":"厨具架",
     "item.kaleidoscope.vinegar_bottle":"醋瓶",
+    "item.kaleidoscope.ladder":"人字梯",
+    "item.kaleidoscope.mushroom_strings":"蘑菇挂串",
     
     "item.kaleidoscope.chair.acacia":"相思木餐椅",
     "item.kaleidoscope.chair.bamboo":"た↓け↑餐椅",

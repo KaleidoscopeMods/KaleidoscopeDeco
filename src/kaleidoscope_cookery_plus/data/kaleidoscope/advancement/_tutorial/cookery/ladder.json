@@ -1,0 +1,23 @@
+{
+    "parent":"kaleidoscope:_tutorial/cookery/cook_stool",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery_plus:ladder",
+                "custom_model_data": {
+                    "strings": ["oak"]
+                }
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope_cookery.tutorial.ladder.title"},
+        "description": [{"font": "default","translate": "advancements.kaleidoscope_cookery.tutorial.ladder.description","color": "green"},{"font": "kaleidoscope:recipes","text": "\u0049","color": "white"}],
+        "show_toast": false,
+        "announce_to_chat":false
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    }
+}

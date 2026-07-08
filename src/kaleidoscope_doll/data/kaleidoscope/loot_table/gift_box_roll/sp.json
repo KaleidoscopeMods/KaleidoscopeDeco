@@ -1,0 +1,17 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/creeper_girl"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/skeleton_girl"
+                }
+            ]
+        }
+    ]
+}

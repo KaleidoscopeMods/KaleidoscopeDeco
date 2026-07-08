@@ -19,3 +19,5 @@ execute if data storage dc {events:{temp:{target:{args:{type:"R"}}}}} run functi
 execute if data storage dc {events:{temp:{target:{args:{type:"V"}}}}} run function dc:events/move/move_v
 
 function dc:events/move/move_a with storage dc events.move
+
+function dc:events/_update/execute

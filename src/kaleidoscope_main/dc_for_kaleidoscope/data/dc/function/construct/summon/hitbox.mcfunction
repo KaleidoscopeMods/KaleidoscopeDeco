@@ -11,7 +11,7 @@ function dc:construct/summon/public
 execute unless data entity @s data.extra_data.offset run data modify entity @s data.extra_data.offset set value 0f
 execute unless data entity @s data.extra_data.width run data modify entity @s data.extra_data.width set value 1f
 
-scoreboard players operation @n[tag=dc_hitbox_temp] dc_uid = $uid dc_uid
+scoreboard players operation @e[tag=dc_hitbox_temp] dc_uid = $uid dc_uid
 execute as @n[type=block_display,tag=dc_hitbox_temp] run function dc:construct/summon/hitbox_prop with entity @n[tag=dc_place] data.extra_data
 
 #类型标记

@@ -11,9 +11,9 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:item_model": "kaleidoscope:doll/s/wyx0714",
-                                "minecraft:item_name": "玩偶",
+                                "minecraft:item_name": "赞助者玩偶",
                                 "lore": [
-                                    "§7赞助者：Wyx0714"
+                                    "§7Wyx0714"
                                 ],
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",

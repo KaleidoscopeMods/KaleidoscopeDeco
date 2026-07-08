@@ -29,6 +29,11 @@
     "advancements.kaleidoscope_cookery.tutorial.utensil_rack.description":"Interact to switch its state.\n\n§9Kitchen\n\n\n\n\n\n",
     "advancements.kaleidoscope_cookery.tutorial.bread_slicer.title":"Bread Slicer",
     "advancements.kaleidoscope_cookery.tutorial.bread_slicer.description":"A machine that can cut bread into small pieces.\nAfter closing the cover, sneak and click to start.\n\n§9Kitchen\n\n\n\n\n\n",
+    "advancements.kaleidoscope_cookery.tutorial.ladder.title":"Step Ladder",
+    "advancements.kaleidoscope_cookery.tutorial.ladder.description":"Used for climbing to high places.\nPress the jump button to ascend to a position two steps higher.\n\n§9Kitchen\n\n\n\n\n\n",
+    "advancements.kaleidoscope_cookery.tutorial.mushroom_strings.title":"Mushroom Strings",
+    "advancements.kaleidoscope_cookery.tutorial.mushroom_strings.description":"If you continue to use it on an existing string, you can extend its length to a maximum of 4 blocks.\n\n§9Kitchen\n\n\n\n\n\n",
+
     "advancements.kaleidoscope_cookery.basket.title":"Put all your Eggs in ONE Basket",
     "advancements.kaleidoscope_cookery.basket.description":"You shouldn't put all your Eggs in ONE Basket.\nBut you DO.",
     "advancements.kaleidoscope_cookery.pot.title":"Frying Pan",
@@ -57,6 +62,8 @@
     "item.kaleidoscope.teapot":"Teapot",
     "item.kaleidoscope.utensil_rack":"Utensil Rack",
     "item.kaleidoscope.vinegar_bottle":"Vinegar Bottle",
+    "item.kaleidoscope.ladder":"Step Ladder",
+    "item.kaleidoscope.mushroom_strings":"Mushroom Strings",
     
     "item.kaleidoscope.chair.acacia":"Acacia Dining Chair",
     "item.kaleidoscope.chair.bamboo":"Bamboo Dining Chair",

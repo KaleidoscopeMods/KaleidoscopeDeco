@@ -1,6 +1,6 @@
 {
     "env": {
-       "gameVersion": "1.21.8",
+       "gameVersion": "26.2",
        "useFilePolling": true
     }
  }

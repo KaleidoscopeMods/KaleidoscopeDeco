@@ -2,12 +2,12 @@
 	"format_version": "1.21.11",
 	"credit": "by YSBB  2025",
 	"textures": {
-		"2": "kaleidoscope_cookery_plus:block/misc/stockpot",
+		"2": "kaleidoscope_cookery:block/pot/stockpot",
 		"4": "kaleidoscope_cookery:block/stove/front",
 		"5": "kaleidoscope_cookery:block/stove/side",
 		"6": "kaleidoscope_cookery:block/stove/top",
 		"8": "kaleidoscope_cookery:block/pot/soup_off",
-		"particle": "kaleidoscope_cookery_plus:block/misc/stockpot"
+		"particle": "kaleidoscope_cookery:block/pot/stockpot"
 	},
 	"elements": [
 		{
@@ -174,7 +174,7 @@
 				"east": {"uv": [0, 0, 8, 0], "texture": "#8"},
 				"south": {"uv": [0, 0, 8, 0], "texture": "#8"},
 				"west": {"uv": [0, 0, 8, 0], "texture": "#8"},
-				"up": {"uv": [0, 0, 20, 20], "texture": "#8"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#8"},
 				"down": {"uv": [0, 0, 10, 10], "texture": "#8"}
 			}
 		}
@@ -220,18 +220,21 @@
 		{
 			"name": "bone",
 			"origin": [0, 0, 0],
+			"scope": 0,
 			"color": 0,
 			"children": [0]
 		},
 		{
 			"name": "bone",
 			"origin": [0, 0, 0],
+			"scope": 0,
 			"color": 0,
 			"children": []
 		},
 		{
 			"name": "stock",
 			"origin": [1, 22.01, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 		},

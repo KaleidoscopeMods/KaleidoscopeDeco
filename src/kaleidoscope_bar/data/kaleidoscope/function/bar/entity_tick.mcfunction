@@ -1,0 +1,1 @@
+execute as @s[tag=kbar_tap] run function kaleidoscope:bar/trans/tap/tick

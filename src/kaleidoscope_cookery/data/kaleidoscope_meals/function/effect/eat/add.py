@@ -16,7 +16,7 @@ execute as @a[tag=dc_click_temp] run effect give @s saturation 1 2 true"""
 
 if __name__ == "__main__":
     base_path = "data/kaleidoscope_meals/function/effect/eat"  # 替换为你的基础路径
-    ids = ["chorus_eggs","dongpo_pork","fondant_eyes","frogspawn_jelly","golden_salad","knight_steak","mutton_amethyst","mutton_flame","mutton_ice","sashimi_desert","sashimi_end","sashimi_nether","sashimi_snow","sashimi_tundra","yakitori"]  # 替换为你自己的字符串列表
+    ids = ["apple_platter","berry_platter","melon_platter","chrous_platter"]  # 替换为你自己的字符串列表
     
     generate_mcfunction_files(ids, base_path)
 

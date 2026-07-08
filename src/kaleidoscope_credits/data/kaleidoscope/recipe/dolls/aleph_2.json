@@ -6,9 +6,9 @@
         "count": 1,
         "components": {
             "minecraft:item_model": "kaleidoscope:doll/s/aleph_2",
-            "minecraft:item_name": "玩偶",
+            "minecraft:item_name": "赞助者玩偶",
             "lore": [
-                "§7赞助者：Aleph_2"
+                "§7Aleph_2"
             ],
             "minecraft:entity_data": {
                 "id": "minecraft:marker",

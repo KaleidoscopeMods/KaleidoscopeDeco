@@ -1,0 +1,41 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "index": 0,
+        "fallback": {
+            "type": "model",
+            "model": "kaleidoscope_bar:item/coffee_table/single"
+        },
+        "cases": [
+            {
+                "when": "single",
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/coffee_table/single"
+                }
+            },
+            {
+                "when": "left",
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/coffee_table/left"
+                }
+            },
+            {
+                "when": "right",
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/coffee_table/right"
+                }
+            },
+            {
+                "when": "middle",
+                "model": {
+                    "type": "model",
+                    "model": "kaleidoscope_bar:item/coffee_table/middle"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:flags": {
+      "is_sneaking": true
+    }
+  }
+}

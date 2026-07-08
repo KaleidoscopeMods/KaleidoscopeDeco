@@ -5,8 +5,8 @@
 		"0": "kaleidoscope_cookery:block/stove/front_light",
 		"1": "kaleidoscope_cookery:block/stove/top_light",
 		"2": "kaleidoscope_cookery:block/stove/side",
-		"6": "kaleidoscope_cookery_plus:block/misc/stockpot",
-		"particle": "kaleidoscope_cookery_plus:block/misc/stockpot"
+		"6": "kaleidoscope_cookery:block/pot/stockpot",
+		"particle": "kaleidoscope_cookery:block/pot/stockpot"
 	},
 	"elements": [
 		{
@@ -227,18 +227,21 @@
 		{
 			"name": "bone",
 			"origin": [0, 0, 0],
+			"scope": 0,
 			"color": 0,
 			"children": [0]
 		},
 		{
 			"name": "bone",
 			"origin": [0, 0, 0],
+			"scope": 0,
 			"color": 0,
 			"children": []
 		},
 		{
 			"name": "stock",
 			"origin": [1, 6.01, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 		}
