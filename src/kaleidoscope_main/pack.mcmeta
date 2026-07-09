@@ -1,21 +1,22 @@
 {
 	"pack": {
 		"pack_format": 48,
-		"supported_formats": [48,81],
+		"supported_formats": [48,1000],
 		"description": {"translate": "森罗物语：装饰"},
-		"min_format": [55,0],
+		"min_format": [48,0],
 		"max_format": [1000,0]
 	},
 	"overlays": {
 		"entries": [
             {
                 "directory": "dc_for_kaleidoscope",
-                "formats": [71,81],
+                "formats": [71,1000],
                 "min_format": [71,0],
-                "max_format": [106,0]},
+                "max_format": [1000,0]
+            },
             {
                 "directory": "v1215",
-                "formats": [71,81],
+                "formats": [71,1000],
                 "min_format": [71,0],
                 "max_format": [1000,0]
             },
@@ -27,13 +28,13 @@
             },
             {
                 "directory": "sequncer_helper",
-                "formats": [71,81],
+                "formats": [71,1000],
                 "min_format": [71,0],
                 "max_format": [1000,0]
             },
             {
                 "directory": "_overlay",
-                "formats": [71,81],
+                "formats": [71,1000],
                 "min_format": [71,0],
                 "max_format": [1000,0]
             },

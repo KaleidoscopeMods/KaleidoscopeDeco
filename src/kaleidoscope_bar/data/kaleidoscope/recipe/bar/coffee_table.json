@@ -6,8 +6,8 @@
         " * "
     ],
     "key": {
-        "*": "nether_brick",
-        "#": "iron_ingot"
+        "#": "nether_brick",
+        "*": "iron_ingot"
     },
     "result": {
         "id": "item_frame",
