@@ -1,7 +1,0 @@
-{
-  "condition": "entity_properties",
-  "entity": "this",
-  "predicate": {
-    "minecraft:nbt": "{Inventory:[{Slot:-106b,components:{\"minecraft:entity_data\":{Tags: [\"dc_place\"]}}}]}"
-  }
-}
