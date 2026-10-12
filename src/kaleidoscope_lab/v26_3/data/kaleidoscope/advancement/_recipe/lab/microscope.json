@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "1":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "spyglass"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": ["kaleidoscope:lab/spyglass","kaleidoscope:lab/microscope"]
+    }
+}

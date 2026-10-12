@@ -2,6 +2,7 @@
     "values":[
         "dc:main",
         {"required": false,"id": "kaleidoscope:doll/tick"},
+        {"required": false,"id": "kaleidoscope_plus:doll/tick"},
         {"required": false,"id": "kaleidoscope:cookery_plus/tick"},
         {"required": false,"id": "kaleidoscope:cookery/tick"},
         {"required": false,"id":  "kaleidoscope:chinese/tick"},

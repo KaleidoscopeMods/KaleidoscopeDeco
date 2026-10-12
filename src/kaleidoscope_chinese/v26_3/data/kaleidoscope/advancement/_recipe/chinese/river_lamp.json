@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "1":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "paper"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": ["kaleidoscope:chinese/river_lamp"]
+    }
+}

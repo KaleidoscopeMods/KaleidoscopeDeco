@@ -1,0 +1,37 @@
+{
+    "parent":"kaleidoscope:_tutorial/wand",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope:doll_machine_adv"
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope_doll.doll_machine.title"},
+        "description": [{"translate":"advancements.kaleidoscope_doll.doll_machine.description"},{"font": "kaleidoscope:recipes","text": "\u0013","color": "white"}],
+        "show_toast": false,
+        "announce_to_chat":false
+    },
+    "criteria": {
+        "1":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_machine"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

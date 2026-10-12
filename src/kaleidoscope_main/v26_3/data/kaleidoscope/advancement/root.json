@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_frame:root"
+            }
+        },
+        "title": "森罗物语",
+        "description": "给世界添一抹奇幻色彩！",
+        "background": "kaleidoscope_frame:gui/adbase",
+        "frame": "goal"
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "dc:api/install"
+    }
+}

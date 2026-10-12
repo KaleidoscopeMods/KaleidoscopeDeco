@@ -1,0 +1,133 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_36"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:gift_box_roll/axolotl"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_38"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_39"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_40"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_41"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_42"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_43"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_44"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_45"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_46"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_47"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_48"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_49"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_50"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_51"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_52"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_53"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_54"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_55"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_56"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_57"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_58"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_59"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_60"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_61"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_62"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_63"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_64"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_65"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "kaleidoscope:doll/doll_66"
+                }
+            ]
+        }
+    ]
+}

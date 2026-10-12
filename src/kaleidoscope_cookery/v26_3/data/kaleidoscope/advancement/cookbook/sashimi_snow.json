@@ -1,0 +1,46 @@
+{
+    "parent": "kaleidoscope:cookbook/sashimi_nether",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/sashimi_snow"
+            }
+        },
+        "title": "寒带风味刺身",
+        "description": [
+            {
+                "text": "4\u0002 2\u0001\n",
+                "font": "kaleidoscope_cookery:cookbook"
+            },
+            {
+                "text": "云杉雪原刺身摆盘。其中的雪人也可以使刺身保持冰鲜。\n*本菜品制作过程中没有任何雪傀儡受到伤害。",
+                "italic": false
+            },
+            {
+                "text": "\n\n放置食用",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"sashimi_snow"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

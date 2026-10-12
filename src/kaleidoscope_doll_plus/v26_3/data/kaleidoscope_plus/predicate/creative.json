@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "any_of",
+      "terms": [
+        {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "gamemode": [
+                "creative"
+              ]
+            }
+          }
+        },
+        {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "mainhand": {
+                "items": "#pickaxes"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "inverted",
+      "term": {
+        "type": "any_of",
+        "terms": [
+          {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "custom_data": {
+                      "kaleidoscope": "move"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "custom_data": {
+                      "kaleidoscope": "rotate"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "1":{
+            "trigger": "any_block_use",
+            "conditions": {
+                "location": {
+                    "type": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "barrel"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "kaleidoscope:cookery/stove/open_stove"
+    }
+}

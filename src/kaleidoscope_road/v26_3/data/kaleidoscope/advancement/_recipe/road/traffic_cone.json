@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "1":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "clay_ball"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": ["kaleidoscope:road/traffic_cone_1","kaleidoscope:road/traffic_cone_2"]
+    }
+}

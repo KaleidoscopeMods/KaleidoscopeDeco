@@ -1,12 +1,12 @@
 #保存当前原料
 
 summon villager ~ ~ ~ {Invulnerable:1b,Silent:1b,attributes:[{id:"scale",base:0.1}],Tags:["k_stove_recipe_temp"],NoAI:1b}
-item replace entity @n[type=villager,tag=k_stove_recipe_temp] villager.0 from block ~ ~ ~ container.1
-item replace entity @n[type=villager,tag=k_stove_recipe_temp] villager.1 from block ~ ~ ~ container.2
-item replace entity @n[type=villager,tag=k_stove_recipe_temp] villager.2 from block ~ ~ ~ container.3
-item replace entity @n[type=villager,tag=k_stove_recipe_temp] villager.3 from block ~ ~ ~ container.10
-item replace entity @n[type=villager,tag=k_stove_recipe_temp] villager.4 from block ~ ~ ~ container.11
-item replace entity @n[type=villager,tag=k_stove_recipe_temp] villager.5 from block ~ ~ ~ container.12
+item replace entity @n[type=villager,tag=k_stove_recipe_temp] mob.inventory.0 from block ~ ~ ~ container.1
+item replace entity @n[type=villager,tag=k_stove_recipe_temp] mob.inventory.1 from block ~ ~ ~ container.2
+item replace entity @n[type=villager,tag=k_stove_recipe_temp] mob.inventory.2 from block ~ ~ ~ container.3
+item replace entity @n[type=villager,tag=k_stove_recipe_temp] mob.inventory.3 from block ~ ~ ~ container.10
+item replace entity @n[type=villager,tag=k_stove_recipe_temp] mob.inventory.4 from block ~ ~ ~ container.11
+item replace entity @n[type=villager,tag=k_stove_recipe_temp] mob.inventory.5 from block ~ ~ ~ container.12
 
 data modify entity @n[type=villager,tag=k_stove_recipe_temp] Inventory[0].count set value 1
 data modify entity @n[type=villager,tag=k_stove_recipe_temp] Inventory[1].count set value 1

@@ -36,9 +36,8 @@ execute if entity @s[tag=!k_stove_fry_start] run function kaleidoscope:cookery/s
 #按钮按下处理
 execute if entity @a[scores={k_stove_out=1..},distance=..5] unless items block ~ ~ ~ container.15 *[custom_data~{kaleidoscope_stove_bg:1b}] run function kaleidoscope:cookery/stove/fry/out/main
 
-#误放入处理
-execute if entity @a[distance=..6] store result score @s k_stove_temp if data block ~ ~ ~ Items[{components:{"minecraft:custom_data":{kaleidoscope_stove_bg:1b}}}]
-execute unless score @s k_stove_temp matches 20 run function kaleidoscope:cookery/stove/fry/check_init
+#误放入处理（通用整理防护：附近有玩家就每 tick 校验，不再依赖“背景物品数=20”的门槛）
+execute if entity @a[distance=..8] run function kaleidoscope:cookery/stove/fry/check_init
 
 #gui处理
 function kaleidoscope:cookery/stove/fry/replace

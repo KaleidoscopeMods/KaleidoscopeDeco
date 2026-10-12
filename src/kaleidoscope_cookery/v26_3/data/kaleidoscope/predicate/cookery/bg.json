@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:slots": {
+      "contents": {
+        "predicates": {
+          "custom_data": "{kaleidoscope_stove_bg:1b}"
+        }
+      }
+    }
+  }
+}

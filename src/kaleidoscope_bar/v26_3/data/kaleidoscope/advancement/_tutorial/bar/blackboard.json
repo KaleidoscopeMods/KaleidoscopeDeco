@@ -1,0 +1,20 @@
+{
+    "parent":"kaleidoscope:_tutorial/wand",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_bar:blackboard/0"
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope_bar.tutorial.blackboard.title"},
+        "description": [{"font": "default","translate": "advancements.kaleidoscope_bar.tutorial.blackboard.description","color": "green"},{"font": "kaleidoscope:recipes","text": "\u0025","color": "white"}],
+        "show_toast": false,
+        "announce_to_chat":false
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    }
+}

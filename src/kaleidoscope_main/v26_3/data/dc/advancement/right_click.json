@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "1":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "entity_type": "interaction",
+                        "nbt": "{Tags:[\"dc_interaction\"]}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc:events/_detect/right_click"
+    }
+}

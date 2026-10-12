@@ -1,0 +1,36 @@
+{
+    "parent":"kaleidoscope:root",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_frame:move"
+            }
+        },
+        "title": {
+            "translate": "advancements.kaleidoscope.wand_1.title"
+        },
+        "description": {
+            "translate": "advancements.kaleidoscope.wand_1.description"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:int_value_check",
+                    "value": {
+                        "type": "score",
+                        "target": "this",
+                        "score": "k_wand_use"
+                    },
+                    "test": {
+                        "min": 50
+                    }
+                }
+            }
+        }
+    }
+}

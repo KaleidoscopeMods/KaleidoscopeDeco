@@ -1,0 +1,40 @@
+{
+    "parent": "kaleidoscope:doll/root",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope:doll/s/__diorite"
+            }
+        },
+        "title": {
+            "translate": "Wait What is it?"
+        },
+        "description": {
+            "translate": "Diorite."
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "dc_place"
+                                ],
+                                "data": {
+                                    "index": "doll_s___diorite"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

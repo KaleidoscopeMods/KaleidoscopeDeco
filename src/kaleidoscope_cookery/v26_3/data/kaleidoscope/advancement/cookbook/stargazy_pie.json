@@ -1,0 +1,46 @@
+{
+    "parent": "kaleidoscope:cookbook/fondant_pie",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/stargazy_pie"
+            }
+        },
+        "title": "仰望星空派",
+        "description": [
+            {
+                "text": "4\u0002 2\u0001\n",
+                "font": "kaleidoscope_cookery:cookbook"
+            },
+            {
+                "text": "放入烤鱼的馅饼。传说在遥远的东方和西方，各有一道被称为对“鱼的亵渎”的名菜，这便是来自西方的那一道。传说有人在面露难色地食用它时，隐约听到过鱼儿的悲鸣。",
+                "italic": false
+            },
+            {
+                "text": "\n\n放置食用❃",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"stargazy_pie"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

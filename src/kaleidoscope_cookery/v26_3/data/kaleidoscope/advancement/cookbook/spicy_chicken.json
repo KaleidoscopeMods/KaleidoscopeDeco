@@ -1,0 +1,46 @@
+{
+    "parent": "kaleidoscope:cookbook/braised_fish",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/spicy_chicken"
+            }
+        },
+        "title": "辣子炒鸡",
+        "description": [
+            {
+                "text": "4\u0002 3\u0001\n",
+                "font": "kaleidoscope_cookery:cookbook"
+            },
+            {
+                "text": "使用上好的鸡肉和辣椒炒制而成。分量很足，适合无辣不欢的肉食者大快朵颐。",
+                "italic": false
+            },
+            {
+                "text": "\n\n放置食用",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"spicy_chicken"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

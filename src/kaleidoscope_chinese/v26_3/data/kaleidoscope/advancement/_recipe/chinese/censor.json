@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "1":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "flower_pot"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": ["kaleidoscope:chinese/censor"]
+    }
+}

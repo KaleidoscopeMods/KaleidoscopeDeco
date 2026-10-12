@@ -1,0 +1,18 @@
+{
+    "parent": "kaleidoscope:cookery/heat_the_wok",
+    "display": {
+        "title": "烫！",
+        "description": "灶台工作中，请勿触碰",
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:icons/fire"
+            }
+        }
+    },
+    "criteria": {
+        "1":{
+            "trigger": "impossible"
+        }
+    }
+}

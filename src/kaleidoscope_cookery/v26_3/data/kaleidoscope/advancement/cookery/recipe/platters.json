@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "bowl"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "kaleidoscope_meals:apple_platter",
+            "kaleidoscope_meals:berry_platter",
+            "kaleidoscope_meals:chrous_platter",
+            "kaleidoscope_meals:melon_platter"
+        ]
+    }
+}

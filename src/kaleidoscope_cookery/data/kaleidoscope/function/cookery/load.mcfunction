@@ -9,3 +9,6 @@ function kaleidoscope:cookery/stove/load
 
 scoreboard objectives add k_meal_effect_type dummy
 scoreboard objectives add k_meal_effect_timer dummy
+
+scoreboard objectives add k_meal_sneak dummy
+scoreboard objectives add k_meal_sneak_last dummy

@@ -1,0 +1,46 @@
+{
+    "parent": "kaleidoscope:cookery/imperial_banquet",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/numbing_spicy_chicken"
+            }
+        },
+        "title": "椒麻鸡",
+        "description": [
+            {
+                "text": "3\u0002 5\u0001\n",
+                "font": "kaleidoscope_cookery:cookbook"
+            },
+            {
+                "text": "鸡肉制成的凉菜。将煮熟或蒸熟的整鸡撕成条，淋上由花椒、辣椒、鸡汤、香料等调制的复合味汁而成。鲜嫩鸡肉和麻辣花椒相辅相成，色香味俱全。",
+                "italic": false
+            },
+            {
+                "text": "\n\n放置食用",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"numbing_spicy_chicken"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

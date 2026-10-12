@@ -1,0 +1,8 @@
+{
+  "parent": "kaleidoscope:doll/root",
+  "criteria": {
+    "1": {
+      "trigger": "impossible"
+    }
+  }
+}

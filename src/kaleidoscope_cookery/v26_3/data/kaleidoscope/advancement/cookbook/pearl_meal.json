@@ -1,0 +1,46 @@
+{
+    "parent": "kaleidoscope:cookbook/slime_ball_meal",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/pearl_meal"
+            }
+        },
+        "title": "珍珠咕噜肉",
+        "description": [
+            {
+                "text": "3\u0002 2\u0001\n",
+                "font": "kaleidoscope_cookery:cookbook"
+            },
+            {
+                "text": "一道会发光的菜肴。传说有人悬赏一组绿宝石寻找能一口气吃完这道菜的人，但目前还无人完成这个挑战。",
+                "italic": false
+            },
+            {
+                "text": "\n\n放置食用❃",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"pearl_meal"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

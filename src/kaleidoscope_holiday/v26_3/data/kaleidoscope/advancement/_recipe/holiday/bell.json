@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "1":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "gold_ingot"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": ["kaleidoscope:holiday/bell"]
+    }
+}

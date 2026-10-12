@@ -1,7 +1,7 @@
 #arg required:loot
 
 
-execute if data entity @s {data:{index:"semi_meal"}} run return run loot give @a[tag=dc_click_temp,gamemode=!creative] loot kaleidoscope_meals:semi
+execute if data entity @s {data:{index:"semi_meal"}} run return run loot give @a[tag=dc_click_temp,gamemode=!creative] loot kaleidoscope_meals:ingredients/semi
 execute if data entity @s {data:{index:"dark_meal"}} run return run loot give @a[tag=dc_click_temp,gamemode=!creative] loot kaleidoscope_meals:overburnt
 
 

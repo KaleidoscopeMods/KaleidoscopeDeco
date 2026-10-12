@@ -1,0 +1,46 @@
+{
+    "parent": "kaleidoscope:cookbook/stargazy_pie",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/golden_salad"
+            }
+        },
+        "title": "黄金沙拉",
+        "description": [
+            {
+                "text": "6\u0002 3\u0001\n",
+                "font": "kaleidoscope_cookery:cookbook"
+            },
+            {
+                "text": "亮闪闪的凉拌菜。什么？你说这只是把金色的食材简单地摆在了一盘里？就问你闪不闪吧。",
+                "italic": false
+            },
+            {
+                "text": "\n\n放置食用❃",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"golden_salad"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

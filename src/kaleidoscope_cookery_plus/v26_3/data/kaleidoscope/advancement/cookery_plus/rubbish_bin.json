@@ -1,0 +1,18 @@
+{
+    "parent":"kaleidoscope:cookery_plus/root",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery_plus:rubbish_bin"
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope_cookery.rubbish_bin.title"},
+        "description": {"translate": "advancements.kaleidoscope_cookery.rubbish_bin.description"}
+    },
+    "criteria": {
+        "1":{
+            "trigger": "impossible"
+        }
+    }
+}

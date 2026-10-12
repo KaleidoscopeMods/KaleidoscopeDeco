@@ -1,0 +1,19 @@
+{
+    "parent": "kaleidoscope:cookery/overcooked",
+    "display": {
+        "title": "“幸运儿”",
+        "description": "都说了不吃为妙……",
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:icons/unluck"
+            }
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "1":{
+            "trigger": "impossible"
+        }
+    }
+}

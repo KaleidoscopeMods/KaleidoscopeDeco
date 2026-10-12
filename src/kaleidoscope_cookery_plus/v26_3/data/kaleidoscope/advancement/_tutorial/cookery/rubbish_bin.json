@@ -1,0 +1,20 @@
+{
+    "parent":"kaleidoscope:_tutorial/cookery/fruit_basin",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery_plus:rubbish_bin"
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope_cookery.tutorial.rubbish_bin.title"},
+        "description": [{"font": "default","translate": "advancements.kaleidoscope_cookery.tutorial.rubbish_bin.description","color": "green"},{"font": "kaleidoscope:recipes","text": "\u0008","color": "white"}],
+        "show_toast": false,
+        "announce_to_chat":false
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    }
+}

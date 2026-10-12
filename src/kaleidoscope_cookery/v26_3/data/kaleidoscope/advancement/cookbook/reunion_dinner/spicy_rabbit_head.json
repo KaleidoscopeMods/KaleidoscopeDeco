@@ -1,0 +1,46 @@
+{
+    "parent": "kaleidoscope:cookbook/reunion_dinner/spicy_blood_stew",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/spicy_rabbit_head"
+            }
+        },
+        "title": "麻辣兔头",
+        "description": [
+            {
+                "text": "3\u0002 5\u0001\n",
+                "font": "kaleidoscope_cookery:cookbook"
+            },
+            {
+                "text": "极具特色的冷菜。取兔子头部（带脑、舌、脸颊肉、眼睛周围嫩肉等），经清洗、焯水、卤制、炒制或浸泡而成。以其“麻、辣、鲜、香、啃起来上瘾”而闻名，评价为超大盘。",
+                "italic": false
+            },
+            {
+                "text": "\n\n放置食用",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "custom_data": {
+                                "k_meal":"spicy_rabbit_head"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

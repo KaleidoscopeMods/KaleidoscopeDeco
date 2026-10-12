@@ -1,0 +1,20 @@
+{
+    "parent":"kaleidoscope:_tutorial/cookery/fry_pot",
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery_plus:stock_pot"
+            }
+        },
+        "title": {"translate": "advancements.kaleidoscope_cookery.tutorial.stock_pot.title"},
+        "description": [{"font": "default","translate": "advancements.kaleidoscope_cookery.tutorial.stock_pot.description","color": "green"},{"font": "kaleidoscope:recipes","text": "\u0015","color": "white"}],
+        "show_toast": false,
+        "announce_to_chat":false
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    }
+}

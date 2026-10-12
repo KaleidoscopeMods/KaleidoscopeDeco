@@ -1,0 +1,18 @@
+{
+    "parent": "kaleidoscope:cookery/heat_the_wok",
+    "display": {
+        "title": "赌上厨师生涯的……",
+        "description": "炒制人生中第一道菜",
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/semi"
+            }
+        }
+    },
+    "criteria": {
+        "1":{
+            "trigger": "impossible"
+        }
+    }
+}

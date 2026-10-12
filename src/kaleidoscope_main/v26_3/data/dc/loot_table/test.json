@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:stone",
+                    "weight":1,
+                    "modifier": [
+                        {
+                            "components": {
+                                "custom_data": {
+                                    "dc_random": 1,
+                                    "event": {
+                                        "event": "meow"
+                                    }
+                                }
+                            },
+                            "type": "minecraft:set_components"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

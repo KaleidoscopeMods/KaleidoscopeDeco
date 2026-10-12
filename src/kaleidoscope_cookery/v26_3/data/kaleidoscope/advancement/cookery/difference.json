@@ -1,0 +1,30 @@
+{
+    "parent": "kaleidoscope:cookery/heat_the_wok",
+    "display": {
+        "title": "……真的有区别吗",
+        "description": "品尝所有种类的刺身",
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/sashimi_desert"
+            }
+        }
+    },
+    "criteria": {
+        "sashimi_desert":{
+            "trigger": "impossible"
+        },
+        "sashimi_end":{
+            "trigger": "impossible"
+        },
+        "sashimi_nether":{
+            "trigger": "impossible"
+        },
+        "sashimi_snow":{
+            "trigger": "impossible"
+        },
+        "sashimi_tundra":{
+            "trigger": "impossible"
+        }
+    }
+}

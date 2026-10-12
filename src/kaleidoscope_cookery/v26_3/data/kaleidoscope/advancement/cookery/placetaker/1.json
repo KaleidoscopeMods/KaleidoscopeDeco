@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "id": "barrier"
+        },
+        "title": "占位符1",
+        "description": "这个进度不应该被完成。",
+        "hidden": true,
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "kaleidoscope:cookery/novice_chef",
+    "criteria": {
+        "1":{
+            "trigger": "impossible"
+        }
+    }
+}

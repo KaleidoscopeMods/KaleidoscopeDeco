@@ -1,0 +1,16 @@
+{
+  "type": "any_of",
+  "terms": [
+    "dc:place/main",
+    {
+      "type": "all_of",
+      "terms": [
+        {
+          "type": "inverted",
+          "term": "dc:place/main"
+        },
+        "dc:place/off"
+      ]
+    }
+  ]
+}

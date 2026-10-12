@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "id": "firework_star",
+            "components": {
+                "item_model": "kaleidoscope_cookery:meals/fondant_pie"
+            }
+        },
+        "title": "森罗烹饪扩展包",
+        "description": "能吃吗？好吃吗？怎么吃？",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "background": "kaleidoscope_frame:gui/adbase",
+        "frame": "goal"
+    },
+    "criteria": {
+        "1":{
+            "trigger": "tick"
+        }
+    }
+}
